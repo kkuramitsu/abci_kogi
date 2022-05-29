@@ -1,0 +1,3925 @@
+文字列を複数行対応としてパターンで区切る	re.split(pattern, s, flags=re.MULTILINE)
+＜オプション＞右三角マーカーを使う	marker = '>'
+連立方程式の解を求める	sympy.solve([e, e2])
+文字の文字コード	ord(ch)
+nをn2で割った余りをnに代入する	n %= n2
+文字列のケースを変換する	s.casefold()
+＜オプション＞追加モードを使う	mode = 'a'
+配列とイテラブルについて色差別ない色の折れ線グラフを描画してその線幅をnに指定する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+＜オプション＞グラフの色をスラグレーに設定する	color = 'slategray'
+nマイナスn2	n - n2
+折れ線グラフに黒い右三角マーカーを描画する	plt.plot(データ列, データ列2, marker='>', markerfacecolor='k')
+折れ線グラフを描画して、その色をアンティークホワイトに設定する	plt.plot(データ列, データ列2, color='antiquewhite')
+ミディアムスプリンググリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+＜オプション＞スチールブルー色を使う	color = 'steelblue'
+本日が月曜日か調べる	datetime.datetime.today().weekday() == 0
+リストとリストのパステル調のグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+ヒストグラムの色を紺に設定する	plt.hist(データ列, color='darkblue')
+文字列中に部分文字列がいくつか含まれるか調べる	s.count(sub)
+配列とリストについての散布図にカラーコードの丸マーカーを描画する	plt.plot(xdata, ydata, marker='o', c=rgb)
+＜オプション＞スノー色を使う	color = 'snow'
+実数の指数	math.frexp(x)[1]
+折れ線グラフの色をサンディーブラウンに設定する	plt.plot(データ列, データ列2, color='sandybrown')
+データフレームのカラムの年	df[col].dt.year
+＜オプション＞先頭の行をヘッダに設定する	header = 0
+色差別ないの折れ線の線幅を指定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+自然数個のものからk個取り出したときの並べ方の総数	math.perm(n, k)
+リストとリストについての散布図に赤いポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.', c='r')
+数式の変数についてのn階微分を求める	sympy.diff(e, z, n)
+折れ線グラフを一点鎖線で描画する	plt.plot(データ列, データ列2, linestyle='dashbot')
+＜オプション＞ハニーデュー色を用いる	color = 'honeydew'
+辞書のキーを列挙する	list(aDict)
+データフレームの欠損値を最大値で埋める	df.fillna(df.max())
+整数nがタプルのどれかか確認する	n in aTuple
+ダーク・スラテグレー色のヒストグラムを描画する	plt.hist(データ列, color='darkslategrey')
+線グラフを描画して色をスレートブルーに指定する	plt.plot(データ列, データ列2, color='slateblue')
+平均と標準偏差から疑似乱数を生成する	random.normalvariate(mu=0.5, sigma=0.2)
+ヒストグラムの色をグリーンイエローに設定する	plt.hist(データ列, color='greenyellow')
+ヒストグラムの色を小麦色に指定する	plt.hist(データ列, color='wheat')
+日付時刻データをタプルに変換する	aDatetime.timetuple()
+Pandasで、dateStringを日付データに変換する	pd.to_datetime(dateString)
+集合をタプルに変換する	tuple(aSet)
+グラフにy=0の破線を付ける	plt.axhline(y=0, linestyle='dashed')
+パールゴールデンロッド色のヒストグラムを描画する	plt.hist(データ列, color='palegoldenrod')
+nが-9以上、9以下か調べる	-9 <= n <= 9
+線グラフの色を白に設定する	plt.plot(データ列, データ列2, color='white')
+折れ線グラフの色をロージーブラウンに設定する	plt.plot(データ列, データ列2, color='rosybrown')
+データフレームのカラムのタイムゾーンを文字列に設定する	df[col].tz_convert(s)
+辞書をソートしてJSON形式の文字列に変換する	json.dumps(aDict, ensure_ascii=False, sort_keys=True)
+ヒストグラムの色をコーンズシルクに設定する	plt.hist(データ列, color='cornsilk')
+文字列中に部分文字列がないか調べる	sub not in s
+ヒストグラムを描画して、その色をディムグレーに設定する	plt.hist(データ列, color='dimgrey')
+year年month月の日付	datetime.date(year=year, month=month, day=1)
+データフレームを二つの列によって昇順に破壊的にソートする	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+整数nを八進文字列に変換する	oct(n)[2:]
+ヒストグラムの色をダークカーキに設定する	plt.hist(データ列, color='darkkhaki')
+nからstep間隔で無限にカウントアップする	itertools.count(start=n, step=step)
+文字列の変数名を数式に変換する	sympy.Symbol(s)
+折れ線グラフのスタイルを一点鎖線に設定する	plt.plot(データ列, データ列2, linestyle='dashbot')
+データフレームのカラムの分散	df[col].var()
+データフレームを列の値によって集約して、それぞれのグループごとの個数を求める	df.groupby(column).count()
+折れ線グラフを描画して、色をホワイトスモークに設定する	plt.plot(データ列, データ列2, color='whitesmoke')
+文字列を青色にする	f'\033[34m{value}\033[0m'
+ヒストグラムを描画してその色をピーチパフに変更する	plt.hist(データ列, color='peachpuff')
+＜オプション＞カデットブルー色を使う	color = 'cadetblue'
+グラフにx=0の点線を付ける	plt.axvline(x=0, linestyle='dotted')
+タプルにキーが存在している	key not in aDict
+配列の列ごとの平均値	np.mean(aArray, axis=0)
+データフレームがどの程度、分散しているか見る	df.var()
+棒グラフを描画する	plt.bar(ラベル列, データ列)
+データフレームの中にいくつ欠損値があるか数える	df.isna().sum()
+データフレームの列に重複があれば、マスクする	df.duplicated(subset=column)
+折れ線グラフの色をゴールドに変更する	plt.plot(データ列, データ列2, color='gold')
+＜オプション＞左三角マーカーを描画する	marker = '<'
+＜オプション＞ビスクにグラフの色を指定する	color = 'bisque'
+要素が全て1の配列	np.ones(要素数, dtype=np.int)
+リストとリストについてカラーコードの明るいグラフをプロットする	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+オブジェクトがタプルの要素でないか調べる	element not in aTuple
+データ列を丸めて、整数型にする	ds.round().astype(int)
+ヒストグラムの色をロージーブラウンに設定する	plt.hist(データ列, color='rosybrown')
+レベッカパープル色のヒストグラムを描画する	plt.hist(データ列, color='rebeccapurple')
+日付データをn日前に戻す	aDate - datetime.timedelta(days=n)
+データフレームのリストカラムの最頻値	df[aList].mode()
+イテラブルを2回あわせた直積	itertools.product(iterable, repeat=2)
+紺碧色のヒストグラムを描画する	plt.hist(データ列, color='azure')
+ミディアムパープル色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumpurple')
+折れ線グラフを描画して、その色をホワイトスモークに設定する	plt.plot(データ列, データ列2, color='whitesmoke')
+リストのヒストグラムを描画する	plt.hist(aList)
+リストとリストについての散布図を濃い色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+ペールグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='palegreen')
+折れ線グラフに青い三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+＜オプション＞グラフの色をライトグリーンに設定する	color = 'lightseagreen'
+＜オプション＞グラフの色をマゼンタに設定する	color = 'magenta'
+グラフのカラーパレットを濃くする	sns.set(pallete='deep')
+ミディアムターコイズ色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumturquoise')
+ファイルを読み込みモードでオープンして]、fとする	f = open(filepath, mode='r')
+列の長さnの順列を得る	itertools.permutations(iterable, n)
+データ列を10の位で丸める	ds.round(-1)
+Pandasで、データフレームのカラムを日付データに変換し、データフレームのインデックスにする	df.index = pd.DatetimeIndex(pd.to_datetime(df[col]))
+折れ線グラフに線幅nの下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markeredgewidth=n)
+グラフの見栄えをいい感じに設定する	sns.set()
+データ列の月	ds.dt.month
+八進文字列をbytesizeバイトのバイト列に変換する	int(s, 8).to_bytes(length=bytesize, byteorder='big')
+＜オプション＞パールゴールデンロッドにグラフの色をする	color = 'palegoldenrod'
+ヒストグラムを描画して色をライトスレイグレーに設定する	plt.hist(データ列, color='lightslategray')
+ヒストグラムを描画して、その色をピンクに設定する	plt.hist(データ列, color='pink')
+ヒストグラムを描画して、その色をスカイブルーに設定する	plt.hist(データ列, color='skyblue')
+折れ線グラフの色をアクアに指定する	plt.plot(データ列, データ列2, color='aqua')
+リストから文字列を取り除く	aList.remove(element)
+ファイルをBOM付きで書き込み用にオープンする]	open(filepath, mode='w', encoding='utf_8_sig')
+折れ線グラフを描画して、その色をオレンジに設定する	plt.plot(データ列, データ列2, color='orange')
+明るいの折れ線グラフの色をカラーコードにセットする	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+＜オプション＞データ型を指定する	dtype = np.int16
+オブジェクトはタプルクラスのインスタンスか確認する	isinstance(obj, tuple)
+データフレームのリスト列の未入力値を直前の値に設定する	df[aList].fillna(method='ffill')
+カラーコードの下三角マーカーで散布図を描く	plt.plot(xdata, ydata, marker='v', c=rgb)
+リストとリストについて散布図を描画して、マーカーの色を明るいに設定する	plt.plot(xdata, ydata, c='bright')
+データフレームから最後の列を除く	df[df.columns[:-1]]
+文字列を大文字・小文字を無視して正規表現で分割する	re.split(pattern, s, flags=re.IGNORECASE)
+カウンタ同士で交差	aCounter & aCounter2
+折れ線グラフを描画して、その色をパールゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='palegoldenrod')
+＜オプション＞オールドレース色を使う	color = 'oldlace'
+＜オプション＞ミディアムスプリンググリーン色を使う	color = 'mediumspringgreen'
+＜オプション＞バッファリングのサイズを設定する	buffering = 4096
+データフレームの列の名前リスト	df.columns
+データフレームのカラムの欠損値を最小値で埋める	df[col].fillna(df[col].min())
+折れ線グラフのマーカーをダイアモンドにする	plt.plot(データ列, データ列2, marker='D')
+散布図に黒い左三角マーカーを用いる	plt.plot(xdata, ydata, marker='<', c='k')
+ライトシアン色のヒストグラムを描画する	plt.hist(データ列, color='lightcyan')
+リストを等間隔でn個にビン分割する	pd.cut(aList, n)
+線グラフの色をライトサーモンにセットする	plt.plot(データ列, データ列2, color='lightsalmon')
+配列とリストで淡いを描画して、線幅をnに設定する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+数式の微分を計算する	sympy.diff(e)
+nとn2の論理積	n & n2
+BOM付きとしてファイルをオープンする]	open(filepath, encoding='utf_8_sig')
+データフレームのデータ型の一覧	df.dtypes
+＜オプション＞右三角マーカーを描画する	marker = '>'
+データフレームをCSV形式でJSONLファイルに保存する	df.to_csv(filename)
+折れ線グラフを描画して、色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgrey')
+リストと数列についてパステル調のグラフを描いて、色を黒にする	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+ヒストグラムの色をダークスラテグレーに設定する	plt.hist(データ列, color='darkslategray')
+ヒストグラムの色を小麦色に設定する	plt.hist(データ列, color='wheat')
+オブジェクトのクラス	type(obj)
+配列を行方向に連結する	np.concatenate([aArray, aArray2], axis=1)
+シエナ色のヒストグラムを描画する	plt.hist(データ列, color='sienna')
+ヒストグラムの色をネイビーに設定する	plt.hist(データ列, color='navy')
+散布図にカラーコードの大バツマーカーを使う	plt.plot(xdata, ydata, marker='X', c=rgb)
+行列の逆行列	np.linalg.inv(aArray)
+中央値でデータフレームの中のカラムを分割する	pd.qcut(df[col], 2)
+＜オプション＞複素数型を使う	dtype = bool
+数値の符号をコピーにする	math.copysign(x, x2)
+丸マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='o')
+データフレームを二つの列の値によってグループ化し、記述統計量を求める	df.groupby(['A', 'B']).describe()
+折れ線グラフを描画して、その色をダーク・スラテグレーに設定する	plt.plot(データ列, データ列2, color='darkslategrey')
+実数を切り下げて整数に変換する	math.floor(x)
+ファイルに文字列を書き込む	f.write(s)
+データフレームの中の列を等量でビン数nでビン分割する	pd.qcut(df[col], n)
+折れ線グラフのダイアモンドマーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+データフレームの欠損値を直前の値に設定する	df.fillna(method='ffill')
+三つのデータフレームを横方向に連結する	pd.concat([df, df2, df3], axis=1)
+ダークシアン色のヒストグラムを描画する	plt.hist(データ列, color='darkcyan')
+データフレームのカラムの欠損値を最小値で置換する	df[col].fillna(df[col].min())
+データフレームのn行目を削除する	df.drop(n, axis=0)
+year年day月を日付時刻に変換する	datetime.datetime(year=year, month=month, day=1)
+＜オプション＞ミディアムブルー色を使う	color = 'mediumblue'
+カウンタを少ない順に列挙する	aCounter.most_common()[::-1]
+カレント作業ディレクトリをfilepathに変更する	os.chdir(os.dirname(filepath))
+データフレームのリストカラムの欠損値を平均値に設定する	df[aList].fillna(df[aList].mean())
+黄色いダイアモンドマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='y')
+空のキューを生成する	collections.deque()
+配列とデータ列についての散布図に下三角マーカーを描く	plt.plot(xdata, ydata, marker='v')
+データフレームをインデックスによってソートする	df.sort_index()
+カラムの最大幅をnに指定する	pd.set_option('max_colwidth', n)
+ゲインズボロ色のヒストグラムを描画する	plt.hist(データ列, color='gainsboro')
+xが-9以上、9以下か調べる	-9 <= x <= 9
+ダークグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkgrey')
+両端キューを空にする	deq.clear()
+リストを黄色でプリントする	print(f'\033[33m{value}\033[0m')
+文字列の平仮名を片仮名に変換する	''.join([chr(ord(ch) + 96) if ('ぁ' <= ch <= 'ん') else ch for ch in s])
+リストとリストについての散布図にカラーコードの丸マーカーを描画する	plt.plot(xdata, ydata, marker='o', c=rgb)
+三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='^')
+配列とリストの青い色差別ないを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+オブジェクトはリストかタプルか調べる	isinstance(obj, (list)
+文字列を右トリムする	s.rstrip()
+データフレームのカラムを10の位で丸める	df[col].round(-1)
+データ列の中にある文字列と文字列の合計を数える	ds.isin([value, value2]).sum()
+JSON形式のバイト列を辞書に変換する	json.loads(b.decode('unicode-escape'))
+リストとリストの折れ線グラフを描画して、色を文字列に設定する	plt.plot(xdata, ydata, color=s)
+ヒストグラムを描画して、その色をミッドナイトブルーに設定する	plt.hist(データ列, color='midnightblue')
+ヒストグラムを描画して、その色をカデットブルーに設定する	plt.hist(データ列, color='cadetblue')
+標準入力を使う	sys.stdin
+日付データををn時間後に進める	aDate + datetime.timedelta(hours=n)
+折れ線グラフを描画してその色をシルバーに指定する	plt.plot(データ列, データ列2, color='silver')
+ヒストグラムの色を青くする	plt.hist(データ列, color='b')
+文字列を走査しパターンに複数行対応としてマッチするか調べる	re.search(pattern, s, flags=re.MULTILINE)
+データ列を10の位で丸めて、整数型にする	ds.round(-1).astype(int)
+スライド用にグラフを設定する	sns.set(context='talk')
+折れ線グラフの色をオリベドラブに設定する	plt.plot(データ列, データ列2, color='olivedrab')
+データフレームの列が正規表現文字列にマッチしない行を抽出する	df[not df[column].str.match(s)]
+文字列全体を大文字・小文字を無視して正規表現にマッチさせる	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+データフレームを'A'列と'B'列によって昇順にソートして、更新する	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+タプルの最初のn要素を捨てる	aTuple[n:]
+データフレームのカラムを1000の位で丸めて、整数型にする	df[col].round(-3).astype(int)
+＜オプション＞ホワイト色を使う	color = 'white'
+＜オプション＞グラフの色をライトサーモンに設定する	color = 'lightsalmon'
+データ列がどの程度、分散しているか見る	ds.var()
+線幅nの大バツマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='X', markeredgewidth=n)
+行列の列ごとの分散	np.var(aArray, axis=0)
+データフレームのリストカラムの中にある日付データの合計をカウントする	df[aList].isin([value]).sum()
+データフレームから指定されたデータ型の列名の一覧	df.select_dtypes(型).columns
+文字列を白色にする	f'\033[37m{value}\033[0m'
+ファイルからnバイト読み込む	f.read(n)
+selectorsでマスクされたイテラブルの要素を取り出す	itertools.compress(iterable, selectors=iterable2)
+＜オプション＞アリスブルー色を使う	color = 'aliceblue'
+データフレームのリスト列の中にあると文字列の数を求める	df[aList].isin([value, value2]).sum()
+配列の合計値	np.sum(aArray)
+茶色色の線グラフを描画する	plt.plot(データ列, データ列2, color='brown')
+スタックの先頭を求める	deq[0]
+ダークバイオレット色のヒストグラムを描画する	plt.hist(データ列, color='darkviolet')
+ピンク色のヒストグラムを描画する	plt.hist(データ列, color='pink')
+折れ線グラフを描画して、その色を暗い赤に設定する	plt.plot(データ列, データ列2, color='darkred')
+ファイルを追加できるようにオープンする]	open(filepath, mode='a')
+カラーコードの下三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='v', c=rgb)
+ヒストグラムを描画して、その色をライトスチールブルーに設定する	plt.hist(データ列, color='lightsteelblue')
+nから無限にカウントアップする	itertools.count(start=n)
+0からnの範囲	range(n)
+＜オプション＞ダークゴールデンロッド色を使う	color = 'darkgoldenrod'
+＜オプション＞コーンフラワーブルー色を使う	color = 'cornflowerblue'
+線グラフを描画して色をパールバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='palevioletred')
+キーがマッピングにあるか調べる	key in aDict
+ヒストグラムを描画して、その色をダークゴールデンロッドに設定する	plt.hist(データ列, color='darkgoldenrod')
+predicateFuncが真となるイテラブルの要素	itertools.dropwhile(predicateFunc, iterable)
+データ列とラベルを指定して、棒グラフを描画する	plt.bar(ラベル列, データ列)
+グラフの凡例の位置を(x,y)に設定する	plt.legend(loc=(x, y))
+無限大	math.inf
+折れ線グラフを描画して、その色をディムグレーに設定する	plt.plot(データ列, データ列2, color='dimgray')
+リストとリストについての散布図を淡い色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+データ列の中の欠損値の合計を数える	ds.isna().sum()
+＜オプション＞ディムグレー色を使う	color = 'dimgray'
+日付データが金曜日か調べる	aDate.weekday() == 4
+散布図をカラーコードの菱形マーカーで描画する	plt.plot(xdata, ydata, marker='D', c=rgb)
+折れ線グラフの下三角マーカーを緑色にする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+赤色の左三角マーカーをイテラブルとリストについての散布図に描画する	plt.plot(xdata, ydata, marker='<', c='r')
+折れ線グラフのバツ印の大きさをnに変更する	plt.plot(データ列, データ列2, marker='x', markersize=n)
+＜オプション＞ミディアムオーキッド色を使う	color = 'mediumorchid'
+文字列を黒色でプリントする	print(f'\033[30m{value}\033[0m')
+データ列の中に存在する文字列の数を数える	ds.isin([value]).sum()
+ヒストグラムの色をデピンクに設定する	plt.hist(データ列, color='deeppink')
+折れ線グラフの色をクリムゾンに設定する	plt.plot(データ列, データ列2, color='crimson')
+データフレームをグループ化し、それぞれの列に対し標準偏差を求める	df.groupby(column)[column2].std()
+折れ線グラフの三角マーカーを青くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+イテラブルを配列に変換する	np.array(iterable)
+数式を数値計算する	float(e)
+折れ線グラフを描画して、その色をペールグリーンに設定する	plt.plot(データ列, データ列2, color='palegreen')
+シルバー色の線グラフを描画する	plt.plot(データ列, データ列2, color='silver')
+データ列が何年か見る	ds.dt.year
+数式の数値を求める	float(e)
+長さnのリストを作る	[0] * n
+データフレームの欠損値を最頻値に設定する	df.fillna(df.mode().iloc[0])
+日付時刻データをn週間前に戻す	aDatetime - datetime.timedelta(weeks=n)
+＜オプション＞整数型を使う	dtype = np.int
+＜オプション＞読み込み用にする	mode = 'r'
+折れ線グラフを描画して、その色を耐火レンガに設定する	plt.plot(データ列, データ列2, color='firebrick')
+データフレームのカラムが何年か見る	df[col].dt.year
+データフレームのカラムの欠損値を最頻値で埋める	df[col].fillna(df[col].mode().iloc[0])
+全要素を0で初期化された配列	np.zeros(要素数)
+折れ線グラフの色をミディアムパープルに設定する	plt.plot(データ列, データ列2, color='mediumpurple')
+オプションで、標準出力に出力する	file = sys.stdout
+mathモジュールをインポートする	import math
+ミディアムターコイズ色のヒストグラムを描画する	plt.hist(データ列, color='mediumturquoise')
+文字列中に部分文字列が存在するかどうか調べる	sub in s
+ヒストグラムを描画して、その色をカーキに設定する	plt.hist(データ列, color='khaki')
+データフレームをTSVファイルでJSONLファイルに保存する	df.to_csv(filename, sep='\t')
+オリーブ色のヒストグラムを描画する	plt.hist(データ列, color='olive')
+折れ線グラフの色をリネンに設定する	plt.plot(データ列, データ列2, color='linen')
+＜オプション＞色をミディアムシアグリーンに設定する	color = 'mediumseagreen'
+rangeの無限バージョン	itertools.count(start=n, step=step)
+TSVファイルファイル名がか調べる	filename.endswith('.tsv')
+折れ線グラフを描画して、その色をチョコレートに設定する	plt.plot(データ列, データ列2, color='chocolate')
+ファイルを全部、読み込む	f.read()
+オブジェクトを文字列にする	str(obj)
+nにn2をかけた値をnに代入する	n *= n2
+リストとリストについて散布図を描画して、マーカーの色を暗いに設定する	plt.plot(xdata, ydata, c='dark')
+折れ線グラフに線幅nの星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markeredgewidth=n)
+数式の微分を求める	sympy.diff(e)
+ダークオーキッド色のヒストグラムを描画する	plt.hist(データ列, color='darkorchid')
+折れ線グラフの色をライトグリーンに設定する	plt.plot(データ列, データ列2, color='lightgreen')
+実数を実数で割った剰余	math.remainder(x, x2)
+＜オプション＞グラフの色をライトスレイグレーに設定する	color = 'lightslategrey'
+文字列の中で正規表現にマッチした全ての文字列をリストに変換する	re.findall(pattern, s)
+ヒストグラムの色をスノーに設定する	plt.hist(データ列, color='snow')
+データフレームを各列毎にグループ化して、列の最小値を求める	df.groupby(column)[column2].min()
+ヒストグラムを描画して、その色をミディアムターコイズに設定する	plt.hist(データ列, color='mediumturquoise')
+＜オプション＞ネイビー色を使う	color = 'navy'
+＜オプション＞タン色を使う	color = 'tan'
+ふたつの集合の積集合	aSet.intersection(aSet2)
+辞書からキーの値	aDict.get(key)
+nの十六進リテラル	hex(n)
+＜オプション＞フクシア色を使う	color = 'fuchsia'
+カウンタをリストに変換する	list(aCounter)
+ヒストグラムを描画して、その色をネイビーに設定する	plt.hist(データ列, color='navy')
+＜オプション＞大バツマーカーを描画する	marker = 'X'
+文字列中の正規表現を新しい文字列を使って置換する	re.sub(pattern, newsub, s)
+リストとリストの明るいグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='bright', color='b')
+データフレームを列名リストによってソートする	df.sort_values(by=column)
+グローバル変数の一覧	globals()
+リストとリストについて散布図を描画して、マーカーをバツに設定する	plt.plot(xdata, ydata, marker='x')
+ダークオリーブグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkolivegreen')
+散布図にカラーコードの三角マーカーを使う	plt.plot(xdata, ydata, marker='^', c=rgb)
+データ列と配列のカラーコードの暗いを描画する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+全要素を０で初期化された８ビット整数型の行列	np.zeros(行数, 列数, dtype=np.int8)
+ホットピンク色のヒストグラムを描画する	plt.hist(データ列, color='hotpink')
+ライトグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightgray')
+散布図に黒いダイアモンドマーカーを使う	plt.plot(xdata, ydata, marker='D', c='k')
+折れ線グラフに青いバツマーカーを描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='b')
+データフレームの中の列をビン数nでビン分割する	pd.cut(df[col], n)
+＜オプション＞ブラック色を使う	color = 'black'
+データ列のNaNを最小値に設定する	ds.fillna(ds.min())
+ファイルを書き込みモードでオープンして]、fとする	f = open(filepath, mode='w')
+＜オプション＞線種を点線に設定する	linestyle = 'dotted'
+パープル色のヒストグラムを描画する	plt.hist(データ列, color='purple')
+＜オプション＞ライトサーモン色を使う	color = 'lightsalmon'
+横棒グラフを描画して、中央寄せする	plt.barh(ラベル列, データ列, align='center')
+データフレームを表示するとき、小数点以下の表示精度をn桁に設定する	pd.set_option('precision', n)
+何回まで再帰ができるかを知る	sys.getrecursionlimit()
+データフレームを列で昇順に並べ直す	df.sort_values(by=column, ascending=True)
+ダークシアン色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkcyan')
+折れ線グラフを描画して、その色をライトスレイグレーに設定する	plt.plot(データ列, データ列2, color='lightslategray')
+nをn2分の一にする	n /= n2
+折れ線グラフを描画して、その色を貝殻に設定する	plt.plot(データ列, データ列2, color='seashell')
+ビスク色の線グラフを描画する	plt.plot(データ列, データ列2, color='bisque')
+配列の全要素の値を変更する	aArray[:, :] = 指定の値
+データフレームの各次元の大きさを見る	df.shape
+線グラフを描画してその色をサーモンにする	plt.plot(データ列, データ列2, color='salmon')
+＜オプション＞セパレータを改行にする	sep = '\n'
+nとn2の商	n / n2
+赤い下三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='v', c='r')
+度数分布図の範囲をセットする	plt.hist(データ列, range=(start, end))
+＜オプション＞グラフの色をアクアマリンに設定する	color = 'aquamarine'
+xが1、もしくは2、もしくは3に等しいか調べる	x == 1 or x == 2 or x == 3
+＜オプション＞ベージュ色を使う	color = 'beige'
+青い濃いグラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color='b')
+部分集合か調べる	aSet.issubset(aSet2)
+リストにリストを追加して拡張する	aList.extend(aList2)
+nが一桁の数か調べる	0 <= n <= 9
+ヒストグラムを描画して、その色をトマトに設定する	plt.hist(データ列, color='tomato')
+データフレームを各列と列の組み合わせ毎にグループ化して平均値を求める	df.groupby([column, column2], as_index=False).mean()
+正規表現を使う	import re
+Pandasで、データフレームのカラムをインデックスにする	df.set_index(col, inplace=True)
+ヒストグラムを描画して、その色をモカシンに設定する	plt.hist(データ列, color='moccasin')
+折れ線グラフの色をダークグレーに指定する	plt.plot(データ列, データ列2, color='darkgray')
+カウンタの上位を列挙する	aCounter.most_common(k)
+明るい色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='bright')
+文字列が文字列リストのいづれかどうか確認する	s in aStringList
+ファイル名がTSVファイルか調べる	filename.endswith('.tsv')
+＜オプション＞ダークカーキ色を使う	color = 'darkkhaki'
+折れ線グラフを描画してその色をミディアムスレートブルーに指定する	plt.plot(データ列, データ列2, color='mediumslateblue')
+散布図のマーカーの大きさを指定する	plt.scatter(xdata, ydata, s=n)
+リストとリストについての散布図に三角マーカーを描画する	plt.plot(xdata, ydata, marker='^')
+データフレームの列を文字列にリネームする	df.rename(columns={column: name})
+折れ線グラフに黒い下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='k')
+データフレームを二つの列によってソートする	df.sort_values(by=['A', 'B'])
+データフレームを関数によって集約して、列挙する	[(name, group) for name, group in df.groupby(関数)]
+イテラブルのコンビネーション	itertools.combinations(iterable, n)
+集合から全ての要素を取り除く	aSet.clear()
+折れ線グラフの色をカラーコードに設定する	plt.plot(xdata, ydata, color=rgb)
+ヒストグラムを描画して、その色をライトグリーンに設定する	plt.hist(データ列, color='lightgreen')
+グラフで使うカラーパレットをpalleteNameに指定する	sns.set(pallete=palleteName)
+データフレームの中で、列に重複があるか見る	df.duplicated(subset=column)
+ヒストグラムの色をダークグレーに設定する	plt.hist(データ列, color='darkgray')
+ゼロ埋めされた整数型の配列	np.zeros(要素数, dtype=np.int)
+ヒストグラムの色をドジャーブルーに設定する	plt.hist(データ列, color='dodgerblue')
+折れ線グラフの色を白に設定する	plt.plot(データ列, データ列2, color='white')
+カウンタの正の数のみ残す	+aCounter
+ヒストグラムを描画して、その色をドジャーブルーに設定する	plt.hist(データ列, color='dodgerblue')
+リストとリストについて散布図を描画して右三角マーカーの色をカラーコードに変更する	plt.plot(xdata, ydata, marker='>', c=rgb)
+predicateFuncが真となる列の要素	itertools.takewhile(predicateFunc, iterable)
+データ列の曜日数	ds.dt.dayofweek
+オブジェクトがあるクラスか調べる	isinstance(obj, クラス)
+＜オプション＞欠損値を先頭にする	na_position = 'first'
+データ列の値が欠損値か調べる	ds.isna()
+赤い暗いグラフを描画する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+データフレームの列がxの行を抽出する	df[df[column] == x]
+ヒストグラムを描画して、その色をスラグレーに設定する	plt.hist(データ列, color='slategrey')
+文字列をバイト列にする	s.encode(encoding='utf-8', errors='strict')
+イテラブルからひとつランダムに選ぶ	random.choice(iterable)
+変数を黒色でプリントできる文字列に変換する	f'\033[30m{value}\033[0m'
+文字列の末尾から範囲を指定して部分文字列を探す	s.find(sub, start, end)
+スカイブルー色のヒストグラムを描画する	plt.hist(データ列, color='skyblue')
+二つの文字列をケースを無視して比較する	s.casefold() < s2.casefold()
+文字列の左端を使う	s[0]
+折れ線グラフを描画して、その色をコーンフラワーブルーに設定する	plt.plot(データ列, データ列2, color='cornflowerblue')
+両端キューに文字列をエンキューする	deq.appendleft(element)
+本日が木曜日か調べる	datetime.datetime.today().weekday() == 3
+データフレームを'A'列によって昇順にソートして、更新する	df.sort_values(by='A', ascending=True, inplace=True)
+八進文字列をバイト列に変換する	int(s, 8).to_bytes(length=bytesize, byteorder='big')
+＜オプション＞書き込みモードに設定する	mode = 'w'
+＜オプション＞文字列をセパレータで使う	sep = s
+＜オプション＞グラフの色をスプリンググリーンに設定する	color = 'springgreen'
+Pandasのバージョンを確認する	print(pd.__version__)
+ダークスラテグレー色のヒストグラムを描画する	plt.hist(データ列, color='darkslategray')
+データフレームの重複した行数のマスク	df.duplicated()
+データフレームから数値データの列を抽出する	df.select_dtypes('number')
+実数の逆正弦	math.asin(x)
+折れ線グラフに緑色のバツマーカーを描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='g')
+文字列を新しい文字列で置き換える	s.replace(sub, newsub)
+文字列を積極的に小文字に変換する	s.casefold()
+ミディアムブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumblue')
+文字列が正規表現にマッチさせる	re.match(pattern, s)
+折れ線グラフを描画して、その色をフクシアに設定する	plt.plot(データ列, データ列2, color='fuchsia')
+標準出力を得る	sys.stdout
+ベージュ色のヒストグラムを描画する	plt.hist(データ列, color='beige')
+オブジェクトがある型	isinstance(obj, クラス)
+実数の逆双曲線正接	math.atanh(x)
+ヒストグラムの色を白に設定する	plt.hist(データ列, color='white')
+データフレームのリストカラムの欠損値を中央値に設定する	df[aList].fillna(df[aList].median())
+グラフの描画で明るいカラーパレットを使う	sns.set(pallete='bright')
+行列の合計	np.sum(aArray)
+ダークマゼンタ色のヒストグラムを描画する	plt.hist(データ列, color='darkmagenta')
+ヒストグラムを描画して、その色をレモンシフォンに設定する	plt.hist(データ列, color='lemonchiffon')
+一点鎖線ヒストグラムを描画する	plt.hist(データ列, linestyle='dashbot')
+＜オプション＞フローラルホワイト色を使う	color = 'floralwhite'
+＜オプション＞グラフの色を青緑に指定する	color = 'turquoise'
+＜オプション＞グラフの色をパールゴールデンロッドに設定する	color = 'palegoldenrod'
+線グラフを描画して色をオリベドラブに設定する	plt.plot(データ列, データ列2, color='olivedrab')
+双方向キューが空でないか調べる	len(deq) != 0
+ヒストグラムの色を青に設定する	plt.hist(データ列, color='blue')
+＜オプション＞ミスティローズ色を使う	color = 'mistyrose'
+文字列を部分文字列で分割し、、文字列リストに変換する	s.split(sub)
+変数を白色でプリントできる文字列にする	f'\033[37m{value}\033[0m'
+全要素を初期値で初期化された行列を作る	np.full((行数, 列数), 初期値, dtype=np.int)
+変数を定義する	x = n
+折れ線グラフの色をピンクに設定する	plt.plot(データ列, データ列2, color='pink')
+ふたつのリストの積集合	list(set(aList) & set(aList2))
+＜オプション＞パレットトルコイズにグラフの色を設定する	color = 'paleturquoise'
+データフレームのカラムの第一四分位数	df[col].quantile(0.25)
+データ列の欠損値を最頻値に設定する	ds.fillna(ds.mode().iloc[0])
+ベクトルの演算をする	import numpy as np
+タプルの末尾からn番目以前の部分を取り出す	aTuple[:-n]
+折れ線グラフを点線で描画する	plt.plot(データ列, データ列2, linestyle='dotted')
+現在が何分か知る	datetime.date.today().minute
+ヒストグラムを描画して、その色を青紫に設定する	plt.hist(データ列, color='violet')
+グラフのフォントを日本語表示に設定する	sns.set(font='IPAexGothic')
+タプルの中の最小値	min(aTuple)
+リストとリストの淡いグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='muted', color='b')
+文字列を全て小文字に変換する	s.casefold()
+実数の小数部	math.modf(x)[0]
+リストを横軸と指定して、折れ線グラフを描画する	plt.plot(range(len(xdata)), xdata)
+データ列が何時か見る	ds.dt.hour
+イテラブルを無限に繰り返す	itertools.cycle(iterable)
+線グラフの色をミスティローズに設定する	plt.plot(データ列, データ列2, color='mistyrose')
+ヒストグラムを描画して、その色をダークシアンに設定する	plt.hist(データ列, color='darkcyan')
+データフレームの欠損値が含まれる箇所に色を付ける	df.style.highlight_null()
+折れ線グラフの色を赤くする	plt.plot(データ列, データ列2, color='r')
+両端キューの右に要素を追加する	deq.append(element)
+グレー色のヒストグラムを描画する	plt.hist(データ列, color='grey')
+データ列の欠損値を中央値に設定する	ds.fillna(ds.median())
+＜オプション＞グラフの色をゴールドに設定する	color = 'gold'
+オブジェクトを文字列に変換する	str(obj)
+データフレームを各列と列の組み合わせ毎に集約して最大値を算出する	df.groupby([column, column2], as_index=False).max()
+折れ線グラフの色をダークレッドにする	plt.plot(データ列, データ列2, color='darkred')
+折れ線グラフを描画して、その色をマルーンに設定する	plt.plot(データ列, データ列2, color='maroon')
+ヒストグラムを描画して、その色をオリーブに設定する	plt.hist(データ列, color='olive')
+折れ線グラフを描画して、その色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgray')
+文字列をシアンにする	f'\033[36m{value}\033[0m'
+ターコイズ色の線グラフを描画する	plt.plot(データ列, データ列2, color='turquoise')
+折れ線グラフに緑色のポイントマーカーを描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='g')
+データフレームの欠損値を最頻値で埋める	df.fillna(df.mode().iloc[0])
+ケンドール相関係数でデータフレームの相関行列	df.corr(method='kendall')
+青い暗いグラフを描画する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+ヒストグラムを描画して、色をミディアムオーキッドに設定する	plt.hist(データ列, color='mediumorchid')
+タプルの要素をソートする	sorted(aTuple)
+TSVファイルをSJISで読み込む	pd.read_csv(filename, encoding='shift_jis')
+折れ線グラフの色をデピンクに設定する	plt.plot(データ列, データ列2, color='deeppink')
+xを浮動小数点数に変換する	float(x)
+ヒストグラムを描画して、その色をスレートブルーに指定する	plt.hist(データ列, color='slateblue')
+カーキ色の線グラフを描画する	plt.plot(データ列, データ列2, color='khaki')
+実数の双曲線余弦	math.cosh(x)
+リストとリストの黒い明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color='k')
+x,y,zをそれぞれn,n2,n3とする	x, y, z = n, n2, n3
+ライトブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightblue')
+ファイルをUTF8で書き込み用に開く]	open(filepath, mode='w', encoding='utf-8')
+ダークグレー色のヒストグラムを描画する	plt.hist(データ列, color='darkgray')
+＜オプション＞マーカーを星に変更する	marker = '*'
+イテラブルを文字列リストに変換して、部分文字列を用いて一つにする	sub.join(map(str, iterable))
+実数に実数を加える	x + y
+ヒストグラムを描画して半透明化にする	plt.hist(データ列, alpha=0.5)
+データフレームの列の各データ値の出現数を算出する	df[col].value_counts()
+変数が無限大に近づくときの数式の極限値を求める	sympy.limit(e, z, oo)
+集合が空でない	len(aSet) != 0
+リストをイミュータブルにする	tuple(aList)
+データフレームのカラムがどの程度分散しているか確認する	df[col].var()
+リストとイテラブルについての散布図にカラーコードの左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<', c=rgb)
+カウンタ同士で積集合演算する	aCounter & aCounter2
+改行なしに文字列をプリントする	print(value, end='')
+タプルの要素を逆順にする	aTuple[::-1]
+ヒストグラムの色をコーンズシルクに変更する	plt.hist(データ列, color='cornsilk')
+マッピングの項目を列挙する	aDict.values()
+要素が辞書の値に含まれていないか調べる	element not in aDict.values()
+スピアマン相関係数を用いてデータフレームの列と列の相関行列	df[[column, column2]].corr(method='spearman')
+データ列が何分か見る	ds.dt.minute
+＜オプション＞グラフの色をペルーに設定する	color = 'peru'
+折れ線グラフに線幅nのバツマーカーを描画する	plt.plot(データ列, データ列2, marker='x', markeredgewidth=n)
+実部と虚部から複素数	complex(x, y)
+データフレームから列を三つ選択する	df[[column, column2, column3]]
+空の集合	set()
+データフレームを表示するとき、小数点以下をn桁に設定する	pd.set_option('precision', n)
+ファイル名がCSVファイルか調べる	filename.endswith('.csv')
+データフレームを列によってグループ分けしてそれぞれのグループ毎の標準偏差を求める	df.groupby(column).std()
+ヒストグラムの色をラベンダーに設定する	plt.hist(データ列, color='lavender')
+現在のモジュール	sys.modules[__name__]
+＜オプション＞グラフの色をオリーブに設定する	color = 'olive'
+散布図にカラーコードの▽マーカーを使う	plt.plot(xdata, ydata, marker='v', c=rgb)
+インディゴ色のヒストグラムを描画する	plt.hist(データ列, color='indigo')
+数字を求める	string.digits
+文字列は全て数値か調べる	s.isnumeric()
+リストとリストについての散布図にカラーコードのダイアモンドマーカーを描画する	plt.plot(xdata, ydata, marker='D', c=rgb)
+文字列中から正規表現に大文字・小文字を無視してマッチする文字列を探す	re.search(pattern, s, flags=re.IGNORECASE)
+文字列の両端から部分文字列を取り除く	s.strip(sub)
+散布図に黒い丸マーカーを使う	plt.plot(xdata, ydata, marker='o', c='k')
+データフレームの列が文字列で始まらない行を取り出す	df[not df[column].str.startswith(s)]
+日付時刻データをエポック秒に変換する	aDatetime.timestamp()
+＜オプション＞グラフの色をネイビーに設定する	color = 'navy'
+配列とイテラブルの散布図にカラーコードの三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c=rgb)
+データ列の欠損値を最大値に設定する	ds.fillna(ds.max())
+ホットピンク色の線グラフを描画する	plt.plot(データ列, データ列2, color='hotpink')
+リストとリストについての散布図に大バツマーカーを描画する	plt.plot(xdata, ydata, marker='X')
+データフレームをValueMapで一度に置き換える	df.replace(ValueMap)
+二次元リストの転置行列	[list(x) for x in list(zip(*aList))]
+TSVファイルからCSVファイルを文字化けしないように読み込む	pd.read_csv(filename, encoding='shift_jis')
+＜オプション＞グラフの色をシアンに設定する	color = 'cyan'
+折れ線グラフを描画して、その色を紺碧に設定する	plt.plot(データ列, データ列2, color='azure')
+データ列の中にいくつNaNがあるか数える	ds.isna().sum()
+三つのデータフレームを縦方向に連結する	pd.concat([df, df2, df3], axis=0)
+カラーコードのポイントマーカーを用いて散布図を描く	plt.plot(xdata, ydata, marker='.', c=rgb)
+折れ線グラフに黄色い星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='y')
+実行時の標準出力の出力先がターミナルか調べる	sys.stdout.isatty()
+区間数nの柱状グラフを描く	plt.hist(データ列, bins=n)
+ヒストグラムの色をアクアマリンに設定する	plt.hist(データ列, color='aquamarine')
+リストについてのヒストグラムを色差別ない色でプロットする	plt.hist(xdata, color='colorblind')
+列とイテラブルをペアのリストに変換する	itertools.zip_longest(iterable, iterable2)
+折れ線グラフにポイントマーカーを加える	plt.plot(データ列, データ列2, marker='.')
+カラーバーを付ける	plt.colorbar()
+ダークスレートブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkslateblue')
+折れ線グラフを描画して、その色をダークバイオレットに設定する	plt.plot(データ列, データ列2, color='darkviolet')
+エクセルファイルファイルからnという名前のシートをデータフレームとして読み込む	pd.read_excel(filename, sheet_name=n)
+リストとリストについての散布図に黒い左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<', c='k')
+辞書のキーとその値を列挙する	aDict.items()
+データフレームのカラムの曜日が何日目か見る	df[col].dt.dayofweek
+データ列の年	ds.dt.year
+ヒストグラムを描画してその色をやわらかい青に設定する	plt.hist(データ列, color='cornflowerblue')
+散布図に赤い四角マーカーを使う	plt.plot(xdata, ydata, marker='s', c='r')
+青い明るいグラフを描く	plt.plot(xdata, ydata, linestyle='bright', color='b')
+ファイルからストリームを読み込み、fileとする	file = open(filepath)
+ヒストグラムの色をインディアンレッドに設定する	plt.hist(データ列, color='indianred')
+空のカウンタを作る	collections.Counter()
+データフレームから重複した行を残さず、削除する	df.drop_duplicates(keep=False)
+折れ線グラフの色をダーク・スラテグレーに設定する	plt.plot(データ列, データ列2, color='darkslategrey')
+グラフの題名をuntitledに設定する	plt.title(untitled)
+本日が金曜日か調べる	datetime.datetime.today().weekday() == 4
+青い明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+＜オプション＞オリベドラブ色を使う	color = 'olivedrab'
+＜オプション＞ドジャーブルーにグラフの色を指定する	color = 'dodgerblue'
+現在の再帰の最大回数	sys.getrecursionlimit()
+ヒストグラムを描画して、その色をスラグレーにセットする	plt.hist(データ列, color='slategray')
+データフレームを各列毎にグループ化して、列の個数を求める	df.groupby(column)[column2].count()
+＜オプション＞星マーカーを描画する	marker = '*'
+辞書の値の一覧	aDict.values()
+データフレームの中の欠損値の合計を数える	df.isna().sum()
+最適な位置に凡例を入れる	plt.legend(loc='best')
+プロットの中の日本語表示を有効にする	sns.set(font='IPAexGothic')
+行列の行ごとの標準偏差	np.std(aArray, axis=1)
+ひとつでもアルファベットが文字列内に含まれるか調べる	any(c.isalpha() for c in s)
+カラーコードの大バツマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='X', c=rgb)
+リストの最後のn要素を取り除く	aList[:-n]
+文字列は全て印字できるか調べる	s.isprintable()
+折れ線グラフのマーカーを三角にする	plt.plot(データ列, データ列2, marker='^')
+リストとリストについての散布図を明るい色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+データフレームのリストカラムの値を正規表現patternでまとめて置き換える	df[aList].replace(pattern, repl, regex=True)
+ダークカーキ色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkkhaki')
+16進文字列をbytesizeバイトのバイト列に変換する	int(s, 16).to_bytes(length=bytesize, byteorder='big')
+データフレームのカラムを日付データに変換し、データフレームのインデックスにする	df.index = pd.DatetimeIndex(pd.to_datetime(df[col]))
+配列の列ごとの合計値	np.sum(aArray, axis=0)
+ヒストグラムの色を黄色に変更する	plt.hist(データ列, color='yellow')
+色差別ないグラフの線幅を指定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+ヒストグラムを描画して、その色をダークバイオレットに設定する	plt.hist(データ列, color='darkviolet')
+＜オプション＞セパレータをカンマにする	sep = ','
+辞書のキーとそのエントリをペアとして取り出す	aDict.items()
+数式のパラメータに数式を代入する	e.subs(z, e2)
+タプルを昇順にソートする	sorted(aTuple, reverse=False)
+文字列中の文字を列挙する	list(s)
+散布図に黒い左三角マーカーを使う	plt.plot(xdata, ydata, marker='<', c='k')
+ロードされたモジュールを列挙する	sys.modules
+文字列が無限に繰り返すイテラブル	itertools.repeat(element)
+配列のユニークな要素	np.unique(aArray)
+xの小数点以下'2'桁までの文字列に変換する	':.2f'.format(x)
+データフレームの平均値	df.mean()
+有理数を使う	import fractions
+リストの合計値	sum(aList)
+文字列を文字コードエスケープでバイト列に変換する	s.encode(encoding='unicode_escape')
+標準入力を得る	sys.stdin
+文字列を部分文字列で分けた場合の後半の文字列を使う	s.partition(sub)[-1]
+イテラブルを累加する	itertools.accumulate(iterable)
+折れ線グラフに黒いバツマーカーを描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='k')
+nをn2倍にする	n *= n2
+データフレームの列の名前を列から文字列に付け直す	df.rename(columns={column: name})
+ヒストグラムの色をダークサーモンにする	plt.hist(データ列, color='darksalmon')
+nを半分にする	n /= 2
+折れ線グラフを描画して、その色をダークシアグリーンに設定する	plt.plot(データ列, データ列2, color='darkseagreen')
+リストとリストについての散布図をパステル調の色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+ライムグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='limegreen')
+赤い折れ線グラフを描画する	plt.plot(データ列, データ列2, color='r')
+データフレームを二つの列の値によってグループ化し、、列挙する	[(name, group) for name, group in df.groupby(['A', 'B'])]
+折れ線グラフの色をライトコーラルに設定する	plt.plot(データ列, データ列2, color='lightcoral')
+文字列を最後の部分文字列で二分する	s.rpartition(sub)
+year年month月day日を日付に変換する	datetime.date(year=year, month=month, day=day)
+データフレームのカラムの欠損値を最大値に設定する	df[col].fillna(df[col].max())
+線グラフの色をブルーバイオレットにセットする	plt.plot(データ列, データ列2, color='blueviolet')
+データ列を折れ線グラフに描画してマーカーを大バツ印にする	plt.plot(データ列, データ列2, marker='X')
+データフレームをタブ区切りでJSONLファイルに保存する	df.to_csv(filename, sep='\t')
+データフレームの欠損値を平均値に設定する	df.fillna(df.mean())
+Pandasで、日付データのデータフレームのカラムをデータフレームのインデックスにする	df.index = pd.DatetimeIndex(df[col])
+オブジェクトが数値か	isinstance(obj, (int,float))
+＜オプション＞グラフの色をタンに設定する	color = 'tan'
+リストとリストのパステル調のグラフを描画して、その色を黒にする	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+標準入力から1文字だけ読む	sys.stdin.read(1)
+耐火レンガ色の線グラフを描画する	plt.plot(データ列, データ列2, color='firebrick')
+黒い暗いグラフを描画する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+文字列の大文字と小文字を交換する	s.swapcase()
+行列の行	aArray[行番号]
+文字列を最後の部分文字列で二分し、前半の文字列を見る	s.rpartition(sub)[0]
+線グラフの色をハニーデューに設定する	plt.plot(データ列, データ列2, color='honeydew')
+要素∉集合	element not in aSet
+後の値でデータフレームの欠損値を埋める	df.fillna(method='bfill')
+リストのn番目からn2番目までの部分	aList[n:n2]
+グリーンイエロー色のヒストグラムを描画する	plt.hist(データ列, color='greenyellow')
+＜オプション＞ダイアモンドマーカーを使う	marker = 'D'
+データフレームの中の欠損値がある行を削除する	df.dropna()
+整数nのバイト長	(n.bit_length() + 7) // 8
+＜オプション＞ライトゴールドロディイエローにグラフの色を変更する	color = 'lightgoldenrodyellow'
+ライトサーモン色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightsalmon')
+数式を変数について微分する	sympy.diff(e, z)
+seabornのデフォルトを適用する	sns.set()
+8進文字列を整数にする	int(s, 8)
+データフレームの列の分散	df[col].var()
+タプルをリストに変換する	list(aTuple)
+データ列を等量でビン数nでビン分割する	pd.qcut(ds, n)
+カウンタの最頻出な項目	aCounter.most_common()[0]
+＜オプション＞ゴーストホワイト色を使う	color = 'ghostwhite'
+year年month月day日hour時minute分を日付時刻に変換する	datetime.datetime(year=year, month=month, day=day, hour=hour, minute=minute)
+真部分集合	aSet < aSet2
+カウンタの全数	aCounter.total()
+データフレームのカラムの中に文字列と文字列があるか調べる	df[col].isin([value, value2])
+辞書を階層化する	collections.ChainMap(aDict)
+nにn2を加える	n + n2
+＜オプション＞グラフの色をカデットブルーに設定する	color = 'cadetblue'
+濃いグラフの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+折れ線グラフの三角印を黒くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='k')
+文字列をUTF8でバイト列に変換する	s.encode(encoding='utf-8', errors='strict')
+データ列の欠損値をxに設定する	ds.fillna(x)
+データフレームのカラムの欠損値をxで埋める	df[col].fillna(x)
+タプルをJSONフォーマットの文字列に変換する	json.dumps(aDict, ensure_ascii=False)
+インデント付きで辞書を文字列にする	json.dumps(aDict, ensure_ascii=False, indent=n)
+赤いヒストグラムを描画する	plt.hist(データ列, color='r')
+折れ線グラフのスタイルを点線に設定する	plt.plot(データ列, データ列2, linestyle='dotted')
+折れ線グラフを描画して、その色をシャルトリューズに設定する	plt.plot(データ列, データ列2, color='chartreuse')
+テンプレートを辞書でフォーマットする	formatText.format_map(aDict)
+赤い▽マーカーを散布図に使う	plt.plot(xdata, ydata, marker='v', c='r')
+＜オプション＞ダークオリーブグリーン色を使う	color = 'darkolivegreen'
+折れ線グラフの色をホットピンクに設定する	plt.plot(データ列, データ列2, color='hotpink')
+＜オプション＞グラフの色をアイボリーに設定する	color = 'ivory'
+ヒストグラムを描画して、色をダークオリーブグリーンに設定する	plt.hist(データ列, color='darkolivegreen')
+マッピングのキーに対応した値	aDict.get(key)
+イテラブルとイテラブルの直積	itertools.product(iterable, iterable2)
+ヒストグラムの色を黄色くする	plt.hist(データ列, color='y')
+データフレームのリストカラムを十の位で丸める	df[aList].round(-1)
+＜オプション＞グラフの色をダークグリーンに設定する	color = 'darkgreen'
+ロードされたモジュールの一覧	sys.modules
+リストの末尾からn番目以前の部分を取り出す	aList[:-n]
+nが何桁か	len(str(n))
+Pythonインタプリタの実行ファイルの絶対パス	sys.executable
+＜オプション＞SJISを使う	encoding = 'shift_jis'
+折れ線グラフに黄色い△マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+＜オプション＞コーラル色を使う	color = 'coral'
+＜オプション＞読み込まない列番号をnamesで指定する	skiprows = names
+最大値・最小値で整数乱数を生成する	random.randint(最小値, 最大値)
+データフレームのカラムの曜日数	df[col].dt.dayofweek
+ヒストグラムを描画して、その色をインディアンレッドに設定する	plt.hist(データ列, color='indianred')
+データ列をビン数nでビン分割して、namesのラベルをつける	pd.cut(ds, n, labels=names)
+要素が集合のメンバーでないか調べる	element not in aSet
+ヒストグラムを描画して、その色をサーモンに設定する	plt.hist(データ列, color='salmon')
+三つの文字列を順にプリントする	print(value, value2, value3)
+サンディーブラウン色のヒストグラムを描画する	plt.hist(データ列, color='sandybrown')
+列によってデータフレームをソートする	df.sort_values(by=column)
+ヒストグラムの色をダーク・スラテグレーに設定する	plt.hist(データ列, color='darkslategrey')
+CSVファイルを読み込む	pd.read_csv(filename, sep=',')
+折れ線グラフを描画して、色をオレンジに設定する	plt.plot(データ列, データ列2, color='orange')
+ヒストグラムを描画して、その色をスチールブルーに設定する	plt.hist(データ列, color='steelblue')
+日付時刻データの時刻	aDatetime.time()
+データフレームを100の位で四捨五入して、整数にする	df.round(-2).astype(int)
+リストとリストについて散布図を描画して、右三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='>', c=rgb)
+＜オプション＞スラグレーを使う	color = 'slategrey'
+ユーザから入力される	input()
+データフレームを列の値を用いてグループ化してそれぞれのグループの件数を知る	df.groupby(column).size()
+行列の転置行列	aArray.T
+折れ線グラフを描画して、その色をシスルに設定する	plt.plot(データ列, データ列2, color='thistle')
+リストとリストのカラーコードの明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+文字列を文字リストに変換する	list(s)
+リネン色の線グラフを描画する	plt.plot(データ列, データ列2, color='linen')
+ファイルをUTF8で書き込み用にオープンする]	open(filepath, mode='w', encoding='utf-8')
+＜オプション＞コーンズシルクにグラフの色をする	color = 'cornsilk'
+２つの文字列は等しくない	s != s2
+折れ線グラフの下三角マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='v', markersize=n)
+散布図に赤いバツマーカーを使う	plt.plot(xdata, ydata, marker='x', c='r')
+辞書から項目名の値か、もしくは要素を参照する	aDict.get(key, element)
+データフレームから指定された列を抽出する	df[[column]]
+赤いバツマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='x', c='r')
+リストを赤色でプリントできる文字列に変換する	f'\033[31m{value}\033[0m'
+ダーク・スラテグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkslategrey')
+データフレームを複数の列によってグループ化し、基本統計量を算出する	df.groupby(columns).describe()
+ヒストグラムを描画して、その色をパールゴールデンロッドに設定する	plt.hist(データ列, color='palegoldenrod')
+＜オプション＞グラフの色をオールドレースに設定する	color = 'oldlace'
+整数nの八進表現	oct(n)
+文字列がタプルに含まれるか調べる	element in aTuple
+＜オプション＞グラフの色をパパイヤウィップに設定する	color = 'papayawhip'
+配列の次元を変形する	aArray.reshape(行数, 列数)
+折れ線グラフの色を青くする	plt.plot(データ列, データ列2, color='b')
+文字列がタイトルケースか調べる	s.istitle()
+カウンタを低頻出方から列挙する	aCounter.most_common()[::-1]
+実数を十六進表記の文字列に変換する	x.hex()
+日付時刻データの分数	aDatetime.minute
+折れ線グラフのダイアモンドマーカーを赤くする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='r')
+nがn2以下、または、n3以上か調べる	n <= n2 or n >= n3
+データフレームを各列毎にグループ化して、文字列というグループの個数を求める	df.groupby(column).size()[s]
+リストとリストについての散布図を明るい色で描画する	plt.plot(xdata, ydata, c='bright')
+既存の配列を元にして全要素が1の配列を作成する	np.ones_like(aArray)
+イテラブルの重複コンビネーション	itertools.combinations_with_replacement(iterable, n)
+スクリプトの名前	sys.argv[0]
+最大長nの両端キューを作る	collections.deque(maxlen=n)
+リストとリストで淡いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+列を関数でフィルタする	map(func, iterable)
+色差別ないグラフの色を赤にする	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+ヒストグラムを描画して、その色をオレンジに設定する	plt.hist(データ列, color='orange')
+ヒストグラムを描画して、その色をベージュに設定する	plt.hist(データ列, color='beige')
+二つのデータフレームを結合する	pd.merge(df, df2)
+棒グラフを描画して、中央寄せする	plt.bar(ラベル列, データ列, align='center')
+ヒストグラムを描画して、その色をディムグレーに設定する	plt.hist(データ列, color='dimgray')
+＜オプション＞グラフの色を小麦色に設定する	color = 'wheat'
+リストの重複を取り除く	sorted(set(aList), key=aList.index)
+少ない順にカウンタをリストとして得る	aCounter.most_common()[::-1]
+グラフの見栄えをデフォルトでいい感じに設定する	sns.set()
+データフレームを小数点以下n桁で丸める	df.round(n)
+標準エラーを使う	sys.stderr
+濃い色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+データフレームの列が文字列が含まれない行を抽出する	df[not df[column].str.contains(s)]
+現在が何時か知る	datetime.date.today().hour
+＜オプション＞改行なし	end = ''
+データフレームのカラムが何曜日か見る	df[col].dt.weekday_name
+データフレームを各列毎に分類して列の最小値を計算する	df.groupby(column)[column2].min()
+折れ線グラフに三角マーカーを使う	plt.plot(データ列, データ列2, marker='^')
+線グラフを描画して、その色をイエローグリーンに指定する	plt.plot(データ列, データ列2, color='yellowgreen')
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t')
+パウダーブルーにヒストグラムの色を設定する	plt.hist(データ列, color='powderblue')
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+データフレームの中のNaNがある行を消す	df.dropna()
+暗いグラフの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+折れ線グラフの色をモカシンに設定する	plt.plot(データ列, データ列2, color='moccasin')
+折れ線グラフの色をオレンジレッドに設定する	plt.plot(データ列, データ列2, color='orangered')
+データフレームのリストカラムの空文字をドロップする	df[aList].replace('', np.nan).dropna()
+リストとリストについての散布図にカラーコードの下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v', c=rgb)
+space	' '
+リストをタプルに変換する	tuple(aList)
+色差別ない色のマーカーを散布図に使用する	plt.plot(xdata, ydata, c='colorblind')
+折れ線グラフの左三角マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='<', markersize=n)
+リストとリストについての散布図に黒い四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c='k')
+紺碧色の線グラフを描画する	plt.plot(データ列, データ列2, color='azure')
+文字列の右側から空白を取り除く	s.rstrip(' ')
+箱ひげ図でデータ列を可視化する	plt.boxplot(データ列)
+データ列を折れ線グラフに描画して、マーカーを大バツ印にする	plt.plot(データ列, データ列2, marker='X')
+色差別ない色のマーカーで散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+リストとリストについて破線グラフを描画して、その色を色差別ないに設定する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+ファイルとfilenameを結合する	os.path.join(filepath, filename)
+ミッドナイトブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='midnightblue')
+空行をプリントする	print()
+＜オプション＞グラフの色をライトゴールドロディイエローに設定する	color = 'lightgoldenrodyellow'
+配列をビン分割する	pd.cut(aArray, aList)
+データフレームのリスト列の尖度	df[aList].skew()
+データフレームの列のヒストグラムを描画する	plt.hist(df[column])
+データフレームのカラムが正規分布からどの程度、歪んでいるか見る	df[col].kurt()
+折れ線グラフに赤いバツマーカーを描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='r')
+nを切り捨てながら半分にする	n //= 2
+日付時刻データにn分分、加算する	aDatetime + datetime.timedelta(minutes=n)
+折れ線グラフに青い上三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+n割るmの有理数表現	fractions.Fraction(numerator=n, denominator=m)
+ヒストグラムを描画して、その色をピーチパフに設定する	plt.hist(データ列, color='peachpuff')
+折れ線グラフの大バツマーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='X', markersize=n)
+配列をヒストグラムを用いて可視化する	plt.hist(aArray)
+折れ線グラフに大きさnの四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markersize=n)
+リストを組に変換する	tuple(aList)
+データフレームのリストカラムを1000の位で丸めて、整数型にする	df[aList].round(-3).astype(int)
+折れ線グラフの丸印の大きさをnにする	plt.plot(データ列, データ列2, marker='o', markersize=n)
+＜オプション＞欠損値は無視する	dropna = True
+＜オプション＞ダークグレー色を使う	color = 'darkgray'
+スラグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='slategray')
+折れ線グラフを描画して、その色をオーキッドに設定する	plt.plot(データ列, データ列2, color='orchid')
+折れ線グラフを描画して、その色をアクアに設定する	plt.plot(データ列, データ列2, color='aqua')
+文字列の開始位置以降に部分文字列が含まれるか調べる	s.find(sub, start) != -1
+濃いの折れ線グラフの色をカラーコードに設定する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+nがn2で割り切れないか調べる	n % n2 != 0
+淡いカラーパレットをグラフの描画で用いる	sns.set(pallete='muted')
+列を等量で分割数nでビニングする	pd.qcut(ds, n)
+２つの文字列をスラッシュで区切ってプリントする	print(value, value2, sep='/')
+＜オプション＞クリムゾン色を使う	color = 'crimson'
+折れ線グラフを描画して、その色をビスクに設定する	plt.plot(データ列, データ列2, color='bisque')
+＜オプション＞マーカーをバツに変更する	marker = 'x'
+折れ線グラフの三角マーカーを黄色くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+プロットのカラーパレットを全般的にパステル調にする	sns.set(pallete='pastel')
+ヒストグラムの色をグレーに設定する	plt.hist(データ列, color='gray')
+配列をリストを境界値としてビン分割する	pd.cut(aArray, aList)
+ヒストグラムの色をスチールブルーにする	plt.hist(データ列, color='steelblue')
+n2がn以上、かつ、n3以下か調べる	n <= n2 and n2 <= n3
+データフレームの値を正規表現patternでまとめてreplに置き換える	df.replace(pattern, repl, regex=True)
+データフレームのカラムがどの程度、分散しているか見る	df[col].var()
+データフレームからランダムにn行を取り出す	df.sample(n)
+データ列の歪度	ds.kurt()
+データフレームのカラムの文字列を欠損値に変換する	df[col].replace(s, np.nan)
+n個の整数列を作る	list(range(n))
+淡いグラフの色を赤にする	plt.plot(xdata, ydata, linestyle='muted', color='r')
+ヒストグラムの色をターコイズに設定する	plt.hist(データ列, color='turquoise')
+度数分布図のアルファ値をxに設定する	plt.hist(データ列, alpha=x)
+折れ線グラフの四角マーカーを黄色くする	plt.plot(データ列, データ列2, marker='s', markerfacecolor='y')
+グラフにグリッド線を入れる	plt.grid(True)
+日付時刻データが日付時刻データより後ろか調べる	aDatetime > aDatetime2
+計算機イプシロン	sys.float_info.epsilon
+データフレームをインデックスによって昇順にソートする	df.sort_index(ascending=True)
+折れ線グラフのポイントマーカーを青くする	plt.plot(データ列, データ列2, marker='.', markerfacecolor='b')
+ファイルパスをバイナリ書き込みモードを用いてオープンして]fとする	f = open(filepath, mode='wb')
+データフレームの列名を指定された列の名前一覧に置き換える	df.columns = columns
+＜オプション＞シルバーに色を設定する	color = 'silver'
+線グラフを描画して、その色をライトゴールドロディイエローにする	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+＜オプション＞ダークグレーに色を設定する	color = 'darkgrey'
+黒色の丸マーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='o', c='k')
+データフレームのリストカラムを百の位で丸めて整数型にする	df[aList].round(-2).astype(int)
+＜オプション＞どの行もヘッダに設定しない	header = None
+データ列を100の位で丸める	ds.round(-2)
+リストとリストについて濃い色の折れ線グラフをプロットして、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+折れ線グラフの色をライトグレーに指定する	plt.plot(データ列, データ列2, color='lightgray')
+暗い色のマーカーで散布図を描画する	plt.plot(xdata, ydata, c='dark')
+サイコロと同じ乱数	random.randint(1, 6)
+文字列の先頭で正規表現にマッチするか見る	re.match(pattern, s)
+黒い星マーカーを散布図に使う	plt.plot(xdata, ydata, marker='*', c='k')
+未初期化の行列	np.empty((行数, 列数), dtype=np.int)
+＜オプション＞カーキ色を用いる	color = 'khaki'
+データフレームを列の値によってグループ化し、要約統計量を求める	df.groupby(column).describe()
+折れ線グラフを描画してその色をデピンクに設定する	plt.plot(データ列, データ列2, color='deeppink')
+実数の自然対数	math.log(x)
+nからn2までのひとつ飛ばしの整数列	list(range(n, n2+1, 2))
+データフレームを100の位で丸めて、整数型にする	df.round(-2).astype(int)
+グラフを使う準備をする	from sympy import N
+オブジェクトのバイトサイズ	sys.getsizeof(obj)
+データフレームをJSONLファイルにBOM付きで保存する	df.to_csv(filename, encoding='utf_8_sig')
+折れ線グラフの色をブルーバイオレットに設定する	plt.plot(データ列, データ列2, color='blueviolet')
+カウンタを高頻出方から列挙する	aCounter.most_common()
+＜オプション＞グラフの色をグリーンに設定する	color = 'green'
+＜オプション＞色をインディアンレッドに設定する	color = 'indianred'
+折れ線グラフに黄色いポイントマーカーを描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='y')
+線グラフを描画して、その色をハニーデューに設定する	plt.plot(データ列, データ列2, color='honeydew')
+リストとデータ列について散布図をプロットしてマーカーをバツに設定する	plt.plot(xdata, ydata, marker='x')
+データフレームをインデックスを用いて降順でソートする	df.sort_index(ascending=False)
+カウンタ同士で積集合	aCounter & aCounter2
+＜オプション＞ダークオーキッド色を使う	color = 'darkorchid'
+＜オプション＞グラフの色をパールバイオレットレッドに設定する	color = 'palevioletred'
+ヒストグラムの色をダークオーキッドに設定する	plt.hist(データ列, color='darkorchid')
+折れ線グラフを描画して、色をミディアムブルーに変更する	plt.plot(データ列, データ列2, color='mediumblue')
+折れ線グラフの色をカラーコードに変更する	plt.plot(xdata, ydata, color=rgb)
+ヒストグラムを描画して、その色をペールグリーンに設定する	plt.hist(データ列, color='palegreen')
+＜オプション＞ビスク色を使用する	color = 'bisque'
+＜オプション＞トマト色を使用する	color = 'tomato'
+オブジェクトが名前付きタプルか調べる	hasattr(obj, '_asdict') and hasattr(obj, '_fields')
+折れ線グラフの▲印を緑色にする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+名前付きタプルをデータからインスタンス化する	C._make(パラメータ)
+xのハッシュ値	hash(x)
+ユニークな要素ごとの頻度	np.unique(aArray, return_counts=True)
+イテラブルをイミュータブルな集合に変換する	frozenset(iterable)
+データフレームが正規分布からどの程度、歪んでいるか見る	df.kurt()
+＜オプション＞青緑色を使う	color = 'teal'
+＜オプション＞グラフの色をアリスブルーに設定する	color = 'aliceblue'
+データ列の最頻値を求める	ds.mode()
+リストとリストについての散布図にカラーコードの三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c=rgb)
+データ列とリストについて暗いグラフを描いて、色を黒にする	plt.plot(xdata, ydata, linestyle='dark', color='k')
+文字列が小文字か確認する	s.islower()
+データ列を使う	import pandas as pd
+データフレームの列の中にある文字列の合計を数える	df[col].isin([value]).sum()
+リストとデータ列についての散布図に赤い星マーカーを描画する	plt.plot(xdata, ydata, marker='*', c='r')
+折れ線グラフの色をタンに設定する	plt.plot(データ列, データ列2, color='tan')
+ミディアムアクアマリン色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+実数の床	math.floor(x)
+データフレームを列の値によってグループ化する	df.groupby(column)
+イテラブルにイテラブルを続ける	itertools.chain(iterable, iterable2)
+折れ線グラフのダイアモンドマーカーを青くする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+折れ線グラフに緑色のポイント印を描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='g')
+横棒グラフの色をカラーコードに指定する	plt.barh(ラベル列, データ列, color=rgb)
+文字列を緑色にする	f'\033[32m{value}\033[0m'
+文字列の無限イテラブル	itertools.repeat(element)
+配列が何のデータ型か	aArray.dtype()
+集合＼集合	aSet.difference(aSet2)
+線グラフの色をオールドレースに変更する	plt.plot(データ列, データ列2, color='oldlace')
+＜オプション＞パパイヤウィップ色を使う	color = 'papayawhip'
+配列とイテラブルについて青色の淡いグラフを描く	plt.plot(xdata, ydata, linestyle='muted', color='b')
+＜オプション＞文字列の示すエンコーディングを使う	encoding = s
+データフレームのリストカラムの要約統計量	df[aList].describe()
+配列の形	aArray.shape
+データフレームのカラムを100の位で丸めて、整数型にする	df[col].round(-2).astype(int)
+折れ線グラフに緑色の丸マーカーを描画する	plt.plot(データ列, データ列2, marker='o', markerfacecolor='g')
+＜オプション＞グラフの色をライトグレーに設定する	color = 'lightgrey'
+マルーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='maroon')
+異なる列をキーとして二つのデータフレームを結合する	pd.merge(df, df2, left_on='A', right_on='B')
+＜オプション＞グラフの色をレモンシフォンに設定する	color = 'lemonchiffon'
+折れ線グラフに描画して、マーカーを左三角印にする	plt.plot(データ列, データ列2, marker='<')
+二つのデータフレームを縦方向に連結する	pd.concat([df, df2], axis=0)
+＜オプション＞グラフの色をターコイズに設定する	color = 'turquoise'
+ヒストグラムの色を赤に変更する	plt.hist(データ列, color='red')
+データフレームの中に文字列と文字列があるか調べる	df.isin([value, value2])
+折れ線グラフの色をライトグリーンに変更する	plt.plot(データ列, データ列2, color='lightgreen')
+nをn2で整数除算する	n // n2
+データ列の値を正規表現patternでまとめてreplに置き換える	ds.replace(pattern, repl, regex=True)
+プラム色のヒストグラムを描画する	plt.hist(データ列, color='plum')
+数式の積分を求める	sympy.integrate(e)
+＜オプション＞改行をセパレータで使う	sep = '\n'
+オブジェクトをデバッグ向けの文字列に変換する	repr(obj)
+文字列をフォーマットfmtを使って日付データに変換する	pd.to_datetime(s, format=fmt)
+明るいグラフの色を青にする	plt.plot(xdata, ydata, linestyle='bright', color='b')
+配列とリストについての散布図にバツマーカーを描画する	plt.plot(xdata, ydata, marker='x')
+データフレームからランダムに抽出する	df.sample()
+ヒストグラムを描画して、色をグレーに設定する	plt.hist(データ列, color='grey')
+データフレームのリストカラムを100の位で丸める	df[aList].round(-2)
+折れ線グラフの色をペールグリーンに変更する	plt.plot(データ列, データ列2, color='palegreen')
+0から始まる無限数列	itertools.count()
+ヒストグラムを実線で描画する	plt.hist(データ列, linestyle='solid')
+全要素を初期値で初期化された配列	np.full(要素数, 初期値, dtype=np.int)
+折れ線グラフの色を黄色に設定する	plt.plot(データ列, データ列2, color='yellow')
+データ列をインポートする	import pandas as pd
+集合が空でないか調べる	len(aSet) != 0
+ヒストグラムの色をバリーウッドに指定する	plt.hist(データ列, color='burlywood')
+文字列全体が正規表現にマッチするか見る	re.fullmatch(pattern, s)
+データフレームを各列毎にグループ化して、列の平均値を求める	df.groupby(column)[column2].mean()
+データ列が何秒か見る	ds.dt.second
+辞書から最後の項目をポップする	aDict.popitem()
+データフレームをグループ化し、それぞれの列に対し平均値を求める	df.groupby(column)[column2].mean()
+データフレームのn行目を破壊的に削除する	df.drop(n, axis=0, inplace=True)
+折れ線グラフのポイントマーカーを黄色くする	plt.plot(データ列, データ列2, marker='.', markerfacecolor='y')
+プログラムの実行を強制的に終える	sys.exit()
+日付データを文字列を使ってフォーマットする	"aDate.strftime(""%d/%m/%y"")"
+プロットをプロットする準備をする	from sympy import N
+データフレームの中で、列と列の重複を削除する	df.drop_duplicates(subset=column)
+日付データが火曜日か調べる	aDate.weekday() == 1
+配列とリストについて散布図を描画して、マーカーを星に変更する	plt.plot(xdata, ydata, marker='*')
+八進文字列を整数に変換する	int(s, 8)
+実数が正か	x > 0
+ヒストグラムの範囲を設定する	plt.hist(データ列, range=(start, end))
+文字列をカンマで区切って、列挙する	s.split(',')
+イテラブルを文字列リストに変換してタブを用いて結合する	'\t'.join(map(str, iterable))
+文字列中の大文字を小文字に変換する	s.lower()
+データフレームのリストカラムの中にある文字列の合計を数える	df[aList].isin([value]).sum()
+ヒストグラムを破線で描画する	plt.hist(データ列, linestyle='dashed')
+データフレームの値をValueMapでまとめて置き換える	df.replace(ValueMap)
+配列を四分位数ごとにビン分割する	pd.qcut(aArray, 4)
+データ列の分	ds.dt.minute
+線グラフを描画して、その色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgray')
+行列の演算をする	import numpy as np
+空のタプル	()
+折れ線グラフにサイズnのダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+折れ線グラフの色をオリーブに設定する	plt.plot(データ列, データ列2, color='olive')
+本日の日付時刻	datetime.datetime.now()
+日付時刻データををn分後に進める	aDatetime + datetime.timedelta(minutes=n)
+ダークゴールデンロッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkgoldenrod')
+印字可能な文字を全部使う	string.printable
+カウンタの項目を列挙する	aCounter.keys()
+整数nを十六進文字列に変換する	hex(n)[2:]
+リストとリストの暗いグラフを描画して、その色を黒にする	plt.plot(xdata, ydata, linestyle='dark', color='k')
+横棒グラフを描いてグラフ幅をxに設定する	plt.barh(ラベル列, データ列, width=x)
+＜オプション＞グラフの色をサドルブラウンに設定する	color = 'saddlebrown'
+＜オプション＞ピンク色を使う	color = 'pink'
+ヒストグラムの色をオーキッドに設定する	plt.hist(データ列, color='orchid')
+折れ線グラフに赤いポイントマーカーを描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='r')
+＜オプション＞グラフの色をダーク・スラテグレーに設定する	color = 'darkslategrey'
+ヒストグラムの色をライトスレイグレーに設定する	plt.hist(データ列, color='lightslategrey')
+文字列がタプルに含まれないか調べる	element not in aTuple
+＜オプション＞エラーを無視するように設定する	errors = 'ignore'
+実数の仮数	math.frexp(x)[0]
+ハニーデュー色のヒストグラムを描画する	plt.hist(データ列, color='honeydew')
+折れ線グラフの色をオレンジに設定する	plt.plot(データ列, データ列2, color='orange')
+グラフの凡例の位置を指定する	plt.legend(loc=(x, y))
+ヒストグラムを描画して、その色をコーンズシルクに設定する	plt.hist(データ列, color='cornsilk')
+データフレームの要約統計量	df.describe()
+ファイルを読み込みモードでオープンする]	open(filepath, mode='r')
+オブジェクトのプロパティの値	getattr(obj, プロパティ名)
+ヒストグラムを描画して、その色をスラグレーに設定する	plt.hist(データ列, color='slategray')
+配列を平坦化する	aArray.flatten()
+折れ線グラフを描画して、その色をライトサーモンに設定する	plt.plot(データ列, データ列2, color='lightsalmon')
+グラフをスライド用に設定する	sns.set(context='talk')
+リストとリストの黒い色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+散布図に淡い色のマーカーを使う	plt.plot(xdata, ydata, c='muted')
+ファイルをオープンして]、読み込みストリームを使う	open(filepath, mode='r')
+配列のデータ型	aArray.dtype()
+空文字	''
+配列を2次元1列に変形する	aArray.reshape(-1, 1)
+日付時刻データと日付時刻データの時間差	aDatetime - aDatetime2
+暗い色の折れ線グラフを描画し、、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+データフレームのカラムを小数点以下n桁で丸める	df[col].round(n)
+グラフで使うy軸の軸ラベルをuntitledに変更する	plt.ylabel(untitled)
+辞書に別の辞書の項目を追加する	aDict.update(aDict2)
+散布図を黒い左三角マーカーで描画する	plt.plot(xdata, ydata, marker='<', c='k')
+ヒストグラムを描画して、その色をミディアムオーキッドに設定する	plt.hist(データ列, color='mediumorchid')
+データフレームの列の文字列長を列として使う	df[col].str.len()
+マルーン色のヒストグラムを描画する	plt.hist(データ列, color='maroon')
+＜オプション＞グラフの色を淡い茶色に変更する	color = 'tan'
+コーラル色の線グラフを描画する	plt.plot(データ列, データ列2, color='coral')
+イエローグリーン色のヒストグラムを描画する	plt.hist(データ列, color='yellowgreen')
+淡いグラフの線幅を指定する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+双方向キューの要素を右にn個分回転させる	deq.rotate(n)
+＜オプション＞ライムグリーン色を使う	color = 'limegreen'
+日付時刻データの日数	aDatetime.day
+ヒストグラムを描画して、その色をコーンフラワーブルーに設定する	plt.hist(データ列, color='cornflowerblue')
+ディムグレー色のヒストグラムを描画する	plt.hist(データ列, color='dimgray')
+プラットホームがMacOSか調べる	sys.platform.startswith('darwin')
+実線で折れ線グラフを描画する	plt.plot(データ列, データ列2, linestyle='solid')
+ヒストグラムの色をチョコレートに設定する	plt.hist(データ列, color='chocolate')
+最大値でデータフレームのカラムの未入力値を置換する	df[col].fillna(df[col].max())
+オブジェクトの参照カウント	sys.getrefcount(obj)
+データフレームを列で昇順にソートして、更新する	df.sort_values(by=column, ascending=True, inplace=True)
+コマンドの第二引数を知る	sys.argv[1]
+nがn2よりも大きいか調べる	n > n2
+データフレームのカラムの欠損値を直前の値で埋める	df[col].fillna(method='ffill')
+棒グラフを積み上げにする	"plt.bar(ラベル列, データ列, bottom=データ列2, color=""red"")"
+配列を列方向に連結する	np.concatenate([aArray, aArray2], axis=0)
+リストを配列に変換する	np.array(aList)
+折れ線グラフの丸マーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='o', markeredgewidth=n)
+データ列の尖度	ds.skew()
+x,y,zにそれぞれn,n2,n3を代入する	x, y, z = n, n2, n3
+折れ線グラフに大きさnの三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+折れ線グラフに大きさnのダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+配列から重複を除いた配列を作る	np.unique(aArray)
+ヒストグラムを描画して、その色をコーンズシルクにセットする	plt.hist(データ列, color='cornsilk')
+リストとリストの青い明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+データフレームのリストカラムを100の位で丸めて、整数型にする	df[aList].round(-2).astype(int)
+折れ線グラフを描画して、その色をダークゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='darkgoldenrod')
+要素∈集合	element in aSet
+スクリプトのファイルの名前	sys.argv[0]
+データフレームのリストカラムの欠損値を最頻値に指定する	df[aList].fillna(df[aList].mode().iloc[0])
+配列を等間隔でn個にビン分割する	pd.cut(aArray, n)
+＜オプション＞シルバー色を使う	color = 'silver'
+リストと配列で折れ線グラフを描いてその線幅をnに指定する	plt.plot(xdata, ydata, linewidth=n)
+破壊的に大きい順に２つの列によってデータフレームを並べる	df.sort_values(by=['A', 'B'], ascending=False, inplace=True)
+ヒストグラムを描画して、その色をダークマゼンタに指定する	plt.hist(データ列, color='darkmagenta')
+データフレームの列の欠損値を後の行の値で置換する	df[col].fillna(method='bfill')
+データフレームの欠損値を直前の値で埋める	df.fillna(method='ffill')
+両端キューに要素をプッシュする	deq.append(element)
+両端キューの先頭にイテラブルの各要素を追加する	deq.extendleft(iterable)
+折れ線グラフを描画して、その色をブランチドアーモンドに設定する	plt.plot(データ列, データ列2, color='blanchedalmond')
+配列を柱状図にする	plt.hist(aArray)
+文字列リストをsepを区切りにしてひとつの文字列にする	sep.join(aStringList)
+白色のヒストグラムを描画する	plt.hist(データ列, color='white')
+グラフにy=0の一点鎖線を付ける	plt.axhline(y=0, linestyle='dashbot')
+折れ線グラフを描画して、その色をライトシアンに設定する	plt.plot(データ列, データ列2, color='lightcyan')
+データフレームの値が欠損値か調べる	df.isna()
+データフレームの先頭n行を抽出する	df.head(n)
+文字列中の部分文字列を新しい文字列に置き換える	s.replace(sub, newsub)
+黒いバツマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='x', c='k')
+配列の最小値	np.min(aArray)
+JSON形式の文字列を読み込む	json.loads(jsonString)
+リストを縦軸、リストを横軸と指定して、折れ線グラフを描画する	plt.plot(xdata, ydata)
+昇順に'A'列を用いて破壊的にデータフレームをソートする	df.sort_values(by='A', ascending=True, inplace=True)
+キーが辞書上で未定義か調べる	key not in aDict
+＜オプション＞スレートブルーを使う	color = 'slateblue'
+ヒストグラムの色をライトグリーンに設定する	plt.hist(データ列, color='lightgreen')
+折れ線グラフを描画して、その色をナバホホワイトに設定する	plt.plot(データ列, データ列2, color='navajowhite')
+リストとリストについての散布図にカラーコードのポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.', c=rgb)
+折れ線グラフの色をスノーに設定する	plt.plot(データ列, データ列2, color='snow')
+ラベンダー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lavender')
+集合から何でもいいからひとつ除去する	aSet.pop()
+データフレームを二つの列によってソートして、更新する	df.sort_values(by=['A', 'B'], inplace=True)
+グラフの描画でパステル調のカラーパレットを使う	sns.set(pallete='pastel')
+三変数の最小値	min(x, y, z)
+数式を簡略にする	sympy.sympify(e)
+リストとリストについて散布図を描画して、マーカーを右三角に設定する	plt.plot(xdata, ydata, marker='>')
+文字列を走査し、正規表現にASCII限定としてマッチするか見る	re.search(pattern, s, flags=re.ASCI)
+＜オプション＞スラグレー色を使う	color = 'slategray'
+データフレームを列によってソートして、NaNを先頭にする	df.sort_values(by=column, na_position='first')
+＜オプション＞グラフの色をダークターコイズに設定する	color = 'darkturquoise'
+データフレームを列によってソートして、下の方n件を取り出す	df.sort_values(columns).tail(n)
+折れ線グラフを描画して、色をミディアムシアグリーンに変更する	plt.plot(データ列, データ列2, color='mediumseagreen')
+文字列を部分文字列で区切って、文字列リストに変換する	s.split(sub)
+折れ線グラフに大バツマーカーを加える	plt.plot(データ列, データ列2, marker='X')
+データフレームをグループ化し、それぞれの列に対し最大値を求める	df.groupby(column)[column2].max()
+本日が水曜日か調べる	datetime.datetime.today().weekday() == 2
+ペルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='peru')
+タプルの先頭のn要素を取り除く	aTuple[n:]
+ヒストグラムを描画して、その色をオリベドラブに設定する	plt.hist(データ列, color='olivedrab')
+データフレームの列の一覧	df.info()
+データ列を小数点以下n桁で丸める	ds.round(n)
+データフレームが正規分布からどれだけ尖っているか見る	df.skew()
+カデットブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='cadetblue')
+折れ線グラフの四角マーカーを赤くする	plt.plot(データ列, データ列2, marker='s', markerfacecolor='r')
+リストとリストについての散布図にバツマーカーを描画する	plt.plot(xdata, ydata, marker='x')
+ヒストグラムを描画してその色をオーキッドに変更する	plt.hist(データ列, color='orchid')
+行列の累積和	np.cumsum(aArray)
+暗い赤色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkred')
+リストを色差別ない色のヒストグラムで描画する	plt.hist(xdata, color='colorblind')
+ヒストグラムを描画して、その色をインディゴに設定する	plt.hist(データ列, color='indigo')
+＜オプション＞グラフの色をホットピンクに設定する	color = 'hotpink'
+＜オプション＞ミディアムアクアマリン色を用いる	color = 'mediumaquamarine'
+グラフを描画する準備をする	from sympy import N
+折れ線グラフを描画して、その色をフォレストグリーンに設定する	plt.plot(データ列, データ列2, color='forestgreen')
+配列をビン数nでビン分割する	pd.cut(aArray, n)
+データフレームをJSONLファイルにヘッダを付けずに保存する	df.to_csv(filename, header=None)
+＜オプション＞グラフの種類を破線に設定する	linestyle = 'dashed'
+データフレームのカラムの月	df[col].dt.month
+折れ線グラフの色を淡い茶色に変更する	plt.plot(データ列, データ列2, color='tan')
+オリーブ色の線グラフを描画する	plt.plot(データ列, データ列2, color='olive')
+ヒストグラムを描画して、その色をライトゴールドロディイエローに設定する	plt.hist(データ列, color='lightgoldenrodyellow')
+リストのn番目に文字列を挿入する	aList.insert(n, element)
+文字列を部分文字列で二分する	s.partition(sub)
+リストをランダムにシャッフルする	random.shuffle(aList)
+二つの辞書をチェーンする	collections.ChainMap(aDict, aDict2)
+＜オプション＞グラフの色をダークカーキに設定する	color = 'darkkhaki'
+＜オプション＞グラフの色を茶色に指定する	color = 'brown'
+リストとリストのカラーコードの色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+折れ線グラフを描画して、その色をホットピンクに設定する	plt.plot(データ列, データ列2, color='hotpink')
+文字列がリストに含まれないか調べる	element not in aList
+xの絶対値	abs(x)
+全要素を０で初期化された３２ビット整数型の行列	np.zeros(行数, 列数, dtype=np.int16)
+カウンタを辞書で更新する	aCounter.update(aDict)
+データフレームのそれぞれのグループごとの合計	df.groupby(column).sum()
+文字列の開始位置からと終了位置の間に部分文字列が含まれるかどうか調べる	s.find(sub, start, end) != -1
+配列の標準偏差	np.std(aArray)
+日付データが土曜日か調べる	aDate.weekday() == 5
+配列とリストのカラーコードの濃いグラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+＜オプション＞ライトグリーン色を使う	color = 'lightgreen'
+イテラブルを文字列リストに変換して、部分文字列で連結する	sub.join(map(str, iterable))
+カウンタ同士でユニオン	aCounter | aCounter2
+ヒストグラムを描画して、その色を小麦色に設定する	plt.hist(データ列, color='wheat')
+タプルを引数として展開して表示する	print(*aTuple)
+＜オプション＞バイナリモードに設定する	mode = 'rb'
+タプルの最初の文字列を探す	aTuple.index(element)
+乱数シードをnで初期化する	random.seed(n)
+辞書のキーに対応した値	aDict.get(key)
+カウンタをイテラブルで更新する	aCounter.update(iterable)
+データ列をビン数nでビン分割する	pd.cut(ds, n)
+実数以上の最小の整数	math.ceil(x)
+＜オプション＞グラフの色をフクシアに指定する	color = 'fuchsia'
+小麦色色のヒストグラムを描画する	plt.hist(データ列, color='wheat')
+＜オプション＞ライトシアン色を使う	color = 'lightcyan'
+リストとリストのカラーコードの暗いグラフを描画する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+JSON形式の文字列を辞書に変換する	json.loads(jsonString)
+ヒストグラムを描画して、その色をダークオリーブグリーンに設定する	plt.hist(データ列, color='darkolivegreen')
+空白で文字列を最後から区切る	s.rsplit()
+表データを'A'列によって並べる	df.sort_values(by='A')
+エンコーディング	sys.getdefaultencoding()
+ヒストグラムの色をサンディーブラウンにする	plt.hist(データ列, color='sandybrown')
+文字列を太字でプリントする	print(f'\033[1m{value}\033[0m')
+▲マーカーで散布図を描く	plt.plot(xdata, ydata, marker='^')
+黄色い折れ線グラフを描画する	plt.plot(データ列, データ列2, color='y')
+折れ線グラフを描画して、その色をパパイヤウィップに設定する	plt.plot(データ列, データ列2, color='papayawhip')
+文字列中の部分文字列を別の文字列に全部置き換える	s.replace(sub, newsub)
+キューの要素を逆順にする	deq.reverse()
+破線の色をパステル調のに指定する	plt.plot(xdata, ydata, linestyle='dash', color='pastel')
+変数をスワップする	x, y = y, x
+既存のファイルをBOM付きで追加できるようにオープンする]	open(filepath, mode='a', encoding='utf_8_sig')
+標準出力を用いる	sys.stdout
+赤色の線グラフを描画する	plt.plot(データ列, データ列2, color='red')
+文字列の接尾辞から部分文字列を取り除く	s.removesuffix(sub)
+＜オプション＞小麦色色を使う	color = 'wheat'
+データフレームを表示するとき、表示可能な最大行数をnに設定する	pd.set_option('display.max_rows', n)
+線グラフの色をパールバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='palevioletred')
+文字列内にひとつでも小文字が含まれるか調べる	any(c.islower() for c in s)
+ヒストグラムを描画して、その色をミディアムスレートブルーに設定する	plt.hist(データ列, color='mediumslateblue')
+ヒストグラムを二つ並べて描画する	plt.hist([データ列, データ列2], color=['b', 'r'])
+ヒストグラムの色を紺にセットする	plt.hist(データ列, color='darkblue')
+折れ線グラフに緑色の菱形印を描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+リストを集合に変換する	set(iterable)
+ポイントマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='.')
+コマンドの第一引数を知る	sys.argv[1]
+データフレームの列の名前を付け直す	df.rename(columns={column: name})
+折れ線グラフに右三角マーカーを使う	plt.plot(データ列, データ列2, marker='>')
+numpyを使う	import numpy as np
+ふたつの集合の共通要素だけに更新する	aSet.intersection_update(aSet2)
+データフレームのリスト列の未入力値を中央値に設定する	df[aList].fillna(df[aList].median())
+整数nを二進表現に変換する	bin(n)
+文字列を代数計算の変数に変換する	sympy.Symbol(s)
+部分文字列か調べる	sub in s
+日付データからn週間を減算する	aDate - datetime.timedelta(weeks=n)
+本日が火曜日かどうかテストする	datetime.datetime.today().weekday() == 1
+タプルをJSON形式でファイル出力に保存する	json.dump(aDict, fout, ensure_ascii=False)
+オプションで、標準エラーに出力する	file = sys.stderr
+データフレームのリストカラムの分散	df[aList].var()
+データフレームを複数の列によってによって破壊的にソートする	df.sort_values(by=column, inplace=True)
+＜オプション＞シアンを使う	color = 'cyan'
+折れ線グラフの色をインディアンレッドに設定する	plt.plot(データ列, データ列2, color='indianred')
+グリーンイエロー色の線グラフを描画する	plt.plot(データ列, データ列2, color='greenyellow')
+日付時刻データが何秒か知る	aDatetime.second
+データフレームのカラムの日	df[col].dt.day
+データフレームを各列毎にグループ化し、、文字列というグループの大きさを計算する	df.groupby(column).size()[s]
+＜オプション＞青色を使う	color = 'blue'
+ヒストグラムを描画して、色をスプリンググリーンに設定する	plt.hist(データ列, color='springgreen')
+折れ線グラフの色をラベンダーに設定する	plt.plot(データ列, データ列2, color='lavender')
+データフレームを列によってグループ化して、それぞれのグループごとの最小値を求める	df.groupby(column).min()
+代数計算を使う	import sympy
+ペアリストpairsからカウンタを作る	collections.Counter(dict(pairs))
+折れ線グラフの色をドジャーブルーに指定する	plt.plot(データ列, データ列2, color='dodgerblue')
+イテラブルとイテラブルをペアのリストにする	itertools.zip_longest(iterable, iterable2)
+リストの末尾から要素をポップする	aList.pop()
+配列とイテラブルの色差別ないを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+データフレームの中の欠損値を削除する	df.dropna()
+ヒストグラムの色をミスティローズに設定する	plt.hist(データ列, color='mistyrose')
+ヒストグラムを描画して、その色をアリスブルーに設定する	plt.hist(データ列, color='aliceblue')
+文字列のカタカナを平仮名にする	''.join([chr(ord(ch) - 96) if ('ァ' <= ch <= 'ン') else ch for ch in s])
+＜オプション＞グラフの色をコーンフラワーブルーに設定する	color = 'cornflowerblue'
+グラフを暗くする	sns.set(pallete='dark')
+赤色の暗いをプロットする	plt.plot(xdata, ydata, linestyle='dark', color='r')
+リストとリストについての散布図に赤いバツマーカーを描画する	plt.plot(xdata, ydata, marker='x', c='r')
+インディゴ色の線グラフを描画する	plt.plot(データ列, データ列2, color='indigo')
+データフレームを複数の列でまとめた表	df.groupby(columns)
+データフレームのカテゴリデータをダミー変数に変換する	pd.get_dummies(df)
+＜オプション＞三角マーカーを描画する	marker = '^'
+淡いグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='muted', color='k')
+ヒストグラムの色をホットピンクに設定する	plt.hist(データ列, color='hotpink')
+ファイルからエクセルファイルを読み込む	pd.read_excel(filename)
+ダークオレンジ色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkorange')
+列一覧を見る	df.info()
+文字列を走査し、正規表現にマッチするか見る	re.search(pattern, s)
+xの小数点以下'5'桁までをプリントする	print(':.5f'.format(x))
+折れ線グラフに黄色いダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='y')
+コーンフラワーブルー色のヒストグラムを描画する	plt.hist(データ列, color='cornflowerblue')
+データフレームを各列と列の組み合わせ毎にグループ化して、標準偏差を求める	df.groupby([column, column2], as_index=False).std()
+リストとリストの色差別ないグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+＜オプション＞シエナ色を使う	color = 'sienna'
+グラフのサイズを横width縦heightに設定する	plt.figure(figsize=(width, height))
+＜オプション＞色をブランチドアーモンドに変更する	color = 'blanchedalmond'
+ヒストグラムを描画して、その色をミディアムスプリンググリーンに設定する	plt.hist(データ列, color='mediumspringgreen')
+標準入力から1行だけ読み込んで改行を取り除く	sys.stdin.readline().rstrip()
+折れ線グラフを描画して、その色をアリスブルーに設定する	plt.plot(データ列, データ列2, color='aliceblue')
+＜オプション＞ミディアムスレートブルー色を使う	color = 'mediumslateblue'
+データフレームを列名リストで並べ直し、、更新する	df.sort_values(by=column, inplace=True)
+nが2で割り切れる	n % 2 == 0
+エラーなく集合から要素を取り除く	aSet.discard(element)
+淡い色のマーカーで散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+折れ線グラフを描画して、その色をミディアムブルーに設定する	plt.plot(データ列, データ列2, color='mediumblue')
+データフレームを列によってソートして、インデックスを振り直す	df.sort_values(columns).reset_index(drop=True)
+ファイルを文字列の示すエンコーディングで書き込み用に開く]	open(filepath, mode='w', encoding=s)
+ピアソン相関係数でデータフレームの相関行列	df.corr(method='pearson')
+ヒストグラムの色をシーグリーンに設定する	plt.hist(データ列, color='seagreen')
+文字列内にひとつでもアルファベットが含まれるか調べる	any(c.isalpha() for c in s)
+nが3の倍数か調べる	n % 3 == 0
+リストとデータ列の折れ線グラフを描く	plt.plot(xdata, ydata)
+ヒストグラムを描画して、その色を貝殻に設定する	plt.hist(データ列, color='seashell')
+ファイルをバイナリできるように開く]	open(filepath, mode='rb')
+上位集合か調べる	aSet.issuperset(aSet2)
+データフレームの中で、列と列に重複があるか見る	df.duplicated(subset=[column, column2])
+データ列をn個にビン分割して、namesのラベルをつける	pd.cut(ds, n, labels=names)
+データ列を等量でn個にビン分割する	pd.qcut(ds, n)
+配列をビン数nでビン分割して、namesのラベルをつける	pd.cut(aArray, n, labels=names)
+明るいグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='bright', color='k')
+プログラムの実行を強制的に終了する	sys.exit()
+文字列の開始位置から終了位置まで部分文字列を探す	s.find(sub, start, end)
+タプル内の要素が全て真か調べる	all(aTuple)
+グラフのカラーパレットを淡くする	sns.set(pallete='muted')
+nプラスn2	n + n2
+アルファベットの大文字列	string.ascii_uppercase
+折れ線グラフに大きさnの星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markersize=n)
+ヒストグラムの色をディムグレーに設定する	plt.hist(データ列, color='dimgray')
+データ列の欠損値を最頻値で埋める	ds.fillna(ds.mode().iloc[0])
+データフレームのcollをタイムスタンプに変換する	pd.to_datetime(df[col])
+データフレームをサンプリングする	df.sample()
+グラフをポスター用に設定する	sns.set(context='poster')
+折れ線グラフの色をカデットブルーに設定する	plt.plot(データ列, データ列2, color='cadetblue')
+データフレームを列名リストの値でグループ化する	df.groupby(columns)
+折れ線グラフの左三角マーカーを赤くする	plt.plot(データ列, データ列2, marker='<', markerfacecolor='r')
+＜オプション＞ダークブルー色を使う	color = 'darkblue'
+データフレームを'A'列の値によってグループ化して、列挙する	[(name, group) for name, group in df.groupby('A')]
+実行時の標準出力の出力先がターミナルか調べる	os.isatty(sys.stdin.fileno())
+集合の全要素が別の集合に含まれる	aSet.issubset(aSet2)
+データフレームのカラムが何日か見る	df[col].dt.day
+本日を文字列でフォーマットして文字列にする	"datetime.datetime.today().strftime(""%d/%m/%y"")"
+＜オプション＞ダークグリーン色を使う	color = 'darkgreen'
+パレットトルコイズ色のヒストグラムを描画する	plt.hist(データ列, color='paleturquoise')
+ヒストグラムの色をアクアに設定する	plt.hist(データ列, color='aqua')
+黒色の星マーカーを用いて散布図を描画する	plt.plot(xdata, ydata, marker='*', c='k')
+＜オプション＞グラフの色をパープルに設定する	color = 'purple'
+折れ線グラフを描画してその色を珊瑚に設定する	plt.plot(データ列, データ列2, color='coral')
+ファイルの絶対パス	os.path.abspath(filepath)
+データ列はどの程度、分散しているか確認する	ds.var()
+折れ線グラフの色をグレーに設定する	plt.plot(データ列, データ列2, color='grey')
+ファイルを開き]バイナリストリームを求める	open(filepath, mode='rb')
+データ列をヒストグラムにする	plt.hist(ds)
+折れ線を描画する	plt.plot(xdata, ydata)
+文字列の開始位置からと終了位置の間に部分文字列が含まれるか調べる	s.find(sub, start, end) != -1
+カラーバーを横向きで描画する	plt.colorbar(orientation='horizontal')
+カウンタの項目一覧	aCounter.keys()
+文字列をASCII限定として正規表現で分割する	re.split(pattern, s, flags=re.ASCI)
+スチールブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='steelblue')
+リストとリストで明るいグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+列をキーにして二つのデータフレームを内部結合する	pd.merge(df, df2, on=column, how='inner')
+データフレームの列と列の相関行列をヒートマップで描画する	sns.heatmap(df[[column, column2]].corr())
+各列毎にデータフレームをグループ化して、列の合計を求める	df.groupby(column)[column2].sum()
+n個の数値イテラブル	range(n)
+データフレームから指定された三つの列を抽出する	df[[column, column2, column3]]
+折れ線グラフのマーカーを星にする	plt.plot(データ列, データ列2, marker='*')
+1からnまでの整数リスト	list(range(1, n+1))
+折れ線グラフの色をフクシアに設定する	plt.plot(データ列, データ列2, color='fuchsia')
+リストとリストの折れ線グラフを描画してuntitledとラベル付けする	plt.plot(xdata, ydata, label=untitled)
+ファイルをUTF8を用いて開く]	open(filepath, encoding='utf-8')
+破壊的にデータフレームを'A'列で降順に整列する	df.sort_values(by='A', ascending=False, inplace=True)
+ヒストグラムの色をダークシアンに設定する	plt.hist(データ列, color='darkcyan')
+文字列全体が正規表現に大文字・小文字を無視してマッチするか見る	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+＜オプション＞UTF8を使う	encoding = 'utf-8'
+折れ線グラフの左三角マーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='<', markeredgewidth=n)
+淡いグラフの色をカラーコードに指定する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+ヒストグラムを描画して、その色をシャルトリューズに設定する	plt.hist(データ列, color='chartreuse')
+オレンジ色のヒストグラムを描画する	plt.hist(データ列, color='orange')
+オブジェクトにプロパティが存在するか調べる	hasattr(obj, プロパティ名)
+ヒストグラムを描画して、その色をシエナに設定する	plt.hist(データ列, color='sienna')
+データフレームのリストカラムが正規分布からどの程度、尖っているか見る	df[aList].skew()
+nが1、もしくは2、もしくは3に等しいか調べる	n == 1 or n == 2 or n == 3
+線グラフの色を黄色に設定する	plt.plot(データ列, データ列2, color='yellow')
+＜オプション＞グラフの色を茶色に設定する	color = 'brown'
+データ列のタイムゾーンを日本に設定する	ds.tz_convert('Asia/Tokyo')
+x,y,zをそれぞれn,n2,n3に設定する	x, y, z = n, n2, n3
+コマンドラインフラグの状態	sys.flags
+＜オプション＞グラフの色を耐火レンガに設定する	color = 'firebrick'
+＜オプション＞暗い赤色を使う	color = 'darkred'
+データフレームのリストカラムを小数点以下n桁で丸める	df[aList].round(n)
+カラーコードのダイアモンドマーカーをリストとリストについての散布図に描画する	plt.plot(xdata, ydata, marker='D', c=rgb)
+nが無限に続く数列	itertools.repeat(n)
+折れ線グラフを描画して、その色をパールバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='palevioletred')
+＜オプション＞トマト色を使う	color = 'tomato'
+カラーコードのクロスマーカーをリストとデータ列についての散布図に描画する	plt.plot(xdata, ydata, marker='x', c=rgb)
+リストと列を連結する	itertools.chain(iterable, iterable2)
+ヒストグラムを描画して、色を白くする	plt.hist(データ列, color='w')
+＜オプション＞グラフの色をディムグレーに設定する	color = 'dimgrey'
+＜オプション＞破壊的に操作する	inplace = True
+文字列の開始位置から部分文字列を探す	s.find(sub, start)
+リストの要素をソートする	sorted(aList)
+折れ線グラフの色をパレットトルコイズに設定する	plt.plot(データ列, データ列2, color='paleturquoise')
+折れ線グラフを描画して、その色をダークマゼンタに設定する	plt.plot(データ列, データ列2, color='darkmagenta')
+n×n2の二次元リスト	[[0] * n for _ in range(n2)]
+＜オプション＞色をオレンジレッドに設定する	color = 'orangered'
+日付時刻データが金曜日か調べる	aDatetime.weekday() == 4
+配列と配列についての散布図にカラーコードの四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c=rgb)
+折れ線グラフに赤い下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='r')
+折れ線グラフを描画して、その色をラベンダーブラッシュに設定する	plt.plot(データ列, データ列2, color='lavenderblush')
+データフレームの列がx以下の行を抽出する	df[df[column] <= x]
+Pandasで、文字列を日付データに変換する	pd.to_datetime(s)
+破壊的にデータフレームを'A'列によってによって並べる	df.sort_values(by='A', inplace=True)
+日付データをISO書式の文字列に変換する	aDate.isoformat()
+黒いダイアモンドマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='D', c='k')
+データ列とリストについて散布図を描いて、マーカーを大バツに設定する	plt.plot(xdata, ydata, marker='X')
+データフレームを複数の列の値によってグループ化して、列挙する	[(name, group) for name, group in df.groupby(columns)]
+データフレームのカラムの母標準偏差	df[col].std(ddof=0)
+折れ線グラフを描画して、その色をダークカーキに設定する	plt.plot(データ列, データ列2, color='darkkhaki')
+データフレームを列によって降順に破壊的に並べ直す	df.sort_values(by=column, ascending=False, inplace=True)
+＜オプション＞レベッカパープルに色をセットする	color = 'rebeccapurple'
+データフレームのリストカラムの欠損値を最大値で埋める	df[aList].fillna(df[aList].max())
+Pandasで、dateStringをPandasの日付型にする	pd.to_datetime(dateString)
+折れ線グラフに線幅nの左三角マーカーを描画する	plt.plot(データ列, データ列2, marker='<', markeredgewidth=n)
+両端キューの先頭	deq[0]
+タプルの各要素を関数に適用した結果でソートする	sorted(aTuple, key=func)
+本日の日付	datetime.date.today()
+文字列を正規表現によって置き換える	re.sub(pattern, newsub, s)
+書式をargsを引数としてフォーマットする	formatText.format(*args)
+nがn2未満、またはn3以上か調べる	n < n2 or n >= n3
+リストと数列について散布図を描画して、ポイントマーカーの色をカラーコードに変更する	plt.plot(xdata, ydata, marker='.', c=rgb)
+ヒストグラムを描画して、その色をリネンに設定する	plt.hist(データ列, color='linen')
+ヒストグラムを描画してその色を紺碧に変更する	plt.hist(データ列, color='azure')
+折れ線グラフのラベルをuntitledに設定する	plt.plot(xdata, ydata, label=untitled)
+改行なしに二つの文字列をプリントする	print(value, value2, end='')
+リストとリストについての散布図に黒いダイアモンドマーカーをプロットする	plt.plot(xdata, ydata, marker='D', c='k')
+日付時刻データが日付時刻データと同時か調べる	aDatetime == aDatetime2
+再帰の上限を上げる	sys.setrecursionlimit(1000000)
+折れ線グラフを描画して、その色をダークグリーンにする	plt.plot(データ列, データ列2, color='darkgreen')
+折れ線グラフの大バツマーカーを赤くする	plt.plot(データ列, データ列2, marker='X', markerfacecolor='r')
+データフレームを二つの列の値によってグループ化して、列挙する	[(name, group) for name, group in df.groupby(['A', 'B'])]
+startからendの範囲のヒストグラムを用いてリストを描画する	plt.hist(データ列, range=(start, end))
+リストとリストについて散布図を描画して、バツマーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='x', c=rgb)
+変数がマイナス無限大に近づくときの数式の極限値を求める	sympy.limit(e, z, -oo)
+データフレームのカラムのタイムゾーンを日本に設定する	df[col].tz_convert('Asia/Tokyo')
+既存のファイルをUTF8で追加できるようにオープンする]	open(filepath, mode='a', encoding='utf-8')
+折れ線グラフに線幅nのバツ印を描画する	plt.plot(データ列, データ列2, marker='x', markeredgewidth=n)
+文字列の開始位置以降が部分文字列で始まるか調べる	s.startswith(sub, start)
+未初期化の配列	np.empty(要素数, dtype=np.int)
+データフレームを'A'列の値によってグループ化する	df.groupby('A')
+暗い色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+ファイルを追加モードでオープンする]	open(filepath, mode='a')
+日付時刻データが日曜日か調べる	aDatetime.weekday() == 6
+JSON形式のファイル入力を辞書に変換する	json.load(fin)
+＜オプション＞線種を一点鎖線に設定する	linestyle = 'dashbot'
+スプリンググリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='springgreen')
+文字列の接頭辞から部分文字列を取り除く	s.removeprefix(sub)
+線グラフの色をゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='goldenrod')
+＜オプション＞グラフの色をダークマゼンタに設定する	color = 'darkmagenta'
+TSV形式のファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+ファイルを改行を取り除いて一行ずつ読み込む	f.readline()
+bとn2から成るペア	(n, n2)
+データフレームを10の位で丸めて、整数型にする	df.round(-1).astype(int)
+実数の双曲線正弦	math.sinh(x)
+文字列の中で大文字・小文字を無視してパターンにマッチした全ての文字列をリストにする	re.findall(pattern, s, flags=re.IGNORECASE)
+折れ線グラフに黄色い下三角印を描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='y')
+データフレームのリストカラムの中にいくつがあるかカウントする	df[aList].isin([value]).sum()
+＜オプション＞グラフの色を黄色に設定する	color = 'yellow'
+日付時刻データを文字列でフォーマットする	"aDatetime.strftime(""%d/%m/%y"")"
+文字列中にひとつでも非アルファベットが含まれるか調べる	any(not c.isalpha() for c in s)
+淡い色でイテラブルとデータ列の散布図をプロットする	plt.plot(xdata, ydata, c='muted')
+ファイルからn文字、読み込む	f.read(n)
+データ列の欠損値をxで埋める	ds.fillna(x)
+本日が何日か知る	datetime.datetime.today().day
+＜オプション＞グラフの色をライトシアンに変更する	color = 'lightcyan'
+行列の行ごとの分散	np.var(aArray, axis=1)
+＜オプション＞グラフの色をピンクに設定する	color = 'pink'
+データフレームの相関行列	df.corr()
+ヒストグラムの線のスタイルを点線に設定する	plt.hist(データ列, linestyle='dotted')
+オブジェクトのハッシュ値	hash(obj)
+日付時刻データからn分、引く	aDatetime - datetime.timedelta(minutes=n)
+第2引数のファイル名	sys.argv[1]
+データフレームから指定された４つの列を抽出する	df[[column, column2, column3, column4]]
+シアン色のヒストグラムを描画する	plt.hist(データ列, color='cyan')
+折れ線グラフのダイアモンドマーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+グレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='grey')
+＜オプション＞ライトスレイグレー色を用いる	color = 'lightslategray'
+折れ線グラフを描画して、その色をフローラルホワイトに設定する	plt.plot(データ列, データ列2, color='floralwhite')
+リストとリストについての散布図を濃い色として描画する	plt.plot(xdata, ydata, c='deep')
+＜オプション＞ビスク色を使う	color = 'bisque'
+折れ線グラフの丸マーカーを黒くする	plt.plot(データ列, データ列2, marker='o', markerfacecolor='k')
+オプションで、ファイルを使う	file = sys.open(filename, 'w')
+＜オプション＞バッファリングを無効にする	buffering = 0
+データフレームをグループ化しそれぞれの列に対し分散を求める	df.groupby(column)[column2].var()
+ライトコーラル色のヒストグラムを描画する	plt.hist(データ列, color='lightcoral')
+ヒストグラムを描画して、その色をプラムに設定する	plt.hist(データ列, color='plum')
+文字列がリストの要素かどうか調べる	element in aList
+データフレームのカラムの欠損値をxに設定する	df[col].fillna(x)
+グラフにx=0の破線を付ける	plt.axvline(x=0, linestyle='dashed')
+文字列をシアンでプリントできる文字列に変換する	f'\033[36m{value}\033[0m'
+パステル調のグラフの色を青にする	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+データフレームのNaNを最大値で置き換える	df.fillna(df.max())
+データフレームを破壊的に複数の列で降順にソートする	df.sort_values(by=column, ascending=False, inplace=True)
+コマンド引数の一覧	sys.argv[1:]
+文字列を下線付きでプリントできる文字列に変換する	f'\033[4m{value}\033[0m'
+xが1、もしくは2、もしくは3に等しいかどうか調べる	x == 1 or x == 2 or x == 3
+シエナ色の線グラフを描画する	plt.plot(データ列, データ列2, color='sienna')
+ヒストグラムを描画して、色を赤くする	plt.hist(データ列, color='r')
+名前付きタプルを辞書に変換する	aNamedTupleObject._asdict()
+折れ線グラフを描画して、その色をミッドナイトブルーに設定する	plt.plot(データ列, データ列2, color='midnightblue')
+＜オプション＞ASCII文字に限定する	flag = re.ASCII
+データフレームを使う	import pandas as pd
+折れ線グラフに緑色の四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='g')
+ロイヤルブルー色のヒストグラムを描画する	plt.hist(データ列, color='royalblue')
+十六進数字を全部使う	string.hexdigits
+折れ線グラフの菱形印を青くする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+実数のn乗の実数剰余	pow(x, n, y)
+データフレームの列の標準偏差	df[col].std()
+アルファベットの小文字列	string.ascii_lowercase
+折れ線グラフを描画して、その色をオリベドラブに設定する	plt.plot(データ列, データ列2, color='olivedrab')
+ヒストグラムを描画して、その色をダークマゼンタに設定する	plt.hist(データ列, color='darkmagenta')
+データフレームの列の名前の一覧を使う	df.columns
+＜オプション＞バツマーカーを使う	marker = 'x'
+ファイルが存在するか	os.path.exists(filepath)
+＜オプション＞イエローグリーン色を使う	color = 'yellowgreen'
+Pandasで、UNIX時間の文字列から日付データに変換する	pd.to_datetime(s, unit='s', utc=True)
+nilに等しいもの	None
+グラフの背景色を暗くする	sns.set(style='darkgrid')
+線グラフを描画して、色をパウダーブルーに設定する	plt.plot(データ列, データ列2, color='powderblue')
+データフレームのカラムが正規分布からどの程度、歪んでいるか調べる	df[col].kurt()
+リストとリストの明るいグラフを描画して、その色を黒にする	plt.plot(xdata, ydata, linestyle='bright', color='k')
+線グラフを描画して、その色をグリーンイエローに変更する	plt.plot(データ列, データ列2, color='greenyellow')
+日付時刻データが何月か知る	aDatetime.month
+線グラフを描画してその色をアイボリーに設定する	plt.plot(データ列, データ列2, color='ivory')
+データフレームを列によってまとめたグループ	df.groupby(column)
+黄色色のヒストグラムを描画する	plt.hist(データ列, color='yellow')
+配列の次元数	aArray.ndim
+表データを'A'列によって小さい順に並べる	df.sort_values(by='A', ascending=True)
+データフレームを列によってグループ化して、それぞれのグループごとの標準偏差を求める	df.groupby(column).std()
+値が集合に含まれるか調べる	element in aSet
+日付データををn日後に進める	aDate + datetime.timedelta(days=n)
+ヒストグラムの色をオリーブに設定する	plt.hist(データ列, color='olive')
+折れ線グラフを描画して、その色をゴールドに設定する	plt.plot(データ列, データ列2, color='gold')
+英字を全て求める	string.ascii_letters
+データ列の時	ds.dt.hour
+値を黒色にする	f'\033[30m{value}\033[0m'
+リストとリストの濃いグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='deep', color='b')
+リストとリストについて明るい色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='bright')
+＜オプション＞ゲインズボロを使う	color = 'gainsboro'
+＜オプション＞グラフの色をデピンクに指定する	color = 'deeppink'
+赤い丸マーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='o', c='r')
+nがn2未満、またはn3以上かどうか調べる	n < n2 or n >= n3
+折れ線グラフを描画して、その色をシアンに指定する	plt.plot(データ列, データ列2, color='cyan')
+データフレームの列がx以上かつx2未満の行を抽出する	df[(x <= df[column]) & (df[column] < x2)]
+日付データからn週間分、減算する	aDate - datetime.timedelta(weeks=n)
+predicateFuncが真とならないイテラブルの要素	itertools.dropwhile(predicateFunc, iterable)
+グラフの中の日本語フォントを有効にする	sns.set(font='IPAexGothic')
+数列と配列について散布図を描画して、マーカーを左三角に設定する	plt.plot(xdata, ydata, marker='<')
+データフレームのリストで指定された列の相関行列をヒートマップで描画する	sns.heatmap(df[aList].corr())
+＜オプション＞グラフの種類を点線に設定する	linestyle = 'dotted'
+リストとリストについての散布図に黒色の大バツマーカーを描画する	plt.plot(xdata, ydata, marker='X', c='k')
+＜オプション＞グラフの色をバリーウッドに設定する	color = 'burlywood'
+データフレームの列を削除する	df.drop(column, axis=1)
+＜オプション＞BOM付きを使う	encoding = 'utf_8_sig'
+散布図に三角マーカーを使う	plt.plot(xdata, ydata, marker='^')
+破線ヒストグラムを描画する	plt.hist(データ列, linestyle='dashed')
+折れ線グラフに黒い星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='k')
+方程式として数式の変数の解を求める	sympy.solve(e, z)
+データフレームのカラムの分	df[col].dt.minute
+折れ線グラフを描画して、その色をグリーンに設定する	plt.plot(データ列, データ列2, color='green')
+データフレームを列によってソートして、下位n件を取り出す	df.sort_values(columns).tail(n)
+nの桁数	len(str(n))
+黒い四角マーカーを散布図に用いる	plt.plot(xdata, ydata, marker='s', c='k')
+Pandasで、文字列をフォーマットで日付データに変換する	pd.to_datetime(s, format='%Y-%m-%d')
+散布図に赤い三角マーカーを使う	plt.plot(xdata, ydata, marker='^', c='r')
+整数nを符号付きで長さn2のバイト列に変換する	n.to_bytes(length=bytesize, byteorder='big', signed=True)
+ケンドール相関係数としてデータフレームの列と列の相関行列を計算する	df[[column, column2]].corr(method='kendall')
+ファイルパスのセパレータ記号	os.sep
+アンティークホワイト色のヒストグラムを描画する	plt.hist(データ列, color='antiquewhite')
+表の列がxより多い行を抽出する	df[df[column] > x]
+リストとリストについて散布図を描画して、その大きさをnに設定する	plt.scatter(xdata, ydata, s=n)
+データフレームのそれぞれのグループ毎の最小値	df.groupby(column).min()
+グラフのサイズを設定する	plt.figure(figsize=(width, height))
+列の要約統計量	ds.describe()
+ファイルをバイナリ書き込みできるようにオープンする]	open(filepath, mode='wb')
+黒い大バツマーカーを散布図に用いる	plt.plot(xdata, ydata, marker='X', c='k')
+日付データが日曜日か調べる	aDate.weekday() == 6
+文字列の先頭で複数行対応として正規表現にマッチさせる	re.match(pattern, s, flags=re.MULTILINE)
+データフレームを各列と列の組み合わせ毎にグループ化して、平均値を求める	df.groupby([column, column2], as_index=False).mean()
+ヒストグラムを描画して、その色をフクシアに設定する	plt.hist(データ列, color='fuchsia')
+画面用にプロットを設定する	sns.set(context='notebook')
+ライトグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightgreen')
+データフレームのリストカラムを丸める	df[aList].round()
+一方に含まれ、他方に含まれない集合	aSet.difference(aSet2)
+試しに何か動かす	print('Hello World')
+ヒストグラムの描画して、正規化する	plt.hist(データ列, density=True)
+データ列の第三四分位数	ds.quantile(0.75)
+リストと配列についてリストの値に応じて、散布図の色を変える	plt.scatter(xdata, ydata, c=aList, cmap='Blues')
+グラフの色を色差別なくする	sns.set(pallete='colorblind')
+カラーコードの左三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='<', c=rgb)
+折れ線グラフに緑色の下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+折れ線グラフを描画して、その色をミディアムバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='mediumvioletred')
+小数点数の床	math.floor(x)
+グラフの用途をスライドに設定する	sns.set(context='talk')
+二進文字列をバイト列に変換する	int(s, 2).to_bytes(length=bytesize, byteorder='big')
+文字列の出力を改行なしに行う	print(value, end='')
+＜オプション＞パールゴールデンロッド色を使う	color = 'palegoldenrod'
+ヒストグラムの色をオレンジレッドに設定する	plt.hist(データ列, color='orangered')
+SJISで追加できるように既存のファイルパスをオープンする]	open(filepath, mode='a', encoding='shift_jis')
+重複していない行のみを取り出す	df[not df.duplicated(keep=False)]
+黒いパステル調のグラフを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+データフレームのカラムの欠損値を平均値に設定する	df[col].fillna(df[col].mean())
+リストの変化を折れ線グラフで描画する	plt.plot(range(len(xdata)), xdata)
+グラフで日本語を表示できるようにする	sns.set(font='IPAexGothic')
+＜オプション＞ライトスカイブルー色を使う	color = 'lightskyblue'
+データ列の中にいくつ欠損値があるか数える	ds.isna().sum()
+イテラブルを文字列リストに変換して、空白で連結する	' '.join(map(str, iterable))
+＜オプション＞グラフの色を青に設定する	color = 'blue'
+カラーコードの四角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='s', c=rgb)
+スレートブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='slateblue')
+ヒストグラムを描画して、その色を黄色に設定する	plt.hist(データ列, color='yellow')
+折れ線グラフを描画してその色をゲインズボロに設定する	plt.plot(データ列, データ列2, color='gainsboro')
+＜オプション＞スカイブルー色を使う	color = 'skyblue'
+黒色の大バツマーカーで散布図を描く	plt.plot(xdata, ydata, marker='X', c='k')
+二次元タプルをフラット化する	sum(aTuple)
+文字列をマゼンタでプリントできる文字列に変換する	f'\033[35m{value}\033[0m'
+ヒストグラムの色をミディアムパープルに変更する	plt.hist(データ列, color='mediumpurple')
+黒いポイントマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='.', c='k')
+＜オプション＞ハニーデュー色を使う	color = 'honeydew'
+＜オプション＞グラフの色をトマトに設定する	color = 'tomato'
+リストとリストについての散布図に赤い三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c='r')
+データフレームの中にある文字列の合計を数える	df.isin([value]).sum()
+折れ線グラフの色をチョコレートに設定する	plt.plot(データ列, データ列2, color='chocolate')
+オプションで、ファイルを出力にする	file = sys.open(filename, 'w')
+リストとリストのカラーコードの淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+データフレームのリストカラムの値を正規表現patternでまとめてreplに置き換える	df[aList].replace(pattern, repl, regex=True)
+赤い明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+最大値・最小値の範囲で一様な疑似乱数を生成する	random.uniform(最小値, 最大値)
+データ列の値が未入力値	ds.isna()
+双方向キューが空かどうか	len(deq) == 0
+スチールブルー色のヒストグラムを描画する	plt.hist(データ列, color='steelblue')
+文字コードtextでファイルパスをオープンする]	open(filepath, encoding=text)
+＜オプション＞色を白に設定する	color = 'white'
+＜オプション＞淡いピンク色色を使う	color = 'lightpink'
+折れ線グラフに緑色の大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='g')
+データフレームのカラムの中に文字列と文字列がいくつあるか数える	df[col].isin([value, value2]).sum()
+有理数モジュールをインポートする	import fractions
+nにn2を足して代入する	n += n2
+文字列の終了位置より前に部分文字列が含まれないか調べる	s.find(sub, 0, end) == -1
+データフレームを各列毎にグループ化して、文字列というグループを使う	df.groupby(column).get_group(s)
+スピアマン相関係数でデータフレームの相関行列	df.corr(method='spearman')
+データフレームのカラムの正規分布に対する上下広がりを求める	df[col].skew()
+＜オプション＞アクアマリン色を使う	color = 'aquamarine'
+システム時刻で乱数を初期化する	random.seed()
+nはn2か調べる	n == n2
+ディープスカイブルー色のヒストグラムを描画する	plt.hist(データ列, color='deepskyblue')
+配列の内積	np.dot(aArray, aArray2)
+文字列を緑色でプリントする	print(f'\033[32m{value}\033[0m')
+イテラブルとリストの散布図をパステル調の色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+両端キューの左側から要素を削除する	deq.popleft()
+リストをn回、連結する	aList * n
+文字列を式として評価する	eval(s)
+リストとリストについて色差別ない色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+グラフにx=0の一点鎖線を付ける	plt.axvline(x=0, linestyle='dashbot')
+＜オプション＞グラフの色をロージーブラウンに設定する	color = 'rosybrown'
+重なりを見やすく濃い色のマーカーで散布図をプロットする	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+本日の年数	datetime.datetime.today().year
+データフレームの欠損値をxに変更する	df.fillna(x)
+ファイルをBOM付きでオープンする]	open(filepath, encoding='utf_8_sig')
+データフレームのカラムのどの値が頻出か見る	df[col].mode()
+リストとリストについて散布図を描画して、マーカーの色を濃いに設定する	plt.plot(xdata, ydata, c='deep')
+白色で実行結果をプリントする	print(f'\033[37m{value}\033[0m')
+グラフのカラーパレットを暗くする	sns.set(pallete='dark')
+タプルとタプルを連結する	aTuple + aTuple2
+データフレームを複数の列によって昇順にソートして、更新する	df.sort_values(by=column, ascending=True, inplace=True)
+文字列を黒色にする	f'\033[30m{value}\033[0m'
+ヒストグラムを描画して、色を黒くする	plt.hist(データ列, color='k')
+実数を万の位で丸める	round(x, -4)
+データフレームを'A'列を用いてを用いて降順に並べる	df.sort_values(by='A', ascending=False)
+リストについてのヒストグラムを暗い色で描画する	plt.hist(xdata, color='dark')
+＜オプション＞欠損値も無視しない	dropna = True
+両端キューの末尾	deq[-1]
+暗いグラフの色を青にする	plt.plot(xdata, ydata, linestyle='dark', color='b')
+文字列を文字コード列に変換する	[ord(ch) for ch in s]
+＜オプション＞ポイントマーカーを描画する	marker = '.'
+グラフに凡例を入れる	plt.legend()
+散布図を明るい色で描画する	plt.plot(xdata, ydata, c='bright')
+行列のムーア・ペンローズの擬似逆行列	np.linalg.pinv(aArray)
+グラフのx座標にuntitledというラベルを付ける	plt.xlabel(untitled)
+文字列を白色でプリントできる文字列に変換する	f'\033[37m{value}\033[0m'
+リストのn番目に文字列を差し込む	aList.insert(n, element)
+データフレームの中で列と列の重複を消す	df.drop_duplicates(subset=column)
+折れ線グラフの色をバリーウッドに設定する	plt.plot(データ列, データ列2, color='burlywood')
+データフレームを列によってソートして、更新する	df.sort_values(by=column, inplace=True)
+文字列を走査し、正規表現に大文字・小文字を無視してマッチするか見る	re.search(pattern, s, flags=re.IGNORECASE)
+データフレームのリストカラムを10の位で丸める	df[aList].round(-1)
+線グラフを描画して、その色をブラックに設定する	plt.plot(データ列, データ列2, color='black')
+データフレームを見る	df.head()
+十六進文字列をバイト列に変換する	int(s, 16).to_bytes(length=bytesize, byteorder='big')
+ヒストグラムの色をディムグレーに設定する	plt.hist(データ列, color='dimgrey')
+文字列リストを連結する	''.join(aStringList)
+折れ線グラフを描画して、色をミディアムバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='mediumvioletred')
+文字列の末尾から部分文字列を取り除く	s.removesuffix(sub)
+データフレームを'A'列によって集約して列挙する	[(name, group) for name, group in df.groupby('A')]
+クリムゾン色の線グラフを描画する	plt.plot(データ列, データ列2, color='crimson')
+リストとリストで色差別ないグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+＜オプション＞先頭の列をインデックスに設定する	index_col = 0
+データ列の中央値	ds.median()
+リストとデータ列についての散布図に黒い下三角マーカーを描く	plt.plot(xdata, ydata, marker='v', c='k')
+オレンジレッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='orangered')
+綺麗なグラフを描画する準備をする	import seaborn as sns
+パパイヤウィップ色の線グラフを描画する	plt.plot(データ列, データ列2, color='papayawhip')
+データフレームをグループ化し、それぞれの列に対し分散を求める	df.groupby(column)[column2].var()
+シスル色のヒストグラムを描画する	plt.hist(データ列, color='thistle')
+year年month月day日hour時の日付時刻	datetime.datetime(year=year, month=month, day=day, hour=hour)
+コーンズシルク色の線グラフを描画する	plt.plot(データ列, データ列2, color='cornsilk')
+有理数の分子	q.numerator
+データフレームのそれぞれのグループごとの最大値	df.groupby(column).max()
+折れ線グラフの右三角マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='>', markersize=n)
+実数の双曲線正接の逆数	math.atanh(x)
+eの乗数	math.exp(x)
+折れ線グラフの色を黄色くする	plt.plot(データ列, データ列2, color='y')
+イテラブルを累加したイテラブル	itertools.accumulate(iterable)
+nまでの奇整数列	list(range(1, n, 2))
+文字列を赤色にする	f'\033[31m{value}\033[0m'
+データフレームが重複しているかどうか調べる	df.duplicated()
+デピンク色の線グラフを描画する	plt.plot(データ列, データ列2, color='deeppink')
+グラフを論文用に設定する	sns.set(context='paper')
+リスト内の要素が全て真か調べる	all(aList)
+文字列を二分する	s.partition(sep)
+折れ線グラフの色をドジャーブルーに設定する	plt.plot(データ列, データ列2, color='dodgerblue')
+ヒストグラムを描画して、その色をライトイエローに設定する	plt.hist(データ列, color='lightyellow')
+シーケンスとシーケンスのデカルト積	itertools.product(iterable, iterable2)
+文字列内にASCII文字が含まれる	any(c.isascii() for c in s)
+折れ線グラフに線幅nの大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markeredgewidth=n)
+配列のユニークな要素とその個数	u, counts = np.unique(aArray, return_counts=True)
+データフレームの列の種類	df.info()
+淡いピンク色色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightpink')
+リストとリストについて破線グラフを描画して、その色を濃いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+＜オプション＞ラベンダー色を使う	color = 'lavender'
+＜オプション＞パレットトルコイズ色を使う	color = 'paleturquoise'
+タプルをミュータブルにする	list(aTuple)
+単位行列	np.eye(行数, 列数)
+折れ線グラフを描画して、その色をリネンに設定する	plt.plot(データ列, データ列2, color='linen')
+リストとリストについての散布図に丸マーカーを描画する	plt.plot(xdata, ydata, marker='o')
+日付データと日付データの時間差が何秒か知る	(aDate - aDate2).total_seconds()
+リストと数列について暗い色の折れ線グラフをプロットし、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+＜オプション＞バリーウッドを使う	color = 'burlywood'
+折れ線グラフの丸マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='o', markersize=n)
+データフレームの列を型に変換する	df[col] = df[col].astype(ty)
+＜オプション＞バリーウッド色を使う	color = 'burlywood'
+nを切り捨てながらn2分の一にする	n //= n2
+xの絶対値を求める	abs(x)
+浮動小数点数が負か	x < 0
+日付データをISO形式の文字列に変換する	aDate.isoformat()
+折れ線グラフを描画して、その色をイエローグリーンに設定する	plt.plot(データ列, データ列2, color='yellowgreen')
+文字列をユニコードエスケープでバイト列にする	s.encode(encoding='unicode_escape')
+列の未入力値をモードで埋める	ds.fillna(ds.mode().iloc[0])
+文字列の中の正規表現による全てのマッチを使う	re.findall(pattern, s)
+イエローグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='yellowgreen')
+データフレームのリストカラムの欠損値を最頻値で埋める	df[aList].fillna(df[aList].mode().iloc[0])
+＜オプション＞グラフの色をアクアに設定する	color = 'aqua'
+折れ線グラフを描画して、その色をラベンダーに指定する	plt.plot(データ列, データ列2, color='lavender')
+折れ線グラフに青い大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='b')
+文字列中から部分文字列を探す	s.find(sub)
+ヒストグラムを描画して、その色をシルバーに変更する	plt.hist(データ列, color='silver')
+実数の常用対数	math.log10(x)
+文字列を赤色でプリントできる文字列に変換する	f'\033[31m{value}\033[0m'
+ヒストグラムを描画して、その色をコーラルに設定する	plt.hist(データ列, color='coral')
+折れ線グラフの透明度をalphaに設定する	plt.plot(xdata, ydata, alpha=alpha)
+データフレームのリストカラムを1000の位で四捨五入して、整数にする	df[aList].round(-3).astype(int)
+データフレームを各列と列の組み合わせ毎にグループ化して、最小値を求める	df.groupby([column, column2], as_index=False).min()
+データフレームの行と列を入れ替える	df.T
+散布図にダイアモンドマーカーを使う	plt.plot(xdata, ydata, marker='D')
+マッピングから項目名で指定された項目をポップする	aDict.pop(key)
+折れ線グラフの色をインディアンレッドにセットする	plt.plot(データ列, データ列2, color='indianred')
+データフレームを列によってグループ化して、それぞれのグループの最小値を計算する	df.groupby(column).min()
+オブジェクトは論理値クラスか調べる	isinstance(obj, bool)
+文字列の右側から部分文字列を取り除く	s.rstrip(sub)
+折れ線グラフの色をコーンズシルクに設定する	plt.plot(データ列, データ列2, color='cornsilk')
+＜オプション＞ピーチパフ色を使う	color = 'peachpuff'
+オーキッド色のヒストグラムを描画する	plt.hist(データ列, color='orchid')
+ふたつの集合に共通する要素からなる集合	aSet.intersection(aSet2)
+データフレームのカラムが何分か見る	df[col].dt.minute
+ライトゴールドロディイエロー色のヒストグラムを描画する	plt.hist(データ列, color='lightgoldenrodyellow')
+折れ線グラフの色を紺に設定する	plt.plot(データ列, データ列2, color='darkblue')
+折れ線グラフの色をインディゴに設定する	plt.plot(データ列, データ列2, color='indigo')
+ヒストグラムの色をライトグレーに設定する	plt.hist(データ列, color='lightgrey')
+データフレームを列によってグループ化して、それぞれのグループごとの最大値を求める	df.groupby(column).max()
+散布図にカラーコードの▲マーカーを使う	plt.plot(xdata, ydata, marker='^', c=rgb)
+データフレームの指定された二つの列のみ選択する	df[[column, column2]]
+リストとリストでパステル調のグラフを描いて線幅をnに指定する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+ビン数をnに設定してヒストグラムを描画する	plt.hist(データ列, bins=n)
+nがn2以上か調べる	n >= n2
+＜オプション＞セパレータを使わない	sep = ''
+Pandasで、フォーマットでデータフレームのcollを日付データに変換する	pd.to_datetime(df[col], format='%Y-%m-%d')
+文字列を表示する	print(value)
+二つの列によってデータフレームを小さい順にソートする	df.sort_values(by=['A', 'B'], ascending=True)
+整数nが配列のどれかか	n in aArray
+データ列を箱ひげ図で描画する	plt.boxplot(データ列)
+折れ線グラフのマーカーを右三角にする	plt.plot(データ列, データ列2, marker='>')
+スノー色のヒストグラムを描画する	plt.hist(データ列, color='snow')
+データフレームを列によってグループ化して、それぞれのグループごとの個数を求める	df.groupby(column).count()
+自然数の階乗	math.factorial(n)
+データ列を100の位で丸めて整数型にする	ds.round(-2).astype(int)
+散布図をポイントマーカーで描画する	plt.plot(xdata, ydata, marker='.')
+二つのデータ列を並べてボックスチャートにする	plt.boxplot([データ列, データ列2])
+文字列TSVファイルからCSVファイルをn番目のカラムをインデックスとして読み込む	pd.read_csv(filename, index_col=n)
+文字列を下線付きにする	f'\033[4m{value}\033[0m'
+ヒストグラムを描画して、その色をパールバイオレットレッドに設定する	plt.hist(データ列, color='palevioletred')
+文字列が全て小文字か調べる	s.islower()
+文字列の右側から改行を取り除く	s.rstrip('\n')
+＜オプション＞シャルトリューズ色を使う	color = 'chartreuse'
+標準エラーを得る	sys.stderr
+空のカウンタ	collections.Counter()
+文字列の中のケースを無視してパターンによるすべてのマッチを使う	re.findall(pattern, s, flags=re.IGNORECASE)
+暗いの折れ線をリストとリストで描画してその線幅をnに設定する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+アクア色の線グラフを描画する	plt.plot(データ列, データ列2, color='aqua')
+日付データと日付データの時間差を秒数で求める	(aDate - aDate2).total_seconds()
+折れ線グラフの▲マーカーを黄色くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+データ列とイテラブルの折れ線グラフを描画し、色を文字列に変更する	plt.plot(xdata, ydata, color=s)
+JSONLファイルからデータフレームを読み込む	pd.read_json(filename, orient='records', lines=True)
+二つの文字列をカンマで区切ってプリントする	print(value, value2, sep=',')
+折れ線グラフのクロスマーカーを黄色くする	plt.plot(データ列, データ列2, marker='x', markerfacecolor='y')
+棒グラフの色をカラーコードに設定する	plt.bar(ラベル列, データ列, color=rgb)
+データフレームを1000の位で丸める	df.round(-3)
+イテラブルとイテラブルを連結する	itertools.chain(iterable, iterable2)
+赤いダイアモンドマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='D', c='r')
+文字列中から正規表現に複数行対応としてマッチする文字列を探す	re.search(pattern, s, flags=re.MULTILINE)
+文字列の開始位置から終了位置までの範囲で部分文字列の出現をカウントする	s.count(sub, start, end)
+データ列をヒストグラムで可視化する	plt.hist(ds)
+データフレームを丸める	df.round()
+文字列を最後の部分文字列で分けたときの前半の文字列	s.rpartition(sub)[0]
+ヒストグラムの色をリネンに設定する	plt.hist(データ列, color='linen')
+二つの集合の共通部分	aSet.intersection(aSet2)
+year年month月day日の日付時刻	datetime.datetime(year=year, month=month, day=day)
+データフレームの歪度	df.kurt()
+折れ線グラフの三角マーカーを黒くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='k')
+データフレームの欠損値をxに設定する	df.fillna(x)
+文字列を青色でプリントする	print(f'\033[34m{value}\033[0m')
+実数とyの斜辺	math.hypot(x, y)
+データフレームからカテゴリデータの列名を列挙する	df.select_dtypes('object').columns
+散布図に丸マーカーを使う	plt.plot(xdata, ydata, marker='o')
+パステル調の色のマーカーで散布図を描画する	plt.plot(xdata, ydata, c='pastel')
+データフレームの中で何行、重複するか見る	df.duplicated().sum()
+ヒストグラムを描画して、その色をパレットトルコイズに設定する	plt.hist(データ列, color='paleturquoise')
+データフレームの列の名前をまとめて文字列を文字列に置換する	df.columns = [str(x).replace(s, s2) for x in df.columns]
+ヒストグラムを描画し、合計を1にする	plt.hist(データ列, density=True)
+二つの浮動小数点数は十分に近いか	math.isclose(x, x2)
+データフレームから重複した行をドロップして、更新する	df.drop_duplicates(inplace=True)
+両端キューの長さを制限する	collections.deque(maxlen=n)
+折れ線グラフの色を暗い赤に設定する	plt.plot(データ列, データ列2, color='darkred')
+タプルを引数として展開して表示する	print(*aTuple, sep=',')
+データフレームから指定された列名一覧の列を選ぶ	df[columns]
+タプル内の要素は少なくともひとつ真か	any(aTuple)
+モジュールを検索するパスにディレクトリを追加する	sys.path.append(dir)
+淡いピンク色色のヒストグラムを描画する	plt.hist(データ列, color='lightpink')
+nがn2と等しいか調べる	n == n2
+折れ線グラフの色をミッドナイトブルーに設定する	plt.plot(データ列, データ列2, color='midnightblue')
+文字列が文字列より辞書順で前か調べる	s < s2
+辞書を浅くコピーする	dict(aDict)
+折れ線グラフの色をスレートブルーに設定する	plt.plot(データ列, データ列2, color='slateblue')
+折れ線グラフを描画して、その色をペルーに設定する	plt.plot(データ列, データ列2, color='peru')
+リストとリストについての散布図に黒い星マーカーを描画する	plt.plot(xdata, ydata, marker='*', c='k')
+リストとデータ列について破線を描画してその色を色差別ないに設定する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+＜オプション＞インデックスを自動的な連番に設定する	index_col = None
+ヒストグラムの色をクリムゾンに設定する	plt.hist(データ列, color='crimson')
+ヒストグラムを描画して、その色をローングリーンに設定する	plt.hist(データ列, color='lawngreen')
+日付データからn時間分、減算する	aDate - datetime.timedelta(hours=n)
+折れ線グラフのダイアモンド印の線幅をnに設定する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+ヒストグラムの色をブラックに設定する	plt.hist(データ列, color='black')
+ブランチドアーモンド色の線グラフを描画する	plt.plot(データ列, データ列2, color='blanchedalmond')
+折れ線グラフの色を青紫に設定する	plt.plot(データ列, データ列2, color='violet')
+列'A'と列'B'をキーとして2つのデータフレームを右ジョインする	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+Pythonのバージョン	sys.version
+nの二乗	n ** 2
+改行しないで二つの数値をプリントする	print(value, value2, end='')
+nが5で割り切れるかどうか調べる	n % 5 == 0
+ビン数nのヒストグラムを描画する	plt.hist(データ列, bins=n)
+リストとリストで淡いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+ファイルを読み込みできるようにオープンする]	open(filepath, mode='r')
+ホワイトスモーク色の線グラフを描画する	plt.plot(データ列, データ列2, color='whitesmoke')
+文字コードに対応する文字	chr(unicode)
+折れ線グラフを描画して、その色をシーグリーンにセットする	plt.plot(データ列, データ列2, color='seagreen')
+配列とリストの散布図を描画してマーカーの色を暗いに指定する	plt.plot(xdata, ydata, c='dark')
+文字列は全て十進数字か調べる	s.isdecimal()
+カラーコードの△マーカーで散布図を描く	plt.plot(xdata, ydata, marker='^', c=rgb)
+ヒストグラムを描画して、その色をロイヤルブルーに設定する	plt.hist(データ列, color='royalblue')
+スーパーセットもしくは等しいかどうか確認する	aSet > aSet2
+データフレームを表示するとき、折り返しをしない	pd.set_option('expand_frame_repr', False)
+ファイルのファイル名	os.path.basename(filepath)
+折れ線グラフの色をカーキに設定する	plt.plot(データ列, データ列2, color='khaki')
+データフレームのリストカラムを丸めて、整数型にする	df[aList].round().astype(int)
+二つのカウンタの共通する要素	aCounter & aCounter2
+ロイヤルブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='royalblue')
+ヒストグラムを描画して、その色をライトグリーンに設定する	plt.hist(データ列, color='lightseagreen')
+色差別ないグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+＜オプション＞オレンジ色を使う	color = 'orange'
+数式の変数についてのn階微分を計算する	sympy.diff(e, z, n)
+データフレームのカラムを丸めて、整数型にする	df[col].round().astype(int)
+カウンタのユニークな項目を列挙する	list(aCounter)
+Pandasで、エポック秒の文字列から日付データに変換する	pd.to_datetime(s, unit='s', utc=True)
+データフレームの中にある文字列と文字列の数を数える	df.isin([value, value2]).sum()
+サドルブラウン色の線グラフを描画する	plt.plot(データ列, データ列2, color='saddlebrown')
+配列の累積積	np.cumprod(aArray)
+＜オプション＞アクア色を使う	color = 'aqua'
+＜オプション＞マルーン色を使う	color = 'maroon'
+折れ線グラフの色をロイヤルブルーに指定する	plt.plot(データ列, データ列2, color='royalblue')
+折れ線グラフに赤い大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='r')
+リストとリストについての散布図を暗い色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+データフレームを'A'列でソートして更新する	df.sort_values(by='A', inplace=True)
+リストとリストについての散布図に赤い下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v', c='r')
+ヒストグラムを描画して、その色をオーキッドに設定する	plt.hist(データ列, color='orchid')
+イテラブルの長さnの順列	itertools.permutations(iterable, n)
+ゼロ埋めされた配列	np.zeros(要素数)
+数式を変数についてn階微分する	sympy.diff(e, z, n)
+プロットの用途をポスターに設定する	sns.set(context='poster')
+Pandasで文字列のUNIX秒から日付データにする	pd.to_datetime(s, unit='s', utc=True)
+リストとリストで明るいグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+文字列の終了位置より前に部分文字列が含まれるか調べる	s.find(sub, 0, end) != -1
+折れ線グラフのダイアモンドマーカーを黒くする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='k')
+未定値	None
+アルファベットを全部使う	string.ascii_letters
+淡いグラフの色を赤色に指定する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+＜オプション＞グリーンイエロー色を使う	color = 'greenyellow'
+ファイルをバイナリモードでオープンして]、fとする	f = open(filepath, mode='rb')
+＜オプション＞読み込みモードを使う	mode = 'r'
+2を底とする実数の対数	math.log2(x)
+データフレームの列の名前一覧で指定された列を削除する	df.drop(columns, axis=1)
+パステル調の色の折れ線グラフを描いてその線幅をnに指定する	plt.plot(xdata, ydata, linewidth=n, color='pastel')
+今日の日付	datetime.date.today()
+カウンタから辞書を引く	aCounter.subtract(aDict)
+文字列の接頭辞が部分文字列か調べる	s.startswith(sub)
+濃いグラフの色を赤にする	plt.plot(xdata, ydata, linestyle='deep', color='r')
+線グラフの色をシルバーに指定する	plt.plot(データ列, データ列2, color='silver')
+リストと数列について破線を描き、色を濃いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+データフレームの中にいくつ文字列が存在するか数える	df.isin([value]).sum()
+ヒストグラムの色をライトサーモンにする	plt.hist(データ列, color='lightsalmon')
+データフレームをグループ化し、それぞれの列に対し最小値を求める	df.groupby(column)[column2].min()
+両端キューの要素を右にn個分ローテンションする	deq.rotate(n)
+文字列を空白で分割して文字列リストに変換する	s.split()
+＜オプション＞スラッシュをセパレータで使う	sep = '/'
+ダークスラテグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkslategray')
+組のn番目のの要素を使う	aTuple[n]
+データフレームの中の列と列に重複があれば、削除する	df.drop_duplicates(subset=column)
+折れ線グラフに緑色の右三角マーカーを描画する	plt.plot(データ列, データ列2, marker='>', markerfacecolor='g')
+散布図に▽マーカーを用いる	plt.plot(xdata, ydata, marker='v')
+リストとリストについて散布図を描画して、マーカーの色を色差別ないに設定する	plt.plot(xdata, ydata, c='colorblind')
+データフレームの列がxより大きい行を抽出する	df[df[column] > x]
+ヒストグラムの色をマルーンに設定する	plt.hist(データ列, color='maroon')
+タプルの末尾	aTuple[-1]
+ヒストグラムの色をゲインズボロに設定する	plt.hist(データ列, color='gainsboro')
+文字列をカンマで区切り、列挙する	s.split(',')
+文字列を黒色でプリントできる文字列に変換する	f'\033[30m{value}\033[0m'
+データ列は何秒か調べる	ds.dt.second
+データフレームのリストカラムの未入力値を直後の値で補う	df[aList].fillna(method='bfill')
+文字列の終了位置まで部分文字列を探す	s.find(sub, 0, end)
+両端キューを列から用意する	collections.deque(iterable)
+ピアソンでデータフレームのリスト列の相関行列	df[aList].corr(method='pearson')
+nがn2で割り切れないか	n % n2 != 0
+文字列を改行によって区切る	s.splitlines()
+ISO書式の文字列を日付時刻に変換する	datetime.datetime.fromisoformat(日付の書かれた文字列)
+文字列の中の大文字・小文字を無視して正規表現による全てのマッチを使う	re.findall(pattern, s, flags=re.IGNORECASE)
+コーラル色のヒストグラムを描画する	plt.hist(データ列, color='coral')
+折れ線グラフを描画してその色をスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='springgreen')
+破線グラフを描画する	plt.plot(データ列, データ列2, linestyle='dashed')
+データ列の標本標準偏差	ds.std()
+ドジャーブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='dodgerblue')
+折れ線グラフを描画して、その色をパープルに設定する	plt.plot(データ列, データ列2, color='purple')
+両端キューをデキューする	deq.popleft()
+データ列のユニークな値	ds.unique()
+カウンタから最頻出な文字列の件数	aCounter.most_common()[1]
+リネン色のヒストグラムを描画する	plt.hist(データ列, color='linen')
+anemptystring	''
+オレンジ色の線グラフを描画する	plt.plot(データ列, データ列2, color='orange')
+データフレームを関数によってまとめたグループ	df.groupby(関数)
+数式を微分する	sympy.diff(e)
+両端キューの先頭に列の各要素を追加する	deq.extendleft(iterable)
+日付データが月曜日か調べる	aDate.weekday() == 0
+xを整数に変換する	int(x)
+＜オプション＞ミディアムアクアマリン色を使う	color = 'mediumaquamarine'
+データ列の中に文字列と文字列があるか調べる	ds.isin([value, value2])
+文字列が全て大文字か調べる	s.isupper()
+ひとつでも大文字が文字列内に含まれるかどうか調べる	any(c.isupper() for c in s)
+インディアンレッド色のヒストグラムを描画する	plt.hist(データ列, color='indianred')
+折れ線グラフを描画して、色を赤くする	plt.plot(データ列, データ列2, color='r')
+改行なしでファイルを一行ずつ読み込む	f.readline()
+nとn2が等しい	n == n2
+日付データを文字列でフォーマットする	"aDate.strftime(""%d/%m/%y"")"
+変数を入れ替える	x, y = y, x
+ヒストグラムの色をパープルに設定する	plt.hist(データ列, color='purple')
+文字列を末尾から空白で区切る	s.rsplit()
+predicateFuncが真となるイテラブルの要素	itertools.takewhile(predicateFunc, iterable)
+データフレームをJSONLファイルに保存する	df.to_csv(filename)
+データフレームの文字列を欠損値に変換する	df.replace(s, np.nan)
+実数の双曲線正接の逆数を計算する	math.atanh(x)
+データフレームを表示するとき、n列までデータフレームを表示可能なようにする	pd.set_option('display.max_columns', n)
+散布図を濃い色のマーカーで描く	plt.plot(xdata, ydata, c='deep')
+nがn2より小さいかテストする	n < n2
+行列の列	aArray[:, 列番号]
+折れ線グラフの星マーカーを赤くする	plt.plot(データ列, データ列2, marker='*', markerfacecolor='r')
+＜オプション＞グラフの色をペールグリーンに設定する	color = 'palegreen'
+折れ線グラフを描画して、その色をオールドレースに設定する	plt.plot(データ列, データ列2, color='oldlace')
+データフレームを転置する	df.T
+データフレームのインデックスの名前をまとめて、nameからname2に付け直す	df.rename(index={name: name2})
+データフレームのn行まで抽出する	df[:n]
+折れ線グラフを描画して、色をアクアに設定する	plt.plot(データ列, データ列2, color='aqua')
+ファイルパスを読み込み用にオープンして]fとする	f = open(filepath, mode='r')
+データフレームを列の値によってグループ化して、列挙する	[(name, group) for name, group in df.groupby(column)]
+白い折れ線グラフを描画する	plt.plot(データ列, データ列2, color='w')
+組合せ	math.comb(n, k)
+カラムの欠損値を平均で埋める	ds.fillna(ds.mean())
+データフレームのカラムの欠損値をxにする	df[col].fillna(x)
+ヒストグラムの色を黒くする	plt.hist(データ列, color='k')
+＜オプション＞左三角印を加える	marker = '<'
+実数を二乗する	x ** 2
+＜オプション＞グラフの色をライトスレイグレーに設定する	color = 'lightslategray'
+折れ線グラフの色をパレットトルコイズに変更する	plt.plot(データ列, データ列2, color='paleturquoise')
+文字列はタプルに含まれる	element in aTuple
+＜オプション＞コーンズシルク色を使う	color = 'cornsilk'
+両端キューから部分を取り出す	collections.deque(itertools.islice(deq, start, end))
+二点間のユークリッド距離	math.dist(point, point2)
+データ列を100の位で丸めて、整数型にする	ds.round(-2).astype(int)
+＜オプション＞データ型を指定する	dtype = np.int8
+データフレームのリストカラムの欠損値をxで埋める	df[aList].fillna(x)
+折れ線グラフの色をアクアマリンに設定する	plt.plot(データ列, データ列2, color='aquamarine')
+散布図にカラーコードのポイントマーカーを使う	plt.plot(xdata, ydata, marker='.', c=rgb)
+ヒストグラムを描画して、その色を淡いピンク色に設定する	plt.hist(データ列, color='lightpink')
+変数が0に近づくときの数式の極限値を求める	sympy.limit(e, z, 0)
+行列の列ごとの最大値	np.max(aArray, axis=0)
+文字列が全てアスキー文字	s.isascii()
+折れ線グラフを描画して、その色をライトコーラルに設定する	plt.plot(データ列, データ列2, color='lightcoral')
+ミディアムオーキッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumorchid')
+リストとリストについて散布図を描画して、マーカーを星に設定する	plt.plot(xdata, ydata, marker='*')
+最頻値でデータフレームのリストカラムのNaNを埋める	df[aList].fillna(df[aList].mode().iloc[0])
+エクセルファイルファイルのn番目のシートをデータフレームとして読み込む	pd.read_excel(filename, sheet_name=n)
+ヒストグラムを描画して、その色をグリーンイエローに設定する	plt.hist(データ列, color='greenyellow')
+ファイルをEUCでオープンする]	open(filepath, encoding='euc_jp')
+シルバー色のヒストグラムを描画する	plt.hist(データ列, color='silver')
+折れ線グラフのポイントマーカーを緑色にする	plt.plot(データ列, データ列2, marker='.', markerfacecolor='g')
+黒い右三角マーカーとして散布図を描く	plt.plot(xdata, ydata, marker='>', c='k')
+折れ線グラフを描画して、その色をライトイエローに設定する	plt.plot(データ列, データ列2, color='lightyellow')
+折れ線グラフの色をミディアムターコイズに設定する	plt.plot(データ列, データ列2, color='mediumturquoise')
+データフレームを列によってグループ化して、それぞれのグループごとの合計を求める	df.groupby(column).sum()
+＜オプション＞ゴールド色を使う	color = 'gold'
+本日が火曜日か調べる	datetime.datetime.today().weekday() == 1
+文字列は漢字か調べる	('\u4E00' <= ch <= '\u9FD0')
+ヒストグラムの色をバリーウッドに設定する	plt.hist(データ列, color='burlywood')
+散布図に赤い星マーカーを使う	plt.plot(xdata, ydata, marker='*', c='r')
+イテラブルのイミュータブルな集合	frozenset(iterable)
+列をキーとして二つのデータフレームを内部結合する	pd.merge(df, df2, on=column, how='inner')
+リストの中の最大値	max(aList)
+データフレームの欠損値をxで埋める	df.fillna(x)
+オブジェクトが辞書	isinstance(obj, dict)
+ミディアムパープル色のヒストグラムを描画する	plt.hist(データ列, color='mediumpurple')
+ガンマ関数の絶対値に自然対数をとった値	math.lgamma(x)
+昨日の日付	datetime.date.today() - datetime.timedelta(days=1)
+異なる列をキーとして二つのデータフレームを外部結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+折れ線グラフの大バツマーカーを黄色くする	plt.plot(データ列, データ列2, marker='X', markerfacecolor='y')
+オブジェクトのプロパティの値を値に設定する	setattr(obj, プロパティ名, 値)
+赤いパステル調のグラフを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+ヒストグラムを描画して、その色をタンに設定する	plt.hist(データ列, color='tan')
+ファイルを一行ずつ読み込む	f.readline()
+Pythonパスにディレクトリを追加する	sys.path.append(dir)
+リスト内の要素が少なくともひとつ真か調べる	any(aList)
+線グラフを描画して、その色をホットピンクに設定する	plt.plot(データ列, データ列2, color='hotpink')
+赤い淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+ヒストグラムの色をパレットトルコイズに設定する	plt.hist(データ列, color='paleturquoise')
+ヒストグラムをstartからendまでの間で描く	plt.hist(データ列, range=(start, end))
+リストとリストについて散布図をプロットしてバツマーカーの色をカラーコードにセットする	plt.plot(xdata, ydata, marker='x', c=rgb)
+リストとリストについての散布図に赤い四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c='r')
+日付データををn週間後に進める	aDate + datetime.timedelta(weeks=n)
+キューの要素を左にn個分ローテンションする	deq.rotate(-n)
+データフレームの列がxより小さい行を抽出する	df[df[column] < x]
+＜オプション＞グラフの色をダークゴールデンロッドに設定する	color = 'darkgoldenrod'
+本日の月数	datetime.datetime.today().month
+グラフの色を明るくする	sns.set(pallete='bright')
+グラフの目的を論文に設定する	sns.set(context='paper')
+異なるn個のものからk個選ぶ場合の数	math.comb(n, k)
+データフレームのカラムの欠損値を中央値に設定する	df[col].fillna(df[col].median())
+＜オプション＞エンコーディングをUTF8に指定する	encoding = 'utf-8'
+データ列をインポートする	import pandas as pd
+ヒストグラムを描画して、その色をゴーストホワイトに設定する	plt.hist(データ列, color='ghostwhite')
+データフレームのカラムの欠損値を最大値で埋める	df[col].fillna(df[col].max())
+データフレームを各列と列の組み合わせ毎にグループ化して、最大値を求める	df.groupby([column, column2], as_index=False).max()
+nが1もしくは2、もしくは3に等しいか	n == 1 or n == 2 or n == 3
+ヒストグラムを描画して、その色を白に設定する	plt.hist(データ列, color='white')
+折れ線グラフの色をダークグリーンに設定する	plt.plot(データ列, データ列2, color='darkgreen')
+折れ線グラフの色を黒くする	plt.plot(データ列, データ列2, color='k')
+データフレームを各列と列の組み合わせ毎にグループ化して、分散を求める	df.groupby([column, column2], as_index=False).var()
+日付時刻データが日付時刻データより前か調べる	aDatetime < aDatetime2
+データフレームを列によってによって降順にソートする	df.sort_values(by=column, ascending=False)
+＜オプション＞モカシンを使う	color = 'moccasin'
+データ列を折れ線グラフに描画してマーカーを三角印にする	plt.plot(データ列, データ列2, marker='^')
+＜オプション＞色をパウダーブルーに設定する	color = 'powderblue'
+ファイルをバイナリ書き込みモードでオープンする]	open(filepath, mode='wb')
+イテラブルを文字列リストに変換して、'改行で連結する	'\n'.join(map(str, iterable))
+色差別ない色でリストについてのヒストグラムを描画する	plt.hist(xdata, color='colorblind')
+折れ線グラフの色をアンティークホワイトに設定する	plt.plot(データ列, データ列2, color='antiquewhite')
+赤いクロスマーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='x', c='r')
+折れ線グラフを描画して、その色をオーキッドに変更する	plt.plot(データ列, データ列2, color='orchid')
+四分位数ごとにリストを分割する	pd.qcut(aList, 4)
+データフレームの欠損値を最大値に設定する	df.fillna(df.max())
+リストを明るい色のヒストグラムで描く	plt.hist(xdata, color='bright')
+JSONファイルのfをデータに変換する	json.load(fin)
+列の値毎にデータフレームをグループ化し、列挙する	[(name, group) for name, group in df.groupby(column)]
+eの浮動小数点数乗を求める	math.exp(x)
+散布図を赤い左三角マーカーを用いて描画する	plt.plot(xdata, ydata, marker='<', c='r')
+＜オプション＞グリーン色を使う	color = 'green'
+折れ線グラフの三角マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+データフレームを各列毎にグループ化し、、列の最大値を計算する	df.groupby(column)[column2].max()
+データフレームの列がリストに含まれる行を抽出する	df[df[column].isin(aList)]
+ヒストグラムを描画して、その色をグレーに設定する	plt.hist(データ列, color='gray')
+リストとリストについての散布図を色差別ない色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+データ列の欠損値を直後の値で埋める	ds.fillna(method='bfill')
+オプションで、標準出力を出力にする	file = sys.stdout
+二つのデータフレームを列をキーにして結合する	pd.merge(df, df2, on=column)
+データフレームのリストカラムの中に文字列と文字列があるか調べる	df[aList].isin([value, value2])
+ミディアムスプリンググリーンにヒストグラムの色を変更する	plt.hist(データ列, color='mediumspringgreen')
+データ列を1000の位で丸める	ds.round(-3)
+コーンズシルク色のヒストグラムを描画する	plt.hist(データ列, color='cornsilk')
+色差別ないの色を赤にする	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+nをn2乗に増やす	n **= n2
+＜オプション＞パウダーブルー色を使う	color = 'powderblue'
+折れ線グラフを描画して、その色をモカシンにする	plt.plot(データ列, データ列2, color='moccasin')
+ヒストグラムの色をライトコーラルに設定する	plt.hist(データ列, color='lightcoral')
+データ列の欠損値を直後の値に設定する	ds.fillna(method='bfill')
+折れ線グラフに赤い左三角マーカーを描画する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='r')
+浮動小数点数の逆正弦	math.asin(x)
+赤い三角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='^', c='r')
+ゼロ埋めされた三二ビット整数型の配列	np.zeros(要素数, dtype=np.int16)
+ホワイトスモーク色のヒストグラムを描画する	plt.hist(データ列, color='whitesmoke')
+ヒストグラムの色をグリーンに設定する	plt.hist(データ列, color='green')
+nの2進数表現を使う	bin(n)
+ヒストグラムの色をダークグリーンに設定する	plt.hist(データ列, color='darkgreen')
+ヒストグラムを描画して、その色を青緑に設定する	plt.hist(データ列, color='teal')
+折れ線グラフの色をブランチドアーモンドに設定する	plt.plot(データ列, データ列2, color='blanchedalmond')
+折れ線グラフの色をシャルトリューズに設定する	plt.plot(データ列, データ列2, color='chartreuse')
+＜オプション＞グラフの色をグレーに設定する	color = 'gray'
+全要素を０で初期化された符号なし８ビット整数型の行列	np.zeros(行数, 列数, dtype=np.uint8)
+変数名をキーとして、辞書	dict(name=element)
+文字列をシンボルに変換する	sympy.Symbol(s)
+データフレームのリストカラムの文字列を欠損値にする	df[aList].replace(s, np.nan)
+ライトスレイグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightslategrey')
+グラフの見栄えを綺麗にする	import seaborn as sns
+一点鎖線グラフを描画する	plt.plot(データ列, データ列2, linestyle='dashbot')
+文字列をカンマで分割して文字列リストに変換する	s.split(',')
+データフレームの列が文字列が含まれるデータを抽出する	df[df[column].str.contains(s)]
+下三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='v')
+赤色のヒストグラムを描画する	plt.hist(データ列, color='red')
+ネイピア数	math.e
+データフレームのカラムの中にいくつ欠損値があるか数える	df[col].isna().sum()
+＜オプション＞グラフの色をミディアムバイオレットレッドに設定する	color = 'mediumvioletred'
+折れ線グラフを実線で描画する	plt.plot(データ列, データ列2, linestyle='solid')
+現在の作業ディレクトリをfilepathに変更する	os.chdir(os.dirname(filepath))
+グラフを画面用に設定する	sns.set(context='notebook')
+ヒストグラムを描画して、色をミディアムシアグリーンに設定する	plt.hist(データ列, color='mediumseagreen')
+正規化されたヒストグラムを描画する	plt.hist(データ列, density=True)
+データフレームの欠損値を直後の値に設定する	df.fillna(method='bfill')
+オブジェクトにプロパティが存在するかどうか	hasattr(obj, プロパティ名)
+xの小数点以下'4'桁までをプリントする	print(':.4f'.format(x))
+nではない	not n
+折れ線グラフの色をミディアムシアグリーンに設定する	plt.plot(データ列, データ列2, color='mediumseagreen')
+リストとリストの折れ線グラフを描画して、その色をカラーコードに設定する	plt.plot(xdata, ydata, color=rgb)
+n進文字列を整数に変換する	int(s, n)
+オレンジレッド色のヒストグラムを描画する	plt.hist(データ列, color='orangered')
+1からNまでのベクトル	np.arange(1, N+1)
+両端キューに要素をエンキューする	deq.appendleft(element)
+文字列がn回繰り返すイテラブル	itertools.repeat(element, n)
+ミディアムバイオレットレッドにヒストグラムの色を設定する	plt.hist(データ列, color='mediumvioletred')
+疑似乱数を生成する	random.random()
+二変数の最も大きい値	max(x, y)
+formatパターンの文字列を日付時刻に変換する	datetime.datetime.strptime(日付の書かれた文字列, format)
+リストにリストを追加し、拡張する	aList.extend(aList2)
+nわるn2	n / n2
+文字列の開始位置以降が部分文字列で開始するかどうか調べる	s.startswith(sub, start)
+本日が土曜日か調べる	datetime.datetime.today().weekday() == 5
+散布図にカラーコードの丸マーカーを使う	plt.plot(xdata, ydata, marker='o', c=rgb)
+黒い色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+リストとリストについての散布図に黒い下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v', c='k')
+ヒストグラムを描画して、その色をディープスカイブルーに設定する	plt.hist(データ列, color='deepskyblue')
+再帰エラーを未然に防ぐ	sys.setrecursionlimit(1000000)
+＜オプション＞パープル色を使う	color = 'purple'
+文字列が全て英数字か調べる	s.isalnum()
+データフレームを複数の列によって並べ直して、NaNを先頭にする	df.sort_values(by=column, na_position='first')
+折れ線グラフに線幅nの三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+データフレームのリストカラムの中にある文字列と文字列の合計を数える	df[aList].isin([value, value2]).sum()
+折れ線グラフの色をスラグレーに設定する	plt.plot(データ列, データ列2, color='slategrey')
+グラフに補足を付ける	plt.legend()
+文字列の開始位置からと終了位置までの間に部分文字列が含まれないか調べる	s.find(sub, start, end) == -1
+折れ線グラフを描画して、その色をパウダーブルーに設定する	plt.plot(データ列, データ列2, color='powderblue')
+ヒストグラムを描画して、その色をアイボリーに設定する	plt.hist(データ列, color='ivory')
+タイムスタンプデータの年	aDatetime.year
+ミディアムシアグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumseagreen')
+実数の整数部	math.modf(x)[1]
+日付時刻データをn分前に戻す	aDatetime - datetime.timedelta(minutes=n)
+折れ線グラフの色をダークサーモンに設定する	plt.plot(データ列, データ列2, color='darksalmon')
+nが奇数か調べる	n % 2 == 1
+＜オプション＞バツマーカーを描画する	marker = 'x'
+折れ線グラフの色を淡いピンク色に設定する	plt.plot(データ列, データ列2, color='lightpink')
+ヒストグラムの色をハニーデューに設定する	plt.hist(データ列, color='honeydew')
+＜オプション＞グラフの色をライトグレーに変更する	color = 'lightgray'
+文字列中にひとつでも非小文字が含まれるか調べる	any(not c.islower() for c in s)
+データフレームの列をワンホット・ベクトルに変換する	pd.get_dummies(df[column])
+日付時刻データを浮動小数点数に変換する	aDatetime.timestamp()
+散布図に赤色の三角マーカーを使う	plt.plot(xdata, ydata, marker='^', c='r')
+折れ線グラフに青い下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='b')
+自分自身をモジュールとして	sys.modules[__name__]
+＜オプション＞ライトコーラル色を使う	color = 'lightcoral'
+折れ線グラフに緑色の三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+実数の余弦	math.cos(x)
+nとn2の論理和	n | n2
+nからn2までのスライス	slice(n, n2)
+行列の行列積	np.matmul(aArray, aArray2)
+折れ線グラフの左三角マーカーを黒くする	plt.plot(データ列, データ列2, marker='<', markerfacecolor='k')
+実数のn乗	pow(x, n)
+列を2回あわせた直積	itertools.product(iterable, repeat=2)
+＜オプション＞紺碧にグラフの色を変更する	color = 'azure'
+＜オプション＞四角マーカーを描画する	marker = 's'
+＜オプション＞黄色色を使う	color = 'yellow'
+整数nをバイト列に変換する	n.to_bytes((n.bit_length() + 7) // 8, byteorder='big')
+ブラック色の線グラフを描画する	plt.plot(データ列, データ列2, color='black')
+＜オプション＞ポイントマーカーを加える	marker = '.'
+折れ線グラフに丸マーカーを使う	plt.plot(データ列, データ列2, marker='o')
+オプションで、標準エラーを使う	file = sys.stderr
+0からnまでの整数列	list(range(n+1))
+グラフのカラーパレットをpalleteNameで指定する	sns.set(pallete=palleteName)
+二つの文字列をスラッシュで区切ってプリントする	print(value, value2, sep='/')
+日付データをn秒前に戻す	aDate - datetime.timedelta(seconds=n)
+CSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep=',')
+タプルをナンバリングする	enumerate(aTuple)
+現在の時間数	datetime.date.today().hour
+ヒストグラムを描画して、その色をグレーにセットする	plt.hist(データ列, color='gray')
+カラムの中に日付データが含まれるかどうか	ds.isin([value])
+双方向キューの大きさを求める	len(deq)
+＜オプション＞データ型を指定する	dtype = np.int
+リストを中央値でビン分割する	pd.qcut(aList, 2)
+カウンタの項目数	len(aCounter)
+＜オプション＞複数行に対応する	flag = re.MULTILINE
+折れ線グラフを描画して、その色をダークオーキッドに設定する	plt.plot(データ列, データ列2, color='darkorchid')
+日付時刻データにn時間分、加算する	aDatetime + datetime.timedelta(hours=n)
+線グラフを描画して、色をネイビーに設定する	plt.plot(データ列, データ列2, color='navy')
+ヒストグラムの色をダークシアグリーンに設定する	plt.hist(データ列, color='darkseagreen')
+イテラブルのそれぞれを関数でフィルタする	map(func, iterable)
+ヒストグラムを描画して、その色をマゼンタに設定する	plt.hist(データ列, color='magenta')
+ファイルを文字コードtextでオープンする]	open(filepath, encoding=text)
+データフレームから型の列を抽出する	df.select_dtypes(ty)
+折れ線グラフを描画して、その色をデピンクに設定する	plt.plot(データ列, データ列2, color='deeppink')
+散布図に赤い下三角マーカーを使う	plt.plot(xdata, ydata, marker='v', c='r')
+折れ線グラフの三角マーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+ラベンダー色のヒストグラムを描画する	plt.hist(データ列, color='lavender')
+縦棒グラフを描画して、中央寄せする	plt.bar(ラベル列, データ列, align='center')
+ダークシアグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkseagreen')
+暗いグラフを配列と数列で描画してその線幅をnに変更する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+オブジェクトがプロパティを持つか調べる	hasattr(obj, プロパティ名)
+二つのデータフレームを横方向にマージする	pd.merge(df, df2)
+アクアマリン色の線グラフを描画する	plt.plot(データ列, データ列2, color='aquamarine')
+＜オプション＞グラフの色をライトコーラルに設定する	color = 'lightcoral'
+year年の日付	datetime.date(year=year, month=1, day=1)
+行列の最小値	np.min(aArray)
+ファイルをベース名と拡張子に分割する	os.path.splitext(filepath)
+明るい色のマーカーで散布図を描画する	plt.plot(xdata, ydata, c='bright')
+紺色のヒストグラムを描画する	plt.hist(データ列, color='darkblue')
+標準入力を	sys.stdin
+＜オプション＞グラフの色をフクシアに設定する	color = 'fuchsia'
+データフレームをJSONLファイルに保存する	df.to_csv(filename, sep='\t')
+データフレームのカラムの中にある文字列の合計を数える	df[col].isin([value]).sum()
+ヒストグラムの色をシスルに設定する	plt.hist(データ列, color='thistle')
+ヒストグラムを描画して、その色をミディアムバイオレットレッドに変更する	plt.hist(データ列, color='mediumvioletred')
+リストとリストについての散布図に赤い星マーカーを描画する	plt.plot(xdata, ydata, marker='*', c='r')
+データフレームのリストカラムの欠損値を最小値で埋める	df[aList].fillna(df[aList].min())
+列をキーにして二つのデータフレームを外部結合する	pd.merge(df, df2, on=column, how='outer')
+黄色いヒストグラムを描画する	plt.hist(データ列, color='y')
+データフレームのカラムの値が欠損値か調べる	df[col].isna()
+ヒストグラムを描画して、色をダークオレンジに設定する	plt.hist(データ列, color='darkorange')
+既存のファイルを文字コードtextで追加できるようにオープンする]	open(filepath, mode='a', encoding=text)
+列の各要素を関数でフィルタする	filter(func, iterable)
+文字列中の正規表現を新しい文字列で置き換える	re.sub(pattern, newsub, s)
+＜オプション＞白色を使う	color = 'white'
+コーンフラワーブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='cornflowerblue')
+ヒストグラムの色をフローラルホワイトに設定する	plt.hist(データ列, color='floralwhite')
+ヒストグラムの色をミディアムオーキッドに設定する	plt.hist(データ列, color='mediumorchid')
+インディアンレッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='indianred')
+＜オプション＞淡いピンク色を使用する	color = 'lightpink'
+ヒストグラムの色をパウダーブルーに設定する	plt.hist(データ列, color='powderblue')
+オブジェクトをイテラブルに変換する	iter(obj)
+＜オプション＞改行コードを動作環境依存に設定する	newline = None
+実数を万の位で四捨五入する	round(x, -4)
+折れ線グラフの色をライトスレイグレーに設定する	plt.plot(データ列, データ列2, color='lightslategray')
+有理数を分母の最大値を指定して近似する	q.limit_denominator(max_denominator=1000000)
+データフレームのカラムの中央値	df[col].median()
+ヒストグラムの色をスプリンググリーンに設定する	plt.hist(データ列, color='springgreen')
+追加できるように既存のファイルをUTF8でオープンする]	open(filepath, mode='a', encoding='utf-8')
+文字列内にひとつでもアスキー文字が含まれるか調べる	any(c.isascii() for c in s)
+リストとリストについての散布図にポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.')
+データフレームをグループ化し、それぞれの列に対し平均値を計算する	df.groupby(column)[column2].mean()
+データフレームのリスト列の相関行列をヒートマップで描画する	sns.heatmap(df[aList].corr())
+プラットホームの名前	sys.platform
+整数nを八進表現に変換する	oct(n)
+文字列を空白で区切って、文字列リストに変換する	s.split()
+折れ線グラフを描画して、その色をミスティローズに設定する	plt.plot(データ列, データ列2, color='mistyrose')
+整数nを十六進表現に変換する	hex(n)
+スラグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='slategrey')
+リストをパステル調の色のヒストグラムでプロットする	plt.hist(xdata, color='pastel')
+配列とリストの黒色のパステル調のグラフを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+文字列の長さ	len(s)
+ファイルから1文字、読み込む	f.read(1)
+ヒストグラムを描画して、半透明ににする	plt.hist(データ列, alpha=0.5)
+線グラフの色をダークグレーに指定する	plt.plot(データ列, データ列2, color='darkgrey')
+リストをnからナンバリングする	enumerate(aList, start=n)
+日付時刻データにn週間分、加算する	aDatetime + datetime.timedelta(weeks=n)
+二次元リストを転置する	[list(x) for x in list(zip(*aList))]
+ヒストグラムの色をライトシアンに設定する	plt.hist(データ列, color='lightcyan')
+配列とデータ列について黒い淡いを描画する	plt.plot(xdata, ydata, linestyle='muted', color='k')
+＜オプション＞８ビット整数型を使う	dtype = np.int8
+データフレームからカテゴリデータの列を抽出する	df.select_dtypes('object')
+折れ線グラフを描画して、その色をプラムに設定する	plt.plot(データ列, データ列2, color='plum')
+濃いグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='deep', color='k')
+リストとリストについて散布図を描画して、マーカーの色をパステル調のに設定する	plt.plot(xdata, ydata, c='pastel')
+赤い四角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='s', c='r')
+パステル調のグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+リストとリストについて散布図を描画し、、マーカーの色を色差別ないに設定する	plt.plot(xdata, ydata, c='colorblind')
+折れ線グラフの色をダークオレンジに設定する	plt.plot(データ列, データ列2, color='darkorange')
+＜オプション＞ミッドナイトブルー色を使う	color = 'midnightblue'
+データフレームの値は欠損値	df.isna()
+リストとリストについて散布図を描画して、文字列という凡例用のラベルを付ける	plt.scatter(xdata, xdata, label=s)
+折れ線グラフを描画して、その色をダークスレートブルーに設定する	plt.plot(データ列, データ列2, color='darkslateblue')
+浮動小数点数を浮動小数点数で割って、小数点以下を切り捨てる	x // y
+リストとリストについての散布図を色差別ない色で描画する	plt.plot(xdata, ydata, c='colorblind')
+フローラルホワイト色のヒストグラムを描画する	plt.hist(データ列, color='floralwhite')
+文字列を隔離する	sys.intern(s)
+文字列の先頭で正規表現に大文字・小文字を無視してマッチするか見る	re.match(pattern, s, flags=re.IGNORECASE)
+データフレームの分散	df.var()
+散布図をパステル調の色のマーカーとして重なりを見やすく描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+文字列を走査し、正規表現に複数行対応としてマッチするか見る	re.search(pattern, s, flags=re.MULTILINE)
+折れ線グラフを描画して、その色をターコイズに設定する	plt.plot(データ列, データ列2, color='turquoise')
+タブ区切りのファイルからデータフレームを読む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+黒いポイントマーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='.', c='k')
+浮動小数点数の最大値	sys.float_info.max
+グラフにy=0の点線を付ける	plt.axhline(y=0, linestyle='dotted')
+配列を中央値でビニングする	pd.qcut(aArray, 2)
+ファイルを書き込みモードでオープンする]	open(filepath, mode='w')
+xの小数点以下'3'桁までの文字列に変換する	':.3f'.format(x)
+モジュールを検索するパス	sys.path
+＜オプション＞昇順にする	ascending = True
+折れ線グラフの色をライトゴールドロディイエローに設定する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+データフレームの欠損値を直後の値で埋める	df.fillna(method='bfill')
+連立方程式を解く	sympy.solve([e, e2])
+＜オプション＞グラフの種類を一点鎖線に設定する	linestyle = 'dashbot'
+折れ線グラフを描画してその色をフォレストグリーンに設定する	plt.plot(データ列, データ列2, color='forestgreen')
+文字列中からパターンにケースを無視してマッチする位置を探す	re.search(pattern, s, flags=re.IGNORECASE)
+＜オプション＞色をダークシアグリーンにセットする	color = 'darkseagreen'
+データフレームの中にある文字列と文字列の合計を数える	df.isin([value, value2]).sum()
+折れ線グラフを描画して、その色をコーンズシルクに設定する	plt.plot(データ列, データ列2, color='cornsilk')
+nをn2で割った余り	n % n2
+明るいグラフの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+データ列が正規分布からどの程度、尖っているか見る	ds.skew()
+データフレームのカラムの最頻値	df[col].mode()
+＜オプション＞先頭のカラムをインデックスに設定する	index_col = 0
+列をカウントしてカウンタから引く	aCounter.subtract(iterable)
+ヒストグラムの色をミントクリームに設定する	plt.hist(データ列, color='mintcream')
+ベストな位置に凡例を描画する	plt.legend(loc='best')
+JSONファイルのファイル入力を辞書に変換する	json.load(fin)
+三整数の最小公倍数	math.lcm(n, n2, n3)
+データフレームの未入力値を50パーセンタイルで置換する	df.fillna(df.median())
+折れ線グラフを描画して、その色をライトゴールドロディイエローに設定する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+サブセットかどうか確認する	aSet.issubset(aSet2)
+プロットのサイズを横width縦heightに変更する	plt.figure(figsize=(width, height))
+日付データをn時間前に戻す	aDate - datetime.timedelta(hours=n)
+ヒストグラムの色をナバホホワイトに設定する	plt.hist(データ列, color='navajowhite')
+ゴーストホワイト色のヒストグラムを描画する	plt.hist(データ列, color='ghostwhite')
+イテラブルのそれぞれを関数でフィルタする	filter(func, iterable)
+ファイルから書き込みストリームをオープンして]fとする	f = open(filepath, mode='w')
+二つの集合の共通要素のみに更新する	aSet.intersection_update(aSet2)
+ゴールド色のヒストグラムを描画する	plt.hist(データ列, color='gold')
+文字列がリストに含まれるか調べる	element in aList
+折れ線グラフを描画して、その色をダークグレーに設定する	plt.plot(データ列, データ列2, color='darkgrey')
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t')
+イテラブルをカウントして、カウンタを更新する	aCounter.update(iterable)
+データフレームを'A'列によってによって降順にソートする	df.sort_values(by='A', ascending=False)
+標準入力から1行だけ読み込んで、改行を取り除く	sys.stdin.readline().rstrip()
+折れ線グラフに黄色い右三角マーカーを描画する	plt.plot(データ列, データ列2, marker='>', markerfacecolor='y')
+データ列の中にと文字列がいくつあるかカウントする	ds.isin([value, value2]).sum()
+リストとリストについて散布図を描画して、マーカーを四角に設定する	plt.plot(xdata, ydata, marker='s')
+ヒストグラムの色をライトグリーンに指定する	plt.hist(データ列, color='lightgreen')
+ゼロ埋めした複素数型の行列	np.zeros(要素数, dtype=bool)
+クロスマーカーを用いて散布図を描く	plt.plot(xdata, ydata, marker='x')
+文字列を最後の部分文字列で二分し、前半の文字列を使う	s.rpartition(sub)[0]
+横棒グラフの幅をxに設定する	plt.barh(ラベル列, データ列, width=x)
+トマト色のヒストグラムを描画する	plt.hist(データ列, color='tomato')
+year年を日付に変換する	datetime.date(year=year, month=1, day=1)
+リストとリストについて相関を可視化する	plt.scatter(xdata, ydata)
+データフレームの数値をまとめて小数点以下n桁で丸める	df.round(n)
+データフレームのカラムの中にある文字列と文字列の合計を数える	df[col].isin([value, value2]).sum()
+辞書の全項目をクリアする	aDict.clear()
+保存するCSVファイルの小数点以下の桁数を設定する	df.to_csv(filename, float_format='%.3f')
+ヒストグラムの色を白くする	plt.hist(データ列, color='w')
+実数を小数点以下で丸める	round(x, n)
+折れ線グラフの色をミディアムスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+変数について数式の積分を求める	sympy.integrate(e, z)
+複数のデータフレームを縦方向に連結する	pd.concat([df, df2, df3], axis=0)
+キューのstart番目からend番目の部分要素を見る	collections.deque(itertools.islice(deq, start, end))
+＜オプション＞オレンジレッド色を用いる	color = 'orangered'
+折れ線グラフを描画して、その色をゲインズボロに設定する	plt.plot(データ列, データ列2, color='gainsboro')
+折れ線グラフの色をターコイズに設定する	plt.plot(データ列, データ列2, color='turquoise')
+列'A'と列'B'をキーとして二つのデータフレームを外部結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+データフレームの列を破壊的に削除する	df.drop(column, axis=1, inplace=True)
+折れ線グラフに緑色のダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+偽	False
+小麦色色の線グラフを描画する	plt.plot(データ列, データ列2, color='wheat')
+＜オプション＞グラフの色をクリムゾンに設定する	color = 'crimson'
+データフレームを複数の列によって小さい順にソートして、更新する	df.sort_values(by=column, ascending=True, inplace=True)
+カデットブルー色のヒストグラムを描画する	plt.hist(データ列, color='cadetblue')
+折れ線グラフに黄色い左三角マーカーを描画する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='y')
+ヒストグラムを描画して、その色をミントクリームに設定する	plt.hist(データ列, color='mintcream')
+配列の最大値	np.max(aArray)
+＜オプション＞グレー色を使う	color = 'gray'
+リストとリストについての散布図を暗い色で描画する	plt.plot(xdata, ydata, c='dark')
+ライトスチールブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightsteelblue')
+データフレームのカラムの要約統計量	df[col].describe()
+実数の逆正接を求める	math.atan(x)
+データフレームを10の位で丸める	df.round(-1)
+文字列を部分文字列で二分し、後半の文字列を使う	s.partition(sub)[-1]
+ダークオーキッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkorchid')
+ファイルから追加ストリームをオープンして]、fとする	f = open(filepath, mode='a')
+貝殻色のヒストグラムを描画する	plt.hist(データ列, color='seashell')
+辞書をコピーする	aDict.copy()
+データフレームの行を範囲指定して抽出する	df[start:end]
+データフレームのカラムの平均値	df[col].mean()
+データフレームのカラムの欠損値を直後の値で埋める	df[col].fillna(method='bfill')
+折れ線グラフの色を紺碧に設定する	plt.plot(データ列, データ列2, color='azure')
+リストを反転する	reversed(aList)
+ヒストグラムの色をロイヤルブルーに設定する	plt.hist(データ列, color='royalblue')
+データフレームの重複した行のみを抽出する	df[df.duplicated(keep=False)]
+＜オプション＞星マーカーを使う	marker = '*'
+タプルのn番目の	aTuple[n]
+エクセルファイルからデータフレームを読み込む	pd.read_excel(filename)
+明るいグラフの色をカラーコードに設定する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+＜オプション＞ライトグレー色を使う	color = 'lightgray'
+暗い赤色のヒストグラムを描画する	plt.hist(データ列, color='darkred')
+文字列の末尾	s[-1]
+整数nをn2分の一にする	n //= n2
+データフレームからn行、サンプリングする	df.sample(n)
+グレー色のヒストグラムを描画する	plt.hist(データ列, color='gray')
+データ列が正規分布からどの程度、歪んでいるか見る	ds.kurt()
+項目名がマップ上で定義済みか判定する	key in aDict
+日付データが日付データより前か調べる	aDate < aDate2
+ヒストグラムを描画して、その色をブランチドアーモンドに設定する	plt.hist(データ列, color='blanchedalmond')
+＜オプション＞シスル色を使う	color = 'thistle'
+折れ線グラフの上三角マーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+リストとリストについての散布図に赤い左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<', c='r')
+データフレームのリスト列の標本標準偏差を計算する	df[aList].std()
+10を底とする実数の対数	math.log10(x)
+ヒストグラムを描画してその色をダークサーモンに変更する	plt.hist(データ列, color='darksalmon')
+リストの先頭	aList[0]
+データフレームを表示するとき、表示可能な最大列数を変更する	pd.set_option('display.max_columns', n)
+リストとリストについての散布図にカラーコードのバツマーカーを描画する	plt.plot(xdata, ydata, marker='x', c=rgb)
+データフレームの末尾	df.tail()
+日付データと日付データの時間差を秒数で求める	(aDate - aDate2).total_seconds()//60
+＜オプション＞丸マーカーを使う	marker = 'o'
+データ列をビン分割する	pd.cut(ds, aList)
+ミディアムアクアマリン色のヒストグラムを描画する	plt.hist(データ列, color='mediumaquamarine')
+＜オプション＞ポイントマーカーを使う	marker = '.'
+実数を文字列に変換する	str(x)
+自然数個からk個取り出したときの順列の総数	math.perm(n, k)
+セットが空集合か調べる	len(aSet) == 0
+データ列の欠損値を中央値で埋める	ds.fillna(ds.median())
+文字列を黄色にする	f'\033[33m{value}\033[0m'
+が名前付きタプルかどうか調べる	hasattr(obj, '_asdict') and hasattr(obj, '_fields')
+折れ線グラフにラベルを付ける	plt.plot(xdata, ydata, label=untitled)
+ビン数nとして配列をビン分割する	pd.cut(aArray, n)
+日付時刻データと日付時刻データの時間差を秒数で求める	(aDatetime - aDatetime2).total_seconds()//60
+文字列の中のASCII限定として正規表現による全てのマッチを使う	re.findall(pattern, s, flags=re.ASCI)
+nが3で割り切れるか調べる	n % 3 == 0
+ヒストグラムの色をオールドレースに設定する	plt.hist(データ列, color='oldlace')
+ヒストグラムを描画して、その色をターコイズに設定する	plt.hist(データ列, color='turquoise')
+折れ線グラフを描画して、その色をロージーブラウンに設定する	plt.plot(データ列, データ列2, color='rosybrown')
+ファイルからディレクトリ名取り出す	os.path.dirname(filepath)
+ファイルを開いて]、バイナリ書き込みストリームを使う	open(filepath, mode='wb')
+実数を実数で割って、切り捨てる	x // y
+タイムスタンプデータがタイムスタンプデータより前か	aDatetime < aDatetime2
+配列を等量で分割数nで分割する	pd.qcut(aArray, n)
+折れ線グラフの色をミディアムスレートブルーに設定する	plt.plot(データ列, データ列2, color='mediumslateblue')
+リストとリストについて散布図を描画して、マーカーの色を淡いに設定する	plt.plot(xdata, ydata, c='muted')
+データ列を折れ線グラフに描画して、マーカーを左三角印にする	plt.plot(データ列, データ列2, marker='<')
+集合から全ての要素を消す	aSet.clear()
+タプルにキーワード引数で更新する	aDict.update(**kwargs)
+折れ線グラフの色をイエローグリーンに設定する	plt.plot(データ列, データ列2, color='yellowgreen')
+折れ線グラフを描画して、色をスラグレーに設定する	plt.plot(データ列, データ列2, color='slategray')
+ヒストグラムの色をライトスチールブルーに設定する	plt.hist(データ列, color='lightsteelblue')
+タプルの項目名と値を入れ替える	{v: k for k, v in aDict.items()}
+ライトスレイグレー色のヒストグラムを描画する	plt.hist(データ列, color='lightslategrey')
+＜オプション＞グラフの色をシーグリーンに設定する	color = 'seagreen'
+行列の列ごとの標準偏差	np.std(aArray, axis=0)
+折れ線グラフに大きさnの大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markersize=n)
+折れ線グラフの色をミディアムバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='mediumvioletred')
+文字列TSVファイルからカンマ区切りのファイルをn番目の列をインデックスとして読む	pd.read_csv(filename, index_col=n)
+0からNまでの配列	np.arange(N)
+データフレームの標準偏差を計算する	df.std()
+リストを逆順にする	aList[::-1]
+ヒストグラムの色をライトスレイグレーに設定する	plt.hist(データ列, color='lightslategray')
+＜オプション＞大バツマーカーを使う	marker = 'X'
+折れ線グラフの右三角マーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='>', markeredgewidth=n)
+mathをインポートする	import math
+データフレームの重複を見る	df.duplicated()
+リストとリストで折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n)
+折れ線グラフに青いポイントマーカーを描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='b')
+ベクトルのスカラー倍	aArray * n
+＜オプション＞グラフの色をゴールデンロッドに設定する	color = 'goldenrod'
+カウンタの文字列一覧	aCounter.keys()
+2つのオブジェクトは等しいかどうか	obj == obj2
+カラーコードの右三角マーカーを散布図に使う	plt.plot(xdata, ydata, marker='>', c=rgb)
+暗いグラフをリストとリストを用いて描画して、その線幅をnに指定する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+ヒストグラムを描画して、その色をライトスレイグレーに設定する	plt.hist(データ列, color='lightslategray')
+正規分布で疑似乱数を生成する	random.normalvariate(mu=0.5, sigma=0.2)
+ヒストグラムを描画して、その色をパパイヤウィップに変更する	plt.hist(データ列, color='papayawhip')
+文字列リストを連結してひとつの文字列にする	''.join(aStringList)
+イテラブルから両端キューを作る	collections.deque(iterable)
+辞書をチェーンマップに変換する	collections.ChainMap(aDict)
+句読点文字を全部使う	string.punctuation
+リストとリストの折れ線グラフを文字列の色で描画する	plt.plot(xdata, ydata, color=s)
+文字列をマゼンタにする	f'\033[35m{value}\033[0m'
+ヒストグラムの色をシルバーに設定する	plt.hist(データ列, color='silver')
+データフレームを'A'列によってまとめた表を使う	df.groupby('A')
+グラフにy=0の点線をつける	plt.axhline(y=0, linestyle='dotted')
+リストとリストについての散布図に赤い右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>', c='r')
+淡いの色を黒にする	plt.plot(xdata, ydata, linestyle='muted', color='k')
+データフレームのリストカラムの欠損値を直後の値で埋める	df[aList].fillna(method='bfill')
+ファイルからファイル名を使う	os.path.basename(filepath)
+折れ線グラフを描画して、その色をアイボリーに設定する	plt.plot(データ列, データ列2, color='ivory')
+列を行列にする	np.array(iterable)
+折れ線グラフの色をオーキッドに設定する	plt.plot(データ列, データ列2, color='orchid')
+実行時に標準出力がパイプか調べる	not sys.stdout.isatty()
+文字列に漢字が使われているか調べる	re.search('[\u4E00-\u9FD0]', s)
+配列の和	aArray + aArray2
+文字列の中のASCII限定として正規表現による全てのマッチを求める	re.findall(pattern, s, flags=re.ASCI)
+折れ線グラフの色をダークオリーブグリーンに設定する	plt.plot(データ列, データ列2, color='darkolivegreen')
+オプションで、出力先を標準出力に設定する	file = sys.stdout
+行列を2次元1列に変形する	aArray.reshape(-1, 1)
+正規分布で疑似乱数を求める	random.normalvariate(mu=0.5, sigma=0.2)
+データフレームを各列毎にグループ化して、列の標準偏差を計算する	df.groupby(column)[column2].std()
+タン色のヒストグラムを描画する	plt.hist(データ列, color='tan')
+ヒストグラムの色を赤くする	plt.hist(データ列, color='r')
+リストの末尾のn要素を取り除く	aList[:-n]
+リストとデータ列について散布図を描画し、マーカーの色を淡いに指定する	plt.plot(xdata, ydata, c='muted')
+nからn2までの整数列	list(range(n, n2+1))
+折れ線グラフに下三角マーカーを使う	plt.plot(データ列, データ列2, marker='v')
+二つの文字列をコロンで区切ってプリントする	print(value, value2, sep=':')
+シアン色の線グラフを描画する	plt.plot(データ列, データ列2, color='cyan')
+折れ線グラフを描画して、その色をブルーバイオレットに設定する	plt.plot(データ列, データ列2, color='blueviolet')
+＜オプション＞グラフの色をグレーに変更する	color = 'gray'
+明るいをプロットして、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+nとn2が等しいか調べる	n == n2
+日付時刻データと日付時刻データの時間差が何分か知る	(aDatetime - aDatetime2).total_seconds()//60
+カウンタの最頻出な文字列	aCounter.most_common()[0]
+ヒストグラムを描画して、その色をダークグリーンに設定する	plt.hist(データ列, color='darkgreen')
+リストとリストについての散布図に四角マーカーを描画する	plt.plot(xdata, ydata, marker='s')
+データフレームを'A'列によって降順に破壊的にソートする	df.sort_values(by='A', ascending=False, inplace=True)
+リストとリストについて散布図を描画する	plt.scatter(xdata, ydata)
+＜オプション＞グラフの色をライトイエローに設定する	color = 'lightyellow'
+データフレームを各列毎にグループ化して、列の分散を求める	df.groupby(column)[column2].var()
+nが5の倍数か調べる	n % 5 == 0
+sinを求める	math.sin(x)
+ゼロ埋めされたブール型の配列	np.zeros(要素数, dtype=np.int32)
+ヒストグラムの色をフォレストグリーンに設定する	plt.hist(データ列, color='forestgreen')
+ヒストグラムの色をミディアムアクアマリンに設定する	plt.hist(データ列, color='mediumaquamarine')
+追加モードを使ってファイルパスを開いて]、fとする	f = open(filepath, mode='a')
+線グラフの色をプラムに変更する	plt.plot(データ列, データ列2, color='plum')
+nがn2で割り切れるか調べる	n % n2 == 0
+集合から任意の要素を取り出す	aSet.pop()
+オーキッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='orchid')
+実数が負の数か調べる	x < 0
+実数を百の位で丸める	round(x, -2)
+データフレームのカラムの中に文字列があるか調べる	df[col].isin([value])
+日付データが月曜日	aDate.weekday() == 0
+nをn2で割った結果の切り上げ	(n + n2 - 1) // n2
+データフレームの列が正規表現文字列にマッチする行を抽出する	df[df[column].str.match(s)]
+星マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='*')
+変数について数式の微分を行う	sympy.diff(e, z)
+黒い下三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='v', c='k')
+折れ線グラフを描画して、その色をミディアムスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+文字列をシンボルにして、変数にする	z = sympy.Symbol(s)
+散布図に黒いバツマーカーを使う	plt.plot(xdata, ydata, marker='x', c='k')
+＜オプション＞サドルブラウンに色を設定する	color = 'saddlebrown'
+乱数シードをnで固定する	random.seed(n)
+データフレームのリストカラムのどの値が頻出か確認する	df[aList].mode()
+現在のタイムスタンプ	int(time.time())
+黒い星マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='*', c='k')
+データフレームの最後を調べる	df.tail()
+散布図に下三角マーカーを使う	plt.plot(xdata, ydata, marker='v')
+リストとリストについて散布図を描画して、下三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='v', c=rgb)
+ヒストグラムの色をグレーにセットする	plt.hist(データ列, color='grey')
+折れ線グラフの右三角印の線幅をnに指定する	plt.plot(データ列, データ列2, marker='>', markeredgewidth=n)
+等差数列を配列に変換する	np.arange(開始値, 終端値, 等差)
+データフレームを列の値によってグループ化し、、それぞれのグループごとの平均値を求める	df.groupby(column).mean()
+両端キューの大きさ	len(deq)
+部分文字列が文字列の終了位置より前に含まれない	s.find(sub, 0, end) == -1
+オブジェクトはタプルの要素	element in aTuple
+散布図を赤い下三角マーカーを用いて描く	plt.plot(xdata, ydata, marker='v', c='r')
+リストとリストについての散布図に星マーカーを描画する	plt.plot(xdata, ydata, marker='*')
+データフレームの列が文字列で終わるデータを取り出す	df[df[column].str.endswith(s)]
+FIXME:カテゴリーデータを出現頻度順にソートする	df['A'].value_counts().sort_index().index
+実数のk進対数	math.log(x, k)
+分子割る分母	fractions.Fraction(分子, 分母)
+データフレームのカラムの曜日の名前	df[col].dt.weekday_name
+配列を転置する	aArray.T
+TSVファイルを読み込む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+濃いグラフの色をカラーコードに設定する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+線グラフを描画して、色をライトシアンに設定する	plt.plot(データ列, データ列2, color='lightcyan')
+イテラブルから複数個、ランダムに選ぶ	random.choices(iterable, k=n)
+折れ線グラフを描画してその色をレベッカパープルに変更する	plt.plot(データ列, データ列2, color='rebeccapurple')
+整数nの八進文字列	oct(n)[2:]
+ヒストグラムを描画して、その色をホットピンクに設定する	plt.hist(データ列, color='hotpink')
+＜オプション＞グラフの色をミディアムオーキッドに設定する	color = 'mediumorchid'
+既存の配列を元に全要素が初期値の配列	np.full_like(aArray, 初期値)
+データフレームのリスト列の相関行列スピアマン相関係数で	df[aList].corr(method='spearman')
+データフレームをエクセルファイルファイルでJSONLファイルに保存する	df.to_excel(filename)
+リストとリストのカラーコードの濃いグラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+オブジェクトが属性を持つかテストする	hasattr(obj, プロパティ名)
+nで乱数生成系列を初期化する	random.seed(n)
+データフレームの先頭	df.head()
+＜オプション＞グリーン色を用いる	color = 'green'
+ロージーブラウン色の線グラフを描画する	plt.plot(データ列, データ列2, color='rosybrown')
+データフレームの先頭n行	df.head(n)
+グレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='gray')
+配列の平均値	np.mean(aArray)
+折れ線グラフを描画して、その色をバリーウッドに設定する	plt.plot(データ列, データ列2, color='burlywood')
+ガンマ関数の値	math.gamma(x)
+重なりを見やすくリストとリストについての散布図を暗い色で描画する	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+実数を実数で割る	x / y
+グラフに凡例を文字列と文字列と入れる	plt.legend([s, s2])
+中央値でデータ列を分割する	pd.qcut(ds, 2)
+文字列が部分文字列で終わるか調べる	s.endswith(sub)
+二変数の最大値	max(x, y)
+実数の余弦の逆数	math.acos(x)
+データ列の平均値	ds.mean()
+カラーコードのバツマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='x', c=rgb)
+リストとリストについての散布図に左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<')
+リストの全ての値をクリアにする	aList.clear()
+ヒストグラムの色をダークオレンジに設定する	plt.hist(データ列, color='darkorange')
+データフレームのカラムの中の欠損値の合計を数える	df[col].isna().sum()
+リストを濃い色の柱状グラフを用いて描画する	plt.hist(xdata, color='deep')
+データフレームを二つの列によって整列する	df.sort_values(by=['A', 'B'])
+＜オプション＞グラフの色を貝殻に設定する	color = 'seashell'
+箱ひげ図を二つ並べて描画する	plt.boxplot([データ列, データ列2])
+ヒストグラムを描画して、その色をグレーに設定する	plt.hist(データ列, color='grey')
+データフレームのリストカラムの欠損値を平均値で埋める	df[aList].fillna(df[aList].mean())
+＜オプション＞グラフの色をラベンダーブラッシュに設定する	color = 'lavenderblush'
+折れ線グラフを描画して、その色を淡いピンク色に設定する	plt.plot(データ列, データ列2, color='lightpink')
+データフレームをJSONLファイルにSJISで保存する	df.to_csv(filename, encoding='shift_jis')
+＜オプション＞コロンをセパレータで使う	sep = ':'
+＜オプション＞改行コードをWindowsに設定する	newline = '\r\n'
+文字列の末尾から部分文字列を見つける	s.rfind(sub)
+ヒストグラムの色をサーモンに設定する	plt.hist(データ列, color='salmon')
+折れ線グラフに緑色の星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='g')
+分子n、分母mの有理数を作る	fractions.Fraction(numerator=n, denominator=m)
+不揃いな長さののzip	itertools.zip_longest(iterable, iterable2)
+＜オプション＞色をマルーンに設定する	color = 'maroon'
+ダークマゼンタ色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkmagenta')
+データフレームのカラムの未入力値を平均に変更する	df[col].fillna(df[col].mean())
+線グラフの色をダークターコイズに設定する	plt.plot(データ列, データ列2, color='darkturquoise')
+データフレームから破壊的に重複した行を削除する	df.drop_duplicates(inplace=True)
+イテラブルの集合	set(iterable)
+空列	[]
+＜オプション＞データ型を指定する	dtype = np.uint8
+プラットホームがマック	sys.platform.startswith('darwin')
+＜オプション＞コーンフラワーブルーにグラフの色を設定する	color = 'cornflowerblue'
+データフレームを'A'列によってまとめたグループ	df.groupby('A')
+暗い色でリストとリストについての散布図を描画する	plt.plot(xdata, ydata, c='dark')
+xの小数点以下'4'桁までの文字列に変換する	':.4f'.format(x)
+＜オプション＞ライトブルー色を使う	color = 'lightblue'
+＜オプション＞ドジャーブルー色を使う	color = 'dodgerblue'
+nからn2の範囲	range(n, n2)
+値を双方向キューのn番目に挿入する	deq.insert(n, element)
+グラフのカラーパレットをpalleteNameに設定する	sns.set(pallete=palleteName)
+折れ線グラフのバツ印を青くする	plt.plot(データ列, データ列2, marker='x', markerfacecolor='b')
+データフレームを丸めて、整数型にする	df.round().astype(int)
+文字列の全角数字を半角数字に変換する	s.translate(str.maketrans('０１２３４５６７８９', '0123456789'))
+折れ線グラフを描画して、その色をサドルブラウンに設定する	plt.plot(データ列, データ列2, color='saddlebrown')
+日付時刻データの時間を使う	aDatetime.time()
+文字列が文字列リストに含まれるか調べる	s in aStringList
+行列の最大	np.max(aArray)
+ミディアムアクアマリンにヒストグラムの色を指定する	plt.hist(データ列, color='mediumaquamarine')
+整数nの二進表現	bin(n)
+配列を等量でビン数nでビン分割する	pd.qcut(aArray, n)
+日付時刻データが何曜日か知る	aDatetime.weekday()
+折れ線グラフを描画して、その色をスノーに設定する	plt.plot(データ列, データ列2, color='snow')
+辞書の値を列挙する	aDict.values()
+ローングリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='lawngreen')
+ファイルをSJISでオープンする]	open(filepath, encoding='shift_jis')
+nが2で割り切れるか調べる	n % 2 == 0
+Pandasで、日付データのデータ列をデータフレームのインデックスにする	df.index = pd.DatetimeIndex(ds)
+文字列のn番目	s[n]
+ヒストグラムを描画して、色をブランチドアーモンドに設定する	plt.hist(データ列, color='blanchedalmond')
+データフレームの中に文字列と文字列が存在するかどうか調べる	df.isin([value, value2])
+淡いの折れ線グラフを数列と配列で描いて、その線幅をnにセットする	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+リストとリストについての散布図にカラーコードの左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<', c=rgb)
+aListn番目から要素をポップする	aList.pop(n)
+リストをひとつ置きに取り出す	aList[::2]
+グラフの色を暗くする	sns.set(pallete='dark')
+集合にイテラブルを追加更新する	aSet.update(iterable)
+データフレームの重複していない行のみを抽出する	df[not df.duplicated(keep=False)]
+両端キューから最初の要素を取り除く	deq.remove(element)
+折れ線グラフのバツマーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='x', markeredgewidth=n)
+折れ線グラフを描画して、その色をレベッカパープルに設定する	plt.plot(データ列, データ列2, color='rebeccapurple')
+タプルをn倍する	aTuple * n
+コマンドフラグの状態を知る	sys.flags
+データフレームから型の列のみ取り出す	df.select_dtypes(ty)
+数式の展開を行う	sympy.expand(e)
+配列を変形する	aArray.reshape(行数, 列数)
+ダークターコイズ色のヒストグラムを描画する	plt.hist(データ列, color='darkturquoise')
+実行時の標準出力の出力先がターミナルかどうかテストする	os.isatty(sys.stdin.fileno())
+折れ線グラフを描画して、色を黒くする	plt.plot(データ列, データ列2, color='k')
+行列の行ごとの最大値	np.max(aArray, axis=1)
+最初のコマンド引数	sys.argv[1]
+最初のプログラムを書く	print('Hello World')
+配列をヒストグラムにする	plt.hist(aArray)
+ヒストグラムの色をピンクに設定する	plt.hist(データ列, color='pink')
+最大長nの両端キューをイテラブルから作る	collections.deque(iterable, maxlen=n)
+棒グラフを描画して、グラフ幅をxに設定する	plt.bar(ラベル列, データ列, width=x)
+バリーウッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='burlywood')
+エクセルデータファイルを読み込む	pd.read_excel(filename)
+配列のユニークな要素とその位置	u, indices = np.unique(aArray, return_index=True)
+nが2で割り切れないかどうか	n % 2 == 1
+n個の要素があるリスト	[element] * n
+アイボリー色のヒストグラムを描画する	plt.hist(データ列, color='ivory')
+データフレームの中で、列と列の重複を削除する	df.drop_duplicates(subset=[column, column2])
+箱ひげ図を二つ並べる	plt.boxplot([データ列, データ列2])
+＜オプション＞読み込まないフッタをnに設定する	skipfooter = n
+＜オプション＞改行コードを旧Macに設定する	newline = '\r'
+データフレームから列を二つ選択する	df[[column, column2]]
+標準入力から1行改行を取り除いて読む	sys.stdin.readline().rstrip()
+データフレームの数値をまとめて丸める	df.round()
+データ列を折れ線グラフに描画して、マーカーを四角印にする	plt.plot(データ列, データ列2, marker='s')
+ヒストグラムの色をスレートブルーに設定する	plt.hist(データ列, color='slateblue')
+双方向キューのstart〜endの要素	collections.deque(itertools.islice(deq, start, end))
+折れ線グラフを描画して、その色をサンディーブラウンに設定する	plt.plot(データ列, データ列2, color='sandybrown')
+日付データが日付データより後ろか調べる	aDate > aDate2
+フローラルホワイト色の線グラフを描画する	plt.plot(データ列, データ列2, color='floralwhite')
+実数を切り下げる	math.floor(x)
+折れ線グラフの星マーカーを黒くする	plt.plot(データ列, データ列2, marker='*', markerfacecolor='k')
+カラーコードのポイントマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='.', c=rgb)
+ファイルからバイナリストリームをオープンして]、fとする	f = open(filepath, mode='rb')
+リストとリストについての散布図にカラーコードの四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c=rgb)
+実数の三乗	x ** 3
+イテラブルを累積する	itertools.accumulate(iterable, operator.mul)
+三つのデータフレームを横向きにくっつける	pd.concat([df, df2, df3], axis=1)
+赤い星マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='*', c='r')
+データフレームを列によってソートして、新しいインデックスを加える	df.sort_values(columns).reset_index()
+ヒストグラムを描画してその色をブラックに設定する	plt.hist(データ列, color='black')
+列をキーにして二つのデータフレームを左結合する	pd.merge(df, df2, on=column, how='left')
+ヒストグラムを描画して色をライトシアンに設定する	plt.hist(データ列, color='lightcyan')
+折れ線グラフを描画してその色をスノーに設定する	plt.plot(データ列, データ列2, color='snow')
+折れ線グラフに三角マーカーを用いる	plt.plot(データ列, データ列2, marker='^')
+データフレームの列名を列挙する	df.columns
+リストとリストの黒い濃いグラフをプロットする	plt.plot(xdata, ydata, linestyle='deep', color='k')
+本日を文字列でフォーマットする	"datetime.datetime.today().strftime(""%d/%m/%y"")"
+データフレームの欠損値を平均値で埋める	df.fillna(df.mean())
+n個に等間隔でリストをビンニングして、namesのラベルをつける	pd.cut(aList, n, labels=names)
+＜オプション＞n番目のカラムを行に増やす	index_col = n
+配列間の要素ごとの最大公約数	np.gcd(aArray, aArray2)
+ディープスカイブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='deepskyblue')
+配列が何次元か	aArray.ndim
+配列とリストで明るいの折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+データフレームのカラムをヒストグラムで可視化する	plt.hist(df[column])
+数列とリストについて散布図を描き、、丸マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='o', c=rgb)
+暗い色でリストについてのヒストグラムを描画する	plt.hist(xdata, color='dark')
+ファイルから拡張子なしのファイル名を使う	os.path.splitext(os.path.basename(filepath))[0]
+右三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='>')
+JSON形式の文字列をデータに変換する	json.loads(b.decode('unicode-escape'))
+リストを濃い色のヒストグラムで描画する	plt.hist(xdata, color='deep')
+折れ線グラフを描画して、その色を小麦色に設定する	plt.plot(データ列, データ列2, color='wheat')
+折れ線グラフを描画して、その色をクリムゾンに設定する	plt.plot(データ列, データ列2, color='crimson')
+変数を黄色でプリントできる文字列に変換する	f'\033[33m{value}\033[0m'
+データフレームを関数によってまとめた表	df.groupby(関数)
+文字列中からパターンに複数行対応としてマッチする文字列を探す	re.search(pattern, s, flags=re.MULTILINE)
+日付データと日付データの時間差を秒数で算出する	(aDate - aDate2).total_seconds()//60
+nまたはn2	n or n2
+本日をタプルに変換する	datetime.datetime.today().timetuple()
+＜オプション＞耐火レンガにグラフの色を設定する	color = 'firebrick'
+リストとリストについて散布図を描画して、マーカーを丸に設定する	plt.plot(xdata, ydata, marker='o')
+＜オプション＞ディムグレーを使う	color = 'dimgrey'
+コマンド引数を列挙する	sys.argv[1:]
+データ列とリストについての散布図を色差別ない色で描画する	plt.plot(xdata, ydata, c='colorblind')
+データフレームのカラムの欠損値を中央値で埋める	df[col].fillna(df[col].median())
+ファイルパスをSJISでオープンする]	open(filepath, encoding='shift_jis')
+改行する	print()
+データフレームの列がリストに含まれる行を選ぶ	df[df[column].isin(aList)]
+標準出力のバッファをフラッシュする	sys.stdout.flush()
+ヒストグラムを描画して、その色をダークオーキッドに設定する	plt.hist(データ列, color='darkorchid')
+データフレームとデータ列を横方向に連結する	pd.concat([df, ds], axis=1)
+キーが辞書に存在するか調べる	key in aDict
+ヒストグラムを描画して、色をアイボリーに変更する	plt.hist(データ列, color='ivory')
+折れ線グラフを描画して色をピーチパフに設定する	plt.plot(データ列, データ列2, color='peachpuff')
+青紫色の線グラフを描画する	plt.plot(データ列, データ列2, color='violet')
+日本語が文字列にある	re.search('[あ-んア-ン\u4E00-\u9FD0]', s)
+リストが空か調べる	len(aList) == 0
+データ列を柱状図を用いて可視化する	plt.hist(ds)
+集合に要素を追加する	aSet.add(element)
+数式の簡略化を行う	sympy.sympify(e)
+＜オプション＞ロージーブラウン色を使う	color = 'rosybrown'
+タプルを反転する	reversed(aTuple)
+両端キューが空でないか調べる	len(deq) != 0
+折れ線グラフの色をシエナに設定する	plt.plot(データ列, データ列2, color='sienna')
+ヒストグラムの色をオレンジに設定する	plt.hist(データ列, color='orange')
+データフレームのリストカラムの第一四分位数	df[aList].quantile(0.25)
+暗いグラフの色を赤にする	plt.plot(xdata, ydata, linestyle='dark', color='r')
+＜オプション＞グラフの色をゲインズボロに指定する	color = 'gainsboro'
+＜オプション＞バイナリ書き込みモードに設定する	mode = 'wb'
+アイボリー色の線グラフを描画する	plt.plot(データ列, データ列2, color='ivory')
+淡い色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='muted')
+フクシア色の線グラフを描画する	plt.plot(データ列, データ列2, color='fuchsia')
+＜オプション＞グラフの色をレベッカパープルに設定する	color = 'rebeccapurple'
+部分文字列を範囲を指定して探す	s.find(sub, start, end)
+n×n2の二次元リストを作る	[[0] * n for _ in range(n2)]
+範囲を指定して整数乱数を生成する	random.randint(最小値, 最大値)
+リストとリストについて破線グラフを描画して、その色を明るいに設定する	plt.plot(xdata, ydata, linestyle='dash', color='bright')
+ヒストグラムの色をサンディーブラウンに設定する	plt.hist(データ列, color='sandybrown')
+線グラフの色をホットピンクに設定する	plt.plot(データ列, データ列2, color='hotpink')
+ユニークな各要素の出現回数	np.unique(aArray, return_counts=True)
+整数nをバイト列に変換する	n.to_bytes(length=bytesize, byteorder='big')
+データフレームを各列毎にグループ化して、列の標準偏差を求める	df.groupby(column)[column2].std()
+＜オプション＞グラフの色をベージュに設定する	color = 'beige'
+オブジェクトは文字列クラスか調べる	isinstance(obj, str)
+データフレームのカラムの文字列を欠損値に変換する	df[col].replace(s, np.nan)
+折れ線グラフを描画して、その色をピーチパフに設定する	plt.plot(データ列, データ列2, color='peachpuff')
+マッピングの項目数を見る	len(aDict)
+データフレームの中のカラムを四分位数でビン分割する	pd.qcut(df[col], 4)
+データフレームを列によってを用いて破壊的にソートする	df.sort_values(by=column, inplace=True)
+データ列とリストについて散布図を描画して、マーカーをダイアモンドに設定する	plt.plot(xdata, ydata, marker='D')
+折れ線グラフの色をゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='goldenrod')
+日付時刻データからn分、減算する	aDatetime - datetime.timedelta(minutes=n)
+＜オプション＞バツ印を加える	marker = 'x'
+＜オプション＞グラフの色をロイヤルブルーに設定する	color = 'royalblue'
+オブジェクトをn回繰り返すイテラブルを得る	itertools.repeat(element, n)
+データフレームを列でNaNを含めて集約する	df.groupby(column, dropna=False)
+リストとリストで暗いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+ヒストグラムの色をミディアムパープルに設定する	plt.hist(データ列, color='mediumpurple')
+データフレームの列の要約統計量	df[col].describe()
+＜オプション＞グラフの色をライムに設定する	color = 'lime'
+配列とリストとして色差別ないグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+文字列を走査しパターンにASCII限定としてマッチするか見る	re.search(pattern, s, flags=re.ASCI)
+リストとリストについての散布図に黒い丸マーカーを描画する	plt.plot(xdata, ydata, marker='o', c='k')
+データフレームの列のユニークな値	df[col].unique()
+実数の逆正接	math.atan(x)
+＜オプション＞グラフの色を赤に設定する	color = 'red'
+＜オプション＞グラフの色をゲインズボロに設定する	color = 'gainsboro'
+ファイルのディレクトリ名	os.path.dirname(filepath)
+データ列を折れ線グラフに描画して、マーカーを星印にする	plt.plot(データ列, データ列2, marker='*')
+ユニークな値を要素とする配列	np.unique(aArray)
+全ての句読点文字	string.punctuation
+xの小数点以下'3'桁までをプリントする	print(':.3f'.format(x))
+濃いの色を青くする	plt.plot(xdata, ydata, linestyle='deep', color='b')
+折れ線グラフを描画して、その色をカデットブルーに設定する	plt.plot(データ列, データ列2, color='cadetblue')
+マゼンタ色の線グラフを描画する	plt.plot(データ列, データ列2, color='magenta')
+タイムスタンプデータの時間数	aDatetime.hour
+ふたつの集合が集合と交わりを持たないか調べる	aSet.isdisjoint(aSet2)
+辞書のコピー	dict(aDict)
+リストと配列の折れ線グラフを描き、透明度をalphaに設定する	plt.plot(xdata, ydata, alpha=alpha)
+オプションで、標準出力を使う	file = sys.stdout
+＜オプション＞サーモン色を使う	color = 'salmon'
+データフレームを列によって降順に破壊的にソートする	df.sort_values(by=column, ascending=False, inplace=True)
+折れ線グラフを描画して、その色を青緑に変更する	plt.plot(データ列, データ列2, color='teal')
+カウンタからイテラブルをカウントして引く	aCounter.subtract(iterable)
+グラフの用途を論文に設定する	sns.set(context='paper')
+データフレームのカラムの尖度	df[col].skew()
+オブジェクトがタプルに含まれない	element not in aTuple
+等量で分割数nとしてリストをビン分割する	pd.qcut(aList, n)
+散布図をカラーコードの星マーカーで描画する	plt.plot(xdata, ydata, marker='*', c=rgb)
+赤い左三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='<', c='r')
+カウンタからゼロカウントを取り除く	+aCounter
+リストとリストの黒いパステル調のグラフを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+データフレームを二つの列によって昇順にソートして、更新する	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+プラットホームがWindowsか調べる	sys.platform.startswith('win32')
+データフレームのカラムが何月か見る	df[col].dt.month
+データフレームの列のユニークな値の個数	df[col].nunique()
+日付を使う	import datetime
+フクシア色のヒストグラムを描画する	plt.hist(データ列, color='fuchsia')
+ヒストグラムの色を赤に設定する	plt.hist(データ列, color='red')
+タプルをn回連結する	aTuple * n
+＜オプション＞ライム色を使う	color = 'lime'
+行列の行列式	np.linalg.det(aArray)
+グラフの文字化けを防ぐ	sns.set(font='IPAexGothic')
+日付時刻データの曜日を整数で使う	aDatetime.weekday()
+ヒストグラムの色をロージーブラウンに指定する	plt.hist(データ列, color='rosybrown')
+ヒストグラムを描画して、その色をライトスカイブルーに設定する	plt.hist(データ列, color='lightskyblue')
+エクセルファイルファイルからnとn2のシートを読み込む	pd.read_excel(filename, sheet_name=[n, n2])
+折れ線グラフを描画して、その色をダークサーモンに設定する	plt.plot(データ列, データ列2, color='darksalmon')
+折れ線グラフの色をパールバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='palevioletred')
+最大長を指定して、両端キュー	collections.deque(maxlen=n)
+符号付きでnを長さn2のバイト列に変換する	n.to_bytes(length=bytesize, byteorder='big', signed=True)
+＜オプション＞ダークシアンを使う	color = 'darkcyan'
+＜オプション＞グラフの色をフローラルホワイトに設定する	color = 'floralwhite'
+最初のカテゴリーを除外してデータフレームの列をダミー変数に変換する	pd.get_dummies(df[column], drop_first=True)
+nが一桁の数か調べる	-9 <= n <= 9
+＜オプション＞グラフの色をローングリーンに設定する	color = 'lawngreen'
+日付データと日付データの時間差	aDate - aDate2
+＜オプション＞降順にする	ascending = False
+データ列と数列について散布図を描画して四角マーカーの色をカラーコードに変更する	plt.plot(xdata, ydata, marker='s', c=rgb)
+＜オプション＞セパレータをコロンにする	sep = ':'
+文字列中にひとつでも非空白が含まれるか調べる	any(not c.isspace() for c in s)
+＜オプション＞セパレータをスラッシュにする	sep = '/'
+８進数字を全部使う	string.octdigits
+リストとリストの色差別ないグラフを描画して、その色を黒にする	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+リストをヒストグラムで可視化する	plt.hist(aList)
+データフレームのリストカラムの母標準偏差	df[aList].std(ddof=0)
+ダークターコイズ色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkturquoise')
+ヒストグラムを描画する	plt.hist(データ列)
+リストとリストについて暗い色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+＜オプション＞n番目のカラムをインデックスに設定する	index_col = n
+ヒストグラムを描画して、その色をグリーンにする	plt.hist(データ列, color='green')
+数式の平方根を計算する	sympy.sqrt(e)
+リストとリストについての散布図に赤いダイアモンドマーカーを描画する	plt.plot(xdata, ydata, marker='D', c='r')
+スタックに文字列を積む	deq.append(element)
+両端キューの先頭に要素を追加する	deq.appendleft(element)
+文字列モジュールをインポートする	import string
+日付時刻データが何時か知る	aDatetime.hour
+ヒストグラムの色をグレーに設定する	plt.hist(データ列, color='grey')
+＜オプション＞マーカーを三角に変更する	marker = '^'
+ファイルにxを文字列に変換して書き込む	f.write(str(x))
+ライトスカイブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightskyblue')
+データフレームのカラムの欠損値を最頻値に設定する	df[col].fillna(df[col].mode().iloc[0])
+データフレームを各列と列の組み合わせ毎にグループ化して、個数を求める	df.groupby([column, column2], as_index=False).count()
+実数のバイナリ対数	math.log2(x)
+データ列を丸めて、整数にする	ds.round().astype(int)
+入力ストリームを一行ずつ読み込む	f.readline()
+要素が集合の要素に含まれるか判定する	element in aSet
+散布図に黒い三角マーカーを使う	plt.plot(xdata, ydata, marker='^', c='k')
+ヒストグラムの線のスタイルを一点鎖線に設定する	plt.hist(データ列, linestyle='dashbot')
+集合の全ての要素が別の集合に含まれるか調べる	aSet.issubset(aSet2)
+辞書に要素をキーとして加える	aDict[key] = element
+データフレームを二つの列の値によってグループ化する	df.groupby(['A', 'B'])
+赤い濃いグラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+nが2で割り切れないか調べる	n % 2 == 1
+リストと配列についての散布図に丸マーカーを描画する	plt.plot(xdata, ydata, marker='o')
+折れ線グラフを描画して、その色をスチールブルーに設定する	plt.plot(データ列, データ列2, color='steelblue')
+初期値で全要素を初期化された配列を作成する	np.full(要素数, 初期値, dtype=np.int)
+コレクションを使う	import collections
+折れ線グラフの色をコーラルに設定する	plt.plot(データ列, データ列2, color='coral')
+白色の線グラフを描画する	plt.plot(データ列, データ列2, color='white')
+データフレームの中の列を等間隔でn個にビン分割する	pd.cut(df[col], n)
+文字列が全て印字できる	s.isprintable()
+実数に実数を加算する	x + y
+文字列の先頭	s[0]
+茶色色のヒストグラムを描画する	plt.hist(データ列, color='brown')
+ヒストグラムの色をスチールブルーに設定する	plt.hist(データ列, color='steelblue')
+ヒストグラムの色をスラグレーに設定する	plt.hist(データ列, color='slategrey')
+二つの文字列が等しいかどうか確認する	s == s2
+濃いの色を黒色にセットする	plt.plot(xdata, ydata, linestyle='deep', color='k')
+整数nの十六進表現	hex(n)
+日付データと日付データの時間差が何分か知る	(aDate - aDate2).total_seconds()//60
+ライトグレー色のヒストグラムを描画する	plt.hist(データ列, color='lightgrey')
+実数を十の位で丸める	round(x, -1)
+全要素を０で初期化された行列	np.zeros(行数, 列数)
+ヒストグラムの色をダークバイオレットに設定する	plt.hist(データ列, color='darkviolet')
+タプル上で項目名が未定義かどうか	key not in aDict
+ライム色の線グラフを描画する	plt.plot(データ列, データ列2, color='lime')
+イテラブルとイテラブルについての散布図に赤い下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v', c='r')
+集合をリストに変換する	list(aSet)
+データフレームを各列と列の組み合わせ毎にグループ分けして、標準偏差を求める	df.groupby([column, column2], as_index=False).std()
+データフレームのリストカラムの標本標準偏差	df[aList].std()
+折れ線グラフを描画して、色を黄色くする	plt.plot(データ列, データ列2, color='y')
+データフレームから重複を残さず、削除する	df.drop_duplicates(keep=False)
+Pandasで、データフレームのcollを日付データに変換する	pd.to_datetime(df[col])
+データフレームを列によって昇順にソートして、更新する	df.sort_values(by=column, ascending=True, inplace=True)
+データフレームのリスト列の相関行列	df[aList].corr()
+データフレームの中央値	df.median()
+ターコイズにヒストグラムの色を設定する	plt.hist(データ列, color='turquoise')
+文字列は平仮名	('ぁ' <= ch <= 'ん')
+＜オプション＞エンコーディングをUTF8に設定する	encoding = 'utf-8'
+ヒストグラムを描画して、その色をミディアムアクアマリンに設定する	plt.hist(データ列, color='mediumaquamarine')
+データ列と配列の明るいをプロットしてその色を青にする	plt.plot(xdata, ydata, linestyle='bright', color='b')
+自然数最小公倍数	math.lcm(n, n2)
+文字列から部分文字列を全て取り除く	s.replace(sub, '')
+リストの変化を折れ線でプロットする	plt.plot(range(len(xdata)), xdata)
+データフレームを二つの列の値によってグループ化し、要約統計量を求める	df.groupby(['A', 'B']).describe()
+棒グラフを描画して、幅をxに設定する	plt.bar(ラベル列, データ列, width=x)
+ファイルを文字列の示すエンコーディングで書き込み用にオープンする]	open(filepath, mode='w', encoding=s)
+データフレームを二つの列によってによって降順にソートする	df.sort_values(by=['A', 'B'], ascending=False)
+nの各桁の総和	sum(map(int, str(n)))
+2つの数値を改行で区切ってプリントする	print(value, value2, sep='\n')
+アヤメのデータセットをロードする	sns.load_dataset('iris')
+文字列はカタカナかどうか調べる	('ァ' <= ch <= 'ン')
+ヒストグラムを描画して、その色をライムに設定する	plt.hist(データ列, color='lime')
+リストとリストで色差別ないグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+表データの中で、列と列の重複をドロップする	df.drop_duplicates(subset=[column, column2])
+nからn2までのstepごとによるスライス	slice(n, n2, step)
+リストをヒストグラムにする	plt.hist(aList)
+ミディアムスプリンググリーン色のヒストグラムを描画する	plt.hist(データ列, color='mediumspringgreen')
+＜オプション＞ライムにグラフの色を指定する	color = 'lime'
+データ列をカテゴリデータに変換する	ds.astype(object)
+データフレームの列名を指定された名前リストに置き換える	df.columns = columns
+暗いグラフの色をカラーコードに設定する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+凡例をグラフ中の(x,y)の場所に入れる	plt.legend(loc=(x, y))
+イテラブルを文字列に変換して連結する	''.join(map(str, iterable))
+＜オプション＞グラフの色をシルバーに設定する	color = 'silver'
+ドジャーブルー色のヒストグラムを描画する	plt.hist(データ列, color='dodgerblue')
+空の両端キュー	collections.deque()
+＜オプション＞グラフの色をトマトに変更する	color = 'tomato'
+エラーを無視して文字列をバイト列に変換する	s.encode(errors='ignore')
+ヒストグラムを描画して、色を黄色くする	plt.hist(データ列, color='y')
+淡い色でリストについてのヒストグラムを描画する	plt.hist(xdata, color='muted')
+ヒストグラムの色をビスクに設定する	plt.hist(データ列, color='bisque')
+列によってデータフレームをソートして、更新する	df.sort_values(by=column, inplace=True)
+両端キューの要素を左にn個分ローテンションする	deq.rotate(-n)
+折れ線グラフを描画して、色をダークターコイズに設定する	plt.plot(データ列, データ列2, color='darkturquoise')
+＜オプション＞ダークスラテグレー色を使う	color = 'darkslategray'
+データ列の文字列を欠損値に変換する	ds.replace(s, np.nan)
+オールドレース色のヒストグラムを描画する	plt.hist(データ列, color='oldlace')
+データフレームの先頭n行	df.head(n)
+折れ線グラフの下三角マーカーを青くする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='b')
+辞書のキーを列挙する	aDict.keys()
+データフレームの列の文字列が文字列が含まれない行を抽出する	df[not df[column].str.contains(s)]
+リストとリストについて淡いグラフをプロットして、その色を黒にする	plt.plot(xdata, ydata, linestyle='muted', color='k')
+赤い大バツマーカーを数列とリストについての散布図に描画する	plt.plot(xdata, ydata, marker='X', c='r')
+リストの平均値	sum(aList)/len(aList)
+タプルの中の最大値	max(aTuple)
+折れ線グラフを描画して、その色を白に設定する	plt.plot(データ列, データ列2, color='white')
+折れ線グラフを描画して、その色をブラックに設定する	plt.plot(データ列, データ列2, color='black')
+耐火レンガ色のヒストグラムを描画する	plt.hist(データ列, color='firebrick')
+キューのn番目の要素	deq[n]
+チョコレート色のヒストグラムを描画する	plt.hist(データ列, color='chocolate')
+要素が集合のメンバーか調べる	element in aSet
+xが一桁の数か調べる	-9 <= x <= 9
+文字列が平仮名か調べる	('ぁ' <= ch <= 'ん')
+黒い淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='k')
+データフレームの中の列を等量でn個にビン分割する	pd.qcut(df[col], n)
+ゴールデンロッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='goldenrod')
+折れ線グラフの四角マーカーを青くする	plt.plot(データ列, データ列2, marker='s', markerfacecolor='b')
+実線ヒストグラムを描画する	plt.hist(データ列, linestyle='solid')
+ヒストグラムの色をミディアムブルーに設定する	plt.hist(データ列, color='mediumblue')
+線グラフを描画して、色をダークオーキッドに設定する	plt.plot(データ列, データ列2, color='darkorchid')
+折れ線グラフの色をラベンダーブラッシュに設定する	plt.plot(データ列, データ列2, color='lavenderblush')
+実数の正接の逆数	math.atan(x)
+＜オプション＞下三角マーカーを使う	marker = 'v'
+文字列を最後の部分文字列で二分割する	s.rpartition(sub)
+文字列を正規表現で分割する	re.split(pattern, s)
+浮動小数点数を文字列に変換する	str(x)
+データ列とデータ列の散布図を描画して、マーカーの色を濃いに指定する	plt.plot(xdata, ydata, c='deep')
+折れ線グラフの色をスカイブルーに設定する	plt.plot(データ列, データ列2, color='skyblue')
+配列とデータ列について散布図を描画して下三角マーカーの色をカラーコードに変更する	plt.plot(xdata, ydata, marker='v', c=rgb)
+数列とリストについての散布図に赤い右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>', c='r')
+折れ線グラフを描画してその色をダークオリーブグリーンに設定する	plt.plot(データ列, データ列2, color='darkolivegreen')
+データ列をインポートする	import pandas as pd
+行列式	np.linalg.det(aArray)
+nが負の数か調べる	n < 0
+既存のファイルパスを文字コードtextとして追加できるように開く]	open(filepath, mode='a', encoding=text)
+リストの末尾	aList[-1]
+文字列をマゼンタでプリントする	print(f'\033[35m{value}\033[0m')
+折れ線グラフに線幅nの四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markeredgewidth=n)
+＜オプション＞グラフの色をダークオリーブグリーンに設定する	color = 'darkolivegreen'
+二つのデータフレームを異なる列をキーとして結合する	pd.merge(df, df2, left_on='A', right_on='B')
+TSVファイルからCSVファイルをSJISで読み込む	pd.read_csv(filename, encoding='shift_jis')
+データフレームを複数の列によってによって降順にソートする	df.sort_values(by=column, ascending=False)
+データフレームのリストカラムの平均値	df[aList].mean()
+＜オプション＞色をダークターコイズに設定する	color = 'darkturquoise'
+折れ線グラフを描画して、その色をディープスカイブルーに設定する	plt.plot(データ列, データ列2, color='deepskyblue')
+アクア色のヒストグラムを描画する	plt.hist(データ列, color='aqua')
+二つの文字列を文字列で区切ってプリントする	print(value, value2, sep=s)
+線幅nの折れ線グラフを描画する	plt.plot(xdata, ydata, linewidth=n)
+データフレームのカラムの欠損値を平均値で埋める	df[col].fillna(df[col].mean())
+列とイテラブルをペアリングする	itertools.zip_longest(iterable, iterable2)
+n個の集まりからk個重複なく選ぶ方法	math.comb(n, k)
+カウンタ同士でユニオン演算する	aCounter | aCounter2
+データフレームをグループ化し、それぞれの列に対し合計を求める	df.groupby(column)[column2].sum()
+＜オプション＞丸マーカーを描画する	marker = 'o'
+淡い色のマーカーで散布図を描画する	plt.plot(xdata, ydata, c='muted')
+データフレームを表示するとき、表示できる行数をnに設定する	pd.set_option('display.max_rows', n)
+ヒストグラムの色をダークゴールデンロッドに変更する	plt.hist(データ列, color='darkgoldenrod')
+ファイルをオープンする]	open(filepath)
+ヒストグラムを描画して、その色をゴールドに設定する	plt.hist(データ列, color='gold')
+二つの列を並べて箱髭図にする	plt.boxplot([df[column], df[column2]])
+リストとリストでパステル調のグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+数式を因数分解する	sympy.factor(e)
+ヒストグラムの色をミディアムスプリンググリーンに設定する	plt.hist(データ列, color='mediumspringgreen')
+ヒストグラムを描画して、透明度をxにセットする	plt.hist(データ列, alpha=x)
+横棒グラフを積み上げにする	"plt.barh(ラベル列, データ列, bottom=データ列2, color=""red"")"
+折れ線グラフの色をベージュに設定する	plt.plot(データ列, データ列2, color='beige')
+＜オプション＞EUCを使う	encoding = 'euc_jp'
+ヒストグラムの色をブラックに変更する	plt.hist(データ列, color='black')
+線グラフを描画して、色をダークサーモンに変更する	plt.plot(データ列, データ列2, color='darksalmon')
+直前の値でデータフレームの欠損値を埋める	df.fillna(method='ffill')
+空の辞書	{}
+JSONLファイルにデータフレームを保存する	df.to_excel(filename)
+データフレームの列がxでない行をフィルタする	df[df[column] == x]
+平均値でデータフレームのリストカラムの未入力値を埋める	df[aList].fillna(df[aList].mean())
+折れ線グラフを描画して、その色をインディゴに設定する	plt.plot(データ列, データ列2, color='indigo')
+要素がマッピングの値として含まれている	element in aDict.values()
+折れ線グラフを描画して色をシエナに設定する	plt.plot(データ列, データ列2, color='sienna')
+ベクトルの計算をする	import numpy as np
+＜オプション＞マーカーを左三角に変更する	marker = '<'
+文字列の左側から空白を取り除く	s.lstrip(' ')
+折れ線グラフの色をダークオーキッドに設定する	plt.plot(データ列, データ列2, color='darkorchid')
+＜オプション＞グラフの色をライムグリーンに設定する	color = 'limegreen'
+散布図を黒いバツマーカーで描画する	plt.plot(xdata, ydata, marker='x', c='k')
+Pandasで、文字列のエポック秒から日付データに変換する	pd.to_datetime(s, unit='s', utc=True)
+＜オプション＞セパレータを文字列にする	sep = s
+異なる列をキーとして二つのデータフレームを左結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='left')
+イテラブルの全順列を得る	itertools.permutations(iterable)
+リストとリストについての散布図を濃い色で描画する	plt.plot(xdata, ydata, c='deep')
+名前からカラーマップを使う	"plt.get_cmap(""カラーマップ名"")"
+データフレームの中で何行重複するか見る	df.duplicated().sum()
+数列とデータ列の散布図を描いてその大きさをnにセットする	plt.scatter(xdata, ydata, s=n)
+リストの全ての要素をクリアにする	aList.clear()
+nが正の数か調べる	n > 0
+ヒストグラムの色をダークマゼンタに設定する	plt.hist(データ列, color='darkmagenta')
+双方向キューの最初に要素を付け加える	deq.appendleft(element)
+実数以下の最大の整数	math.floor(x)
+ゴーストホワイト色の線グラフを描画する	plt.plot(データ列, データ列2, color='ghostwhite')
+原点から(実数,y)の距離を求める	math.hypot(x, y)
+文字列の右側から空白を取り除く	s.rstrip()
+整数nの8進文字列	oct(n)[2:]
+ライム色のヒストグラムを描画する	plt.hist(データ列, color='lime')
+折れ線グラフに黒い三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='k')
+ヒストグラムの色をゴールドに設定する	plt.hist(データ列, color='gold')
+ファイルをバイナリ書き込みモードでオープンして]、fとする	f = open(filepath, mode='wb')
+ライトコーラル色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightcoral')
+ヒストグラムを描画して、その色をスノーに設定する	plt.hist(データ列, color='snow')
+自然数の最大公約数	math.gcd(n, n2)
+＜オプション＞グラフの色をラベンダーに設定する	color = 'lavender'
+ファイルをバイナリモードでオープンする]	open(filepath, mode='rb')
+データフレームの列をインデックスに設定する	df.set_index(column)
+濃い色でリストについてのヒストグラムを描画する	plt.hist(xdata, color='deep')
+スクリプトファイルのディレクトリ名	os.path.dirname(os.path.abspath(__file__))
+文字列が文字列より辞書順で前かテストする	s < s2
+折れ線グラフを描画して、その色をミディアムターコイズに設定する	plt.plot(データ列, データ列2, color='mediumturquoise')
+日付データが日付データよりあとかどうか確認する	aDate > aDate2
+＜オプション＞ローングリーン色を使う	color = 'lawngreen'
+行列の値を変更する	aArray[行番号, 列番号] = 指定の値
+線グラフを描画して色を黄色くする	plt.plot(データ列, データ列2, color='y')
+文字列を部分文字列で区切る	s.split(sub)
+現在の分数	datetime.date.today().minute
+データフレームのカラムの中に日付データとがいくつあるか数える	df[col].isin([value, value2]).sum()
+データフレームのカラムが何秒か見る	df[col].dt.second
+リストとリストの青い淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='b')
+＜オプション＞改行しない	end = ''
+ファイルをオープンして]、バイナリストリームを使う	open(filepath, mode='rb')
+データフレームから型リストのデータ型の列を除外する	df.select_dtypes(exclude=typeList)
+＜オプション＞青緑を使用する	color = 'teal'
+リストとリストについて破線グラフを描画して、その色を暗いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='dark')
+既存のファイルパスをEUCとして追加できるようにオープンする]	open(filepath, mode='a', encoding='euc_jp')
+リストの要素を昇順にソートする	sorted(aList, reverse=True)
+実数が整数か調べる	x.is_integer()
+ヒストグラムの色をサドルブラウンに設定する	plt.hist(データ列, color='saddlebrown')
+リストとリストで色差別ないグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+散布図にポイントマーカーを使う	plt.plot(xdata, ydata, marker='.')
+タイムスタンプデータの分	aDatetime.minute
+ヒストグラムを点線で描画する	plt.hist(データ列, linestyle='dotted')
+日付データをタプルに変換する	aDate.timetuple()
+リストとリストについて散布図を描画して、四角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='s', c=rgb)
+イテラブルを文字列リストに変換して、カンマで連結する	','.join(map(str, iterable))
+イテラブルから重複なく、n個ランダムに選ぶ	random.sample(iterable, k=n)
+ヒストグラムを描画して、その色をイエローグリーンに設定する	plt.hist(データ列, color='yellowgreen')
+＜オプション＞グラフの色をダークスレートブルーに設定する	color = 'darkslateblue'
+1からnまでの整数列	list(range(1, n+1))
+折れ線グラフの色をライトグレーにする	plt.plot(データ列, データ列2, color='lightgrey')
+ヒストグラムを描画して色を淡いピンク色に設定する	plt.hist(データ列, color='lightpink')
+リストとリストの折れ線を透明度alphaで描画する	plt.plot(xdata, ydata, alpha=alpha)
+ライトブルー色のヒストグラムを描画する	plt.hist(データ列, color='lightblue')
+あらかじめケースを無視してパターンをコンパイルする	re.compile(pattern, flag=re.IGNORECASE)
+グラフで使うフォントをfontNameに指定する	sns.set(font=fontName)
+オプションで、出力先をファイルに設定する	file = sys.open(filename, 'w')
+配列のスカラー倍	aArray * n
+格子線をグラフに付ける	plt.grid(True)
+ダークグレー色のヒストグラムを描画する	plt.hist(データ列, color='darkgrey')
+折れ線グラフの色をディープスカイブルーに設定する	plt.plot(データ列, データ列2, color='deepskyblue')
+ヒストグラムを描画してその色をサドルブラウンに設定する	plt.hist(データ列, color='saddlebrown')
+データフレームからn番目のカラムを除く	pd.concat([df[df.columns[:n]], df[df.columns[n+1:]]], axis=1)
+破線グラフの色を暗いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='dark')
+データ列の曜日の名前	ds.dt.weekday_name
+データ列とラベル列を指定して、積み上げ横棒グラフを描画する	"plt.barh(ラベル列, データ列, bottom=データ列2, color=""red"")"
+日付時刻データをn日前に戻す	aDatetime - datetime.timedelta(days=n)
+文字列はPythonのキーワードかテストする	keyword.iskeyword(s)
+ライトグリーン色のヒストグラムを描画する	plt.hist(データ列, color='lightgreen')
+Pandasで、書式fmtとしてデータフレームのcollをdatetime64型に変換する	pd.to_datetime(df[col], format=fmt)
+グラフの目的を画面に設定する	sns.set(context='notebook')
+文字列リストにイテラブルを変換して、空白で結合する	' '.join(map(str, iterable))
+折れ線グラフのダイアモンドマーカーを緑色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+文字列の中の複数行対応として正規表現による全てのマッチを使う	re.findall(pattern, s, flags=re.MULTILINE)
+マップの全項目をクリアする	aDict.clear()
+既存のファイルをEUCで追加できるようにオープンする]	open(filepath, mode='a', encoding='euc_jp')
+パープル色の線グラフを描画する	plt.plot(データ列, データ列2, color='purple')
+ヒストグラムを描画して、その色をダークブルーに変更する	plt.hist(データ列, color='darkblue')
+折れ線グラフのスタイルを実線に設定する	plt.plot(データ列, データ列2, linestyle='solid')
+文字列を太字でプリントできる文字列に変換する	f'\033[1m{value}\033[0m'
+実数は有限か確認する	math.isfinite(x)
+リストとリストの散布図に黒色の三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c='k')
+文字列を部分文字列で分けたときの後半の文字列	s.partition(sub)[-1]
+組を引数として展開して表示する	print(*aTuple, sep=',')
+整数nを半分にする	n //= 2
+タプルの文字列が最初に見つかるインデックス	aTuple.index(element)
+配列とリストについて散布図を描画して、三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='^', c=rgb)
+ライトグリーン色のヒストグラムを描画する	plt.hist(データ列, color='lightseagreen')
+イテラブルとイテラブルをペアリングする	itertools.zip_longest(iterable, iterable2)
+nまでの奇整数リスト	list(range(1, n, 2))
+year年day月の日付時刻	datetime.datetime(year=year, month=month, day=1)
+棒グラフの幅をxに設定する	plt.bar(ラベル列, データ列, width=x)
+折れ線グラフの色をマルーンに設定する	plt.plot(データ列, データ列2, color='maroon')
+折れ線グラフの右三角マーカーを青くする	plt.plot(データ列, データ列2, marker='>', markerfacecolor='b')
+グラフの背景色を暗くする	sns.set(style='darkgrid')
+データ列の要約統計量	ds.describe()
+ユーザから入力される	int(input())
+データフレームの列がx以上の行を抽出する	df[df[column] >= x]
+データフレームを複数の列を用いてを用いて破壊的にソートする	df.sort_values(by=column, inplace=True)
+＜オプション＞ヘッダを自動的な連番に設定する	header = None
+＜オプション＞グラフの色をブルーバイオレットに設定する	color = 'blueviolet'
+＜オプション＞グラフの色をゴーストホワイトに設定する	color = 'ghostwhite'
+折れ線グラフの色をミスティローズに設定する	plt.plot(データ列, データ列2, color='mistyrose')
+散布図に左三角マーカーを使う	plt.plot(xdata, ydata, marker='<')
+ファイルを絶対パスに変換する	os.path.abspath(filepath)
+ファイルをオープンして]書き込みストリームを使う	open(filepath, mode='w')
+パステル調のグラフの線幅を指定する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+ヒストグラムの色をダークゴールデンロッドに設定する	plt.hist(データ列, color='darkgoldenrod')
+リストと数列で明るいグラフを描画して、その線幅をnに指定する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+データフレームの中の列をn個にビン分割して、namesのラベルをつける	pd.cut(df[col], n, labels=names)
+折れ線グラフの色をミディアムブルーに設定する	plt.plot(データ列, データ列2, color='mediumblue')
+折れ線グラフに黄色い四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='y')
+ライトグレー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightgrey')
+リストとリストで濃いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+折れ線グラフのマーカーを四角にする	plt.plot(データ列, データ列2, marker='s')
+縦棒グラフを描画する	plt.bar(ラベル列, データ列)
+＜オプション＞グラフの色を黄色にセットする	color = 'yellow'
+データ列とリストの散布図をパステル調の色で描画する	plt.plot(xdata, ydata, c='pastel')
+ヒストグラムを描画してその色をホワイトスモークに設定する	plt.hist(データ列, color='whitesmoke')
+ヒストグラムの色をライムに設定する	plt.hist(データ列, color='lime')
+＜オプション＞グラフの色をマルーンに設定する	color = 'maroon'
+現在処理中の例外を情報	sys.exc_info()
+CSVTSVファイルをn番目の列をインデックスにして読む	pd.read_csv(filename, index_col=n)
+ファイルから拡張子付きのファイル名を使う	os.path.basename(filepath)
+日付時刻データををn日後に進める	aDatetime + datetime.timedelta(days=n)
+データフレームが重複しているか調べる	df.duplicated()
+＜オプション＞グラフの色をリネンに設定する	color = 'linen'
+二つのカラムを並べて箱ひげ図にする	plt.boxplot([df[column], df[column2]])
+折れ線グラフに青いダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+破線の色を淡いに指定する	plt.plot(xdata, ydata, linestyle='dash', color='muted')
+折れ線グラフを描画して、その色を青に設定する	plt.plot(データ列, データ列2, color='blue')
+＜オプション＞改行コードをUNIXにする	newline = '\n'
+折れ線グラフを描画して、その色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgrey')
+日付データをn分前に戻す	aDate - datetime.timedelta(minutes=n)
+リストから配列を作る	np.array(aList)
+文字列の先頭で正規表現に複数行対応としてマッチするか見る	re.match(pattern, s, flags=re.MULTILINE)
+空白文字を全部使う	string.whitespace
+暗いグラフの色を黒にする	plt.plot(xdata, ydata, linestyle='dark', color='k')
+パステル調のの折れ線グラフの色を赤にする	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+日付時刻データからn秒分、減算する	aDatetime - datetime.timedelta(seconds=n)
+データフレームのリストカラムがどの程度、分散しているか見る	df[aList].var()
+ライトグリーン色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightseagreen')
+データ列とラベル列を指定して、横棒グラフを描画する	plt.barh(ラベル列, データ列)
+折れ線グラフを描画して色をライトグリーンに設定する	plt.plot(データ列, データ列2, color='lightgreen')
+リストとリストについての散布図にカラーコードの星マーカーを描画する	plt.plot(xdata, ydata, marker='*', c=rgb)
+辞書の項目数	len(aDict)
+1文字だけ標準入力から読む	sys.stdin.read(1)
+折れ線グラフの色をシアンに変更する	plt.plot(データ列, データ列2, color='cyan')
+ヒストグラムの色を暗い赤に設定する	plt.hist(データ列, color='darkred')
+リストとリストについての散布図に下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v')
+折れ線グラフの色をシスルに設定する	plt.plot(データ列, データ列2, color='thistle')
+nが5で割り切れるか調べる	n % 5 == 0
+リストとリストの折れ線グラフをuntitledとラベル付けして描画する	plt.plot(xdata, ydata, label=untitled)
+数式を簡単にする	sympy.sympify(e)
+ハニーデュー色の線グラフを描画する	plt.plot(データ列, データ列2, color='honeydew')
+折れ線グラフを描画して、その色をライトグリーンに設定する	plt.plot(データ列, データ列2, color='lightgreen')
+折れ線グラフを描画して、その色をライムに設定する	plt.plot(データ列, データ列2, color='lime')
+整数nのビット長	n.bit_length()
+リストとリストについて散布図を描画して、ポイントマーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='.', c=rgb)
+配列の行ごとの合計値	np.sum(aArray, axis=1)
+文字列の先頭だけ大文字化する	s.capitalize()
+イテラブルをカウンタに変換する	collections.Counter(iterable)
+文字列をセンタリングにする	s.center(文字列幅)
+実数を複素数に変換する	complex(x)
+ファイルパスがないか調べる	not os.path.exists(filepath)
+折れ線グラフを描画して、その色を青緑に設定する	plt.plot(データ列, データ列2, color='teal')
+データフレームのリストカラムを1000の位で丸める	df[aList].round(-3)
+赤いポイントマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='.', c='r')
+日付時刻データが何日か知る	aDatetime.day
+青色の線グラフを描画する	plt.plot(データ列, データ列2, color='blue')
+ブランチドアーモンド色のヒストグラムを描画する	plt.hist(データ列, color='blanchedalmond')
+名前付きタプルを定義する	C = collections.namedtuple('クラス名', プロパティ名)
+ヒストグラムの色をスラグレーに設定する	plt.hist(データ列, color='slategray')
+折れ線グラフの色をダークシアンに設定する	plt.plot(データ列, データ列2, color='darkcyan')
+データフレームの中にいくつ文字列があるか数える	df.isin([value]).sum()
+データフレームのpercent分位数	df.quantile(percent/100)
+データフレームを'A'列によって昇順にソートする	df.sort_values(by='A', ascending=True)
+ヒストグラムの色をダークオリーブグリーンに設定する	plt.hist(データ列, color='darkolivegreen')
+データフレームの列が文字列で終わる行を抽出する	df[df[column].str.endswith(s)]
+イテラブルをダミー変数に変換する	pd.get_dummies(iterable)
+ファイル全体を行ごとに分割してリストに変換する	[s.strip() for s in f.readlines()]
+リストとリストを折れ線グラフで描画する	plt.plot(xdata, ydata)
+ナバホホワイト色の線グラフを描画する	plt.plot(データ列, データ列2, color='navajowhite')
+リストとリストについて散布図を描いて、色を明るいに設定する	plt.plot(xdata, ydata, c='bright')
+＜オプション＞▼マーカーを描画する	marker = 'v'
+＜オプション＞アイボリー色を使う	color = 'ivory'
+配列の全要素を指定の値にする	aArray[:, :] = 指定の値
+ヒストグラムの色をカーキに設定する	plt.hist(データ列, color='khaki')
+リストの文字列が最初に見つかるインデックス	aList.index(element)
+データフレームのカラムの文字列を未入力値に変換する	df[col].replace(s, np.nan)
+リストを引数として展開して表示する	print(*aList)
+データフレームの中の列と列に重複があれば、マスクする	df.duplicated(subset=[column, column2])
+折れ線グラフの色をダークターコイズに設定する	plt.plot(データ列, データ列2, color='darkturquoise')
+ヒストグラムの色をアンティークホワイトに設定する	plt.hist(データ列, color='antiquewhite')
+現在の分数を使う	datetime.date.today().minute
+＜オプション＞フォレストグリーン色を用いる	color = 'forestgreen'
+列'A'と列'B'をキーとして二つのデータフレームを内部結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='inner')
+折れ線グラフに黒い左三角マーカーを描画する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='k')
+ヒストグラムを描画して、その色をブルーバイオレットに設定する	plt.hist(データ列, color='blueviolet')
+Pandasのバージョンを見る	print(pd.__version__)
+データフレームを'A'列によってソートして、更新する	df.sort_values(by='A', inplace=True)
+折れ線グラフの色をゴーストホワイトに設定する	plt.plot(データ列, データ列2, color='ghostwhite')
+折れ線グラフに黄色い大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='y')
+ダークカーキ色のヒストグラムを描画する	plt.hist(データ列, color='darkkhaki')
+ヒストグラムを描画して、その色をラベンダーブラッシュに設定する	plt.hist(データ列, color='lavenderblush')
+折れ線グラフの色をブランチドアーモンドに指定する	plt.plot(データ列, データ列2, color='blanchedalmond')
+ヒストグラムの色をライムグリーンに設定する	plt.hist(データ列, color='limegreen')
+要素が集合に含まれるか調べる	element in aSet
+横棒グラフを描画する	plt.barh(ラベル列, データ列)
+ヒストグラムを描画して、その色をインディアンレッドに変更する	plt.hist(データ列, color='indianred')
+折れ線グラフのバツマーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='x', markersize=n)
+明るいグラフの色を赤にする	plt.plot(xdata, ydata, linestyle='bright', color='r')
+＜オプション＞カンマをセパレータで使用する	sep = ','
+データフレームのリストカラムの文字列を欠損値に変換する	df[aList].replace(s, np.nan)
+文字列中に部分文字列が含まれないか調べる	sub not in s
+タプルの合計値	sum(aTuple)
+リストとリストでパステル調のグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+n2分のn	n / n2
+散布図にカラーコードの下三角マーカーを使う	plt.plot(xdata, ydata, marker='v', c=rgb)
+要素は集合のメンバーでないかどうか調べる	element not in aSet
+データフレームを列によってソートして、上位n件を取り出す	df.sort_values(columns).head(n)
+nとn2の排他的論理和	n ^ n2
+文字列内にひとつでも空白が含まれるか調べる	any(c.isspace() for c in s)
+折れ線グラフの色を文字列に設定する	plt.plot(xdata, ydata, color=s)
+折れ線グラフを描画して、その色をダークオリーブグリーンに設定する	plt.plot(データ列, データ列2, color='darkolivegreen')
+アンティークホワイト色の線グラフを描画する	plt.plot(データ列, データ列2, color='antiquewhite')
+xを論理値に変換する	bool(x)
+文字列の先頭でASCII限定として正規表現にマッチさせる	re.match(pattern, s, flags=re.ASCI)
+日付データにn週間分、加える	aDate + datetime.timedelta(weeks=n)
+＜オプション＞グラフの色をライトグリーンに設定する	color = 'lightgreen'
+ミスティローズ色のヒストグラムを描画する	plt.hist(データ列, color='mistyrose')
+実数を切り上げて整数に変換する	math.ceil(x)
+リストとリストについての散布図に黒いバツマーカーを描画する	plt.plot(xdata, ydata, marker='x', c='k')
+浮動小数点数の有理数近似	q.limit_denominator(max_denominator=1000000)
+n割るn2の切り上げ	(n + n2 - 1) // n2
+点線に折れ線グラフを変更する	plt.plot(データ列, データ列2, linestyle='dotted')
+＜オプション＞グラフの色をホワイトスモークに設定する	color = 'whitesmoke'
+要素ひとつのりスト	[element]
+CSVファイルTSVファイルをn番目のカラムをインデックスとして読み込む	pd.read_csv(filename, index_col=n)
+既存のファイルパスを文字列の示すエンコーディングとして追加できるようにオープンする]	open(filepath, mode='a', encoding=s)
+文字列中から正規表現にマッチする文字列を探す	re.search(pattern, s)
+リストを展開してプリントする	print(*aList)
+折れ線グラフを描画して、その色をスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='springgreen')
+データフレームから列を一つ選択する	df[[column]]
+昇順に組の要素をソートする	sorted(aTuple, reverse=True)
+黒い大バツマーカーで散布図を描画する	plt.plot(xdata, ydata, marker='X', c='k')
+TSVファイルを読み込む	pd.read_csv(filename, sep='\t')
+ヒストグラムを描画して、その色をシルバーに設定する	plt.hist(データ列, color='silver')
+文字列を黄色でプリントする	print(f'\033[33m{value}\033[0m')
+ひとつでも数字が文字列内に含まれるか調べる	any(c.isdigit() for c in s)
+プラットフォームの符号付き整数の最大値	sys.maxsize
+データ列とデータ列から重複を取り除く	set(ds.unique().tolist()+ds2.unique().tolist())
+折れ線グラフを描画して、色を白くする	plt.plot(データ列, データ列2, color='w')
+グラフの描画でパステル調の色を使用する	sns.set(pallete='pastel')
+カウンタをリセットする	aCounter.clear()
+折れ線グラフの色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgray')
+パステル調の色のマーカーで散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+シャルトリューズ色のヒストグラムを描画する	plt.hist(データ列, color='chartreuse')
+datetimeをインスタンス化する	datetime.datetime(年, 月, 日, 時, 分, 秒)
+標準エラー	sys.stderr
+文字列を部分文字列で分けたときの前半の文字列	s.partition(sub)[0]
+データフレームから列を３つだけ選択する	df[[column, column2, column3]]
+＜オプション＞グラフの色をグリーンイエローに設定する	color = 'greenyellow'
+実数を実数で割った余り	x % y
+ライトゴールドロディイエロー色の線グラフを描画する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+シスル色の線グラフを描画する	plt.plot(データ列, データ列2, color='thistle')
+itertoolsモジュールをインポートする	import itertools
+nが1、もしくは2か調べる	n == 1 or n == 2
+線グラフを描画してその色をゴールデンロッドに指定する	plt.plot(データ列, データ列2, color='goldenrod')
+折れ線グラフに大きさnの丸マーカーを描画する	plt.plot(データ列, データ列2, marker='o', markersize=n)
+折れ線グラフのポイントマーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='.', markersize=n)
+ヒストグラムを描画して、その色をロージーブラウンに設定する	plt.hist(データ列, color='rosybrown')
+xを印字できる文字列にする	ascii(x)
+文字列を空白で分割する	s.split()
+year年month月day日の日付	datetime.date(year=year, month=month, day=day)
+ファイルをオープンして]追加ストリームを使う	open(filepath, mode='a')
+小文字を全部使う	string.ascii_lowercase
+オブジェクトは整数クラスかどうか調べる	isinstance(obj, int)
+実数の正弦	math.sin(x)
+データフレームの中の列と列に重複があれば、削除する	df.drop_duplicates(subset=[column, column2])
+折れ線グラフの色をフローラルホワイトに設定する	plt.plot(データ列, データ列2, color='floralwhite')
+黒いヒストグラムを描画する	plt.hist(データ列, color='k')
+折れ線グラフを破線で描画する	plt.plot(データ列, データ列2, linestyle='dashed')
+散布図に黒い星マーカーを使う	plt.plot(xdata, ydata, marker='*', c='k')
+データ列と配列について散布図をプロットして、マーカーを下三角に設定する	plt.plot(xdata, ydata, marker='v')
+二変数の最小値	min(x, y)
+データ列の中にある文字列の合計を数える	ds.isin([value]).sum()
+ヒストグラムの色をブランチドアーモンドに設定する	plt.hist(データ列, color='blanchedalmond')
+データフレームのカラムの空文字をドロップする	df[col].replace('', np.nan).dropna()
+ヒストグラムを描画して、色をイエローグリーンに設定する	plt.hist(データ列, color='yellowgreen')
+リストとリストについての散布図に右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>')
+第一引数で指定されたファイルの名前	sys.argv[1]
+折れ線グラフを描画して、その色をライトスチールブルーに設定する	plt.plot(データ列, データ列2, color='lightsteelblue')
+全要素を1で初期化された行列	np.ones(行数, 列数, dtype=np.int)
+ヒストグラムを描画して、その色をサンディーブラウンに設定する	plt.hist(データ列, color='sandybrown')
+散布図をパステル調の色でプロットする	plt.plot(xdata, ydata, c='pastel')
+双方向キューをポップする	deq.pop()
+降順にデータフレームを列によってによって並べる	df.sort_values(by=column, ascending=False)
+散布図に黒いポイントマーカーを使う	plt.plot(xdata, ydata, marker='.', c='k')
+文字列をISO書式で日付時刻に変換する	datetime.datetime.fromisoformat(日付の書かれた文字列)
+折れ線グラフを描画して、その色をダークグリーンに設定する	plt.plot(データ列, データ列2, color='darkgreen')
+データフレームの列をヒストグラムで可視化する	plt.hist(df[column])
+集合をイミュータブルな集合にする	frozenset(aSet)
+Pandasで、フォーマットfmtでデータフレームのcollを日付データに変換する	pd.to_datetime(df[col], format=fmt)
+配列とリストについて散布図を描画して、大バツマーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='X', c=rgb)
+＜オプション＞エンコーディングをEUCに設定する	encoding = 'euc_jp'
+データフレームから型リストで指定されたデータ型の列だけ抽出する	df.select_dtypes(include=typeList)
+エラーを出力する	sys.stderr
+散布図に赤い右三角マーカーを使う	plt.plot(xdata, ydata, marker='>', c='r')
+データフレームの列と列を削除する	df.drop([column, column2], axis=1)
+ヒストグラムの色をローングリーンに設定する	plt.hist(データ列, color='lawngreen')
+折れ線グラフの色をパープルに設定する	plt.plot(データ列, データ列2, color='purple')
+折れ線グラフを描画して、その色をタンに設定する	plt.plot(データ列, データ列2, color='tan')
+逆順の両端キュー	reversed(deq)
+文字列全体を複数行対応として正規表現にマッチさせる	re.fullmatch(pattern, s, flags=re.MULTILINE)
+データフレームを二つの列によって昇順にソートする	df.sort_values(by=['A', 'B'], ascending=True)
+データフレームのカラムの歪度	df[col].kurt()
+＜オプション＞グラフの色をドジャーブルーに設定する	color = 'dodgerblue'
+日付時刻データををn秒後に進める	aDatetime + datetime.timedelta(seconds=n)
+リストとリストについて散布図を描画して、マーカーを大バツに設定する	plt.plot(xdata, ydata, marker='X')
+列をキーにして二つのデータフレームを結合する	pd.merge(df, df2, on=column)
+タプルの末尾のn要素を取り除く	aTuple[:-n]
+＜オプション＞レベッカパープル色を使う	color = 'rebeccapurple'
+＜オプション＞エンコーディングを文字列の示すエンコーディングに設定する	encoding = s
+＜オプション＞符号なし８ビット整数型を使う	dtype = np.uint8
+散布図に黒い大バツマーカーを使う	plt.plot(xdata, ydata, marker='X', c='k')
+折れ線グラフに赤い四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='r')
+折れ線グラフの色をブラックに設定する	plt.plot(データ列, データ列2, color='black')
+日付時刻データからn週間分、減算する	aDatetime - datetime.timedelta(weeks=n)
+データフレームを複数の列によって降順に破壊的にソートする	df.sort_values(by=column, ascending=False, inplace=True)
+ケンドール順位相関係数で表データのリストカラムの相関行列	df[aList].corr(method='kendall')
+折れ線グラフの色をライトブルーに設定する	plt.plot(データ列, データ列2, color='lightblue')
+イテラブルの全順列	itertools.permutations(iterable)
+黒い四角マーカーをイテラブルと配列の散布図に描画する	plt.plot(xdata, ydata, marker='s', c='k')
+データ列を使う	import pandas as pd
+エンコーディングを使う	sys.getdefaultencoding()
+上限nの双方向キューをイテラブルから準備する	collections.deque(iterable, maxlen=n)
+折れ線グラフの色をプラムに設定する	plt.plot(データ列, データ列2, color='plum')
+折れ線グラフの菱形マーカーを赤色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='r')
+データフレームのリストカラムの第三四分位数	df[aList].quantile(0.75)
+列の一意な値	ds.unique()
+両端キューのstart〜endの部分要素	collections.deque(itertools.islice(deq, start, end))
+＜オプション＞ペルーに色を設定する	color = 'peru'
+データフレームの中の列をリストを境界値としてビン分割する	pd.cut(df[col], aList)
+＜オプション＞グラフの色をダークシアンに設定する	color = 'darkcyan'
+データ列からユニークな要素を抽出し、リスト化する	ds.unique().tolist()
+文字列がリストの要素か調べる	element in aList
+CSVを読む	pd.read_csv(filename, sep=',')
+折れ線グラフを描画して、その色をライトスレイグレーに設定する	plt.plot(データ列, データ列2, color='lightslategrey')
+ファイルからバイナリ書き込みストリームをオープンして]、fとする	f = open(filepath, mode='wb')
+グラフの横軸にuntitledというラベルを付ける	plt.xlabel(untitled)
+データフレームを列によって昇順にソートする	df.sort_values(by=column, ascending=True)
+リストとリストについて散布図を描画して、マーカーをポイントに設定する	plt.plot(xdata, ydata, marker='.')
+ヒストグラムを一点鎖線で描画する	plt.hist(データ列, linestyle='dashbot')
+実数が無限大か調べる	math.isinf(x)
+単位正方行列	np.identity(N)
+nがn2よりも小さいか調べる	n < n2
+＜オプション＞三角マーカーを使う	marker = '^'
+折れ線グラフの色を耐火レンガに設定する	plt.plot(データ列, データ列2, color='firebrick')
+ファイルを文字コードtextで書き込み用にオープンする]	open(filepath, mode='w', encoding=text)
+角度のラジアン	math.radians(degree)
+ヒストグラムの線のスタイルを実線に設定する	plt.hist(データ列, linestyle='solid')
+ゼロ埋めされたベクトル	np.zeros(要素数)
+＜オプション＞文字コードtextを使う	encoding = text
+綺麗なグラフを使用する	import seaborn as sns
+データフレームの中に文字列と文字列がいくつあるか数える	df.isin([value, value2]).sum()
+＜オプション＞ゴールデンロッド色を使う	color = 'goldenrod'
+データ列と配列の散布図に右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>')
+ヒストグラムの色をシスルに変更する	plt.hist(データ列, color='thistle')
+折れ線グラフに青い四角マーカーを描画する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='b')
+グラフの色を濃くする	sns.set(pallete='deep')
+事前に正規表現をコンパイルする	re.compile(pattern)
+データフレームのリストカラムを10の位で丸めて、整数型にする	df[aList].round(-1).astype(int)
+データフレームのカラムとカラムを折れ線グラフで描画する	plt.plot(df[col], df[col2])
+小数点数の仮数を算出する	math.frexp(x)[0]
+タプルの先頭を取り除く	aTuple[1:]
+リストを複製する	aList.copy()
+ふたつの集合が共通の要素を持たないか調べる	aSet.isdisjoint(aSet2)
+グラフの用途をスライドに変更する	sns.set(context='talk')
+リストとリストの散布図をプロットしてマーカーを丸に設定する	plt.plot(xdata, ydata, marker='o')
+ヒストグラムを描画して、その色をダークグレーに設定する	plt.hist(データ列, color='darkgrey')
+ユーザの入力を整数として受け取る	int(input())
+折れ線グラフの左三角マーカーを青色にする	plt.plot(データ列, データ列2, marker='<', markerfacecolor='b')
+日付データが木曜日か調べる	aDate.weekday() == 3
+＜オプション＞シャルトリューズを用いる	color = 'chartreuse'
+ヒストグラムを描画して、その色をチョコレートに設定する	plt.hist(データ列, color='chocolate')
+プラム色の線グラフを描画する	plt.plot(データ列, データ列2, color='plum')
+マゼンタ色のヒストグラムを描画する	plt.hist(データ列, color='magenta')
+＜オプション＞グラフの色をライトグレーに設定する	color = 'lightgray'
+青い淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='b')
+文字列中の部分文字列の出現をカウントする	s.count(sub)
+データ列のユニークな値の個数	ds.nunique()
+散布図に黒い四角マーカーを使う	plt.plot(xdata, ydata, marker='s', c='k')
+文字列が文字列より辞書順で後かどうか調べる	s > s2
+データ列を折れ線グラフに描画して、マーカーを下三角印にする	plt.plot(データ列, データ列2, marker='v')
+ゼロ埋めされた符号なし８ビット整数型の配列	np.zeros(要素数, dtype=np.uint8)
+折れ線グラフのマーカーを大バツにする	plt.plot(データ列, データ列2, marker='X')
+0からnまでのスライス	slice(n)
+ヒストグラムを描画して、その色をライトシアンに設定する	plt.hist(データ列, color='lightcyan')
+データフレームを'A'列と'B'列の値で分類する	df.groupby(['A', 'B'])
+＜オプション＞エンコーディングをBOM付きに設定する	encoding = 'utf_8_sig'
+折れ線グラフの色をレモンシフォンに設定する	plt.plot(データ列, データ列2, color='lemonchiffon')
+カラーコードの右三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='>', c=rgb)
+n2がnより大きく、かつ、n3未満か調べる	n < n2 and n2 < n3
+ヒストグラムの色をライトブルーに設定する	plt.hist(データ列, color='lightblue')
+リストを青色にする	f'\033[34m{value}\033[0m'
+赤色の右三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='>', c='r')
+ふたつの集合が集合と互いに素か調べる	aSet.isdisjoint(aSet2)
+リストとリストの折れ線グラフを透明度alphaで描画する	plt.plot(xdata, ydata, alpha=alpha)
+折れ線グラフのマーカーを丸にする	plt.plot(データ列, データ列2, marker='o')
+データフレームとデータ列を一つにする	pd.concat([df, ds], axis=1)
+リストに文字列を追加する	aList.append(element)
+折れ線グラフの色をペルーに設定する	plt.plot(データ列, データ列2, color='peru')
+本日をISO形式の文字列に変換する	datetime.datetime.today().isoformat()
+リストとリストについての散布図に黒いポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.', c='k')
+日付データの月数	aDate.month
+データフレームから破壊的に重複を削除する	df.drop_duplicates(inplace=True)
+TSVでJSONLファイルにデータフレームを保存する	df.to_csv(filename, sep='\t')
+リストとリストでパステル調のグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+前もって複数行対応として正規表現をコンパイルする	re.compile(pattern, flag=re.MULTILINE)
+円周率	math.pi
+リストとリストで色差別ないグラフを描いて、線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+淡い色で配列についてのヒストグラムを描画する	plt.hist(xdata, color='muted')
+折れ線グラフの色をペールグリーンに設定する	plt.plot(データ列, データ列2, color='palegreen')
+ヒストグラムを描画して、その色をハニーデューに設定する	plt.hist(データ列, color='honeydew')
+データ列の欠損値を直前の値で埋める	ds.fillna(method='ffill')
+データ列の母標準偏差	ds.std(ddof=0)
+赤色の丸マーカーを配列とリストについての散布図に描く	plt.plot(xdata, ydata, marker='o', c='r')
+＜オプション＞ブラックにグラフの色を設定する	color = 'black'
+イテラブルを色差別ない色の柱状図で描く	plt.hist(xdata, color='colorblind')
+折れ線グラフのポイントマーカーを黒くする	plt.plot(データ列, データ列2, marker='.', markerfacecolor='k')
+全要素を０で初期化された複素数型の行列	np.zeros(行数, 列数, dtype=bool)
+データフレームのそれぞれのグループごとの最小値	df.groupby(column).min()
+JSONLファイルを読み込む	pd.read_json(filename, orient='records', lines=True)
+文字列中に非小文字が含まれるか調べる	any(not c.islower() for c in s)
+エクセルファイルファイルからn番目のシートをデータフレームとして読み込む	pd.read_excel(filename, sheet_name=n)
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+ふたつの集合のいずれか一方だけの集合	aSet.symmetric_difference(aSet2)
+データフレームのカラムを丸める	df[col].round()
+折れ線グラフを描画してその色をオレンジレッドに設定する	plt.plot(データ列, データ列2, color='orangered')
+osモジュールをインポートする	import os
+黒い丸マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='o', c='k')
+ヒストグラムの色をミディアムターコイズに設定する	plt.hist(データ列, color='mediumturquoise')
+文字列中の部分文字列をカウントする	s.count(sub)
+データ列とラベルを指定して、棒を描画する	plt.bar(ラベル列, データ列)
+折れ線グラフを描画して、その色をミディアムアクアマリンに設定する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+数列と数列のパステル調のを描画して、その色を青くする	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+ファイルのファイルサイズ	os.path.get_size(filepath)
+リストとリストについて散布図を描画して、三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='^', c=rgb)
+データフレームを'A'列によってソートする	df.sort_values(by='A')
+イテラブルをy座標、データ列を横軸として、大きさnの散布図を描画する	plt.scatter(xdata, ydata, s=n)
+第二コマンド引数	sys.argv[1]
+グラフの描画で色差別ないカラーパレットを使う	sns.set(pallete='colorblind')
+折れ線グラフを描画して、その色をグリーンイエローに設定する	plt.plot(データ列, データ列2, color='greenyellow')
+データ列の曜日が何日目か見る	ds.dt.dayofweek
+データフレームのカラムを1000の位で丸める	df[col].round(-3)
+リストとリストの折れ線グラフを描画する	plt.plot(xdata, ydata)
+データフレームのカラムが何時か見る	df[col].dt.hour
+＜オプション＞グラフの色をコーラルに設定する	color = 'coral'
+＜オプション＞ダークオリーブグリーン色を使用する	color = 'darkolivegreen'
+折れ線グラフに星マーカーを使う	plt.plot(データ列, データ列2, marker='*')
+折れ線グラフを描画してその色を青に設定する	plt.plot(データ列, データ列2, color='blue')
+日付時刻データと日付時刻データの時間差が何秒か知る	(aDatetime - aDatetime2).total_seconds()
+10を底とする対数	math.log10(x)
+ヒストグラムを描画して、その色を耐火レンガに設定する	plt.hist(データ列, color='firebrick')
+＜オプション＞ダークシアン色を使う	color = 'darkcyan'
+＜オプション＞オリーブ色を使う	color = 'olive'
+文字列の末尾から空白を取り除く	s.rstrip(' ')
+データフレームの列の値がx、かつ列がx2である行を選ぶ	df[(df[column] == x) & (df[column2] == x2)]
+文字列は全て十進数字	s.isdecimal()
+＜オプション＞グラフの色をオリベドラブに設定する	color = 'olivedrab'
+折れ線グラフの色をパウダーブルーに設定する	plt.plot(データ列, データ列2, color='powderblue')
+ミッドナイトブルー色のヒストグラムを描画する	plt.hist(データ列, color='midnightblue')
+ひとつでも非アルファベットが文字列中にある	any(not c.isalpha() for c in s)
+＜オプション＞インディアンレッド色を使う	color = 'indianred'
+青いヒストグラムを描画する	plt.hist(データ列, color='b')
+散布図を黒色の四角マーカーとして描画する	plt.plot(xdata, ydata, marker='s', c='k')
+データフレームのカラムの値を正規表現patternでまとめてreplに置き換える	df[col].replace(pattern, repl, regex=True)
+＜オプション＞ラベンダーブラッシュ色を使う	color = 'lavenderblush'
+n個の整数列	list(range(n))
+折れ線グラフに黒い丸マーカーを描画する	plt.plot(データ列, データ列2, marker='o', markerfacecolor='k')
+データフレームの列の文字列が正規表現文字列にマッチしないデータを選択する	df[not df[column].str.match(s)]
+折れ線グラフに線幅nのダイアモンドマーカーを描画する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+散布図に大バツマーカーを使う	plt.plot(xdata, ydata, marker='X')
+イテラブルの長さを制限する	collections.deque(iterable, maxlen=n)
+文字列をシアンでプリントする	print(f'\033[36m{value}\033[0m')
+データフレームの列と列の相関行列ピアソンとして	df[[column, column2]].corr(method='pearson')
+文字列を最後の部分文字列で分けたときの後半の文字列	s.rpartition(sub)[-1]
+リストとリストについての散布図にカラーコードの右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>', c=rgb)
+線グラフを描画してその色をダークグレーに設定する	plt.plot(データ列, データ列2, color='darkgrey')
+オブジェクトは辞書クラスか調べる	isinstance(obj, dict)
+＜オプション＞グラフの色をサンディーブラウンに設定する	color = 'sandybrown'
+データフレームを各列毎にグループ化して、列の合計を求める	df.groupby(column)[column2].sum()
+データフレームを列でグループ化して、列の要約統計量を求める	df.groupby(column).describe()[column2]
+折れ線グラフの色をレベッカパープルに指定する	plt.plot(データ列, データ列2, color='rebeccapurple')
+線グラフの色をパウダーブルーに設定する	plt.plot(データ列, データ列2, color='powderblue')
+データフレームを表示するとき折り返しをしない	pd.set_option('expand_frame_repr', False)
+データフレームからカテゴリデータの列名の一覧を使う	df.select_dtypes('object').columns
+ファイルをオープンして]、書き込みストリームを使う	open(filepath, mode='w')
+＜オプション＞グラフの色をプラムに設定する	color = 'plum'
+ヒストグラムを描画して、その色をライトサーモンに設定する	plt.hist(データ列, color='lightsalmon')
+文字列をセパレータで分割して、文字列リストに変換する	s.split(sep)
+文字列を下線付きでプリントする	print(f'\033[4m{value}\033[0m')
+リストとリストについて散布図を描画して、マーカーをダイアモンドに設定する	plt.plot(xdata, ydata, marker='D')
+ヒストグラムの色をスカイブルーに設定する	plt.hist(データ列, color='skyblue')
+散布図に色差別ない色のマーカーを使う	plt.plot(xdata, ydata, c='colorblind')
+＜オプション＞線種を破線に設定する	linestyle = 'dashed'
+オブジェクトは文字列型のインスタンスかどうか	isinstance(obj, str)
+標準出力を使う	sys.stdout
+グラフのカラーパレットをパステル調にする	sns.set(pallete='pastel')
+＜オプション＞ダーク・スラテグレーにグラフの色を設定する	color = 'darkslategrey'
+組の最初の要素	aTuple[0]
+データ列の中に文字列と文字列がいくつあるか数える	ds.isin([value, value2]).sum()
+オブジェクトは集合クラスか調べる	isinstance(obj, set)
+綺麗なグラフを使う準備をする	import seaborn as sns
+エポック秒を日付時刻に変換する	datetime.datetime.fromtimestamp(timestamp)
+折れ線グラフを描画して、その色を青紫に設定する	plt.plot(データ列, データ列2, color='violet')
+＜オプション＞ライトスチールブルー色を使う	color = 'lightsteelblue'
+カラーコードのバツマーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='x', c=rgb)
+日付データの曜日を整数で使う	aDate.weekday()
+黒いバツマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='k')
+＜オプション＞シエナにグラフの色をセットする	color = 'sienna'
+折れ線グラフの左三角マーカーを青くする	plt.plot(データ列, データ列2, marker='<', markerfacecolor='b')
+リストの最後に文字列を追加する	aList.append(element)
+文字列が全て空白文字からなるか調べる	s.isspace()
+カラーコードの四角マーカーとして散布図をプロットする	plt.plot(xdata, ydata, marker='s', c=rgb)
+データフレームを列によってによって破壊的にソートする	df.sort_values(by=column, inplace=True)
+データフレームの第一四分位数	df.quantile(0.25)
+数式の変数に数式を代入する	e.subs(z, e2)
+文字列をキャピタライズする	s.capitalize()
+ふたつの集合の対称差集合を算出する	aSet.symmetric_difference(aSet2)
+両端キューの要素をインプレースに反転する	deq.reverse()
+文字列をセパレータによって区切り、、列挙する	s.split(sep)
+＜オプション＞グラフの色を紺碧に設定する	color = 'azure'
+Pandasで、エポック秒のデータフレームのcollから日付データに変換する	pd.to_datetime(df[col], unit='s', utc=True)
+折れ線グラフの下三角マーカーを黒くする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='k')
+ヒストグラムの色をライトイエローに設定する	plt.hist(データ列, color='lightyellow')
+リストのn番目以降の部分を取り出す	aList[n:]
+配列の差	aArray - aArray2
+線グラフの色をダークマゼンタにセットする	plt.plot(データ列, データ列2, color='darkmagenta')
+カウンタからゼロカウントを取り出す	+aCounter
+文字列の開始位置番目と終了位置番目の間に部分文字列が含まれないか確認する	s.find(sub, start, end) == -1
+＜オプション＞耐火レンガ色を使う	color = 'firebrick'
+折れ線グラフを描画して、その色をスラグレーに設定する	plt.plot(データ列, データ列2, color='slategray')
+＜オプション＞耐火レンガ色を使用する	color = 'firebrick'
+レベッカパープル色の線グラフを描画する	plt.plot(データ列, データ列2, color='rebeccapurple')
+＜オプション＞ブランチドアーモンド色を使う	color = 'blanchedalmond'
+散布図を右三角マーカーで描画する	plt.plot(xdata, ydata, marker='>')
+折れ線グラフの色をアリスブルーに設定する	plt.plot(データ列, データ列2, color='aliceblue')
+文字列中の小文字を大文字に変換する	s.upper()
+リストとリストについて濃い色の折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+データフレームから数値データの列のみ選択する	df.select_dtypes('number')
+データフレームをCSVファイルでJSONLファイルに保存する	df.to_csv(filename)
+現在の作業ディレクトリ	os.getcwd()
+辞書のキーの値	aDict[key]
+折れ線グラフの丸マーカーを黄色くする	plt.plot(データ列, データ列2, marker='o', markerfacecolor='y')
+折れ線グラフを描画する	plt.plot(xdata, ydata)
+データフレームとデータ列を横方向に連結する	pd.concat([df, ds], axis=1)
+データ列の秒	ds.dt.second
+事前に大文字・小文字を無視して正規表現をコンパイルする	re.compile(pattern, flag=re.IGNORECASE)
+数値を赤色にする	f'\033[31m{value}\033[0m'
+＜オプション＞グラフの線種を実線に変更する	linestyle = 'solid'
+CSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep=',')
+ヒストグラムの色を耐火レンガに設定する	plt.hist(データ列, color='firebrick')
+リストの文字列の位置をエラーなく使う	aList.index(element) if element in aList else -1
+year年month月day日hour時を日付時刻に変換する	datetime.datetime(year=year, month=month, day=day, hour=hour)
+イテラブルから新しいカウンタを作る	collections.Counter(iterable)
+＜オプション＞ハニーデューに色を設定する	color = 'honeydew'
+JSONを使う	import json
+文字列の両端から空白を取り除く	s.strip()
+ビン数nとしてデータフレームの中の列を等量でビン分割する	pd.qcut(df[col], n)
+文字列が全てアルファベットかどうか調べる	s.isalpha()
+日付時刻データををn週間後に進める	aDatetime + datetime.timedelta(weeks=n)
+トマト色の線グラフを描画する	plt.plot(データ列, データ列2, color='tomato')
+データフレームの重複した行をマスクする	df.duplicated()
+折れ線グラフの色をディムグレーに変更する	plt.plot(データ列, データ列2, color='dimgrey')
+オプションで、出力先を標準出力に指定する	file = sys.stdout
+データフレームを列でグループ化して、それぞれのグループごとの件数を知る	df.groupby(column).size()
+イテラブルをぐるぐると繰り返す	itertools.cycle(iterable)
+赤い淡いを描画する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+ひとつでも非数字が文字列中に含まれる	any(not c.isdigit() for c in s)
+データ列のヒストグラムを描画する	plt.hist(ds)
+＜オプション＞グラフの色をスラグレーに設定する	color = 'slategrey'
+三自然数の最大公約数	math.gcd(n, n2, n3)
+ラベンダーブラッシュ色のヒストグラムを描画する	plt.hist(データ列, color='lavenderblush')
+改行	'\n'
+折れ線グラフを描画して、その色をシアンに設定する	plt.plot(データ列, データ列2, color='cyan')
+散布図にカラーコードの右三角マーカーを使う	plt.plot(xdata, ydata, marker='>', c=rgb)
+データ列をリストを境界値としてビン分割する	pd.cut(ds, aList)
+配列とリストの青い暗いを描画する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+緑色の下三角印を折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+インデント幅nで、辞書をJSON形式の文字列に変換する	json.dumps(aDict, ensure_ascii=False, indent=n)
+データフレームの中の列をビン分割する	pd.cut(df[col], aList)
+データフレームの列をカテゴリデータに変換する	df[col].astype(object)
+ヒストグラムをカラーマップで描画する	"plt.hist(データ列, color=plt.get_cmap(""Spectral""))"
+＜オプション＞値を置き換える	inplace = True
+折れ線グラフの右三角マーカーを緑色にする	plt.plot(データ列, データ列2, marker='>', markerfacecolor='g')
+nを否定する	not n
+折れ線グラフの色をコーンフラワーブルーに設定する	plt.plot(データ列, データ列2, color='cornflowerblue')
+全要素が1の行列	np.ones(行数, 列数, dtype=np.int)
+文字列をゼロ埋めする	s.zfill(文字列幅)
+＜オプション＞ダークターコイズ色を使う	color = 'darkturquoise'
+リストとリストについての散布図にカラーコードの大バツマーカーを描画する	plt.plot(xdata, ydata, marker='X', c=rgb)
+データ列を横軸と指定して、折れ線を描画する	plt.plot(range(len(xdata)), xdata)
+文字列を太字にする	f'\033[1m{value}\033[0m'
+明るい色のマーカーとして重なりを見やすく散布図を描画する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+正規表現モジュールをインポートする	import re
+二進文字列を整数に変換する	int(s, 2)
+データフレームのリストカラムの欠損値を最小値に設定する	df[aList].fillna(df[aList].min())
+文字列を改行で分割し、文字列リストに変換する	s.splitlines()
+日付時刻データをn時間前に戻す	aDatetime - datetime.timedelta(hours=n)
+白いヒストグラムを描画する	plt.hist(データ列, color='w')
+日付時刻データが木曜日	aDatetime.weekday() == 3
+実行結果を緑色にする	f'\033[32m{value}\033[0m'
+データフレームのリスト列の未入力値をxに設定する	df[aList].fillna(x)
+ヒストグラムをstartからendまでの範囲で描画する	plt.hist(データ列, range=(start, end))
+データフレームの列と列の相関行列	df[[column, column2]].corr()
+黒色の三角マーカーを散布図に使う	plt.plot(xdata, ydata, marker='^', c='k')
+既存の配列を元に全要素が0の配列	np.zeros_like(aArray)
+青色のヒストグラムを描画する	plt.hist(データ列, color='blue')
+＜オプション＞ブルーバイオレット色を使う	color = 'blueviolet'
+n2行n列の二次元リスト	[[0] * n for _ in range(n2)]
+日付時刻データにn時間分、加える	aDatetime + datetime.timedelta(hours=n)
+折れ線グラフに青い星マーカーを描画する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='b')
+小数点数の双曲線正接	math.tanh(x)
+ピンク色の線グラフを描画する	plt.plot(データ列, データ列2, color='pink')
+文字列の終了位置以前に部分文字列が含まれる	s.find(sub, 0, end) != -1
+マッピングに要素をキーとして加える	aDict[key] = element
+ピアソンを用いてデータフレームの相関行列	df.corr(method='pearson')
+文字列の開始位置番目と終了位置番目の間に部分文字列が含まれないか調べる	s.find(sub, start, end) == -1
+データフレームのリストカラムの欠損値を中央値で埋める	df[aList].fillna(df[aList].median())
+データフレームのそれぞれのグループごとの分散	df.groupby(column).var()
+散布図に黒い下三角マーカーを使う	plt.plot(xdata, ydata, marker='v', c='k')
+＜オプション＞グラフの色をインディアンレッドに設定する	color = 'indianred'
+ヒストグラムの色をダークサーモンに設定する	plt.hist(データ列, color='darksalmon')
+二つの文字列は等しくないか調べる	s != s2
+＜オプション＞フォレストグリーン色を使う	color = 'forestgreen'
+＜オプション＞グラフの色をモカシンに設定する	color = 'moccasin'
+折れ線グラフの三角マーカーを赤くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='r')
+＜オプション＞色をコーラルに指定する	color = 'coral'
+＜オプション＞グレー色を使う	color = 'grey'
+濃い色のマーカーで散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+データ列とリストの青いパステル調のグラフを描く	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+データフレームを複数の列によってまとめたグループ	df.groupby(columns)
+リストとデータ列についての散布図にカラーコードの下三角マーカーを描画する	plt.plot(xdata, ydata, marker='v', c=rgb)
+日付データにn秒分、加算する	aDate + datetime.timedelta(seconds=n)
+＜オプション＞ダークグレー色を使う	color = 'darkgrey'
+折れ線グラフに描画して、マーカーを星印にする	plt.plot(データ列, データ列2, marker='*')
+折れ線グラフを描画して、その色をライトスレイグレーに変更する	plt.plot(データ列, データ列2, color='lightslategray')
+文字列が文字列より辞書順で後か調べる	s > s2
+文字列全体が正規表現にASCII限定としてマッチするか見る	re.fullmatch(pattern, s, flags=re.ASCI)
+日付データが日曜日	aDate.weekday() == 6
+折れ線グラフの色をレベッカパープルに設定する	plt.plot(データ列, データ列2, color='rebeccapurple')
+散布図に暗い色のマーカーを使う	plt.plot(xdata, ydata, c='dark')
+ファイルを書き込みできるようにオープンする]	open(filepath, mode='w')
+数式の数値を計算する	float(e)
+データ列の欠損値を平均値に設定する	ds.fillna(ds.mean())
+nが一桁の数か確認する	-9 <= n <= 9
+＜オプション＞グラフの色をパウダーブルーに設定する	color = 'powderblue'
+モカシン色の線グラフを描画する	plt.plot(データ列, データ列2, color='moccasin')
+nをn2で割った結果を切り上げる	(n + n2 - 1) // n2
+散布図にパステル調の色のマーカーを使う	plt.plot(xdata, ydata, c='pastel')
+ヒストグラムを描画して、その色をオレンジレッドに設定する	plt.hist(データ列, color='orangered')
+カラーコードの左三角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='<', c=rgb)
+カラーコードの丸マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='o', c=rgb)
+イテラブルの各要素に対して、predicateFuncが真であれば、その要素を出力する	itertools.takewhile(predicateFunc, iterable)
+文字列を黄色でプリントできる文字列に変換する	f'\033[33m{value}\033[0m'
+文字列をコロンで区切って、列挙する	s.split(':')
+＜オプション＞データ型を指定する	dtype = np.int32
+折れ線グラフの大バツマーカーの線幅をnに設定する	plt.plot(データ列, データ列2, marker='X', markeredgewidth=n)
+＜オプション＞グラフの色をミディアムスプリンググリーンに設定する	color = 'mediumspringgreen'
+実行環境がウィンドウズか調べる	sys.platform.startswith('win32')
+ヒストグラムの色をフクシアに設定する	plt.hist(データ列, color='fuchsia')
+＜オプション＞シーグリーン色を使う	color = 'seagreen'
+＜オプション＞サドルブラウン色を使う	color = 'saddlebrown'
+バイトオーダを知る	sys.byteorder
+ダークシアグリーン色のヒストグラムを描画する	plt.hist(データ列, color='darkseagreen')
+集合が空か調べる	len(aSet) == 0
+文字コードを文字に変換する	chr(unicode)
+リストの長さ	len(aList)
+日付データの年数	aDate.year
+リストとリストについての散布図を大きさnで描画する	plt.scatter(xdata, ydata, s=n)
+リストの最初の文字列を探す	aList.index(element)
+ヒストグラムの色をコーラルに設定する	plt.hist(データ列, color='coral')
+ミディアムバイオレットレッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='mediumvioletred')
+データフレームの母標準偏差	df.std(ddof=0)
+データフレームを表示するとき最大行数を変更する	pd.set_option('display.max_rows', n)
+データフレームから重複を削除する	df.drop_duplicates()
+データフレームの尖度	df.skew()
+ヒストグラムの色をミディアムバイオレットレッドに設定する	plt.hist(データ列, color='mediumvioletred')
+n進文字列をバイト列に変換する	int(s, n).to_bytes(length=bytesize, byteorder='big')
+折れ線グラフのマーカーを左三角にする	plt.plot(データ列, データ列2, marker='<')
+＜オプション＞グラフの色をインディゴに設定する	color = 'indigo'
+ヒストグラムを描画してその色をオリーブに設定する	plt.hist(データ列, color='olive')
+真上位集合か調べる	aSet > aSet2
+グラフの用途を画面に設定する	sns.set(context='notebook')
+タプルの要素を昇順にソートする	sorted(aTuple, reverse=True)
+本日が何曜日か知る	datetime.datetime.today().weekday()
+折れ線グラフに黒い大バツマーカーを描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='k')
+＜オプション＞グラフの色をビスクに設定する	color = 'bisque'
+折れ線グラフを描画してその色をダーク・スラテグレーに指定する	plt.plot(データ列, データ列2, color='darkslategrey')
+整数nを符号付きでバイト列に変換する	n.to_bytes((n.bit_length() + 7) // 8, byteorder='big', signed=True)
+配列をn個にビン分割して、namesのラベルをつける	pd.cut(aArray, n, labels=names)
+ファイルをディレクトリ名とファイル名に分割する	os.path.split(filepath)
+折れ線グラフの色をディムグレーに設定する	plt.plot(データ列, データ列2, color='dimgrey')
+JSONL形式のファイルからデータフレームを読み込む	pd.read_json(filename, orient='records', lines=True)
+データフレームをJSONLファイルに小数点以下3桁まで保存する	df.to_csv(filename, float_format='%.3f')
+データフレームのn行以降抽出する	df[n:]
+データフレームのリストカラムの欠損値をxに設定する	df[aList].fillna(x)
+Pandasで数値時刻のデータフレームのcollからPandasの日付型に変換する	pd.to_datetime(df[col], unit='s', utc=True)
+集合のイミュータブル版	frozenset(aSet)
+データフレームのリストカラムの尖度	df[aList].skew()
+日付時刻データの秒数	aDatetime.second
+ヒストグラムのビン数を設定する	plt.hist(データ列, bins=n)
+ヒストグラムを描画して、その色をカデットブルーに指定する	plt.hist(データ列, color='cadetblue')
+ベクトルの和	aArray + aArray2
+データフレームのリスト列の欠損値をxで埋める	df[aList].fillna(x)
+ヒストグラムの色をシルバーにする	plt.hist(データ列, color='silver')
+文字列を青色でプリントできる文字列に変換する	f'\033[34m{value}\033[0m'
+折れ線グラフの色をゴールドに設定する	plt.plot(データ列, データ列2, color='gold')
+タプルは全て真か調べる	all(aTuple)
+整数の順列の総数	math.perm(n)
+列名の一覧をデータ型でフィルタする	df.select_dtypes(型).columns
+ヒストグラムを描画して、その色を紺に設定する	plt.hist(データ列, color='darkblue')
+パレットトルコイズ色の線グラフを描画する	plt.plot(データ列, データ列2, color='paleturquoise')
+データフレームのカラムの未入力値をモードで埋める	df[col].fillna(df[col].mode().iloc[0])
+＜オプション＞グラフの色をダークオレンジに設定する	color = 'darkorange'
+データフレームを各列と列の組み合わせ毎にグループ化して、合計を求める	df.groupby([column, column2], as_index=False).sum()
+データフレームからランダムにn行を抽出する	df.sample(n)
+赤い右三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='>', c='r')
+＜オプション＞グラフの色をミディアムシアグリーンに設定する	color = 'mediumseagreen'
+整数nを八進数表記に変換する	oct(n)
+ヒストグラムの色をシャルトリューズに設定する	plt.hist(データ列, color='chartreuse')
+辞書からカウンタを作る	collections.Counter(aDict)
+リストとリストについての散布図を淡い色で描画する	plt.plot(xdata, ydata, c='muted')
+オブジェクトのメモリビュー	memoryview(obj)
+パウダーブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='powderblue')
+データ列を1000の位で丸めて、整数型にする	ds.round(-3).astype(int)
+折れ線グラフを描画して、その色をミディアムスレートブルーに設定する	plt.plot(データ列, データ列2, color='mediumslateblue')
+文字列を部分文字列を用いて二分割する	s.partition(sub)
+リストとリストについて散布図を描画して、マーカーを下三角に設定する	plt.plot(xdata, ydata, marker='v')
+リストのn番目を削除する	del aList[n]
+グラフの中のフォントをfontNameに設定する	sns.set(font=fontName)
+カラーコードの三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='^', c=rgb)
+データフレームのカラムの値が欠損値かどうか調べる	df[col].isna()
+折れ線グラフの色を青に設定する	plt.plot(データ列, データ列2, color='blue')
+折れ線グラフの星マーカーを青くする	plt.plot(データ列, データ列2, marker='*', markerfacecolor='b')
+ヒストグラムの色を青緑に設定する	plt.hist(データ列, color='teal')
+＜オプション＞読み込みモードに設定する	mode = 'r'
+データフレームを複数の列によって昇順にソートする	df.sort_values(by=column, ascending=True)
+列でデータフレームを並べ、新しいインデックスを振り直す	df.sort_values(columns).reset_index()
+ヒストグラムの色をライトスレイグレーに変更する	plt.hist(データ列, color='lightslategray')
+折れ線グラフに青い左三角マーカーを描画する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='b')
+文字列を全て大文字に変換する	s.upper()
+英字の大文字を全部求める	string.ascii_uppercase
+データ列の空文字をNaNに変換し、ドロップする	ds.replace('', np.nan).dropna()
+辞書のコピーを新規生成する	aDict.copy()
+列'A'と列'B'をキーとして二つのデータフレームを右結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+列によってデータフレームをグループ化して、各グループごとの分散を求める	df.groupby(column).var()
+ライトサーモン色のヒストグラムを描画する	plt.hist(データ列, color='lightsalmon')
+＜オプション＞読み込むシートの名前をnamesに設定する	sheet_name = names
+TSVファイルをヘッダを指定せず読み込む	pd.read_csv(filename, header=None)
+ダークグリーン色のヒストグラムを描画する	plt.hist(データ列, color='darkgreen')
+折れ線グラフを描画して、その色をゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='goldenrod')
+表データを使う	import pandas as pd
+文字列の中で大文字・小文字を無視して正規表現にマッチした全ての文字列をリストに変換する	re.findall(pattern, s, flags=re.IGNORECASE)
+Pythonパスの一覧	sys.path
+日付データを文字列でフォーマットして文字列に変換する	"aDate.strftime(""%d/%m/%y"")"
+リストをビン分割する	pd.cut(aList, aList)
+データフレームの列をダミー変数に変換する	pd.get_dummies(df[column])
+ヒストグラムを描画して、色をグリーンイエローに変更する	plt.hist(データ列, color='greenyellow')
+スピアマン相関係数でデータフレームのリスト列の相関行列	df[aList].corr(method='spearman')
+散布図にカラーコードの四角マーカーを使う	plt.plot(xdata, ydata, marker='s', c=rgb)
+二つのデータフレームを横方向に連結する	pd.concat([df, df2], axis=1)
+要素が集合に含まれないか調べる	element not in aSet
+ファイルの拡張子	os.path.splitext(filepath)[1].lstrip('.')
+２つのデータ列を並べてヒストグラムにする	plt.hist([データ列, データ列2], color=['b', 'r'])
+折れ線グラフのマーカーをポイントにする	plt.plot(データ列, データ列2, marker='.')
+文字列の右側からタブを取り除く	s.rstrip('\t')
+三変数の最大値	max(x, y, z)
+折れ線グラフの色をダークバイオレットに設定する	plt.plot(データ列, データ列2, color='darkviolet')
+データフレームを二つのカラムによってソートし、更新する	df.sort_values(by=['A', 'B'], inplace=True)
+＜オプション＞ライトイエロー色を使う	color = 'lightyellow'
+異なる列をキーとして二つのデータフレームを右結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+データ列の第一四分位数	ds.quantile(0.25)
+日付データにn日分、加算する	aDate + datetime.timedelta(days=n)
+二つの変数をそれぞれ定義する	x, y = i, j
+配列をn個に等間隔でビン分割して、namesのラベルをつける	pd.cut(aArray, n, labels=names)
+文字列中にひとつでも非英数字が含まれるか調べる	any(not c.isalnum() for c in s)
+nがn2より小さいか調べる	n < n2
+数のn乗の実数剰余	pow(x, n, y)
+マップのキーを列挙する	aDict.keys()
+文字列の両端から空白を除去する	s.strip()
+文字列の開始位置以降に部分文字列が含まれないか調べる	s.find(sub, start) == -1
+クラスが名前付きタプルか調べる	issubclass(C, tuple)
+データフレームを二つの列でによって降順に並べる	df.sort_values(by=['A', 'B'], ascending=False)
+日付時刻データが何分か知る	aDatetime.minute
+全要素を０で初期化された整数型の行列	np.zeros(行数, 列数, dtype=np.int)
+カラーコードに棒グラフの色をする	plt.bar(ラベル列, データ列, color=rgb)
+文字列からformatのパターンで日付時刻に変換する	datetime.datetime.strptime(日付の書かれた文字列, format)
+データフレームの第三四分位数	df.quantile(0.75)
+データ列のエポック秒から日付データに変換する	pd.to_datetime(ds, unit='s', utc=True)
+データフレームのリストカラムの欠損値を最大値に設定する	df[aList].fillna(df[aList].max())
+二つの集合の和集合	aSet.union(aSet2)
+データフレームから指定された二つの列を抽出する	df[[column, column2]]
+線グラフを描画して、その色を紺に変更する	plt.plot(データ列, データ列2, color='darkblue')
+＜オプション＞エンコーディングをSJISに設定する	encoding = 'shift_jis'
+赤いパステル調のグラフをプロットする	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+JSONL形式のファイルからデータフレームを読む	pd.read_json(filename, orient='records', lines=True)
+折れ線グラフの色をグレーに設定する	plt.plot(データ列, データ列2, color='gray')
+キーが辞書に存在しないとき、要素を追加する	aDict.setdefault(key, element)
+イテラブルから配列を作る	np.array(iterable)
+本日の日付時刻	datetime.datetime.today()
+データ列の空文字を欠損値に変換し、ドロップする	ds.replace('', np.nan).dropna()
+データフレームの中の列を四分位数ごとにビン分割する	pd.qcut(df[col], 4)
+二つのマッピングをネスト化する	collections.ChainMap(aDict, aDict2)
+折れ線グラフを描画して、その色をモカシンに設定する	plt.plot(データ列, データ列2, color='moccasin')
+折れ線グラフを描画してその色を耐火レンガに設定する	plt.plot(データ列, データ列2, color='firebrick')
+暗い色のヒストグラムとしてリストを描画する	plt.hist(xdata, color='dark')
+文字列を複数行対応として正規表現で分割する	re.split(pattern, s, flags=re.MULTILINE)
+TSVファイルを読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+黒い三角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='^', c='k')
+データ列の欠損値を最小値に設定する	ds.fillna(ds.min())
+リストを淡い色のヒストグラムで描画する	plt.hist(xdata, color='muted')
+列によって破壊的にデータフレームを昇順に並べる	df.sort_values(by=column, ascending=True, inplace=True)
+nがn2の倍数か調べる	n % n2 == 0
+折れ線グラフの線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n)
+＜オプション＞下三角マーカーを描画する	marker = 'v'
+Pandasで、フォーマットを用いてデータ列をdatetime64型に変換する	pd.to_datetime(ds, format='%Y-%m-%d')
+配列の要素ごとの積	np.multiply(aArray, aArray2)
+Pandasで、フォーマットで文字列を日付データに変換する	pd.to_datetime(s, format='%Y-%m-%d')
+リストの末尾を取り除く	aList[:-1]
+３つの最大値	max(x, y, z)
+グラフの見栄えを良くする	import seaborn as sns
+折れ線グラフの星印の大きさをnに設定する	plt.plot(データ列, データ列2, marker='*', markersize=n)
+数式の変数を数式で置き換える	e.subs(z, e2)
+実数のn乗	x ** n
+データ列の欠損値を最大値で埋める	ds.fillna(ds.max())
+＜オプション＞マーカーを下三角に変更する	marker = 'v'
+文字列を空白で区切る	s.split()
+nをn2だけ左シフトする	n << n2
+＜オプション＞ライトスカイブルーを使う	color = 'lightskyblue'
+日付時刻データと日付時刻データの時間差を秒数で求める	(aDatetime - aDatetime2).total_seconds()
+＜オプション＞グラフの色をミディアムスレートブルーに設定する	color = 'mediumslateblue'
+線グラフを描画して色をライムグリーンに指定する	plt.plot(データ列, データ列2, color='limegreen')
+リストとリストの折れ線グラフをカラーコードで描く	plt.plot(xdata, ydata, color=rgb)
+イテラブルからカウンタを作る	collections.Counter(iterable)
+データフレームを表示するとき、ヘッダー行を左寄せに設定する	pd.set_option('colheader_justify', 'left')
+データフレームの空文字を欠損値に変換し、ドロップする	df.replace('', np.nan).dropna()
+データフレームの列の各データは何回出現するか見る	df[col].value_counts()
+オブジェクトはバイト列クラスか	isinstance(obj, bytes)
+nがn2で割り切れる	n % n2 == 0
+パパイヤウィップ色のヒストグラムを描画する	plt.hist(データ列, color='papayawhip')
+データフレームのリストカラムの値をValueMapでまとめて置き換える	df[aList].replace(ValueMap)
+日付データと日付データの時間差を秒数で計算する	(aDate - aDate2).total_seconds()
+データフレームの列がxより大きくx2より小さい行を抽出する	df[(x < df[column]) & (df[column] < x2)]
+ファイルの拡張子をtextに変更する	os.path.splitext(filepath)[0] + text
+＜オプション＞チョコレート色を使う	color = 'chocolate'
+二次元リストをフラット化する	sum(aList)
+データ列とリストについての散布図を明るい色で重なりを見やすく描画する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+データフレームの指定されたデータ型の列名を列挙する	df.select_dtypes(型).columns
+折れ線グラフの下三角マーカーを赤くする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='r')
+＜オプション＞ホットピンク色を使う	color = 'hotpink'
+＜オプション＞スラグレー色を使う	color = 'slategrey'
+実数とyのノルム	math.hypot(x, y)
+ファイルを文字列の示すエンコーディングでオープンする]	open(filepath, encoding=s)
+パールバイオレットレッド色の線グラフを描画する	plt.plot(データ列, データ列2, color='palevioletred')
+ヒストグラムの色をライトサーモンに設定する	plt.hist(データ列, color='lightsalmon')
+変数が無限大に近づく時の数式の極限値を求める	sympy.limit(e, z, oo)
+表を二つの列によって並べ直して、NaNを先頭に来るようにする	df.sort_values(by=['A', 'B'], na_position='first')
+折れ線グラフを描画して、その色をグレーに設定する	plt.plot(データ列, データ列2, color='grey')
+リストの要素を逆順にする	aList[::-1]
+＜オプション＞貝殻色を使う	color = 'seashell'
+データフレームの指定された列を配列として抽出する	df[column].values
+データフレームから列名を複数指定して選択する	df[columns]
+配列とリストの散布図に左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<')
+日付時刻データの日付	aDatetime.date()
+ヒストグラムでカラーマップを使う	"plt.hist(データ列, color=plt.get_cmap(""Spectral""))"
+＜オプション＞グラフの色をミッドナイトブルーに設定する	color = 'midnightblue'
+データ列の値をValueMapでまとめて置き換える	ds.replace(ValueMap)

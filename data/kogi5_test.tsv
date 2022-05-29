@@ -1,0 +1,2483 @@
+文字列を表示する	print(value)
+2つの数値を表示する	print(value, value2)
+三つの実行結果を順にプリントする	print(value, value2, value3)
+改行なしに数値を表示する	print(value, end='')
+値の出力を改行なしに行う	print(value, end='')
+二つの数値を改行せずプリントする	print(value, value2, end='')
+＜オプション＞カンマをセパレータで用いる	sep = ','
+＜オプション＞区切り記号を改行にする	sep = '\n'
+＜オプション＞改行をセパレータで用いる	sep = '\n'
+＜オプション＞文字列をセパレータで用いる	sep = s
+カンマで区切って二つの数値をプリントする	print(value, value2, sep=',')
+２つの値をタブで区切ってプリントする	print(value, value2, sep='\t')
+二つの文字列をコロンで区切って出力する	print(value, value2, sep=':')
+スラッシュで区切って二つの値をプリントする	print(value, value2, sep='/')
+改行で区切って2つの変数を表示する	print(value, value2, sep='\n')
+二つの文字列を文字列で区切って出力する	print(value, value2, sep=s)
+ハローワールドと表示する	print('Hello World')
+変数を黒色で出力する	print(f'\033[30m{value}\033[0m')
+実行結果を赤色でプリントする	print(f'\033[31m{value}\033[0m')
+緑色でリストをプリントする	print(f'\033[32m{value}\033[0m')
+黄色で文字列をプリントする	print(f'\033[33m{value}\033[0m')
+数値を青色で表示する	print(f'\033[34m{value}\033[0m')
+文字列を紫色でプリントする	print(f'\033[35m{value}\033[0m')
+文字列を水色でプリントする	print(f'\033[36m{value}\033[0m')
+白色で変数をプリントする	print(f'\033[37m{value}\033[0m')
+文字列を太字で表示する	print(f'\033[1m{value}\033[0m')
+実行結果を下線付きで出力する	print(f'\033[4m{value}\033[0m')
+変数を黒色でプリントできる文字列にする	f'\033[30m{value}\033[0m'
+実行結果を黒色にする	f'\033[30m{value}\033[0m'
+数値を赤色でプリントできる文字列に変換する	f'\033[31m{value}\033[0m'
+値を赤色にする	f'\033[31m{value}\033[0m'
+変数を緑色で表示できる文字列に変換する	f'\033[32m{value}\033[0m'
+数値を黄色で表示できる文字列に変換する	f'\033[33m{value}\033[0m'
+文字列を黄色化する	f'\033[33m{value}\033[0m'
+文字列を青色で表示できる文字列に変換する	f'\033[34m{value}\033[0m'
+変数を青色化する	f'\033[34m{value}\033[0m'
+文字列を紫色でプリントできる文字列に変換する	f'\033[35m{value}\033[0m'
+文字列を紫色にする	f'\033[35m{value}\033[0m'
+数値を水色で表示できる文字列にする	f'\033[36m{value}\033[0m'
+実行結果をシアンにする	f'\033[36m{value}\033[0m'
+文字列を白色でプリントできる文字列にする	f'\033[37m{value}\033[0m'
+文字列を白色化する	f'\033[37m{value}\033[0m'
+リストを太字で表示できる文字列に変換する	f'\033[1m{value}\033[0m'
+変数を太字化する	f'\033[1m{value}\033[0m'
+リストをアンダーライン付きでプリントできる文字列に変換する	f'\033[4m{value}\033[0m'
+数値を下線付きにする	f'\033[4m{value}\033[0m'
+xの小数点以下'1'桁まで表示する	print(':.1f'.format(x))
+xの小数点以下'3'桁までを出力する	print(':.3f'.format(x))
+xの小数点以下'1'桁の文字列にする	':.1f'.format(x)
+xの絶対値を計算する	abs(x)
+xが真かどうか確認する	bool(x)
+商と余りを同時に求める	divmod(x, y)
+二つの最小値を計算する	min(x, y)
+三変数の最大値を計算する	max(x, y, z)
+三つの最も小さい値を求める	min(x, y, z)
+nullに等しい識別子	None
+キューを使う	import collections
+シーケンスから双方向キューを生成する	collections.deque(iterable)
+イテラブルを両端キューにする	collections.deque(iterable)
+最大長のある双方向キュー	collections.deque(maxlen=n)
+最大長nのキューを作る	collections.deque(maxlen=n)
+最大長nの両端キューを列から作成する	collections.deque(iterable, maxlen=n)
+要素を双方向キューの先頭に付け加える	deq.appendleft(element)
+両端キューに値をエンキューする	deq.appendleft(element)
+スタックの末尾に値を追加する	deq.append(element)
+双方向キューに値をプッシュする	deq.append(element)
+キューの左にイテラブルの各要素を付け加える	deq.extendleft(iterable)
+両端キューの最後に列の各要素を追加する	deq.extend(iterable)
+両端キューのn番目に値を挿入する	deq.insert(n, element)
+双方向キューの左から要素を削除する	deq.popleft()
+双方向キューをデキューする	deq.popleft()
+両端キューの末尾から値を取り除く	deq.pop()
+キューをポップする	deq.pop()
+双方向キューから最初の値を取り出す	deq.remove(element)
+双方向キューを空にする	deq.clear()
+双方向キューの要素を右にn個分ローテンションする	deq.rotate(n)
+n個分左に両端キューの要素をローテンションする	deq.rotate(-n)
+スタックの大きさ	len(deq)
+双方向キューが空	len(deq) == 0
+キューは空でないか	len(deq) != 0
+両端キューの中に要素が含まれてる	element in deq
+双方向キューの先頭	deq[0]
+双方向キューの末尾の値を求める	deq[-1]
+双方向キューのn番目を見る	deq[n]
+キューから部分を取り出す	collections.deque(itertools.islice(deq, start, end))
+双方向キューのstart〜endの値	collections.deque(itertools.islice(deq, start, end))
+両端キューのstart番目からendの部分要素を求める	collections.deque(itertools.islice(deq, start, end))
+双方向キュー中のデータのインデックス	deq.index(element)
+キュー中の要素の数をカウントする	deq.count(element)
+インプレースにスタックの要素を反転する	deq.reverse()
+逆順の両端キューを使う	reversed(deq)
+双方向キューをリストに変換する	list(deq)
+双方向キューをタプルにする	tuple(deq)
+空の多重集合	collections.Counter()
+列から新しい多重集合を作る	collections.Counter(iterable)
+辞書からカウンタを新規生成する	collections.Counter(aDict)
+辞書を計数器に変換する	collections.Counter(aDict)
+カウンタのそれぞれの項目を出現回数だけ列挙する	aCounter.elements()
+高頻出方からカウンタを列挙する	aCounter.most_common()
+カウンタを多い方から列挙する	aCounter.most_common()
+カウンタを少ない順にリストとして得る	aCounter.most_common()[::-1]
+カウンタのktopをリストとして得る	aCounter.most_common(k)
+カウンタの最も頻出の項目	aCounter.most_common()[0]
+カウンタから最頻出なキーの件数	aCounter.most_common()[1]
+リストでカウンタを更新する	aCounter.update(iterable)
+カウンタをシーケンスをカウントして更新する	aCounter.update(iterable)
+カウンタをマッピングで更新する	aCounter.update(aDict)
+シーケンスを回数してカウンタから減らす	aCounter.subtract(iterable)
+カウンタの文字列をひとつ増やす	aCounter[element] += 1
+カウンタの項目の出現回数	aCounter[element]
+カウンタの全カウントを使う	aCounter.total()
+カウンタの項目一覧を見る	aCounter.keys()
+カウンタの値をリストとして得る	aCounter.keys()
+カウンタをセットに変換する	set(aCounter)
+ペアリストpairsからカウンタを構築する	collections.Counter(dict(pairs))
+カウンタ同士でインターセクション	aCounter & aCounter2
+二つのカウンタの共通する値を算出する	aCounter & aCounter2
+カウンタ同士で共通部分演算する	aCounter & aCounter2
+カウンタ同士で和集合	aCounter | aCounter2
+二つのカウンタのいずれかに含まれるデータを計算する	aCounter | aCounter2
+型は名前付きタプルかどうか調べる	issubclass(C, tuple)
+名前付きタプルを引数からインスタンス化する	C._make(パラメータ)
+オブジェクトが名前付きタプル型かどうか調べる	hasattr(obj, '_asdict') and hasattr(obj, '_fields')
+空のチェーンマップを作る	collections.ChainMap()
+辞書をチェーンマップにする	collections.ChainMap(aDict)
+2つのマッピングをチェーンする	collections.ChainMap(aDict, aDict2)
+二つのマッピングを階層化する	collections.ChainMap(aDict, aDict2)
+時間をインポートする	import time
+今日の日付時刻	datetime.datetime.now()
+year年month月day日hour時minute分をタイムスタンプにする	datetime.datetime(year=year, month=month, day=day, hour=hour, minute=minute)
+年月日と時間から日付時刻	datetime.datetime(年, 月, 日, 時, 分, 秒)
+文字列からISO書式を用いて日付時刻に変換する	datetime.datetime.fromisoformat(日付の書かれた文字列)
+formatのパターンで文字列から日付時刻に変換する	datetime.datetime.strptime(日付の書かれた文字列, format)
+本日の日付時刻を使う	datetime.datetime.today()
+タイムスタンプデータのタイムゾーン	aDatetime.timetz()
+本日の日付を使う	datetime.date.today()
+タイムスタンプデータの年数	aDatetime.year
+今日の年	datetime.datetime.today().year
+タイムスタンプデータの月数	aDatetime.month
+タイムスタンプデータの日	aDatetime.day
+本日の日	datetime.datetime.today().day
+今日の曜日を整数で使う	datetime.datetime.today().weekday()
+日付データが月曜日かどうか調べる	aDate.weekday() == 0
+現在が月曜日か調べる	datetime.datetime.today().weekday() == 0
+タイムスタンプデータが火曜日か	aDatetime.weekday() == 1
+日付時刻データが水曜日か	aDatetime.weekday() == 2
+日付データが水曜日	aDate.weekday() == 2
+本日が水曜日かどうか調べる	datetime.datetime.today().weekday() == 2
+日付時刻データが木曜日かどうか調べる	aDatetime.weekday() == 3
+本日が木曜日か	datetime.datetime.today().weekday() == 3
+タイムスタンプデータが金曜日か調べる	aDatetime.weekday() == 4
+日付データが金曜日	aDate.weekday() == 4
+本日が金曜日か確認する	datetime.datetime.today().weekday() == 4
+日付データが土曜日か判定する	aDate.weekday() == 5
+今日が土曜日か調べる	datetime.datetime.today().weekday() == 5
+日付時刻データが日曜日かどうか	aDatetime.weekday() == 6
+日付データが日曜日か	aDate.weekday() == 6
+現在をタプルにする	datetime.datetime.today().timetuple()
+日付時刻データをISO8601書式の文字列に変換する	aDatetime.isoformat()
+日付データをISO書式の文字列にする	aDate.isoformat()
+現在をISO書式の文字列にする	datetime.datetime.today().isoformat()
+今日を文字列でフォーマットして文字列に変換する	"datetime.datetime.today().strftime(""%d/%m/%y"")"
+現在を文字列を用いてフォーマットする	"datetime.datetime.today().strftime(""%d/%m/%y"")"
+タイムスタンプデータの時間数	aDatetime.hour
+タイムスタンプデータの分数	aDatetime.minute
+タイムスタンプデータにn週間を加算する	aDatetime + datetime.timedelta(weeks=n)
+日付データにn週間分、足す	aDate + datetime.timedelta(weeks=n)
+タイムスタンプデータからn週間分、減らす	aDatetime - datetime.timedelta(weeks=n)
+日付データからn週間分減算する	aDate - datetime.timedelta(weeks=n)
+タイムスタンプデータにn日分足す	aDatetime + datetime.timedelta(days=n)
+タイムスタンプデータをn日前に戻す	aDatetime - datetime.timedelta(days=n)
+日付時刻データからn日分、減らす	aDatetime - datetime.timedelta(days=n)
+日付データからn日を減算する	aDate - datetime.timedelta(days=n)
+日付時刻データにn時間を加算する	aDatetime + datetime.timedelta(hours=n)
+タイムスタンプデータからn時間分、減算する	aDatetime - datetime.timedelta(hours=n)
+日付データからn時間を引く	aDate - datetime.timedelta(hours=n)
+タイムスタンプデータにn分を加算する	aDatetime + datetime.timedelta(minutes=n)
+タイムスタンプデータからn分、引く	aDatetime - datetime.timedelta(minutes=n)
+タイムスタンプデータにn秒分、加算する	aDatetime + datetime.timedelta(seconds=n)
+タイムスタンプデータからn秒分、減らす	aDatetime - datetime.timedelta(seconds=n)
+日付データからn秒分減算する	aDate - datetime.timedelta(seconds=n)
+日付時刻データが日付時刻データより前かどうか調べる	aDatetime < aDatetime2
+日付データが日付データより前かどうか調べる	aDate < aDate2
+日付時刻データが日付時刻データより遅いか判定する	aDatetime > aDatetime2
+日付データは日付データより後ろか調べる	aDate > aDate2
+タイムスタンプデータが日付時刻データと同時か	aDatetime == aDatetime2
+日付データは日付データと同時	aDate == aDate2
+タイムスタンプデータと日付時刻データの時間差を求める	aDatetime - aDatetime2
+日付時刻データと日付時刻データの時間差は何秒か知る	(aDatetime - aDatetime2).total_seconds()
+タイムスタンプデータとタイムスタンプデータの時間差を秒数で算出する	(aDatetime - aDatetime2).total_seconds()//60
+変数名を項目名として、辞書	dict(name=element)
+マッピングのキーの値	aDict[key]
+マッピングの項目名を列挙する	list(aDict)
+辞書の項目名一覧を得る	list(aDict)
+辞書のエントリ数	len(aDict)
+辞書の全をクリアする	aDict.clear()
+辞書を浅く複製する	aDict.copy()
+マッピングの浅いコピーを生成する	aDict.copy()
+マッピングから項目名の値	aDict.get(key)
+辞書のキーに対応した値を得る	aDict.get(key)
+マップからキーの値をエラーなく参照する	aDict.get(key, None)
+辞書から項目名の値か、もしくは要素を見る	aDict.get(key, element)
+項目名が辞書に存在している	key in aDict
+項目名がマッピング上で定義済み	key in aDict
+キーが辞書に存在しているかどうか調べる	key not in aDict
+キーが辞書上で未定義	key not in aDict
+辞書の項目名とその項目をペアとして取り出す	aDict.items()
+タプルのキーを列挙する	aDict.keys()
+辞書のキーの一覧を見る	aDict.keys()
+タプルの値の一覧	aDict.values()
+要素が辞書の値として含まれている	element in aDict.values()
+要素がタプルの値に含まれていないかどうか調べる	element not in aDict.values()
+辞書の項目名を要素に設定する	aDict[key] = element
+タプルに要素をキーとして加える	aDict[key] = element
+辞書に項目名が存在していないとき要素を追加する	aDict.setdefault(key, element)
+マッピングに別のマッピングの項目を更新する	aDict.update(aDict2)
+マッピングにキーワード引数として更新する	aDict.update(**kwargs)
+ふたつのマップをマージする	aDict | aDict2
+キーで指定されたエントリを辞書から取り出す	aDict.pop(key)
+最後の項目を辞書からポップする	aDict.popitem()
+マッピングの項目名と値を入れ替える	{v: k for k, v in aDict.items()}
+２つのリストからマップ	dict(zip(aList, aList2))
+タプルを浅くコピーする	dict(aDict)
+タプルの値もコピーする	{k: copy.copy(v) for k, v in aDict.items()}
+現在のワーキングディレクトリ	os.getcwd()
+作業ディレクトリをfilepathに変更する	os.chdir(os.dirname(filepath))
+ファイルパスのファイル名	os.path.basename(filepath)
+ファイルからファイル名を求める	os.path.basename(filepath)
+ファイルの拡張子なしのファイル名を求める	os.path.splitext(os.path.basename(filepath))[0]
+ファイルから拡張子なしのファイル名を取り出す	os.path.splitext(os.path.basename(filepath))[0]
+ファイルのディレクトリ名を使う	os.path.dirname(filepath)
+ファイルパスからディレクトリ名を見る	os.path.dirname(filepath)
+ファイルパスの絶対パスを見る	os.path.abspath(filepath)
+ファイルパスを絶対パスに変換する	os.path.abspath(filepath)
+ファイルパスがあるか調べる	os.path.exists(filepath)
+ファイルが存在しない	not os.path.exists(filepath)
+スクリプトファイルと同じフォルダのファイルのパス	os.path.join(os.path.dirname(os.path.abspath(__file__)), filepath)
+ファイルからストリームを見る	open(filepath)
+ファイルからストリームをオープンして]fileとする	file = open(filepath)
+ファイルを読み込みモードを用いてオープンする]	open(filepath, mode='r')
+ファイルパスを読み込みできるようにオープンする]	open(filepath, mode='r')
+ファイルを開いて]読み込みストリームを使う	open(filepath, mode='r')
+ファイルパスをバイナリモードでオープンする]	open(filepath, mode='rb')
+ファイルをオープンして]、バイナリストリームを求める	open(filepath, mode='rb')
+ファイルを書き込みモードを使って開く]	open(filepath, mode='w')
+ファイルをオープンして]、書き込みストリームを求める	open(filepath, mode='w')
+バイナリ書き込みモードでファイルをオープンする]	open(filepath, mode='wb')
+バイナリ書き込みできるようにファイルパスをオープンする]	open(filepath, mode='wb')
+ファイルを追加用に開く]	open(filepath, mode='a')
+ファイルを追加できるように開く]	open(filepath, mode='a')
+ファイルパスをオープンして]、追加ストリームを使う	open(filepath, mode='a')
+ファイルを読み込みモードでオープンして]fとする	f = open(filepath, mode='r')
+ファイルをバイナリモードとして開いて]fとする	f = open(filepath, mode='rb')
+ファイルからバイナリストリームをオープンして]fとする	f = open(filepath, mode='rb')
+ファイルパスを書き込みモードでオープンして]fとする	f = open(filepath, mode='w')
+ファイルをバイナリ書き込みモードで開き]fとする	f = open(filepath, mode='wb')
+ファイルパスを追加モードでオープンして]、fとする	f = open(filepath, mode='a')
+ファイルから追加ストリームをオープンして]fとする	f = open(filepath, mode='a')
+UTF8としてファイルをオープンする]	open(filepath, encoding='utf-8')
+ファイルをSJISとしてオープンする]	open(filepath, encoding='shift_jis')
+EUCとしてファイルをオープンする]	open(filepath, encoding='euc_jp')
+ファイルパスをBOM付きを用いて開く]	open(filepath, encoding='utf_8_sig')
+文字コードtextとしてファイルをオープンする]	open(filepath, encoding=text)
+ファイルパスを文字列の示す文字コードとして開く]	open(filepath, encoding=s)
+書き込み用にUTF8を用いてファイルをオープンする]	open(filepath, mode='w', encoding='utf-8')
+ファイルをSJISで書き込みできるようにオープンする]	open(filepath, mode='w', encoding='shift_jis')
+ファイルパスをEUCで書き込み用にオープンする]	open(filepath, mode='w', encoding='euc_jp')
+ファイルをBOM付きで書き込みできるように開く]	open(filepath, mode='w', encoding='utf_8_sig')
+書き込みできるようにファイルを文字コードtextを使ってオープンする]	open(filepath, mode='w', encoding=text)
+ファイルパスを文字列の示すエンコーディングで書き込みできるように開く]	open(filepath, mode='w', encoding=s)
+UTF8で既存のファイルパスを追加できるように開く]	open(filepath, mode='a', encoding='utf-8')
+ファイルをSJISで追加できるようにオープンする]	open(filepath, mode='a', encoding='shift_jis')
+追加できるようにEUCを用いて既存のファイルパスをオープンする]	open(filepath, mode='a', encoding='euc_jp')
+BOM付きで追加できるように既存のファイルパスをオープンする]	open(filepath, mode='a', encoding='utf_8_sig')
+既存のファイルを文字コードtextとして追加できるようにオープンする]	open(filepath, mode='a', encoding=text)
+追加できるように文字列の示すエンコーディングで既存のファイルを開く]	open(filepath, mode='a', encoding=s)
+＜オプション＞エンコーディングをUTF8に指定する	encoding = 'utf-8'
+＜オプション＞文字コードをBOM付きに設定する	encoding = 'utf_8_sig'
+＜オプション＞文字コードを文字列の示す文字コードに設定する	encoding = s
+＜オプション＞バッファリングのサイズを指定する	buffering = 4096
+＜オプション＞エラーがあるとき、例外を発生させるようにする	errors = 'strict'
+ファイルを全部読む	f.read()
+入力ストリームから1文字、読む	f.read(1)
+ファイルからn文字読み込む	f.read(n)
+入力ストリーム全体を行単位で分割して読む	f.readlines()
+入力ストリームを一行ずつ読む	f.readline()
+改行除外してファイルを一行ずつ読み込む	f.readline()
+ファイルに文字列を書く	f.write(s)
+xを文字列に変換してファイルに書き込む	f.write(str(x))
+実数が正か確認する	x > 0
+実数が負の数か確認する	x < 0
+実数を２乗する	x ** 2
+数の二乗を求める	x ** 2
+実数の3乗	x ** 3
+整数のn乗	x ** n
+整数に浮動小数点数を加算する	x + y
+実数から数を引く	x - y
+実数に実数をかける	x * y
+実数で実数を除算する	x / y
+実数で実数を除算して、小数点以下を切り捨てる	x // y
+数で実数を整数除算する	x // y
+実数を文字列にする	str(x)
+浮動小数点数の複素数	complex(x)
+実数のn乗を求める	pow(x, n)
+浮動小数点数のn乗の浮動小数点数剰余	pow(x, n, y)
+浮動小数点数のn乗して浮動小数点数による余り	pow(x, n, y)
+浮動小数点数の小数点以下を丸める	round(x)
+数を小数点第一位で四捨五入する	round(x, 1)
+浮動小数点数を小数点以下で丸める	round(x, n)
+実数を千の位で四捨五入する	round(x, -3)
+浮動小数点数の最小値を計算する	sys.float_info.min
+浮動小数点数が整数か	x.is_integer()
+有理数モジュールを使う	import fractions
+分子n、分母mの分数を作る	fractions.Fraction(numerator=n, denominator=m)
+分子と分母から有理数を準備する	fractions.Fraction(分子, 分母)
+n進数文字列を整数に変換する	int(s, n)
+二進数文字列を整数に変換する	int(s, 2)
+n進数文字列をbytesizeバイトのバイト列にする	int(s, n).to_bytes(length=bytesize, byteorder='big')
+二進数文字列をバイト列に変換する	int(s, 2).to_bytes(length=bytesize, byteorder='big')
+八進文字列をバイト列にする	int(s, 8).to_bytes(length=bytesize, byteorder='big')
+十六進文字列をbytesizeバイトのバイナリにする	int(s, 16).to_bytes(length=bytesize, byteorder='big')
+整数nの二進数リテラル	bin(n)
+nを2進表記に変換する	bin(n)
+nの八進数表現	oct(n)
+整数nを八進数表現にする	oct(n)
+整数nの十六進リテラルを見る	hex(n)
+整数nを十六進数リテラルに変換する	hex(n)
+整数nの二進数文字列を使う	bin(n)[2:]
+nを2進文字列にする	bin(n)[2:]
+整数nの八進文字列を使う	oct(n)[2:]
+整数nを八進文字列にする	oct(n)[2:]
+整数nの16進文字列を使う	hex(n)[2:]
+整数nを16進文字列に変換する	hex(n)[2:]
+nを符号なしでバイト列に変換する	n.to_bytes(length=bytesize, byteorder='big')
+nを符号付きで長さn2のバイト列に変換する	n.to_bytes(length=bytesize, byteorder='big', signed=True)
+nーn2	n - n2
+nの二乗を求める	n ** 2
+nをn2で割った余りを求める	n % n2
+nをn2で結果の切り上げ	(n + n2 - 1) // n2
+nとn2のXOR	n ^ n2
+nからn2を引いてnにする	n -= n2
+切り捨てながらnをn2分の１にする	n //= n2
+nとn2が同じ値かどうか	n == n2
+nがn2と等しいかどうか調べる	n == n2
+nがn2より大きいか	n > n2
+nがn2よりも大きいかどうか調べる	n > n2
+nがn2以上	n >= n2
+nがn2以下	n <= n2
+nがn2未満、それかn3以上	n < n2 or n >= n3
+nがn2以下、または、n3以上かどうか調べる	n <= n2 or n >= n3
+n2がn以上、かつ、n3以下かどうか調べる	n <= n2 and n2 <= n3
+n2がnより大きく、かつ、n3より小さいか調べる	n < n2 and n2 < n3
+nが偶数か確認する	n % 2 == 0
+nが2で割り切れる	n % 2 == 0
+nが奇数かどうか調べる	n % 2 == 1
+nが3で割り切れるか確認する	n % 3 == 0
+nがn2で割り切れる	n % n2 == 0
+nがn2の倍数でないかどうか調べる	n % n2 != 0
+nがn2で割り切れないかどうか調べる	n % n2 != 0
+nが正の数か	n > 0
+nが負の数	n < 0
+nが一桁の整数か調べる	-9 <= n <= 9
+nが-9以上9以下か調べる	-9 <= n <= 9
+nが一桁の数かどうか調べる	0 <= n <= 9
+整数nがリストのどれか	n in aList
+整数nはセットのどれか	n in aSet
+整数nが組のどれかか	n in aTuple
+整数nが配列のどれか	n in aArray
+nが1、もしくは2かどうか調べる	n == 1 or n == 2
+nが1もしくは2、もしくは3に等しいか調べる	n == 1 or n == 2 or n == 3
+nの桁数を算出する	len(str(n))
+xが一桁の数かテストする	-9 <= x <= 9
+xが一桁の正の整数かどうか判定する	0 <= x <= 9
+xが1もしくは2、もしくは3に等しいかどうか調べる	x == 1 or x == 2 or x == 3
+nの無限リストを得る	itertools.repeat(n)
+オブジェクトがいつまでも繰り返すイテラブルを求める	itertools.repeat(element)
+文字列の無限列を得る	itertools.repeat(element)
+文字列をn回続くイテラブル	itertools.repeat(element, n)
+無限リスト	itertools.count()
+nからいつまでもカウントアップする	itertools.count(start=n)
+列を無限に繰り返す	itertools.cycle(iterable)
+シーケンスを累積する	itertools.accumulate(iterable, operator.mul)
+イテラブルを累積したイテラブルを得る	itertools.accumulate(iterable, operator.mul)
+イテラブルと列をチェインする	itertools.chain(iterable, iterable2)
+イテラブルに列を続けたイテラブルを得る	itertools.chain(iterable, iterable2)
+イテラブルの各要素に対してpredicateFuncの適用がtrueであれば、その要素を出力する	itertools.takewhile(predicateFunc, iterable)
+predicateFuncがTrueとなるイテラブルの要素	itertools.takewhile(predicateFunc, iterable)
+predicateFuncを適用したとき真となる列の要素	itertools.dropwhile(predicateFunc, iterable)
+シーケンスとイテラブルをペアのリストに変換する	itertools.zip_longest(iterable, iterable2)
+列とリストをペアリングする	itertools.zip_longest(iterable, iterable2)
+列とリストの直積	itertools.product(iterable, iterable2)
+イテラブルを2回あわせたデカルト積を求める	itertools.product(iterable, repeat=2)
+イテラブルの全順列を求める	itertools.permutations(iterable)
+リストの長さnの順列	itertools.permutations(iterable, n)
+列のコンビネーションを得る	itertools.combinations(iterable, n)
+列の重複組み合せを得る	itertools.combinations_with_replacement(iterable, n)
+JSON文字列をデータにする	json.loads(jsonString)
+JSONフォーマットの文字列を読み込む	json.loads(jsonString)
+JSON形式のファイル入力を辞書にする	json.load(fin)
+マッピングをインデント付きで文字列に変換する	json.dumps(aDict, ensure_ascii=False, indent=n)
+タプルをインデント幅nのJSON形式の文字列に変換する	json.dumps(aDict, ensure_ascii=False, indent=n)
+インデント幅nで、マッピングをJSON形式の文字列にする	json.dumps(aDict, ensure_ascii=False, indent=n)
+辞書を並べ直してJSON形式の文字列にする	json.dumps(aDict, ensure_ascii=False, sort_keys=True)
+辞書をJSON形式でファイルに保存する	json.dump(aDict, fout, ensure_ascii=False)
+要素ひとつのタプルを得る	(element,)
+要素一つのりスト	[element]
+n個の文字列があるリストを作る	[element] * n
+n2行n列の2次元リスト	[[0] * n for _ in range(n2)]
+nxn2の二次元リストを作る	[[0] * n for _ in range(n2)]
+リストの長さを見る	len(aList)
+タプルの長さを見る	len(aTuple)
+リストをn回、接続する	aList * n
+リストの先頭を使う	aList[0]
+組の先頭	aTuple[0]
+リストの末尾の値	aList[-1]
+組の末尾を使う	aTuple[-1]
+リストのn番目のを使う	aList[n]
+タプルのn番目のを使う	aTuple[n]
+リストの先頭を除く	aList[1:]
+リストの先頭のn要素を除く	aList[n:]
+組のn番目以降の部分を取り出す	aTuple[n:]
+組の最後を除く	aTuple[:-1]
+リストの最後のn要素を除く	aList[:-n]
+リストの最後からn番目以前の部分を取り出す	aList[:-n]
+タプルの最後からn番目以前の要素を取り出す	aTuple[:-n]
+ひとつ飛ばしで組を取り出す	aTuple[::2]
+組の合計値	sum(aTuple)
+タプルの中の最大値を計算する	max(aTuple)
+タプルの平均	sum(aTuple)/len(aTuple)
+n回の数値イテラブル	range(n)
+0から始まるn個の整数列を作る	list(range(n))
+nからn2までの整数列を使う	list(range(n, n2+1))
+nからn2までの一つ置きの整数列	list(range(n, n2+1, 2))
+nまでの奇整数リストを作る	list(range(1, n, 2))
+リストに文字列を加える	aList.append(element)
+リストの末尾にリストを追加し、拡張する	aList.extend(aList2)
+リストの末尾から値をポップする	aList.pop()
+リストの全要素を消去する	aList.clear()
+リストから文字列と等しい最初の要素を取り除く	aList.remove(element)
+文字列がリストの要素か確認する	element in aList
+オブジェクトがリストに含まれるかどうか調べる	element in aList
+文字列がタプルの要素かどうか	element in aTuple
+文字列は組に含まれるか調べる	element in aTuple
+文字列がリストの要素でないか確認する	element not in aList
+文字列はリストに含まれないか	element not in aList
+文字列はタプルの要素でないか確認する	element not in aTuple
+文字列が組に含まれないか	element not in aTuple
+リスト中の文字列が最初に見つかるインデックス	aList.index(element)
+タプル中の文字列が最初に見つかる場所	aTuple.index(element)
+リストをソートする	sorted(aList)
+タプルをソートする	sorted(aTuple)
+リストを昇順に並べる	sorted(aList, reverse=False)
+組の要素を昇順にソートする	sorted(aTuple, reverse=False)
+リストの値を小さい順に並べ変える	sorted(aList, reverse=True)
+組の値を昇順にソートする	sorted(aTuple, reverse=True)
+リストの要素を関数に適用した結果で並べる	sorted(aList, key=func)
+タプルの各要素を関数に適用した結果で並べる	sorted(aTuple, key=func)
+リスト中の要素が全て真か判定する	all(aList)
+組中の要素が全て真	all(aTuple)
+リストが少なくともひとつ真	any(aList)
+タプル内の要素は少なくともひとつ真	any(aTuple)
+組を順に出力する	print(*aTuple)
+組を引数として展開して表示する	print(*aTuple, sep=',')
+タプルを順番付けする	enumerate(aTuple)
+列の各要素を関数でフィルタする	filter(func, iterable)
+シーケンスを関数でフィルタする	map(func, iterable)
+算術計算ライブラリをインポートする	import math
+実数のルート	math.sqrt(x)
+切り上げて整数に変換する	math.ceil(x)
+切り下げて整数に変換する	math.floor(x)
+二つの整数最小公倍数	math.lcm(n, n2)
+3自然数のGCD	math.gcd(n, n2, n3)
+nとkの組み合わせ	math.comb(n, k)
+実数の仮数を求める	math.frexp(x)[0]
+小数点数の指数部を求める	math.frexp(x)[1]
+2つの浮動小数点数がほぼ等しい	math.isclose(x, x2)
+実数が有限か	math.isfinite(x)
+実数は無限大か調べる	math.isinf(x)
+実数がNaNかどうか	math.isnan(x)
+自然数個からk個取り出した時の並べ方の総数	math.perm(n, k)
+整数個のものからk個取り出した時の並べ方の総数を求める	math.perm(n, k)
+小数点数を実数で割った剰余	math.remainder(x, x2)
+kを底とする小数点数の対数を計算する	math.log(x, k)
+実数の2進対数	math.log2(x)
+2を底とする小数点数の対数	math.log2(x)
+10を底とする実数の対数を算出する	math.log10(x)
+cosを算出する	math.cos(x)
+実数の正弦を求める	math.sin(x)
+正接	math.tan(x)
+実数のアークコサイン	math.acos(x)
+余弦の逆数	math.acos(x)
+アークサインを求める	math.asin(x)
+実数のサインの逆数	math.asin(x)
+正接の逆数	math.atan(x)
+逆双曲線余弦	math.acosh(x)
+浮動小数点数の双曲線正弦の逆数	math.asinh(x)
+浮動小数点数の双曲線正接の逆数を算出する	math.atanh(x)
+小数点数のハイパボリック・コサイン	math.cosh(x)
+実数のハイパボリック・サイン	math.sinh(x)
+浮動小数点数の双曲線正接を算出する	math.tanh(x)
+２点間のユークリッド距離を求める	math.dist(point, point2)
+浮動小数点数とyの斜辺	math.hypot(x, y)
+原点から(実数,y)の距離を求める	math.hypot(x, y)
+円周率を用いる	math.pi
+自然対数の底	math.e
+グラフをプロットする	from sympy import N
+グラフを使用する	from sympy import N
+綺麗なプロットを描画する準備をする	import seaborn as sns
+見やすいプロットを使う準備をする	import seaborn as sns
+プロットの見栄えを綺麗にする	import seaborn as sns
+グラフのデザインをよくする	import seaborn as sns
+グラフのデザインをイイ感じに変更する	sns.set()
+グラフを論文に設定する	sns.set(context='paper')
+論文用にグラフを設定する	sns.set(context='paper')
+画面にグラフの用途を変更する	sns.set(context='notebook')
+画面用にグラフを変更する	sns.set(context='notebook')
+グラフの用途をプレゼンに設定する	sns.set(context='talk')
+プロットをスライド用に設定する	sns.set(context='talk')
+グラフの目的をポスターに変更する	sns.set(context='poster')
+プロットをポスター用に設定する	sns.set(context='poster')
+プロットの色を濃くする	sns.set(pallete='deep')
+カラーパレットを濃くする	sns.set(pallete='deep')
+グラフのパレットを淡くする	sns.set(pallete='muted')
+グラフのカラーパレットを全般的に淡くする	sns.set(pallete='muted')
+プロットの色をパステル調にする	sns.set(pallete='pastel')
+カラーパレットをパステル調にする	sns.set(pallete='pastel')
+グラフを全般的に暗くする	sns.set(pallete='dark')
+カラーパレットを全般的に暗くする	sns.set(pallete='dark')
+グラフのパレットを明るくする	sns.set(pallete='bright')
+グラフのカラーパレットを全般的に明るくする	sns.set(pallete='bright')
+グラフを全般的に色差別なくする	sns.set(pallete='colorblind')
+カラーパレットを色差別なくする	sns.set(pallete='colorblind')
+プロットの描画で濃い色テーマを使う	sns.set(pallete='deep')
+グラフの描画でパステル調のカラーパレットを用いる	sns.set(pallete='pastel')
+グラフの描画で暗い色を用いる	sns.set(pallete='dark')
+明るいカラーパレットをグラフの描画で使う	sns.set(pallete='bright')
+グラフの描画で色差別ない色を使う	sns.set(pallete='colorblind')
+グラフの色をpalleteNameで指定する	sns.set(pallete=palleteName)
+プロットで使うカラーパレットをpalleteNameに設定する	sns.set(pallete=palleteName)
+グラフで日本語を表示可能なようにする	sns.set(font='IPAexGothic')
+グラフの中の日本語表示を有効にする	sns.set(font='IPAexGothic')
+プロットのフォントを日本語表示に変更する	sns.set(font='IPAexGothic')
+グラフで使う名前をuntitledにセットする	plt.title(untitled)
+グラフのサイズを縦height横widthに設定する	plt.figure(figsize=(width, height))
+グラフのサイズを変更する	plt.figure(figsize=(width, height))
+グラフの横軸の名前をuntitledに変更する	plt.xlabel(untitled)
+グラフの横軸にラベルを設定する	plt.xlabel(untitled)
+グラフで用いるy座標の名前をuntitledに設定する	plt.ylabel(untitled)
+グラフの中の縦軸にuntitledという名称を付ける	plt.ylabel(untitled)
+格子線をグラフに入れる	plt.grid(True)
+補足をグラフに入れる	plt.legend()
+文字列と文字列とグラフに凡例を付ける	plt.legend([s, s2])
+データラベルの位置を(x,y)に設定する	plt.legend(loc=(x, y))
+プロット中の(x,y)の位置に凡例を加える	plt.legend(loc=(x, y))
+補足をベストな位置に入れる	plt.legend(loc='best')
+枠なしのデータラベルを付ける	plt.legend(frameon=False)
+折れ線グラフを描く	plt.plot(xdata, ydata)
+配列とリストの折れ線グラフを描く	plt.plot(xdata, ydata)
+配列と配列を折れ線グラフで描画する	plt.plot(xdata, ydata)
+データ列をy軸、イテラブルをx軸と指定して、折れ線を描画する	plt.plot(xdata, ydata)
+データ列の変化を折れ線グラフに描画する	plt.plot(range(len(xdata)), xdata)
+配列を横軸と指定して、折れ線グラフを描画する	plt.plot(range(len(xdata)), xdata)
+データフレームのカラムとカラムを折れ線グラフを用いて描画する	plt.plot(df[col], df[col2])
+折れ線グラフの透明度をalphaに指定する	plt.plot(xdata, ydata, alpha=alpha)
+リストとリストの折れ線グラフをアルファalphaで描く	plt.plot(xdata, ydata, alpha=alpha)
+データ列と数列の折れ線グラフを描いて、透明度をalphaに設定する	plt.plot(xdata, ydata, alpha=alpha)
+で使える色名の一覧を見る	matplotlib.colors.cnames
+折れ線の色を文字列に設定する	plt.plot(xdata, ydata, color=s)
+リストと配列の折れ線グラフを文字列の色で描く	plt.plot(xdata, ydata, color=s)
+リストとリストの折れ線グラフを描いて、色を文字列に変更する	plt.plot(xdata, ydata, color=s)
+折れ線グラフの色をカラーコードにする	plt.plot(xdata, ydata, color=rgb)
+リストとリストの折れ線グラフをカラーコードで描く	plt.plot(xdata, ydata, color=rgb)
+配列とデータ列の折れ線をプロットし、その色をカラーコードに設定する	plt.plot(xdata, ydata, color=rgb)
+破線グラフの色を濃いに指定する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+データ列とリストの破線を描画して、その色を濃いに変更する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+数列とリストについて破線グラフを描き、、色を淡いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='muted')
+破線の色をパステル調のに設定する	plt.plot(xdata, ydata, linestyle='dash', color='pastel')
+リストとリストの破線グラフを描き、、色をパステル調のにセットする	plt.plot(xdata, ydata, linestyle='dash', color='pastel')
+破線グラフの色を暗いに変更する	plt.plot(xdata, ydata, linestyle='dash', color='dark')
+リストと数列について破線グラフを描画し、、その色を暗いに設定する	plt.plot(xdata, ydata, linestyle='dash', color='dark')
+リストと数列の破線グラフを描いて、その色を明るいに設定する	plt.plot(xdata, ydata, linestyle='dash', color='bright')
+破線グラフの色を色差別ないに指定する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+リストとリストについて破線を描画して、その色を色差別ないに設定する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+濃い色の折れ線グラフを描き、、その線幅をnにセットする	plt.plot(xdata, ydata, linewidth=n, color='deep')
+データ列とリストについて濃い色の折れ線グラフを描いて、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+淡い色の折れ線を描いて、線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='muted')
+リストとデータ列について淡い色の折れ線グラフを描画してその線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='muted')
+パステル調の色の折れ線グラフを描画してその線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='pastel')
+配列とリストについてパステル調の色の折れ線を描画して線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='pastel')
+暗い色の折れ線グラフを描画して、線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+配列とリストについて暗い色の折れ線を描き、、その線幅をnに変更する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+明るい色の折れ線グラフを描き、、その線幅をnにセットする	plt.plot(xdata, ydata, linewidth=n, color='bright')
+リストとデータ列について明るい色の折れ線グラフを描き、、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='bright')
+色差別ない色の折れ線をプロットして、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+リストとリストについて色差別ない色の折れ線グラフを描画し、、その線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+データ列とリストの散布図を濃い色で描画する	plt.plot(xdata, ydata, c='deep')
+リストとリストについて散布図を描画し、、マーカーの色を濃いに設定する	plt.plot(xdata, ydata, c='deep')
+淡い色のマーカーを使って散布図を描画する	plt.plot(xdata, ydata, c='muted')
+リストと数列についての散布図を淡い色で描画する	plt.plot(xdata, ydata, c='muted')
+データ列と配列について散布図を描画し、マーカーの色を淡いに設定する	plt.plot(xdata, ydata, c='muted')
+散布図をパステル調の色でプロットする	plt.plot(xdata, ydata, c='pastel')
+パステル調の色でリストと数列についての散布図を描画する	plt.plot(xdata, ydata, c='pastel')
+データ列と数列について散布図を描き、、マーカーの色をパステル調のに設定する	plt.plot(xdata, ydata, c='pastel')
+暗い色のマーカーとして散布図を描画する	plt.plot(xdata, ydata, c='dark')
+リストと配列についての散布図を暗い色としてプロットする	plt.plot(xdata, ydata, c='dark')
+リストとデータ列について散布図を描画し、、マーカーの色を暗いに変更する	plt.plot(xdata, ydata, c='dark')
+散布図に明るい色のマーカーを用いる	plt.plot(xdata, ydata, c='bright')
+明るい色のマーカーとして散布図をプロットする	plt.plot(xdata, ydata, c='bright')
+明るい色でイテラブルと配列についての散布図を描画する	plt.plot(xdata, ydata, c='bright')
+データ列とリストについて散布図を描き、、マーカーの色を明るいに指定する	plt.plot(xdata, ydata, c='bright')
+色差別ない色のマーカーを散布図に使う	plt.plot(xdata, ydata, c='colorblind')
+色差別ない色のマーカーとして散布図を描画する	plt.plot(xdata, ydata, c='colorblind')
+配列と配列についての散布図を色差別ない色で描画する	plt.plot(xdata, ydata, c='colorblind')
+リストとリストについて散布図を描画して、色を色差別ないに設定する	plt.plot(xdata, ydata, c='colorblind')
+濃い色として散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+濃い色として重なりを見やすくデータ列とリストについての散布図を描画する	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+淡い色として散布図を重なりを見やすく描画する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+重なりを見やすくリストとリストについての散布図を淡い色で描画する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+パステル調の色のマーカーとして重なりを見やすく散布図を描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+パステル調の色で重なりを見やすくリストとデータ列についての散布図を描画する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+暗い色のマーカーで重なりを見やすく散布図を描く	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+暗い色で重なりを見やすくリストとリストについての散布図を描画する	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+重なりを見やすく散布図を明るい色のマーカーで描画する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+重なりを見やすくリストとリストの散布図を明るい色で描画する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+色差別ない色のマーカーで重なりを見やすく散布図を描く	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+配列とリストの散布図を色差別ない色で重なりを見やすく描く	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+リストについてのヒストグラムを濃いで描画する	plt.hist(xdata, color='deep')
+配列を濃い色のヒストグラムで描画する	plt.hist(xdata, color='deep')
+淡いで配列についての度数分布図を描画する	plt.hist(xdata, color='muted')
+配列を淡い色のヒストグラムとして描画する	plt.hist(xdata, color='muted')
+データ列についてのヒストグラムをパステル調の色で描画する	plt.hist(xdata, color='pastel')
+パステル調の色のヒストグラムで数列を描画する	plt.hist(xdata, color='pastel')
+暗い色でリストについての度数分布図を描画する	plt.hist(xdata, color='dark')
+配列を暗い色のヒストグラムで描画する	plt.hist(xdata, color='dark')
+柱状グラフを明るいを用いて描画する	plt.hist(xdata, color='bright')
+リストを明るい色の柱状図で描画する	plt.hist(xdata, color='bright')
+リストについてのヒストグラムを色差別ない色で描く	plt.hist(xdata, color='colorblind')
+色差別ない色のヒストグラムとしてイテラブルを描画する	plt.hist(xdata, color='colorblind')
+リストと数列の折れ線グラフをuntitledとラベル付けして描画する	plt.plot(xdata, ydata, label=untitled)
+リストとリストの折れ線グラフを描いて、untitledとラベル付けする	plt.plot(xdata, ydata, label=untitled)
+折れ線の線幅をnに設定する	plt.plot(xdata, ydata, linewidth=n)
+線幅nの折れ線グラフをプロットする	plt.plot(xdata, ydata, linewidth=n)
+リストとリストで折れ線グラフを描き、、その線幅をnに変更する	plt.plot(xdata, ydata, linewidth=n)
+濃いの折れ線グラフの線幅を指定する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+濃いの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+濃いをリストとリストで描いて、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+淡いの線幅をnに指定する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+リストとリストとして淡いグラフを描いて、その線幅をnに指定する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+パステル調のの折れ線グラフの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+パステル調のグラフを描画して、線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+暗いの線幅をnに指定する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+暗いグラフをリストとリストでプロットし、、その線幅をnに指定する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+明るいの線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+明るいグラフを描画し、、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+色差別ないの折れ線の線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+色差別ないグラフをプロットし、、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+濃いグラフの色をカラーコードに変更する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+配列と配列についてカラーコードの濃いグラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+数列とリストとして濃いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+淡いの折れ線の色をカラーコードにセットする	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+リストとリストについてカラーコードの淡いを描画する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+イテラブルとリストで淡いグラフをプロットして、その線幅をnに変更する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+イテラブルとデータ列のカラーコードのパステル調のを描く	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+リストとデータ列でパステル調のグラフを描画して、その線幅をnに指定する	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+リストとイテラブルのカラーコードの暗いを描画する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+イテラブルと配列として暗いグラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+明るいグラフの色をカラーコードに変更する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+リストとリストのカラーコードの明るいを描画する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+リストと数列を使って明るいグラフを描画し、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+リストとイテラブルについてカラーコードの色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+イテラブルと配列で色差別ないの折れ線グラフを描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+赤い濃いの折れ線グラフを描画する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+濃いの折れ線の色を赤にする	plt.plot(xdata, ydata, linestyle='deep', color='r')
+濃いの折れ線グラフをリストと配列でプロットして、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+赤色の淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+淡いの折れ線グラフの色を赤にする	plt.plot(xdata, ydata, linestyle='muted', color='r')
+淡いの折れ線を描画して、その線幅をnにセットする	plt.plot(xdata, ydata, linestyle='muted', color='r')
+赤いパステル調のグラフを描く	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+パステル調のグラフの色を赤くする	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+パステル調のの折れ線を描画して、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+赤色の暗いグラフを描く	plt.plot(xdata, ydata, linestyle='dark', color='r')
+暗いの折れ線グラフの色を赤くする	plt.plot(xdata, ydata, linestyle='dark', color='r')
+暗いグラフをリストとリストで描画してその線幅をnにセットする	plt.plot(xdata, ydata, linestyle='dark', color='r')
+明るいの折れ線の色を赤にする	plt.plot(xdata, ydata, linestyle='bright', color='r')
+明るいグラフを描画し、、線幅をnに設定する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+赤色の色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+データ列と配列で色差別ないの折れ線グラフを描いて、その線幅をnに設定する	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+数列とリストについて青い濃いグラフをプロットする	plt.plot(xdata, ydata, linestyle='deep', color='b')
+リストとリストについて濃いを描画してその色を青にする	plt.plot(xdata, ydata, linestyle='deep', color='b')
+青色の淡いグラフを描く	plt.plot(xdata, ydata, linestyle='muted', color='b')
+イテラブルとリストの青い淡いグラフを描画する	plt.plot(xdata, ydata, linestyle='muted', color='b')
+リストと配列について淡いグラフを描画して、その色を青にする	plt.plot(xdata, ydata, linestyle='muted', color='b')
+青いパステル調のを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+パステル調のグラフの色を青くする	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+イテラブルとリストの青色のパステル調のを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+リストと数列のパステル調のを描画して、その色を青色に指定する	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+青い暗いグラフを描く	plt.plot(xdata, ydata, linestyle='dark', color='b')
+暗いグラフの色を青色に設定する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+イテラブルとデータ列の青い暗いグラフをプロットする	plt.plot(xdata, ydata, linestyle='dark', color='b')
+リストとイテラブルの暗いグラフを描き、、その色を青にする	plt.plot(xdata, ydata, linestyle='dark', color='b')
+青い明るいグラフを描く	plt.plot(xdata, ydata, linestyle='bright', color='b')
+リストとイテラブルの青い明るいグラフを描画する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+リストとイテラブルの明るいグラフを描画して、その色を青くする	plt.plot(xdata, ydata, linestyle='bright', color='b')
+色差別ないの色を青にする	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+リストとデータ列について青い色差別ないグラフをプロットする	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+データ列とリストの色差別ないを描画し、、色を青にする	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+黒い濃いをプロットする	plt.plot(xdata, ydata, linestyle='deep', color='k')
+濃いグラフの色を黒くする	plt.plot(xdata, ydata, linestyle='deep', color='k')
+配列とリストについて黒色の濃いを描画する	plt.plot(xdata, ydata, linestyle='deep', color='k')
+数列とデータ列の濃いグラフを描画して、色を黒色に設定する	plt.plot(xdata, ydata, linestyle='deep', color='k')
+淡いグラフの色を黒色に設定する	plt.plot(xdata, ydata, linestyle='muted', color='k')
+リストとリストの黒色の淡いグラフをプロットする	plt.plot(xdata, ydata, linestyle='muted', color='k')
+リストとリストについて淡いグラフを描画し、、色を黒にする	plt.plot(xdata, ydata, linestyle='muted', color='k')
+パステル調のグラフの色を黒色に設定する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+リストと配列について黒色のパステル調のグラフを描画する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+リストとイテラブルのパステル調のグラフを描画し、、その色を黒にする	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+黒い暗いを描画する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+リストとリストの黒い暗いを描画する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+イテラブルとリストの暗いを描いてその色を黒にする	plt.plot(xdata, ydata, linestyle='dark', color='k')
+黒い明るいグラフをプロットする	plt.plot(xdata, ydata, linestyle='bright', color='k')
+明るいの色を黒くする	plt.plot(xdata, ydata, linestyle='bright', color='k')
+リストとリストの黒色の明るいグラフを描く	plt.plot(xdata, ydata, linestyle='bright', color='k')
+イテラブルと配列の明るいを描画して、その色を黒にする	plt.plot(xdata, ydata, linestyle='bright', color='k')
+黒い色差別ないを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+色差別ないグラフの色を黒色に設定する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+配列とリストの黒色の色差別ないグラフを描画する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+配列と数列の色差別ないをプロットし、、その色を黒色に設定する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+リストとリストについて散布図を描く	plt.scatter(xdata, ydata)
+リストとデータ列について相関を可視化する	plt.scatter(xdata, ydata)
+イテラブルを縦軸数列を横軸として、大きさnの散布図を描く	plt.scatter(xdata, ydata, s=n)
+大きさnで配列とリストについての散布図を描画する	plt.scatter(xdata, ydata, s=n)
+リストとリストについて散布図を描画して、その大きさをnに変更する	plt.scatter(xdata, ydata, s=n)
+散布図にポイントマーカーを用いる	plt.plot(xdata, ydata, marker='.')
+散布図をポイントマーカーで描画する	plt.plot(xdata, ydata, marker='.')
+リストとリストについて散布図をプロットして、マーカーをポイントに設定する	plt.plot(xdata, ydata, marker='.')
+配列とデータ列についての散布図にポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.')
+丸マーカーで散布図を描く	plt.plot(xdata, ydata, marker='o')
+リストとイテラブルについて散布図を描画して、マーカーを丸にセットする	plt.plot(xdata, ydata, marker='o')
+リストとイテラブルについての散布図に丸マーカーを描く	plt.plot(xdata, ydata, marker='o')
+散布図に三角マーカーを用いる	plt.plot(xdata, ydata, marker='^')
+散布図を△マーカーで描画する	plt.plot(xdata, ydata, marker='^')
+リストとリストの散布図を描画してマーカーを三角に設定する	plt.plot(xdata, ydata, marker='^')
+リストとイテラブルの散布図に△マーカーを描画する	plt.plot(xdata, ydata, marker='^')
+散布図に▽マーカーを用いる	plt.plot(xdata, ydata, marker='v')
+下三角マーカーで散布図を描く	plt.plot(xdata, ydata, marker='v')
+配列と配列について散布図を描画し、マーカーを下三角に設定する	plt.plot(xdata, ydata, marker='v')
+リストと配列の散布図に下三角マーカーを描く	plt.plot(xdata, ydata, marker='v')
+左三角マーカーを散布図に用いる	plt.plot(xdata, ydata, marker='<')
+左三角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='<')
+リストと配列について散布図を描き、、マーカーを左三角に設定する	plt.plot(xdata, ydata, marker='<')
+リストとデータ列についての散布図に左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<')
+リストとリストについて散布図をプロットしてマーカーを右三角に指定する	plt.plot(xdata, ydata, marker='>')
+リストとリストの散布図に右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>')
+散布図にバツマーカーを用いる	plt.plot(xdata, ydata, marker='x')
+散布図をバツマーカーで描画する	plt.plot(xdata, ydata, marker='x')
+データ列とリストについて散布図を描画してマーカーをバツに設定する	plt.plot(xdata, ydata, marker='x')
+データ列と数列についての散布図にクロスマーカーをプロットする	plt.plot(xdata, ydata, marker='x')
+大バツマーカーを散布図に用いる	plt.plot(xdata, ydata, marker='X')
+散布図を大バツマーカーで描画する	plt.plot(xdata, ydata, marker='X')
+リストとリストについて散布図をプロットしてマーカーを大バツに設定する	plt.plot(xdata, ydata, marker='X')
+データ列とリストについての散布図に大バツマーカーを描く	plt.plot(xdata, ydata, marker='X')
+散布図を四角マーカーとして描画する	plt.plot(xdata, ydata, marker='s')
+リストと配列について散布図を描いて、マーカーを四角に指定する	plt.plot(xdata, ydata, marker='s')
+イテラブルとイテラブルについての散布図に四角マーカーを描画する	plt.plot(xdata, ydata, marker='s')
+ダイアモンドマーカーを用いて散布図をプロットする	plt.plot(xdata, ydata, marker='D')
+リストとリストについて散布図を描画し、、マーカーをダイアモンドに設定する	plt.plot(xdata, ydata, marker='D')
+データ列と配列についての散布図にダイアモンドマーカーを描く	plt.plot(xdata, ydata, marker='D')
+星マーカーを散布図に使用する	plt.plot(xdata, ydata, marker='*')
+散布図を星マーカーで描画する	plt.plot(xdata, ydata, marker='*')
+リストと配列について散布図を描画して、マーカーを星に設定する	plt.plot(xdata, ydata, marker='*')
+データ列とデータ列の散布図に星マーカーを描画する	plt.plot(xdata, ydata, marker='*')
+カラーコードのポイントマーカーを散布図に使う	plt.plot(xdata, ydata, marker='.', c=rgb)
+カラーコードのポイントマーカーを用いて散布図を描く	plt.plot(xdata, ydata, marker='.', c=rgb)
+リストと数列についての散布図にカラーコードのポイントマーカーを描画する	plt.plot(xdata, ydata, marker='.', c=rgb)
+数列とイテラブルの散布図を描画し、ポイントマーカーの色をカラーコードに指定する	plt.plot(xdata, ydata, marker='.', c=rgb)
+カラーコードの丸マーカーを散布図に使う	plt.plot(xdata, ydata, marker='o', c=rgb)
+カラーコードの丸マーカーを用いて散布図を描画する	plt.plot(xdata, ydata, marker='o', c=rgb)
+イテラブルとリストについての散布図にカラーコードの丸マーカーをプロットする	plt.plot(xdata, ydata, marker='o', c=rgb)
+数列と数列について散布図を描画し、、丸マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='o', c=rgb)
+散布図にカラーコードの三角マーカーを用いる	plt.plot(xdata, ydata, marker='^', c=rgb)
+カラーコードの▲マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='^', c=rgb)
+リストとリストの散布図にカラーコードの上三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c=rgb)
+リストとリストについて散布図を描画し、、上三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='^', c=rgb)
+散布図にカラーコードの▼マーカーを使う	plt.plot(xdata, ydata, marker='v', c=rgb)
+カラーコードの▼マーカーをデータ列とリストについての散布図にプロットする	plt.plot(xdata, ydata, marker='v', c=rgb)
+数列とデータ列について散布図を描画し、、下三角マーカーの色をカラーコードに指定する	plt.plot(xdata, ydata, marker='v', c=rgb)
+カラーコードの左三角マーカーを用いて散布図をプロットする	plt.plot(xdata, ydata, marker='<', c=rgb)
+カラーコードの左三角マーカーをリストと数列についての散布図に描画する	plt.plot(xdata, ydata, marker='<', c=rgb)
+リストとリストについて散布図を描いて、左三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='<', c=rgb)
+カラーコードの右三角マーカーを散布図に使う	plt.plot(xdata, ydata, marker='>', c=rgb)
+カラーコードの右三角マーカーで散布図を描く	plt.plot(xdata, ydata, marker='>', c=rgb)
+データ列とデータ列についての散布図にカラーコードの右三角マーカーを描く	plt.plot(xdata, ydata, marker='>', c=rgb)
+データ列とイテラブルについて散布図を描画して、右三角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='>', c=rgb)
+散布図をカラーコードのバツマーカーとして描く	plt.plot(xdata, ydata, marker='x', c=rgb)
+配列とリストについての散布図にカラーコードのバツマーカーを描画する	plt.plot(xdata, ydata, marker='x', c=rgb)
+リストとリストについて散布図を描き、、バツマーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='x', c=rgb)
+散布図をカラーコードの大バツマーカーで描画する	plt.plot(xdata, ydata, marker='X', c=rgb)
+データ列とリストについての散布図にカラーコードの大バツマーカーを描画する	plt.plot(xdata, ydata, marker='X', c=rgb)
+データ列と数列について散布図を描いて、大バツマーカーの色をカラーコードにする	plt.plot(xdata, ydata, marker='X', c=rgb)
+カラーコードの四角マーカーとして散布図を描く	plt.plot(xdata, ydata, marker='s', c=rgb)
+リストとデータ列についての散布図にカラーコードの四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c=rgb)
+リストとリストの散布図を描画して四角マーカーの色をカラーコードに設定する	plt.plot(xdata, ydata, marker='s', c=rgb)
+カラーコードのダイアモンドマーカーを用いて散布図を描画する	plt.plot(xdata, ydata, marker='D', c=rgb)
+リストと数列についての散布図にカラーコードのダイアモンドマーカーを描画する	plt.plot(xdata, ydata, marker='D', c=rgb)
+配列とデータ列について散布図をプロットしてダイアモンドマーカーの色をカラーコードに変更する	plt.plot(xdata, ydata, marker='D', c=rgb)
+カラーコードの星マーカーを散布図に用いる	plt.plot(xdata, ydata, marker='*', c=rgb)
+データ列とデータ列についての散布図にカラーコードの星マーカーを描画する	plt.plot(xdata, ydata, marker='*', c=rgb)
+リストとリストについて散布図をプロットして、星マーカーの色をカラーコードにセットする	plt.plot(xdata, ydata, marker='*', c=rgb)
+散布図を赤いポイントマーカーで描画する	plt.plot(xdata, ydata, marker='.', c='r')
+赤色のポイントマーカーをリストとリストについての散布図に描画する	plt.plot(xdata, ydata, marker='.', c='r')
+散布図に赤い丸マーカーを用いる	plt.plot(xdata, ydata, marker='o', c='r')
+散布図を赤い丸マーカーを使って描画する	plt.plot(xdata, ydata, marker='o', c='r')
+配列とリストについての散布図に赤い丸マーカーをプロットする	plt.plot(xdata, ydata, marker='o', c='r')
+散布図に赤い△マーカーを使う	plt.plot(xdata, ydata, marker='^', c='r')
+赤い三角マーカーで散布図を描く	plt.plot(xdata, ydata, marker='^', c='r')
+リストとリストについての散布図に赤い三角マーカーをプロットする	plt.plot(xdata, ydata, marker='^', c='r')
+散布図に赤い下三角マーカーを使用する	plt.plot(xdata, ydata, marker='v', c='r')
+赤い▽マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='v', c='r')
+リストとリストについての散布図に赤い▼マーカーを描画する	plt.plot(xdata, ydata, marker='v', c='r')
+散布図に赤色の左三角マーカーを使う	plt.plot(xdata, ydata, marker='<', c='r')
+赤い左三角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='<', c='r')
+赤色の左三角マーカーを配列とデータ列の散布図に描画する	plt.plot(xdata, ydata, marker='<', c='r')
+赤い右三角マーカーを散布図に使用する	plt.plot(xdata, ydata, marker='>', c='r')
+赤い右三角マーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='>', c='r')
+リストとリストの散布図に赤い右三角マーカーを描画する	plt.plot(xdata, ydata, marker='>', c='r')
+赤いバツマーカーを散布図に使う	plt.plot(xdata, ydata, marker='x', c='r')
+赤いバツマーカーとして散布図をプロットする	plt.plot(xdata, ydata, marker='x', c='r')
+データ列とリストについての散布図に赤いバツマーカーを描画する	plt.plot(xdata, ydata, marker='x', c='r')
+散布図に赤い大バツマーカーを使用する	plt.plot(xdata, ydata, marker='X', c='r')
+赤い大バツマーカーとして散布図を描く	plt.plot(xdata, ydata, marker='X', c='r')
+リストと配列の散布図に赤い大バツマーカーをプロットする	plt.plot(xdata, ydata, marker='X', c='r')
+赤い四角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='s', c='r')
+赤色の四角マーカーを配列とリストの散布図にプロットする	plt.plot(xdata, ydata, marker='s', c='r')
+散布図に赤いダイアモンドマーカーを使用する	plt.plot(xdata, ydata, marker='D', c='r')
+赤いダイアモンドマーカーを用いて散布図を描画する	plt.plot(xdata, ydata, marker='D', c='r')
+配列と配列についての散布図に赤色のダイアモンドマーカーを描画する	plt.plot(xdata, ydata, marker='D', c='r')
+赤い星マーカーを散布図に使う	plt.plot(xdata, ydata, marker='*', c='r')
+赤い星マーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='*', c='r')
+赤い星マーカーをリストと配列の散布図にプロットする	plt.plot(xdata, ydata, marker='*', c='r')
+散布図に黒いポイントマーカーを用いる	plt.plot(xdata, ydata, marker='.', c='k')
+黒いポイントマーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='.', c='k')
+リストと配列についての散布図に黒色のポイントマーカーを描く	plt.plot(xdata, ydata, marker='.', c='k')
+黒い丸マーカーで散布図を描く	plt.plot(xdata, ydata, marker='o', c='k')
+数列とリストの散布図に黒い丸マーカーを描画する	plt.plot(xdata, ydata, marker='o', c='k')
+散布図に黒い上三角マーカーを用いる	plt.plot(xdata, ydata, marker='^', c='k')
+黒い▲マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='^', c='k')
+配列とリストについての散布図に黒い三角マーカーを描画する	plt.plot(xdata, ydata, marker='^', c='k')
+黒い▼マーカーを散布図に使用する	plt.plot(xdata, ydata, marker='v', c='k')
+黒い下三角マーカーとして散布図を描画する	plt.plot(xdata, ydata, marker='v', c='k')
+黒い下三角マーカーをリストとリストの散布図に描画する	plt.plot(xdata, ydata, marker='v', c='k')
+散布図に黒い左三角マーカーを用いる	plt.plot(xdata, ydata, marker='<', c='k')
+散布図を黒い左三角マーカーで描画する	plt.plot(xdata, ydata, marker='<', c='k')
+リストと配列についての散布図に黒色の左三角マーカーを描画する	plt.plot(xdata, ydata, marker='<', c='k')
+散布図を黒い右三角マーカーで描く	plt.plot(xdata, ydata, marker='>', c='k')
+黒い右三角マーカーを配列とリストについての散布図に描画する	plt.plot(xdata, ydata, marker='>', c='k')
+散布図に黒いクロスマーカーを用いる	plt.plot(xdata, ydata, marker='x', c='k')
+黒いバツマーカーを用いて散布図を描画する	plt.plot(xdata, ydata, marker='x', c='k')
+リストとリストについての散布図に黒いクロスマーカーを描く	plt.plot(xdata, ydata, marker='x', c='k')
+散布図に黒色の大バツマーカーを使う	plt.plot(xdata, ydata, marker='X', c='k')
+黒い大バツマーカーで散布図をプロットする	plt.plot(xdata, ydata, marker='X', c='k')
+数列と配列についての散布図に黒い大バツマーカーを描画する	plt.plot(xdata, ydata, marker='X', c='k')
+黒色の四角マーカーを散布図に使う	plt.plot(xdata, ydata, marker='s', c='k')
+黒色の四角マーカーで散布図を描画する	plt.plot(xdata, ydata, marker='s', c='k')
+リストとデータ列についての散布図に黒い四角マーカーを描画する	plt.plot(xdata, ydata, marker='s', c='k')
+散布図に黒いダイアモンドマーカーを使用する	plt.plot(xdata, ydata, marker='D', c='k')
+黒い菱形マーカーを使って散布図を描画する	plt.plot(xdata, ydata, marker='D', c='k')
+黒い菱形マーカーを数列と配列についての散布図に描画する	plt.plot(xdata, ydata, marker='D', c='k')
+黒色の星マーカーを散布図に用いる	plt.plot(xdata, ydata, marker='*', c='k')
+散布図を黒い星マーカーでプロットする	plt.plot(xdata, ydata, marker='*', c='k')
+黒い星マーカーをデータ列とイテラブルについての散布図に描画する	plt.plot(xdata, ydata, marker='*', c='k')
+にx=0の破線を付ける	plt.axvline(x=0, linestyle='dashed')
+にx=0の一点鎖線をつける	plt.axvline(x=0, linestyle='dashbot')
+にx=0の点線をつける	plt.axvline(x=0, linestyle='dotted')
+にx=0の実線をつける	plt.axvline(x=0, linestyle='solid')
+グラフにy=0の破線をつける	plt.axhline(y=0, linestyle='dashed')
+にy=0の一点鎖線を設定する	plt.axhline(y=0, linestyle='dashbot')
+グラフに水平方向の点線をつける	plt.axhline(y=0, linestyle='dotted')
+にy=0の実線を付ける	plt.axhline(y=0, linestyle='solid')
+配列とイテラブルについてリストの値に応じて、散布図の色を変える	plt.scatter(xdata, ydata, c=aList, cmap='Blues')
+カラーバーを横向きに描画する	plt.colorbar(orientation='horizontal')
+カラーバーを横向きでつける	plt.colorbar(orientation='horizontal')
+リストとリストについての散布図に凡例用のラベルを付ける	plt.scatter(xdata, xdata, label=s)
+リストとリストの散布図をプロットし、、文字列という凡例用のラベルを付ける	plt.scatter(xdata, xdata, label=s)
+ヒストグラムをプロットする	plt.hist(データ列)
+ヒストグラムでリストを可視化する	plt.hist(aList)
+配列のヒストグラムを描く	plt.hist(aArray)
+配列をヒストグラムとして可視化する	plt.hist(aArray)
+データフレームのカラムのヒストグラムを描画する	plt.hist(df[column])
+度数分布図としてデータフレームのカラムを可視化する	plt.hist(df[column])
+データ列のヒストグラムを描く	plt.hist(ds)
+データ列をヒストグラムとして可視化する	plt.hist(ds)
+ヒストグラムを描画して、半透明化にする	plt.hist(データ列, alpha=0.5)
+柱状図の透明度をxに指定する	plt.hist(データ列, alpha=x)
+ヒストグラムを描き、透明度をxに設定する	plt.hist(データ列, alpha=x)
+柱状図のビン数を指定する	plt.hist(データ列, bins=n)
+ビンを設定してヒストグラムをプロットする	plt.hist(データ列, bins=n)
+区間数nのヒストグラムを描画する	plt.hist(データ列, bins=n)
+度数分布図を描画し、、ビン数をnに設定する	plt.hist(データ列, bins=n)
+ヒストグラムの範囲を変更する	plt.hist(データ列, range=(start, end))
+柱状図をstartからendまでの範囲で描画する	plt.hist(データ列, range=(start, end))
+データ列をstartからendの間の柱状図を用いて描画する	plt.hist(データ列, range=(start, end))
+startからendの区間で度数分布図にする	plt.hist(データ列, range=(start, end))
+ヒストグラムのプロットして、正規化する	plt.hist(データ列, density=True)
+正規化されたヒストグラムを描く	plt.hist(データ列, density=True)
+ヒストグラムを2つ並べて描く	plt.hist([データ列, データ列2], color=['b', 'r'])
+データ列を箱ひげ図でプロットする	plt.boxplot(データ列)
+箱ひげ図としてデータ列を可視化する	plt.boxplot(データ列)
+二つのデータ列を並べてボックスチャートにする	plt.boxplot([データ列, データ列2])
+箱髭図を二つ並べて描く	plt.boxplot([データ列, データ列2])
+箱ひげ図を横に並べる	plt.boxplot([データ列, データ列2])
+二つの列を並べて箱ひげ図にする	plt.boxplot([df[column], df[column2]])
+棒グラフを描く	plt.bar(ラベル列, データ列)
+データ列とラベルを指定して、棒グラフをプロットする	plt.bar(ラベル列, データ列)
+縦棒を描画する	plt.bar(ラベル列, データ列)
+データ列とラベルを指定して縦棒を描画する	plt.bar(ラベル列, データ列)
+データ列とラベル列を指定して、横棒を描画する	plt.barh(ラベル列, データ列)
+カラーコードに棒グラフの色を設定する	plt.bar(ラベル列, データ列, color=rgb)
+カラーコードに横棒グラフの色を設定する	plt.barh(ラベル列, データ列, color=rgb)
+データ列とラベル列を指定して、積み上げ棒グラフをプロットする	"plt.bar(ラベル列, データ列, bottom=データ列2, color=""red"")"
+棒グラフを描画して幅をxに変更する	plt.bar(ラベル列, データ列, width=x)
+xに棒の幅をする	plt.bar(ラベル列, データ列, width=x)
+横棒を描画して、幅をxに設定する	plt.barh(ラベル列, データ列, width=x)
+横棒の幅をxにする	plt.barh(ラベル列, データ列, width=x)
+棒を描画して中央寄せする	plt.bar(ラベル列, データ列, align='center')
+縦棒グラフを描いて、中央寄せする	plt.bar(ラベル列, データ列, align='center')
+横棒を描画して、中央寄せする	plt.barh(ラベル列, データ列, align='center')
+複数カラムの度数分布図を一度に描画する	sns.pairplot(df[[column, column2, column3]])
+＜オプション＞色をアリスブルーに指定する	color = 'aliceblue'
+＜オプション＞色をアンティークホワイトに設定する	color = 'antiquewhite'
+＜オプション＞アクアを使う	color = 'aqua'
+＜オプション＞グラフの色をアクアに指定する	color = 'aqua'
+＜オプション＞色をアクアマリンに指定する	color = 'aquamarine'
+＜オプション＞色を紺碧に設定する	color = 'azure'
+＜オプション＞ビスク色を使用する	color = 'bisque'
+＜オプション＞色をビスクに設定する	color = 'bisque'
+＜オプション＞ブランチドアーモンドを使う	color = 'blanchedalmond'
+＜オプション＞グラフの色をブランチドアーモンドに指定する	color = 'blanchedalmond'
+＜オプション＞ブルーバイオレットにグラフの色をする	color = 'blueviolet'
+＜オプション＞グラフの色を茶色に変更する	color = 'brown'
+＜オプション＞バリーウッドを使う	color = 'burlywood'
+＜オプション＞グラフの色をバリーウッドに指定する	color = 'burlywood'
+＜オプション＞シャルトリューズ色を使用する	color = 'chartreuse'
+＜オプション＞チョコレートを使う	color = 'chocolate'
+＜オプション＞グラフの色をチョコレートにする	color = 'chocolate'
+＜オプション＞珊瑚を使う	color = 'coral'
+＜オプション＞グラフの色を珊瑚に設定する	color = 'coral'
+＜オプション＞グラフの色をやわらかい青に設定する	color = 'cornflowerblue'
+＜オプション＞コーンズシルクにグラフの色を設定する	color = 'cornsilk'
+＜オプション＞真紅にグラフの色を設定する	color = 'crimson'
+＜オプション＞シアンを用いる	color = 'cyan'
+＜オプション＞グラフの色をシアンにセットする	color = 'cyan'
+＜オプション＞ダークブルーを使う	color = 'darkblue'
+＜オプション＞紺にグラフの色を設定する	color = 'darkblue'
+＜オプション＞濃いシアンを用いる	color = 'darkcyan'
+＜オプション＞ダークシアンに色を変更する	color = 'darkcyan'
+＜オプション＞グラフの色をダークゴールデンロッドにセットする	color = 'darkgoldenrod'
+＜オプション＞ダークグレーに色を変更する	color = 'darkgray'
+＜オプション＞ダークグリーンを使用する	color = 'darkgreen'
+＜オプション＞グラフの色をダークグレーに変更する	color = 'darkgrey'
+＜オプション＞ダークカーキにグラフの色を設定する	color = 'darkkhaki'
+＜オプション＞ダークマゼンタを用いる	color = 'darkmagenta'
+＜オプション＞色をダークマゼンタに設定する	color = 'darkmagenta'
+＜オプション＞ダークオレンジを用いる	color = 'darkorange'
+＜オプション＞色をダークオレンジに変更する	color = 'darkorange'
+＜オプション＞ダークレッドを用いる	color = 'darkred'
+＜オプション＞グラフの色をダークレッドに指定する	color = 'darkred'
+＜オプション＞色をダークサーモンに設定する	color = 'darksalmon'
+＜オプション＞グラフの色をダークシアグリーンに変更する	color = 'darkseagreen'
+＜オプション＞ダークスレートブルーを使う	color = 'darkslateblue'
+＜オプション＞色をダークスレートブルーに設定する	color = 'darkslateblue'
+＜オプション＞ダークスラテグレー色を使用する	color = 'darkslategray'
+＜オプション＞ダーク・スラテグレー色を用いる	color = 'darkslategrey'
+＜オプション＞色をダーク・スラテグレーに設定する	color = 'darkslategrey'
+＜オプション＞デピンクに色を設定する	color = 'deeppink'
+＜オプション＞ディープスカイブルー色を用いる	color = 'deepskyblue'
+＜オプション＞ディープスカイブルーにグラフの色を変更する	color = 'deepskyblue'
+＜オプション＞ディムグレーを使用する	color = 'dimgray'
+＜オプション＞ディムグレーにグラフの色を変更する	color = 'dimgrey'
+＜オプション＞ドジャーブルーを用いる	color = 'dodgerblue'
+＜オプション＞ドジャーブルーにグラフの色を設定する	color = 'dodgerblue'
+＜オプション＞グラフの色を耐火レンガに指定する	color = 'firebrick'
+＜オプション＞フローラルホワイトを使う	color = 'floralwhite'
+＜オプション＞グラフの色をフローラルホワイトに変更する	color = 'floralwhite'
+＜オプション＞フォレストグリーン色を使用する	color = 'forestgreen'
+＜オプション＞フクシアにグラフの色を変更する	color = 'fuchsia'
+＜オプション＞色をゲインズボロに指定する	color = 'gainsboro'
+＜オプション＞ゴーストホワイトを用いる	color = 'ghostwhite'
+＜オプション＞色をゴーストホワイトに指定する	color = 'ghostwhite'
+＜オプション＞ゴールド色を使用する	color = 'gold'
+＜オプション＞色をゴールドに変更する	color = 'gold'
+＜オプション＞ゴールデンロッドを使う	color = 'goldenrod'
+＜オプション＞グラフの色をグレーに指定する	color = 'gray'
+＜オプション＞グリーンを使う	color = 'green'
+＜オプション＞グリーンイエローを使う	color = 'greenyellow'
+＜オプション＞グリーンイエローにグラフの色を設定する	color = 'greenyellow'
+＜オプション＞色をグレーに変更する	color = 'grey'
+＜オプション＞色をホットピンクに変更する	color = 'hotpink'
+＜オプション＞インディアンレッドを使う	color = 'indianred'
+＜オプション＞グラフの色をインディゴに変更する	color = 'indigo'
+＜オプション＞アイボリー色を用いる	color = 'ivory'
+＜オプション＞グラフの色をアイボリーにする	color = 'ivory'
+＜オプション＞色をカーキに指定する	color = 'khaki'
+＜オプション＞ラベンダーを使う	color = 'lavender'
+＜オプション＞ラベンダーにグラフの色を設定する	color = 'lavender'
+＜オプション＞ラベンダーブラッシュ色を使用する	color = 'lavenderblush'
+＜オプション＞グラフの色をラベンダーブラッシュに指定する	color = 'lavenderblush'
+＜オプション＞ローングリーン色を用いる	color = 'lawngreen'
+＜オプション＞グラフの色をローングリーンに指定する	color = 'lawngreen'
+＜オプション＞レモンシフォンを使う	color = 'lemonchiffon'
+＜オプション＞グラフの色をレモンシフォンにセットする	color = 'lemonchiffon'
+＜オプション＞色をライトブルーにセットする	color = 'lightblue'
+＜オプション＞ライトコーラルを使う	color = 'lightcoral'
+＜オプション＞グラフの色をライトコーラルに変更する	color = 'lightcoral'
+＜オプション＞ライトシアンにグラフの色を設定する	color = 'lightcyan'
+＜オプション＞色をライトゴールドロディイエローに設定する	color = 'lightgoldenrodyellow'
+＜オプション＞ライトグレーを使う	color = 'lightgray'
+＜オプション＞色をライトグレーに指定する	color = 'lightgray'
+＜オプション＞ライトグレー色を用いる	color = 'lightgrey'
+＜オプション＞ライトグレーにグラフの色を指定する	color = 'lightgrey'
+＜オプション＞淡いピンク色を使用する	color = 'lightpink'
+＜オプション＞グラフの色を淡いピンク色に変更する	color = 'lightpink'
+＜オプション＞ライトサーモンに色を設定する	color = 'lightsalmon'
+＜オプション＞ライトグリーン色を用いる	color = 'lightseagreen'
+＜オプション＞ライトスカイブルーにグラフの色を指定する	color = 'lightskyblue'
+＜オプション＞ライトスレイグレー色を用いる	color = 'lightslategray'
+＜オプション＞ライトスレイグレーにグラフの色を設定する	color = 'lightslategray'
+＜オプション＞ライトスレイグレーにグラフの色を設定する	color = 'lightslategrey'
+＜オプション＞ライトスチールブルー色を使用する	color = 'lightsteelblue'
+＜オプション＞グラフの色をライトスチールブルーに指定する	color = 'lightsteelblue'
+＜オプション＞グラフの色をライトイエローに変更する	color = 'lightyellow'
+＜オプション＞ライムを使用する	color = 'lime'
+＜オプション＞グラフの色をライムにする	color = 'lime'
+＜オプション＞グラフの色をライムグリーンに指定する	color = 'limegreen'
+＜オプション＞色をマゼンタにセットする	color = 'magenta'
+＜オプション＞色をマルーンに設定する	color = 'maroon'
+＜オプション＞色をミディアムアクアマリンに設定する	color = 'mediumaquamarine'
+＜オプション＞ミディアムブルー色を使用する	color = 'mediumblue'
+＜オプション＞色をミディアムブルーに指定する	color = 'mediumblue'
+＜オプション＞ミディアムオーキッド色を使用する	color = 'mediumorchid'
+＜オプション＞グラフの色をミディアムオーキッドに変更する	color = 'mediumorchid'
+＜オプション＞色をミディアムパープルに設定する	color = 'mediumpurple'
+＜オプション＞ミディアムスレートブルー色を用いる	color = 'mediumslateblue'
+＜オプション＞ミディアムスプリンググリーンを使う	color = 'mediumspringgreen'
+＜オプション＞グラフの色をミディアムスプリンググリーンに変更する	color = 'mediumspringgreen'
+＜オプション＞ミディアムターコイズ色を使用する	color = 'mediumturquoise'
+＜オプション＞グラフの色をミディアムバイオレットレッドに変更する	color = 'mediumvioletred'
+＜オプション＞ミッドナイトブルー色を用いる	color = 'midnightblue'
+＜オプション＞色をミッドナイトブルーに設定する	color = 'midnightblue'
+＜オプション＞ミントクリームにグラフの色をする	color = 'mintcream'
+＜オプション＞ミスティローズ色を使用する	color = 'mistyrose'
+＜オプション＞ナバホホワイトを使う	color = 'navajowhite'
+＜オプション＞ナバホホワイトにグラフの色を設定する	color = 'navajowhite'
+＜オプション＞オールドレースにグラフの色を指定する	color = 'oldlace'
+＜オプション＞オリーブを使用する	color = 'olive'
+＜オプション＞グラフの色をオリベドラブに指定する	color = 'olivedrab'
+＜オプション＞グラフの色をオレンジに変更する	color = 'orange'
+＜オプション＞色をオレンジレッドに指定する	color = 'orangered'
+＜オプション＞オーキッド色を使用する	color = 'orchid'
+＜オプション＞グラフの色をオーキッドに指定する	color = 'orchid'
+＜オプション＞色をペールグリーンにセットする	color = 'palegreen'
+＜オプション＞パレットトルコイズを用いる	color = 'paleturquoise'
+＜オプション＞パールバイオレットレッドに色を設定する	color = 'palevioletred'
+＜オプション＞ピーチパフ色を使用する	color = 'peachpuff'
+＜オプション＞色をピーチパフに指定する	color = 'peachpuff'
+＜オプション＞ペルーにグラフの色を設定する	color = 'peru'
+＜オプション＞色をピンクに変更する	color = 'pink'
+＜オプション＞プラムを使う	color = 'plum'
+＜オプション＞色をプラムに変更する	color = 'plum'
+＜オプション＞パウダーブルーに色を変更する	color = 'powderblue'
+＜オプション＞グラフの色をレベッカパープルにセットする	color = 'rebeccapurple'
+＜オプション＞グラフの色をロージーブラウンに変更する	color = 'rosybrown'
+＜オプション＞ロイヤルブルーを使う	color = 'royalblue'
+＜オプション＞グラフの色をロイヤルブルーに変更する	color = 'royalblue'
+＜オプション＞サドルブラウンにグラフの色を変更する	color = 'saddlebrown'
+＜オプション＞色をサーモンに指定する	color = 'salmon'
+＜オプション＞色をサンディーブラウンに設定する	color = 'sandybrown'
+＜オプション＞シーグリーンを使う	color = 'seagreen'
+＜オプション＞色をシーグリーンに指定する	color = 'seagreen'
+＜オプション＞色を貝殻に設定する	color = 'seashell'
+＜オプション＞シルバー色を用いる	color = 'silver'
+＜オプション＞シルバーにグラフの色を設定する	color = 'silver'
+＜オプション＞グラフの色をスカイブルーに変更する	color = 'skyblue'
+＜オプション＞色をスレートブルーに設定する	color = 'slateblue'
+＜オプション＞スラグレーにグラフの色を設定する	color = 'slategray'
+＜オプション＞スノーを使用する	color = 'snow'
+＜オプション＞色をスノーに設定する	color = 'snow'
+＜オプション＞グラフの色をスプリンググリーンに指定する	color = 'springgreen'
+＜オプション＞スチールブルーを使う	color = 'steelblue'
+＜オプション＞スチールブルーにグラフの色を設定する	color = 'steelblue'
+＜オプション＞タン色を用いる	color = 'tan'
+＜オプション＞淡い茶色に色を設定する	color = 'tan'
+＜オプション＞色を青緑に設定する	color = 'teal'
+＜オプション＞シスル色を用いる	color = 'thistle'
+＜オプション＞グラフの色をシスルに指定する	color = 'thistle'
+＜オプション＞色をトマトに設定する	color = 'tomato'
+＜オプション＞青緑色を用いる	color = 'turquoise'
+＜オプション＞色をターコイズに指定する	color = 'turquoise'
+＜オプション＞青紫色を用いる	color = 'violet'
+＜オプション＞青紫にグラフの色を設定する	color = 'violet'
+＜オプション＞グラフの色を小麦色に指定する	color = 'wheat'
+＜オプション＞白色を使用する	color = 'white'
+＜オプション＞色を白に変更する	color = 'white'
+＜オプション＞グラフの色をホワイトスモークに変更する	color = 'whitesmoke'
+＜オプション＞黄色色を使用する	color = 'yellow'
+＜オプション＞色を黄色に設定する	color = 'yellow'
+＜オプション＞イエローグリーン色を用いる	color = 'yellowgreen'
+＜オプション＞色をイエローグリーンに指定する	color = 'yellowgreen'
+折れ線グラフを描画して、色をアリスブルーにする	plt.plot(データ列, データ列2, color='aliceblue')
+折れ線グラフを描画して、色をアンティークホワイトに設定する	plt.plot(データ列, データ列2, color='antiquewhite')
+折れ線グラフを描画して、色をアクアに変更する	plt.plot(データ列, データ列2, color='aqua')
+折れ線グラフの色をアクアマリンに指定する	plt.plot(データ列, データ列2, color='aquamarine')
+折れ線グラフを描画してその色をアクアマリンに設定する	plt.plot(データ列, データ列2, color='aquamarine')
+線グラフを描画して、色を紺碧に指定する	plt.plot(データ列, データ列2, color='azure')
+折れ線グラフを描画してその色をベージュに変更する	plt.plot(データ列, データ列2, color='beige')
+折れ線グラフを描画して、その色をビスクにセットする	plt.plot(データ列, データ列2, color='bisque')
+折れ線グラフを描画してその色をブランチドアーモンドに設定する	plt.plot(データ列, データ列2, color='blanchedalmond')
+折れ線グラフを描画して、その色を青にセットする	plt.plot(データ列, データ列2, color='blue')
+線グラフを描画して、色をブルーバイオレットに設定する	plt.plot(データ列, データ列2, color='blueviolet')
+折れ線グラフの色を茶色に変更する	plt.plot(データ列, データ列2, color='brown')
+茶色色の折れ線グラフを描画する	plt.plot(データ列, データ列2, color='brown')
+折れ線グラフを描画して、色を茶色に指定する	plt.plot(データ列, データ列2, color='brown')
+折れ線グラフを描画してその色をバリーウッドに設定する	plt.plot(データ列, データ列2, color='burlywood')
+折れ線グラフの色をカデットブルーに指定する	plt.plot(データ列, データ列2, color='cadetblue')
+線グラフの色をシャルトリューズに設定する	plt.plot(データ列, データ列2, color='chartreuse')
+線グラフを描画して、その色をシャルトリューズに設定する	plt.plot(データ列, データ列2, color='chartreuse')
+線グラフの色をチョコレートに指定する	plt.plot(データ列, データ列2, color='chocolate')
+折れ線グラフを描画して、その色をチョコレートに指定する	plt.plot(データ列, データ列2, color='chocolate')
+線グラフの色を珊瑚に設定する	plt.plot(データ列, データ列2, color='coral')
+線グラフを描画して、その色をコーラルに設定する	plt.plot(データ列, データ列2, color='coral')
+折れ線グラフの色をやわらかい青に指定する	plt.plot(データ列, データ列2, color='cornflowerblue')
+折れ線グラフを描画してその色をコーンフラワーブルーに変更する	plt.plot(データ列, データ列2, color='cornflowerblue')
+折れ線グラフを描画してその色をコーンズシルクに変更する	plt.plot(データ列, データ列2, color='cornsilk')
+線グラフの色をクリムゾンに設定する	plt.plot(データ列, データ列2, color='crimson')
+線グラフを描画して、その色を真紅に設定する	plt.plot(データ列, データ列2, color='crimson')
+折れ線グラフを描画して色をシアンに設定する	plt.plot(データ列, データ列2, color='cyan')
+線グラフの色を紺に変更する	plt.plot(データ列, データ列2, color='darkblue')
+ダークブルー色の線グラフを描画する	plt.plot(データ列, データ列2, color='darkblue')
+線グラフを描画して、その色を紺に設定する	plt.plot(データ列, データ列2, color='darkblue')
+折れ線グラフの色をダークシアンに指定する	plt.plot(データ列, データ列2, color='darkcyan')
+線グラフを描画してその色を濃いシアンに変更する	plt.plot(データ列, データ列2, color='darkcyan')
+線グラフを描画して、色をダークゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='darkgoldenrod')
+折れ線グラフの色をダークグレーに変更する	plt.plot(データ列, データ列2, color='darkgray')
+線グラフを描画してその色をダークグレーに指定する	plt.plot(データ列, データ列2, color='darkgray')
+折れ線グラフを描画してその色をダークグリーンに設定する	plt.plot(データ列, データ列2, color='darkgreen')
+線グラフを描画して色をダークグレーに設定する	plt.plot(データ列, データ列2, color='darkgrey')
+折れ線グラフを描画して、色をダークカーキに設定する	plt.plot(データ列, データ列2, color='darkkhaki')
+折れ線グラフを描画してその色をダークマゼンタに設定する	plt.plot(データ列, データ列2, color='darkmagenta')
+線グラフの色をダークオリーブグリーンに変更する	plt.plot(データ列, データ列2, color='darkolivegreen')
+線グラフを描画して、色をダークオリーブグリーンに設定する	plt.plot(データ列, データ列2, color='darkolivegreen')
+折れ線グラフを描画して、その色をダークオーキッドに指定する	plt.plot(データ列, データ列2, color='darkorchid')
+折れ線グラフを描画して、その色をダークレッドに設定する	plt.plot(データ列, データ列2, color='darkred')
+線グラフを描画してその色をダークサーモンに設定する	plt.plot(データ列, データ列2, color='darksalmon')
+線グラフの色をダークシアグリーンに指定する	plt.plot(データ列, データ列2, color='darkseagreen')
+折れ線グラフを描画してその色をダークシアグリーンに設定する	plt.plot(データ列, データ列2, color='darkseagreen')
+折れ線グラフを描画してその色をダークスレートブルーに設定する	plt.plot(データ列, データ列2, color='darkslateblue')
+折れ線グラフを描画して色をダークスラテグレーに指定する	plt.plot(データ列, データ列2, color='darkslategray')
+線グラフを描画して、その色をダーク・スラテグレーに指定する	plt.plot(データ列, データ列2, color='darkslategrey')
+線グラフの色をダークターコイズに変更する	plt.plot(データ列, データ列2, color='darkturquoise')
+折れ線グラフを描画して、その色をダークターコイズに指定する	plt.plot(データ列, データ列2, color='darkturquoise')
+線グラフの色をダークバイオレットに設定する	plt.plot(データ列, データ列2, color='darkviolet')
+折れ線グラフを描画して色をダークバイオレットに設定する	plt.plot(データ列, データ列2, color='darkviolet')
+折れ線グラフを描画して色をデピンクに指定する	plt.plot(データ列, データ列2, color='deeppink')
+線グラフを描画して、その色をディープスカイブルーに指定する	plt.plot(データ列, データ列2, color='deepskyblue')
+折れ線グラフの色をディムグレーに変更する	plt.plot(データ列, データ列2, color='dimgray')
+線グラフを描画して、その色をディムグレーに設定する	plt.plot(データ列, データ列2, color='dimgray')
+線グラフの色をディムグレーに設定する	plt.plot(データ列, データ列2, color='dimgrey')
+折れ線グラフを描画してその色をディムグレーに変更する	plt.plot(データ列, データ列2, color='dimgrey')
+折れ線グラフの色をドジャーブルーにする	plt.plot(データ列, データ列2, color='dodgerblue')
+折れ線グラフを描画して、色をドジャーブルーに設定する	plt.plot(データ列, データ列2, color='dodgerblue')
+折れ線グラフを描画して、その色を耐火レンガに指定する	plt.plot(データ列, データ列2, color='firebrick')
+線グラフを描画してその色をフローラルホワイトに指定する	plt.plot(データ列, データ列2, color='floralwhite')
+折れ線グラフの色をフォレストグリーンに変更する	plt.plot(データ列, データ列2, color='forestgreen')
+折れ線グラフを描画して、その色をフォレストグリーンに指定する	plt.plot(データ列, データ列2, color='forestgreen')
+線グラフの色をフクシアに設定する	plt.plot(データ列, データ列2, color='fuchsia')
+線グラフを描画してその色をフクシアに指定する	plt.plot(データ列, データ列2, color='fuchsia')
+線グラフを描画して、その色をゲインズボロにする	plt.plot(データ列, データ列2, color='gainsboro')
+折れ線グラフを描画して色をゴーストホワイトに設定する	plt.plot(データ列, データ列2, color='ghostwhite')
+折れ線グラフの色をゴールドにセットする	plt.plot(データ列, データ列2, color='gold')
+折れ線グラフを描画して、その色をゴールドに指定する	plt.plot(データ列, データ列2, color='gold')
+折れ線グラフの色をゴールデンロッドにセットする	plt.plot(データ列, データ列2, color='goldenrod')
+線グラフを描画して、その色をゴールデンロッドに変更する	plt.plot(データ列, データ列2, color='goldenrod')
+折れ線グラフを描画して、色をグレーに変更する	plt.plot(データ列, データ列2, color='gray')
+折れ線グラフを描画して、色をグリーンに設定する	plt.plot(データ列, データ列2, color='green')
+折れ線グラフの色をグリーンイエローに変更する	plt.plot(データ列, データ列2, color='greenyellow')
+折れ線グラフを描画して、その色をグリーンイエローに変更する	plt.plot(データ列, データ列2, color='greenyellow')
+折れ線グラフの色をグレーに指定する	plt.plot(データ列, データ列2, color='grey')
+線グラフを描画してその色をグレーにセットする	plt.plot(データ列, データ列2, color='grey')
+線グラフを描画してその色をハニーデューに設定する	plt.plot(データ列, データ列2, color='honeydew')
+折れ線グラフを描画して、色をホットピンクに指定する	plt.plot(データ列, データ列2, color='hotpink')
+線グラフの色をインディゴに指定する	plt.plot(データ列, データ列2, color='indigo')
+折れ線グラフの色をアイボリーにする	plt.plot(データ列, データ列2, color='ivory')
+折れ線グラフを描画してその色をアイボリーに設定する	plt.plot(データ列, データ列2, color='ivory')
+折れ線グラフを描画してその色をカーキに設定する	plt.plot(データ列, データ列2, color='khaki')
+折れ線グラフの色をラベンダーに変更する	plt.plot(データ列, データ列2, color='lavender')
+線グラフを描画して、その色をラベンダーに設定する	plt.plot(データ列, データ列2, color='lavender')
+線グラフの色をラベンダーブラッシュにセットする	plt.plot(データ列, データ列2, color='lavenderblush')
+線グラフを描画して、その色をラベンダーブラッシュに変更する	plt.plot(データ列, データ列2, color='lavenderblush')
+線グラフの色をローングリーンに設定する	plt.plot(データ列, データ列2, color='lawngreen')
+折れ線グラフを描画してその色をローングリーンに指定する	plt.plot(データ列, データ列2, color='lawngreen')
+線グラフの色をレモンシフォンに設定する	plt.plot(データ列, データ列2, color='lemonchiffon')
+折れ線グラフを描画して、その色をレモンシフォンに指定する	plt.plot(データ列, データ列2, color='lemonchiffon')
+折れ線グラフの色をライトブルーに指定する	plt.plot(データ列, データ列2, color='lightblue')
+折れ線グラフを描画してその色をライトブルーに設定する	plt.plot(データ列, データ列2, color='lightblue')
+線グラフの色をライトコーラルにセットする	plt.plot(データ列, データ列2, color='lightcoral')
+線グラフを描画して、その色をライトコーラルに設定する	plt.plot(データ列, データ列2, color='lightcoral')
+線グラフを描画して、その色をライトシアンに指定する	plt.plot(データ列, データ列2, color='lightcyan')
+線グラフの色をライトゴールドロディイエローに設定する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+線グラフを描画して色をライトゴールドロディイエローに設定する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+折れ線グラフの色をライトグレーに指定する	plt.plot(データ列, データ列2, color='lightgray')
+線グラフを描画して、その色をライトグレーに変更する	plt.plot(データ列, データ列2, color='lightgray')
+折れ線グラフを描画して、色をライトグリーンに設定する	plt.plot(データ列, データ列2, color='lightgreen')
+折れ線グラフの色をライトグレーに指定する	plt.plot(データ列, データ列2, color='lightgrey')
+折れ線グラフを描画してその色をライトグレーに設定する	plt.plot(データ列, データ列2, color='lightgrey')
+折れ線グラフの色を淡いピンク色に変更する	plt.plot(データ列, データ列2, color='lightpink')
+折れ線グラフを描画してその色を淡いピンク色に変更する	plt.plot(データ列, データ列2, color='lightpink')
+線グラフを描画してその色をライトサーモンに設定する	plt.plot(データ列, データ列2, color='lightsalmon')
+線グラフの色をライトグリーンに変更する	plt.plot(データ列, データ列2, color='lightseagreen')
+折れ線グラフを描画して、色をライトグリーンにする	plt.plot(データ列, データ列2, color='lightseagreen')
+折れ線グラフの色をライトスカイブルーに指定する	plt.plot(データ列, データ列2, color='lightskyblue')
+線グラフを描画して、その色をライトスカイブルーにセットする	plt.plot(データ列, データ列2, color='lightskyblue')
+折れ線グラフを描画してその色をライトスレイグレーに設定する	plt.plot(データ列, データ列2, color='lightslategray')
+折れ線グラフを描画して、色をライトスレイグレーに設定する	plt.plot(データ列, データ列2, color='lightslategrey')
+折れ線グラフを描画して、色をライトスチールブルーに設定する	plt.plot(データ列, データ列2, color='lightsteelblue')
+折れ線グラフの色をライトイエローに指定する	plt.plot(データ列, データ列2, color='lightyellow')
+線グラフを描画してその色をライトイエローに変更する	plt.plot(データ列, データ列2, color='lightyellow')
+線グラフを描画して、その色をライムに変更する	plt.plot(データ列, データ列2, color='lime')
+折れ線グラフの色をライムグリーンに変更する	plt.plot(データ列, データ列2, color='limegreen')
+線グラフを描画して、色をライムグリーンに指定する	plt.plot(データ列, データ列2, color='limegreen')
+線グラフを描画して、色をリネンにする	plt.plot(データ列, データ列2, color='linen')
+折れ線グラフを描画してその色をマゼンタに設定する	plt.plot(データ列, データ列2, color='magenta')
+線グラフを描画してその色をマルーンにセットする	plt.plot(データ列, データ列2, color='maroon')
+折れ線グラフの色をミディアムアクアマリンに指定する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+折れ線グラフを描画してその色をミディアムアクアマリンに設定する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+線グラフの色をミディアムブルーにする	plt.plot(データ列, データ列2, color='mediumblue')
+線グラフを描画して、その色をミディアムブルーに設定する	plt.plot(データ列, データ列2, color='mediumblue')
+線グラフの色をミディアムオーキッドに指定する	plt.plot(データ列, データ列2, color='mediumorchid')
+折れ線グラフを描画して、その色をミディアムオーキッドに指定する	plt.plot(データ列, データ列2, color='mediumorchid')
+折れ線グラフの色をミディアムパープルに変更する	plt.plot(データ列, データ列2, color='mediumpurple')
+折れ線グラフを描画してその色をミディアムパープルに設定する	plt.plot(データ列, データ列2, color='mediumpurple')
+折れ線グラフを描画して、その色をミディアムスレートブルーに変更する	plt.plot(データ列, データ列2, color='mediumslateblue')
+折れ線グラフの色をミディアムスプリンググリーンにセットする	plt.plot(データ列, データ列2, color='mediumspringgreen')
+折れ線グラフを描画してその色をミディアムスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+線グラフを描画してその色をミディアムターコイズにする	plt.plot(データ列, データ列2, color='mediumturquoise')
+折れ線グラフを描画して、色をミディアムバイオレットレッドに設定する	plt.plot(データ列, データ列2, color='mediumvioletred')
+線グラフを描画して色をミッドナイトブルーに設定する	plt.plot(データ列, データ列2, color='midnightblue')
+折れ線グラフの色をミントクリームにセットする	plt.plot(データ列, データ列2, color='mintcream')
+折れ線グラフを描画して、色をミントクリームに指定する	plt.plot(データ列, データ列2, color='mintcream')
+折れ線グラフの色をミスティローズに変更する	plt.plot(データ列, データ列2, color='mistyrose')
+折れ線グラフを描画して、その色をミスティローズにセットする	plt.plot(データ列, データ列2, color='mistyrose')
+折れ線グラフの色をモカシンに変更する	plt.plot(データ列, データ列2, color='moccasin')
+折れ線グラフを描画して、その色をモカシンに変更する	plt.plot(データ列, データ列2, color='moccasin')
+折れ線グラフを描画して、色をナバホホワイトに設定する	plt.plot(データ列, データ列2, color='navajowhite')
+線グラフの色をネイビーに設定する	plt.plot(データ列, データ列2, color='navy')
+折れ線グラフを描画してその色をネイビーに変更する	plt.plot(データ列, データ列2, color='navy')
+線グラフの色をオールドレースに設定する	plt.plot(データ列, データ列2, color='oldlace')
+折れ線グラフを描画して、色をオールドレースに変更する	plt.plot(データ列, データ列2, color='oldlace')
+折れ線グラフを描画して、その色をオリーブに指定する	plt.plot(データ列, データ列2, color='olive')
+線グラフを描画して、色をオレンジに設定する	plt.plot(データ列, データ列2, color='orange')
+線グラフの色をオレンジレッドに変更する	plt.plot(データ列, データ列2, color='orangered')
+折れ線グラフを描画してその色をオレンジレッドに変更する	plt.plot(データ列, データ列2, color='orangered')
+線グラフを描画して、その色をオーキッドに設定する	plt.plot(データ列, データ列2, color='orchid')
+線グラフを描画して色をパールゴールデンロッドに設定する	plt.plot(データ列, データ列2, color='palegoldenrod')
+折れ線グラフの色をペールグリーンにする	plt.plot(データ列, データ列2, color='palegreen')
+折れ線グラフを描画して、色をペールグリーンに変更する	plt.plot(データ列, データ列2, color='palegreen')
+折れ線グラフの色をパレットトルコイズに変更する	plt.plot(データ列, データ列2, color='paleturquoise')
+折れ線グラフを描画して、色をパレットトルコイズに設定する	plt.plot(データ列, データ列2, color='paleturquoise')
+線グラフを描画して、その色をパールバイオレットレッドにセットする	plt.plot(データ列, データ列2, color='palevioletred')
+折れ線グラフを描画して、その色をパパイヤウィップに変更する	plt.plot(データ列, データ列2, color='papayawhip')
+線グラフの色をピーチパフに設定する	plt.plot(データ列, データ列2, color='peachpuff')
+折れ線グラフを描画してその色をピーチパフに変更する	plt.plot(データ列, データ列2, color='peachpuff')
+折れ線グラフの色をピンクに変更する	plt.plot(データ列, データ列2, color='pink')
+折れ線グラフを描画してその色をピンクに設定する	plt.plot(データ列, データ列2, color='pink')
+折れ線グラフの色をプラムに指定する	plt.plot(データ列, データ列2, color='plum')
+折れ線グラフを描画してその色をプラムに設定する	plt.plot(データ列, データ列2, color='plum')
+線グラフの色をパウダーブルーに設定する	plt.plot(データ列, データ列2, color='powderblue')
+折れ線グラフを描画してその色をパウダーブルーに指定する	plt.plot(データ列, データ列2, color='powderblue')
+折れ線グラフの色をパープルに変更する	plt.plot(データ列, データ列2, color='purple')
+折れ線グラフを描画して色をパープルに設定する	plt.plot(データ列, データ列2, color='purple')
+折れ線グラフを描画して、その色をレベッカパープルに指定する	plt.plot(データ列, データ列2, color='rebeccapurple')
+線グラフを描画して、その色を赤に指定する	plt.plot(データ列, データ列2, color='red')
+線グラフを描画して、その色をロージーブラウンに設定する	plt.plot(データ列, データ列2, color='rosybrown')
+線グラフの色をロイヤルブルーに設定する	plt.plot(データ列, データ列2, color='royalblue')
+折れ線グラフを描画して、色をロイヤルブルーに変更する	plt.plot(データ列, データ列2, color='royalblue')
+線グラフを描画して、色をサドルブラウンに変更する	plt.plot(データ列, データ列2, color='saddlebrown')
+折れ線グラフを描画して、色をサーモンに変更する	plt.plot(データ列, データ列2, color='salmon')
+折れ線グラフを描画してその色をサンディーブラウンに設定する	plt.plot(データ列, データ列2, color='sandybrown')
+折れ線グラフを描画して、その色をシーグリーンに変更する	plt.plot(データ列, データ列2, color='seagreen')
+折れ線グラフの色を貝殻にセットする	plt.plot(データ列, データ列2, color='seashell')
+線グラフを描画して、色を貝殻に設定する	plt.plot(データ列, データ列2, color='seashell')
+線グラフの色をシエナにセットする	plt.plot(データ列, データ列2, color='sienna')
+折れ線グラフを描画して、その色をシエナに変更する	plt.plot(データ列, データ列2, color='sienna')
+折れ線グラフを描画して、その色をシルバーに指定する	plt.plot(データ列, データ列2, color='silver')
+折れ線グラフの色をスカイブルーにする	plt.plot(データ列, データ列2, color='skyblue')
+折れ線グラフを描画してその色をスカイブルーに設定する	plt.plot(データ列, データ列2, color='skyblue')
+折れ線グラフを描画して、色をスレートブルーに設定する	plt.plot(データ列, データ列2, color='slateblue')
+折れ線グラフを描画して色をスラグレーに設定する	plt.plot(データ列, データ列2, color='slategray')
+折れ線グラフを描画してその色をスラグレーに設定する	plt.plot(データ列, データ列2, color='slategrey')
+線グラフの色をスノーにセットする	plt.plot(データ列, データ列2, color='snow')
+折れ線グラフを描画して、その色をスノーに変更する	plt.plot(データ列, データ列2, color='snow')
+線グラフの色をスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='springgreen')
+折れ線グラフを描画して、色をスプリンググリーンに設定する	plt.plot(データ列, データ列2, color='springgreen')
+折れ線グラフの色をスチールブルーにセットする	plt.plot(データ列, データ列2, color='steelblue')
+折れ線グラフを描画して、色をスチールブルーに設定する	plt.plot(データ列, データ列2, color='steelblue')
+折れ線グラフの色を淡い茶色に設定する	plt.plot(データ列, データ列2, color='tan')
+折れ線グラフを描画して、色を淡い茶色に設定する	plt.plot(データ列, データ列2, color='tan')
+折れ線グラフの色を青緑に変更する	plt.plot(データ列, データ列2, color='teal')
+線グラフを描画して色をティールに設定する	plt.plot(データ列, データ列2, color='teal')
+折れ線グラフの色をシスルに変更する	plt.plot(データ列, データ列2, color='thistle')
+線グラフを描画して、その色をシスルに変更する	plt.plot(データ列, データ列2, color='thistle')
+折れ線グラフの色をトマトにする	plt.plot(データ列, データ列2, color='tomato')
+折れ線グラフを描画してその色をトマトに設定する	plt.plot(データ列, データ列2, color='tomato')
+折れ線グラフの色をターコイズにする	plt.plot(データ列, データ列2, color='turquoise')
+線グラフを描画して、その色をターコイズに設定する	plt.plot(データ列, データ列2, color='turquoise')
+線グラフを描画して、その色をバイオレットに設定する	plt.plot(データ列, データ列2, color='violet')
+線グラフの色を小麦色に指定する	plt.plot(データ列, データ列2, color='wheat')
+折れ線グラフを描画して、色を小麦色に設定する	plt.plot(データ列, データ列2, color='wheat')
+線グラフの色をホワイトに設定する	plt.plot(データ列, データ列2, color='white')
+折れ線グラフを描画して、その色をホワイトにセットする	plt.plot(データ列, データ列2, color='white')
+線グラフを描画して、その色をホワイトスモークに変更する	plt.plot(データ列, データ列2, color='whitesmoke')
+折れ線グラフを描画して、その色を黄色にセットする	plt.plot(データ列, データ列2, color='yellow')
+線グラフを描画して、その色をイエローグリーンに変更する	plt.plot(データ列, データ列2, color='yellowgreen')
+ヒストグラムの色をアリスブルーにセットする	plt.hist(データ列, color='aliceblue')
+ヒストグラムを描画して、その色をアリスブルーに指定する	plt.hist(データ列, color='aliceblue')
+アンティークホワイトにヒストグラムの色を設定する	plt.hist(データ列, color='antiquewhite')
+ヒストグラムを描画して、その色をアンティークホワイトに変更する	plt.hist(データ列, color='antiquewhite')
+ヒストグラムを描画してその色をアクアに設定する	plt.hist(データ列, color='aqua')
+ヒストグラムを描画してその色をアクアマリンに設定する	plt.hist(データ列, color='aquamarine')
+ヒストグラムを描画して、その色を紺碧にセットする	plt.hist(データ列, color='azure')
+ヒストグラムを描画してその色をベージュに設定する	plt.hist(データ列, color='beige')
+ヒストグラムを描画して、色をビスクに設定する	plt.hist(データ列, color='bisque')
+ヒストグラムを描画して、色をブラックに変更する	plt.hist(データ列, color='black')
+ヒストグラムを描画して、その色をブランチドアーモンドに変更する	plt.hist(データ列, color='blanchedalmond')
+青にヒストグラムの色を変更する	plt.hist(データ列, color='blue')
+ヒストグラムを描画してその色を青に設定する	plt.hist(データ列, color='blue')
+ヒストグラムを描画して色をブラウンに設定する	plt.hist(データ列, color='brown')
+ヒストグラムの色をバリーウッドにする	plt.hist(データ列, color='burlywood')
+ヒストグラムを描画してその色をバリーウッドに設定する	plt.hist(データ列, color='burlywood')
+カデットブルーにヒストグラムの色を変更する	plt.hist(データ列, color='cadetblue')
+ヒストグラムを描画してその色をカデットブルーに変更する	plt.hist(データ列, color='cadetblue')
+シャルトリューズにヒストグラムの色を設定する	plt.hist(データ列, color='chartreuse')
+ヒストグラムを描画して、その色をチョコレートに変更する	plt.hist(データ列, color='chocolate')
+コーラルにヒストグラムの色を設定する	plt.hist(データ列, color='coral')
+ヒストグラムを描画して色をコーラルに設定する	plt.hist(データ列, color='coral')
+コーンフラワーブルーにヒストグラムの色を設定する	plt.hist(データ列, color='cornflowerblue')
+ヒストグラムを描画して、色をコーンフラワーブルーに設定する	plt.hist(データ列, color='cornflowerblue')
+ヒストグラムの色をコーンズシルクに指定する	plt.hist(データ列, color='cornsilk')
+ヒストグラムを描画して色をコーンズシルクに設定する	plt.hist(データ列, color='cornsilk')
+ヒストグラムの色を真紅に設定する	plt.hist(データ列, color='crimson')
+ヒストグラムを描画して、色をシアンに変更する	plt.hist(データ列, color='cyan')
+ヒストグラムを描画してその色を濃い青に設定する	plt.hist(データ列, color='darkblue')
+ダークシアンにヒストグラムの色を指定する	plt.hist(データ列, color='darkcyan')
+ヒストグラムの色をダークゴールデンロッドにセットする	plt.hist(データ列, color='darkgoldenrod')
+ヒストグラムを描画してその色をダークゴールデンロッドに設定する	plt.hist(データ列, color='darkgoldenrod')
+ヒストグラムの色をダークグレーにする	plt.hist(データ列, color='darkgray')
+ヒストグラムを描画して色をダークグレーに設定する	plt.hist(データ列, color='darkgray')
+ヒストグラムの色をダークグリーンに指定する	plt.hist(データ列, color='darkgreen')
+ヒストグラムを描画して、その色をダークグリーンに変更する	plt.hist(データ列, color='darkgreen')
+ヒストグラムを描画して、その色をダークグレーに指定する	plt.hist(データ列, color='darkgrey')
+ダークマゼンタにヒストグラムの色を変更する	plt.hist(データ列, color='darkmagenta')
+ヒストグラムを描画して、色をダークマゼンタに設定する	plt.hist(データ列, color='darkmagenta')
+ヒストグラムの色をダークオリーブグリーンに指定する	plt.hist(データ列, color='darkolivegreen')
+ヒストグラムを描画してその色をダークオリーブグリーンに設定する	plt.hist(データ列, color='darkolivegreen')
+ヒストグラムを描画して色をダークオレンジに変更する	plt.hist(データ列, color='darkorange')
+ヒストグラムの色をダークオーキッドにセットする	plt.hist(データ列, color='darkorchid')
+ヒストグラムを描画して色をダークオーキッドに設定する	plt.hist(データ列, color='darkorchid')
+暗い赤にヒストグラムの色を設定する	plt.hist(データ列, color='darkred')
+ヒストグラムを描画して色を暗い赤に設定する	plt.hist(データ列, color='darkred')
+ヒストグラムを描画して、色をダークサーモンに指定する	plt.hist(データ列, color='darksalmon')
+ヒストグラムを描画してその色をダークスレートブルーに設定する	plt.hist(データ列, color='darkslateblue')
+ヒストグラムを描画して、その色をダークスラテグレーに指定する	plt.hist(データ列, color='darkslategray')
+ダーク・スラテグレーにヒストグラムの色を指定する	plt.hist(データ列, color='darkslategrey')
+ヒストグラムを描画して、その色をダーク・スラテグレーに変更する	plt.hist(データ列, color='darkslategrey')
+ヒストグラムを描画して、色をダークバイオレットに設定する	plt.hist(データ列, color='darkviolet')
+デピンクにヒストグラムの色をする	plt.hist(データ列, color='deeppink')
+ヒストグラムを描画して色をデピンクに変更する	plt.hist(データ列, color='deeppink')
+ディープスカイブルーにヒストグラムの色を設定する	plt.hist(データ列, color='deepskyblue')
+ヒストグラムを描画して、その色をディープスカイブルーにセットする	plt.hist(データ列, color='deepskyblue')
+ヒストグラムを描画して、色をディムグレーに設定する	plt.hist(データ列, color='dimgray')
+ディムグレーにヒストグラムの色を設定する	plt.hist(データ列, color='dimgrey')
+ヒストグラムを描画して、その色をディムグレーに変更する	plt.hist(データ列, color='dimgrey')
+ヒストグラムを描画して、その色をドジャーブルーに指定する	plt.hist(データ列, color='dodgerblue')
+ヒストグラムを描画してその色を耐火レンガに設定する	plt.hist(データ列, color='firebrick')
+ヒストグラムを描画してその色をフローラルホワイトに指定する	plt.hist(データ列, color='floralwhite')
+フォレストグリーンにヒストグラムの色を設定する	plt.hist(データ列, color='forestgreen')
+ヒストグラムを描画して、その色をフクシアに指定する	plt.hist(データ列, color='fuchsia')
+ヒストグラムを描画してその色をゴーストホワイトに設定する	plt.hist(データ列, color='ghostwhite')
+ゴールドにヒストグラムの色をする	plt.hist(データ列, color='gold')
+ヒストグラムを描画して、その色をゴールデンロッドにセットする	plt.hist(データ列, color='goldenrod')
+ヒストグラムを描画して、色をグレーに設定する	plt.hist(データ列, color='gray')
+ヒストグラムの色をグリーンに変更する	plt.hist(データ列, color='green')
+ヒストグラムを描画して、色をグレーに指定する	plt.hist(データ列, color='grey')
+ヒストグラムの色をハニーデューにする	plt.hist(データ列, color='honeydew')
+ヒストグラムを描画して、色をハニーデューにする	plt.hist(データ列, color='honeydew')
+ヒストグラムの色をホットピンクに変更する	plt.hist(データ列, color='hotpink')
+ヒストグラムを描画して、色をホットピンクに設定する	plt.hist(データ列, color='hotpink')
+ヒストグラムの色をインディアンレッドにする	plt.hist(データ列, color='indianred')
+ヒストグラムを描画して、色をインディゴにセットする	plt.hist(データ列, color='indigo')
+ヒストグラムの色をカーキに指定する	plt.hist(データ列, color='khaki')
+ヒストグラムを描画して、色をカーキに設定する	plt.hist(データ列, color='khaki')
+ヒストグラムを描画して、色をラベンダーに変更する	plt.hist(データ列, color='lavender')
+ヒストグラムを描画してその色をラベンダーブラッシュに設定する	plt.hist(データ列, color='lavenderblush')
+ヒストグラムの色をローングリーンに指定する	plt.hist(データ列, color='lawngreen')
+ヒストグラムを描画して色をローングリーンに指定する	plt.hist(データ列, color='lawngreen')
+レモンシフォンにヒストグラムの色をする	plt.hist(データ列, color='lemonchiffon')
+ヒストグラムを描画して、その色をレモンシフォンに変更する	plt.hist(データ列, color='lemonchiffon')
+ヒストグラムの色をライトコーラルに指定する	plt.hist(データ列, color='lightcoral')
+ヒストグラムの色をライトシアンに指定する	plt.hist(データ列, color='lightcyan')
+ヒストグラムを描画して、その色をライトシアンに指定する	plt.hist(データ列, color='lightcyan')
+ヒストグラムの色をライトゴールドロディイエローに指定する	plt.hist(データ列, color='lightgoldenrodyellow')
+ヒストグラムを描画して、色をライトグレーに設定する	plt.hist(データ列, color='lightgray')
+ヒストグラムを描画して色をライトグリーンに変更する	plt.hist(データ列, color='lightgreen')
+ライトグレーにヒストグラムの色を設定する	plt.hist(データ列, color='lightgrey')
+ヒストグラムを描画して、色をライトグレーに設定する	plt.hist(データ列, color='lightgrey')
+ヒストグラムを描画してその色を淡いピンク色にする	plt.hist(データ列, color='lightpink')
+ライトサーモンにヒストグラムの色を変更する	plt.hist(データ列, color='lightsalmon')
+ヒストグラムを描画して色をライトサーモンに設定する	plt.hist(データ列, color='lightsalmon')
+ヒストグラムの色をライトグリーンに指定する	plt.hist(データ列, color='lightseagreen')
+ヒストグラムを描画してその色をライトグリーンに設定する	plt.hist(データ列, color='lightseagreen')
+ヒストグラムを描画して色をライトスカイブルーに指定する	plt.hist(データ列, color='lightskyblue')
+ヒストグラムを描画して色をライトスレイグレーに指定する	plt.hist(データ列, color='lightslategray')
+ヒストグラムの色をライトスレイグレーに指定する	plt.hist(データ列, color='lightslategrey')
+ヒストグラムを描画してその色をライトスレイグレーに設定する	plt.hist(データ列, color='lightslategrey')
+ヒストグラムを描画して色をライトイエローに設定する	plt.hist(データ列, color='lightyellow')
+ヒストグラムを描画してその色をライムに変更する	plt.hist(データ列, color='lime')
+ヒストグラムを描画してその色をライムグリーンに設定する	plt.hist(データ列, color='limegreen')
+ヒストグラムの色をリネンに変更する	plt.hist(データ列, color='linen')
+ヒストグラムを描画してその色をリネンに指定する	plt.hist(データ列, color='linen')
+ヒストグラムを描画してその色をマゼンタに設定する	plt.hist(データ列, color='magenta')
+マルーンにヒストグラムの色を変更する	plt.hist(データ列, color='maroon')
+ヒストグラムを描画してその色をマルーンに変更する	plt.hist(データ列, color='maroon')
+ヒストグラムの色をミディアムアクアマリンに変更する	plt.hist(データ列, color='mediumaquamarine')
+ヒストグラムを描画して、その色をミディアムアクアマリンに指定する	plt.hist(データ列, color='mediumaquamarine')
+ミディアムブルーにヒストグラムの色を設定する	plt.hist(データ列, color='mediumblue')
+ミディアムオーキッドにヒストグラムの色を設定する	plt.hist(データ列, color='mediumorchid')
+ヒストグラムを描画して、その色をミディアムオーキッドに変更する	plt.hist(データ列, color='mediumorchid')
+ヒストグラムを描画して、その色をミディアムパープルに変更する	plt.hist(データ列, color='mediumpurple')
+ヒストグラムを描画してその色をミディアムシアグリーンに変更する	plt.hist(データ列, color='mediumseagreen')
+ヒストグラムの色をミディアムスレートブルーにする	plt.hist(データ列, color='mediumslateblue')
+ヒストグラムを描画してその色をミディアムスレートブルーに設定する	plt.hist(データ列, color='mediumslateblue')
+ヒストグラムの色をミディアムスプリンググリーンに指定する	plt.hist(データ列, color='mediumspringgreen')
+ヒストグラムを描画してその色をミディアムターコイズに変更する	plt.hist(データ列, color='mediumturquoise')
+ヒストグラムを描画してその色をミディアムバイオレットレッドに設定する	plt.hist(データ列, color='mediumvioletred')
+ミントクリームにヒストグラムの色を設定する	plt.hist(データ列, color='mintcream')
+ヒストグラムを描画してその色をミントクリームに設定する	plt.hist(データ列, color='mintcream')
+ヒストグラムを描画して、その色をモカシンに変更する	plt.hist(データ列, color='moccasin')
+ヒストグラムを描画して色をナバホホワイトに設定する	plt.hist(データ列, color='navajowhite')
+ネイビーにヒストグラムの色を設定する	plt.hist(データ列, color='navy')
+ヒストグラムの色をオールドレースにセットする	plt.hist(データ列, color='oldlace')
+ヒストグラムを描画して、色をオールドレースに設定する	plt.hist(データ列, color='oldlace')
+ヒストグラムを描画して色をオリベドラブに設定する	plt.hist(データ列, color='olivedrab')
+ヒストグラムを描画して、その色をオレンジに変更する	plt.hist(データ列, color='orange')
+オレンジレッドにヒストグラムの色を指定する	plt.hist(データ列, color='orangered')
+ヒストグラムを描画して、その色をオレンジレッドに指定する	plt.hist(データ列, color='orangered')
+ヒストグラムの色をパールゴールデンロッドに指定する	plt.hist(データ列, color='palegoldenrod')
+ヒストグラムを描画してその色をペールグリーンに設定する	plt.hist(データ列, color='palegreen')
+ヒストグラムを描画してその色をパレットトルコイズに設定する	plt.hist(データ列, color='paleturquoise')
+ヒストグラムの色をパールバイオレットレッドに指定する	plt.hist(データ列, color='palevioletred')
+ヒストグラムを描画して色をパールバイオレットレッドに設定する	plt.hist(データ列, color='palevioletred')
+ヒストグラムの色をパパイヤウィップに指定する	plt.hist(データ列, color='papayawhip')
+ヒストグラムを描画してその色をピーチパフに設定する	plt.hist(データ列, color='peachpuff')
+ヒストグラムを描画してその色をペルーに変更する	plt.hist(データ列, color='peru')
+ヒストグラムの色をピンクに指定する	plt.hist(データ列, color='pink')
+ヒストグラムを描画して、色をピンクに指定する	plt.hist(データ列, color='pink')
+プラムにヒストグラムの色を設定する	plt.hist(データ列, color='plum')
+ヒストグラムを描画して、その色をプラムにする	plt.hist(データ列, color='plum')
+ヒストグラムを描画してその色をパウダーブルーに指定する	plt.hist(データ列, color='powderblue')
+パープルにヒストグラムの色を設定する	plt.hist(データ列, color='purple')
+ヒストグラムを描画してその色をパープルに指定する	plt.hist(データ列, color='purple')
+レベッカパープルにヒストグラムの色を指定する	plt.hist(データ列, color='rebeccapurple')
+ヒストグラムを描画して、色をレベッカパープルにセットする	plt.hist(データ列, color='rebeccapurple')
+ヒストグラムを描画して、その色を赤に変更する	plt.hist(データ列, color='red')
+ヒストグラムの色をロージーブラウンにする	plt.hist(データ列, color='rosybrown')
+ヒストグラムを描画して、その色をロージーブラウンにセットする	plt.hist(データ列, color='rosybrown')
+ヒストグラムの色をロイヤルブルーに指定する	plt.hist(データ列, color='royalblue')
+ヒストグラムの色をサドルブラウンにセットする	plt.hist(データ列, color='saddlebrown')
+ヒストグラムを描画して色をサドルブラウンに設定する	plt.hist(データ列, color='saddlebrown')
+ヒストグラムを描画して、色をサンディーブラウンに指定する	plt.hist(データ列, color='sandybrown')
+シーグリーンにヒストグラムの色を設定する	plt.hist(データ列, color='seagreen')
+ヒストグラムを描画して、色をシーグリーンに設定する	plt.hist(データ列, color='seagreen')
+ヒストグラムを描画してその色を貝殻に設定する	plt.hist(データ列, color='seashell')
+ヒストグラムの色をシエナにする	plt.hist(データ列, color='sienna')
+ヒストグラムを描画してその色をシエナに指定する	plt.hist(データ列, color='sienna')
+ヒストグラムの色をシルバーに変更する	plt.hist(データ列, color='silver')
+ヒストグラムを描画してその色をシルバーに設定する	plt.hist(データ列, color='silver')
+ヒストグラムを描画してその色をスカイブルーに指定する	plt.hist(データ列, color='skyblue')
+スレートブルーにヒストグラムの色を設定する	plt.hist(データ列, color='slateblue')
+ヒストグラムを描画して色をスレートブルーに設定する	plt.hist(データ列, color='slateblue')
+ヒストグラムを描画して、その色をスラグレーに指定する	plt.hist(データ列, color='slategray')
+ヒストグラムの色をスノーに指定する	plt.hist(データ列, color='snow')
+ヒストグラムを描画して、その色をスノーにする	plt.hist(データ列, color='snow')
+ヒストグラムの色をスプリンググリーンにセットする	plt.hist(データ列, color='springgreen')
+ヒストグラムを描画してその色をスプリンググリーンに設定する	plt.hist(データ列, color='springgreen')
+スチールブルーにヒストグラムの色を設定する	plt.hist(データ列, color='steelblue')
+ヒストグラムを描画して、色をスチールブルーに設定する	plt.hist(データ列, color='steelblue')
+タンにヒストグラムの色を指定する	plt.hist(データ列, color='tan')
+ヒストグラムを描画してその色をタンにする	plt.hist(データ列, color='tan')
+ヒストグラムの色を青緑にセットする	plt.hist(データ列, color='teal')
+ヒストグラムを描画して、その色をティールにセットする	plt.hist(データ列, color='teal')
+シスルにヒストグラムの色を変更する	plt.hist(データ列, color='thistle')
+ヒストグラムを描画してその色をトマトに設定する	plt.hist(データ列, color='tomato')
+ヒストグラムの色を青緑にする	plt.hist(データ列, color='turquoise')
+ヒストグラムを描画して、色を青緑に設定する	plt.hist(データ列, color='turquoise')
+ヒストグラムの色を青紫に指定する	plt.hist(データ列, color='violet')
+ヒストグラムを描画して、その色をバイオレットに設定する	plt.hist(データ列, color='violet')
+ヒストグラムを描画して、その色を小麦色にセットする	plt.hist(データ列, color='wheat')
+ヒストグラムの色をホワイトに設定する	plt.hist(データ列, color='white')
+ヒストグラムを描画して、その色をホワイトにセットする	plt.hist(データ列, color='white')
+ヒストグラムを描画して、色をホワイトスモークに設定する	plt.hist(データ列, color='whitesmoke')
+イエローグリーンにヒストグラムの色を変更する	plt.hist(データ列, color='yellowgreen')
+ヒストグラムにカラーマップを使用する	"plt.hist(データ列, color=plt.get_cmap(""Spectral""))"
+＜オプション＞線種を破線に変更する	linestyle = 'dashed'
+＜オプション＞線種を一点鎖線に変更する	linestyle = 'dashbot'
+折れ線グラフを破線に設定する	plt.plot(データ列, データ列2, linestyle='dashed')
+一点鎖線に折れ線グラフのスタイルを設定する	plt.plot(データ列, データ列2, linestyle='dashbot')
+点線に折れ線グラフのスタイルを設定する	plt.plot(データ列, データ列2, linestyle='dotted')
+折れ線グラフのスタイルを実線に指定する	plt.plot(データ列, データ列2, linestyle='solid')
+実線として折れ線グラフを描画する	plt.plot(データ列, データ列2, linestyle='solid')
+一点鎖線にヒストグラムの線のスタイルを指定する	plt.hist(データ列, linestyle='dashbot')
+一点鎖線でヒストグラムを描画する	plt.hist(データ列, linestyle='dashbot')
+点線にヒストグラムの線のスタイルをセットする	plt.hist(データ列, linestyle='dotted')
+ヒストグラムを点線を用いて描画する	plt.hist(データ列, linestyle='dotted')
+ヒストグラムの線のスタイルを実線に変更する	plt.hist(データ列, linestyle='solid')
+＜オプション＞ポイント印を用いる	marker = '.'
+＜オプション＞丸印を加える	marker = 'o'
+＜オプション＞マーカーを▲に変更する	marker = '^'
+＜オプション＞▲マーカーを用いる	marker = '^'
+＜オプション＞▽マーカーを用いる	marker = 'v'
+＜オプション＞左三角印を加える	marker = '<'
+＜オプション＞右三角印を用いる	marker = '>'
+＜オプション＞クロスマーカーを使う	marker = 'x'
+＜オプション＞大バツマーカーを加える	marker = 'X'
+＜オプション＞四角印を使う	marker = 's'
+＜オプション＞ダイアモンド印を加える	marker = 'D'
+＜オプション＞星印を使用する	marker = '*'
+折れ線グラフにポイント印を使う	plt.plot(データ列, データ列2, marker='.')
+折れ線グラフの印をポイント印にする	plt.plot(データ列, データ列2, marker='.')
+折れ線グラフに描画して、印をポイントにする	plt.plot(データ列, データ列2, marker='.')
+折れ線グラフに丸印を使う	plt.plot(データ列, データ列2, marker='o')
+データ列を折れ線グラフに描画して、印を丸印にする	plt.plot(データ列, データ列2, marker='o')
+折れ線グラフに▲マーカーを使う	plt.plot(データ列, データ列2, marker='^')
+折れ線グラフのマーカーを▲にする	plt.plot(データ列, データ列2, marker='^')
+データ列を折れ線グラフに描画してマーカーを三角印にする	plt.plot(データ列, データ列2, marker='^')
+折れ線グラフに▼印を加える	plt.plot(データ列, データ列2, marker='v')
+折れ線グラフのマーカーを▽にする	plt.plot(データ列, データ列2, marker='v')
+折れ線グラフに描画して、印を▼印にする	plt.plot(データ列, データ列2, marker='v')
+折れ線グラフに描画して印を左三角印にする	plt.plot(データ列, データ列2, marker='<')
+折れ線グラフにクロス印を使う	plt.plot(データ列, データ列2, marker='x')
+折れ線グラフのマーカーをクロス印にする	plt.plot(データ列, データ列2, marker='x')
+データ列を折れ線グラフに描画して、マーカーをクロスにする	plt.plot(データ列, データ列2, marker='x')
+データ列を折れ線グラフに描画してマーカーを大バツ印にする	plt.plot(データ列, データ列2, marker='X')
+折れ線グラフに四角マーカーを加える	plt.plot(データ列, データ列2, marker='s')
+折れ線グラフの印を四角にする	plt.plot(データ列, データ列2, marker='s')
+データ列を折れ線グラフに描画してマーカーを四角印にする	plt.plot(データ列, データ列2, marker='s')
+折れ線グラフにダイアモンド印を使う	plt.plot(データ列, データ列2, marker='D')
+折れ線グラフの印を菱形印にする	plt.plot(データ列, データ列2, marker='D')
+データ列を折れ線グラフに描画して印を菱形印にする	plt.plot(データ列, データ列2, marker='D')
+折れ線グラフに星マーカーを加える	plt.plot(データ列, データ列2, marker='*')
+折れ線グラフに描画して、印を星印にする	plt.plot(データ列, データ列2, marker='*')
+折れ線グラフに赤い▲マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='r')
+折れ線グラフの▲マーカーを赤くする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='r')
+折れ線グラフに赤い▽印を描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='r')
+折れ線グラフの下三角マーカーを赤色にする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='r')
+折れ線グラフのバツマーカーを赤色にする	plt.plot(データ列, データ列2, marker='x', markerfacecolor='r')
+赤いダイアモンドマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='r')
+折れ線グラフの菱形印を赤色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='r')
+青い丸マーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='o', markerfacecolor='b')
+折れ線グラフに青い上三角マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+折れ線グラフの三角印を青色にする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+青い下三角印を折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='b')
+青い右三角マーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='>', markerfacecolor='b')
+青いバツ印を折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='b')
+青い大バツマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='b')
+折れ線グラフの大バツ印を青色にする	plt.plot(データ列, データ列2, marker='X', markerfacecolor='b')
+折れ線グラフに青いダイアモンド印を描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+折れ線グラフのダイアモンドマーカーを青色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+折れ線グラフに黒い下三角印を描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='k')
+折れ線グラフに黒いバツ印を描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='k')
+折れ線グラフに黒い菱形印を描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='k')
+折れ線グラフのダイアモンド印を黒色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='k')
+黄色い三角マーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+折れ線グラフの△マーカーを黄色にする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+折れ線グラフに黄色い▼マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='y')
+折れ線グラフの下三角マーカーを黄色にする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='y')
+黄色いバツマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='y')
+折れ線グラフに黄色いダイアモンド印を描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='y')
+緑色のポイント印を折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='g')
+折れ線グラフに緑色の▲マーカーを描画する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+折れ線グラフの上三角印を緑色にする	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+折れ線グラフに緑色の▽マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+折れ線グラフの下三角印を緑色にする	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+緑色のダイアモンドマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+折れ線グラフの菱形マーカーを緑色にする	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+折れ線グラフに大きさnの丸印を描画する	plt.plot(データ列, データ列2, marker='o', markersize=n)
+折れ線グラフに大きさnの△印を描画する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+折れ線グラフの三角マーカーのサイズをnに設定する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+折れ線グラフにサイズnの下三角マーカーを描画する	plt.plot(データ列, データ列2, marker='v', markersize=n)
+折れ線グラフの▽マーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='v', markersize=n)
+折れ線グラフの左三角印の大きさをnに設定する	plt.plot(データ列, データ列2, marker='<', markersize=n)
+折れ線グラフの右三角印の大きさをnに指定する	plt.plot(データ列, データ列2, marker='>', markersize=n)
+折れ線グラフのクロスマーカーの大きさをnに設定する	plt.plot(データ列, データ列2, marker='x', markersize=n)
+折れ線グラフの大バツマーカーのサイズをnにセットする	plt.plot(データ列, データ列2, marker='X', markersize=n)
+折れ線グラフの四角マーカーのサイズをnに設定する	plt.plot(データ列, データ列2, marker='s', markersize=n)
+折れ線グラフにサイズnのダイアモンド印を描画する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+折れ線グラフの星印の大きさをnに設定する	plt.plot(データ列, データ列2, marker='*', markersize=n)
+折れ線グラフのポイント印の線幅をnに設定する	plt.plot(データ列, データ列2, marker='.', markeredgewidth=n)
+折れ線グラフに線幅nの上三角印を描画する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+折れ線グラフの三角マーカーの線幅をnに指定する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+折れ線グラフに線幅nの▽印を描画する	plt.plot(データ列, データ列2, marker='v', markeredgewidth=n)
+折れ線グラフの下三角印の線幅をnに変更する	plt.plot(データ列, データ列2, marker='v', markeredgewidth=n)
+折れ線グラフの左三角マーカーの線幅をnに指定する	plt.plot(データ列, データ列2, marker='<', markeredgewidth=n)
+線幅nの右三角マーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='>', markeredgewidth=n)
+線幅nのバツマーカーを折れ線グラフに描画する	plt.plot(データ列, データ列2, marker='x', markeredgewidth=n)
+折れ線グラフの大バツマーカーの線幅をnに指定する	plt.plot(データ列, データ列2, marker='X', markeredgewidth=n)
+折れ線グラフの四角印の線幅をnに設定する	plt.plot(データ列, データ列2, marker='s', markeredgewidth=n)
+折れ線グラフに線幅nの菱形印を描画する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+折れ線グラフの星マーカーの線幅をnに指定する	plt.plot(データ列, データ列2, marker='*', markeredgewidth=n)
+行列の演算を行う	import numpy as np
+numpyを使用する	import numpy as np
+＜オプション＞三２ビット整数型を使う	dtype = np.int16
+＜オプション＞論理値型を使う	dtype = np.int32
+リストから配列を作成する	np.array(aList)
+列から配列を作る	np.array(iterable)
+全要素を0で初期化された配列を作成する	np.zeros(要素数)
+ゼロ埋めされた配列を作成する	np.zeros(要素数)
+ゼロ埋めした８ビット整数型の配列	np.zeros(要素数, dtype=np.int8)
+符号なし８ビット整数型のゼロ埋めされた配列	np.zeros(要素数, dtype=np.uint8)
+三二ビット整数型のゼロ埋めされたベクトル	np.zeros(要素数, dtype=np.int16)
+ブール型のゼロ埋めされた配列	np.zeros(要素数, dtype=np.int32)
+ゼロ埋めされた複素数型の配列を作る	np.zeros(要素数, dtype=bool)
+整数型の全要素を０で初期化された行列	np.zeros(行数, 列数, dtype=np.int)
+０で全要素を初期化された符号なし８ビット整数型の行列	np.zeros(行数, 列数, dtype=np.uint8)
+3二ビット整数型の０で全要素を初期化した行列	np.zeros(行数, 列数, dtype=np.int16)
+ブール型の全要素を０で初期化された行列	np.zeros(行数, 列数, dtype=np.int32)
+複素数型の０で全要素を初期化された行列を作る	np.zeros(行数, 列数, dtype=bool)
+全要素を1で初期化された行列を作る	np.ones(要素数, dtype=np.int)
+1で全要素を初期化された行列	np.ones(行数, 列数, dtype=np.int)
+全要素を初期値で初期化された配列を作る	np.full(要素数, 初期値, dtype=np.int)
+要素が全て初期値の配列を作る	np.full(要素数, 初期値, dtype=np.int)
+行列と同じ大きさの空の配列を初期化する	np.empty_like(aArray)
+0からNまでの配列を作る	np.arange(N)
+等差数列をベクトルに変換する	np.arange(開始値, 終端値, 等差)
+行列を縦ベクトルに変形する	aArray.reshape(-1, 1)
+既存の配列を元に全要素が0の行列	np.zeros_like(aArray)
+配列を元に全要素が1のベクトルを作る	np.ones_like(aArray)
+行列を元に全要素が初期値の配列	np.full_like(aArray, 初期値)
+ユニークな値を要素とする行列	np.unique(aArray)
+ユニークな各要素の頻度	np.unique(aArray, return_counts=True)
+ベクトルの転置行列	aArray.T
+行列の和を求める	aArray + aArray2
+配列の各要素に加算する	aArray + aArray2
+行列のスカラー倍	aArray * n
+行列の要素ごとのアダマール積	np.multiply(aArray, aArray2)
+ベクトルの内積を計算する	np.dot(aArray, aArray2)
+行列間の各要素の最大公約数	np.gcd(aArray, aArray2)
+配列の各要素の最小公倍数	np.lcm(aArray, aArray2)
+行列の形状	aArray.shape
+配列のデータ型を計算する	aArray.dtype()
+ベクトルを横方向に連結する	np.concatenate([aArray, aArray2], axis=1)
+ベクトルの合計	np.sum(aArray)
+ベクトルの列ごとの合計	np.sum(aArray, axis=0)
+ベクトルの行ごとの合計	np.sum(aArray, axis=1)
+ベクトルの平均	np.mean(aArray)
+配列の列ごとの平均値を計算する	np.mean(aArray, axis=0)
+ベクトルの行ごとの平均	np.mean(aArray, axis=1)
+行列の列ごとの最小	np.min(aArray, axis=0)
+行列の行ごとの最大	np.max(aArray, axis=1)
+配列の標準偏差を計算する	np.std(aArray)
+行列の累積和を算出する	np.cumsum(aArray)
+ベクトルの累積積	np.cumprod(aArray)
+配列から重複を除いた行列を初期化する	np.unique(aArray)
+ベクトルのユニークな要素とその個数を求める	u, counts = np.unique(aArray, return_counts=True)
+ベクトルのユニークな要素とその位置	u, indices = np.unique(aArray, return_index=True)
+ベクトルを平坦化する	aArray.flatten()
+行列を一次元にする	aArray.flatten()
+2つのオブジェクトが等しいかどうか調べる	obj == obj2
+二つのオブジェクトが同一参照か	obj is obj2
+オブジェクトが関数かどうか調べる	callable(obj)
+オブジェクトのプロパティを取り除く	delattr(obj, プロパティ名)
+オブジェクトにプロパティが存在するかどうか	hasattr(obj, プロパティ名)
+オブジェクトがフィールドを持つかどうか	hasattr(obj, プロパティ名)
+オブジェクトのプロパティを値に変更する	setattr(obj, プロパティ名, 値)
+オブジェクトがクラスのインスタンスか	isinstance(obj, クラス)
+オブジェクトは整数型のインスタンス	isinstance(obj, int)
+オブジェクトは浮動小数点数型かどうか調べる	isinstance(obj, float)
+オブジェクトは文字列クラスか確認する	isinstance(obj, str)
+オブジェクトは論理値クラスのインスタンスか調べる	isinstance(obj, bool)
+オブジェクトはリストか調べる	isinstance(obj, list)
+オブジェクトはタプルクラスのインスタンスか調べる	isinstance(obj, tuple)
+オブジェクトは辞書クラスのインスタンスか	isinstance(obj, dict)
+オブジェクトは集合クラスのインスタンスか調べる	isinstance(obj, set)
+オブジェクトはバイト列型のインスタンス	isinstance(obj, bytes)
+オブジェクトは数値か確認する	isinstance(obj, (int,float))
+オブジェクトはリストかタプルかどうか調べる	isinstance(obj, (list)
+クラスのサブ型かどうか調べる	issubclass(サブクラス, クラス)
+オブジェクトのポインタ	id(obj)
+オブジェクトの型	type(obj)
+データフレームのリストカラムの要約統計量を求める	df[aList].describe()
+カラムの要約統計量	ds.describe()
+データフレームのリストカラムの平均	df[aList].mean()
+データフレームの列の平均値を求める	df[col].mean()
+データフレームのメディアン	df.median()
+データフレームのリスト列の中央値	df[aList].median()
+データ列の第二四分位数	ds.median()
+データフレームのカラムのメディアン	df[col].median()
+データフレームの25パーセンタイルを求める	df.quantile(0.25)
+データフレームのリストカラムの25パーセンタイル	df[aList].quantile(0.25)
+データ列の第一四分位数を求める	ds.quantile(0.25)
+データフレームのカラムの25パーセンタイル	df[col].quantile(0.25)
+データフレームの列の下位25%	df[col].quantile(0.75)
+データフレームのリストカラムのpercentパーセンタイルを求める	df[aList].quantile(percent/100)
+データ列のpercent分位数を算出する	ds.quantile(percent/100)
+データフレームの列のpercentパーセンタイル	df[col].quantile(percent/100)
+データ列のモードを求める	ds.mode()
+データフレームのカラムの最頻値を求める	df[col].mode()
+データフレームのカラムのどの値が最も現れるか見る	df[col].mode()
+データフレームの標本標準偏差を算出する	df.std()
+データフレームのリストカラムの標準偏差	df[aList].std()
+データフレームのカラムの標本標準偏差を計算する	df[col].std()
+列の母標準偏差	ds.std(ddof=0)
+データフレームのカラムの母標準偏差を求める	df[col].std(ddof=0)
+データフレームはどれだけ、分散しているか見る	df.var()
+データフレームのリストカラムはどれだけ分散しているか見る	df[aList].var()
+データ列がどの程度分散しているか確認する	ds.var()
+データフレームのカラムはどの程度分散しているか見る	df[col].var()
+データフレームが正規分布からどの程度、歪んでいるか確認する	df.kurt()
+データフレームのリストカラムの歪度を求める	df[aList].kurt()
+データフレームのリスト列が正規分布からどの程度、歪んでいるか調べる	df[aList].kurt()
+カラムの正規分布に対する左右対称性を求める	ds.kurt()
+データ列は正規分布からどの程度歪んでいるか見る	ds.kurt()
+データフレームのカラムが正規分布からどの程度、歪んでいるか調べる	df[col].kurt()
+データフレームの正規分布に対する上下広がり	df.skew()
+データフレームが正規分布からどの程度、尖っているか確認する	df.skew()
+データフレームのリストカラムが正規分布からどの程度尖っているか見る	df[aList].skew()
+カラムの尖度	ds.skew()
+列は正規分布からどれだけ、尖っているか見る	ds.skew()
+データフレームのカラムの尖度を求める	df[col].skew()
+データフレームのカラムが正規分布からどれだけ、尖っているか見る	df[col].skew()
+カラムを丸める	ds.round()
+データフレームを百の位で四捨五入する	df.round(-2)
+データ列を100の位で四捨五入する	ds.round(-2)
+データフレームのカラムを百の位で丸める	df[col].round(-2)
+データフレームのリストカラムを1000の位で四捨五入する	df[aList].round(-3)
+データ列を千の位で丸める	ds.round(-3)
+データフレームのカラムを千の位で丸める	df[col].round(-3)
+データフレームを四捨五入して、整数型にする	df.round().astype(int)
+データ列を四捨五入して、整数型にする	ds.round().astype(int)
+データフレームのカラムを丸めて整数にする	df[col].round().astype(int)
+データフレームを10の位で丸めて整数型にする	df.round(-1).astype(int)
+データフレームのリストカラムを10の位で丸めて整数にする	df[aList].round(-1).astype(int)
+データ列を10の位で四捨五入して、整数型にする	ds.round(-1).astype(int)
+データフレームのカラムを10の位で四捨五入して、整数型にする	df[col].round(-1).astype(int)
+データフレームを100の位で四捨五入して、整数型にする	df.round(-2).astype(int)
+データフレームのリストカラムを100の位で丸めて整数型にする	df[aList].round(-2).astype(int)
+データ列を100の位で丸めて整数型にする	ds.round(-2).astype(int)
+データフレームのカラムを百の位で丸めて、整数にする	df[col].round(-2).astype(int)
+データフレームのリストカラムを1000の位で丸めて整数型にする	df[aList].round(-3).astype(int)
+データ列を1000の位で丸めて、整数にする	ds.round(-3).astype(int)
+データフレームのカラムを千の位で丸めて、整数型にする	df[col].round(-3).astype(int)
+xでデータフレームのNaNを埋める	df.fillna(x)
+データフレームのリストカラムのNaNをxで埋める	df[aList].fillna(x)
+データフレームのリストカラムの欠損値をxに指定する	df[aList].fillna(x)
+データ列のNaNをxで埋める	ds.fillna(x)
+データ列のNaNをxに減らす	ds.fillna(x)
+データフレームのカラムのNaNをxで埋める	df[col].fillna(x)
+データフレームのカラムの欠損値をxに増やす	df[col].fillna(x)
+データフレームの欠損値を平均で埋める	df.fillna(df.mean())
+データフレームのNaNを平均に指定する	df.fillna(df.mean())
+データフレームのリストカラムの欠損値を平均で埋める	df[aList].fillna(df[aList].mean())
+データフレームのリスト列の欠損値を平均値に設定する	df[aList].fillna(df[aList].mean())
+平均値でカラムの未入力値を埋める	ds.fillna(ds.mean())
+データ列の未入力値を平均に設定する	ds.fillna(ds.mean())
+データフレームのカラムの欠損値を平均で埋める	df[col].fillna(df[col].mean())
+データフレームの列のNaNを平均値に設定する	df[col].fillna(df[col].mean())
+データフレームの未入力値を最頻値で埋める	df.fillna(df.mode().iloc[0])
+データフレームの未入力値をモードに設定する	df.fillna(df.mode().iloc[0])
+データフレームのリスト列の欠損値をモードで埋める	df[aList].fillna(df[aList].mode().iloc[0])
+データフレームのリスト列の欠損値を最頻値に変更する	df[aList].fillna(df[aList].mode().iloc[0])
+カラムの欠損値を最頻値で置換する	ds.fillna(ds.mode().iloc[0])
+データ列の欠損値をモードに設定する	ds.fillna(ds.mode().iloc[0])
+データフレームのカラムの欠損値を最頻値で補う	df[col].fillna(df[col].mode().iloc[0])
+データフレームのカラムの未入力値を最頻値に指定する	df[col].fillna(df[col].mode().iloc[0])
+中央値でデータフレームの欠損値を置換する	df.fillna(df.median())
+データフレームの欠損値をメディアンに設定する	df.fillna(df.median())
+データフレームのリスト列のNaNをメディアンで置換する	df[aList].fillna(df[aList].median())
+データフレームのリスト列の未入力値をメディアンに設定する	df[aList].fillna(df[aList].median())
+データ列の未入力値をメディアンで埋める	ds.fillna(ds.median())
+データ列のNaNを50パーセンタイルに変更する	ds.fillna(ds.median())
+データフレームのカラムの欠損値をメディアンで埋める	df[col].fillna(df[col].median())
+データフレームのカラムの未入力値を中央値に設定する	df[col].fillna(df[col].median())
+データフレームの未入力値を最大値に設定する	df.fillna(df.max())
+最大値でデータフレームのリストカラムのNaNを置き換える	df[aList].fillna(df[aList].max())
+データフレームのリストカラムの未入力値を最大値に増やす	df[aList].fillna(df[aList].max())
+データ列の欠損値を最大値で置換する	ds.fillna(ds.max())
+データ列のNaNを最大値に設定する	ds.fillna(ds.max())
+データフレームのカラムのNaNを最大値で置き換える	df[col].fillna(df[col].max())
+データフレームの列の欠損値を最大値に設定する	df[col].fillna(df[col].max())
+最小値でデータフレームの欠損値を埋める	df.fillna(df.min())
+データフレームのリスト列の欠損値を最小値で補う	df[aList].fillna(df[aList].min())
+データフレームのリスト列の欠損値を最小値に指定する	df[aList].fillna(df[aList].min())
+カラムの未入力値を最小値で置き換える	ds.fillna(ds.min())
+データ列の欠損値を最小値に増やす	ds.fillna(ds.min())
+データフレームのカラムの未入力値を最小値で補う	df[col].fillna(df[col].min())
+データフレームのカラムのNaNを最小値にセットする	df[col].fillna(df[col].min())
+直前の値でデータフレームの欠損値を埋める	df.fillna(method='ffill')
+データフレームのNaNを直前の値に変更する	df.fillna(method='ffill')
+データフレームのリスト列のNaNを前の行の値で埋める	df[aList].fillna(method='ffill')
+データフレームのリスト列の未入力値を前の値に設定する	df[aList].fillna(method='ffill')
+列のNaNを直前の値で埋める	ds.fillna(method='ffill')
+データ列のNaNを前の行の値に設定する	ds.fillna(method='ffill')
+直前の値でデータフレームのカラムのNaNを補う	df[col].fillna(method='ffill')
+データフレームの列の欠損値を前の行の値に指定する	df[col].fillna(method='ffill')
+直後の値でデータフレームのNaNを埋める	df.fillna(method='bfill')
+データフレームの欠損値を直後の値に指定する	df.fillna(method='bfill')
+直後の値でデータフレームのリストカラムの未入力値を埋める	df[aList].fillna(method='bfill')
+データフレームのリストカラムのNaNを直後の値に設定する	df[aList].fillna(method='bfill')
+カラムのNaNを後の値で置換する	ds.fillna(method='bfill')
+データ列の欠損値を後の値に設定する	ds.fillna(method='bfill')
+後の行の値でデータフレームの列の未入力値を置換する	df[col].fillna(method='bfill')
+データフレームの列のNaNを後の行の値に設定する	df[col].fillna(method='bfill')
+データフレームの文字列をNaNに変換する	df.replace(s, np.nan)
+データフレームのリストカラムの文字列を欠損値にする	df[aList].replace(s, np.nan)
+カラムの文字列を欠損値に変換する	ds.replace(s, np.nan)
+データ列の文字列を未入力値にする	ds.replace(s, np.nan)
+データフレームのカラムの文字列を未入力値にする	df[col].replace(s, np.nan)
+データフレームのカラムの文字列をNaNにする	df[col].replace(s, np.nan)
+データフレームのリストカラムの空文字をNaNに変換し、ドロップする	df[aList].replace('', np.nan).dropna()
+カラムの空文字を未入力値に変換しドロップする	ds.replace('', np.nan).dropna()
+データフレームの列の空文字を欠損値に変換し、ドロップする	df[col].replace('', np.nan).dropna()
+データフレームの値をValueMapで変更する	df.replace(ValueMap)
+データフレームのリストカラムの値をValueMapでまとめて変更する	df[aList].replace(ValueMap)
+データ列の値をまとめてValueMapで置き換える	ds.replace(ValueMap)
+データフレームのカラムをValueMapでまとめて置換する	df[col].replace(ValueMap)
+データフレームの値を正規表現patternでまとめてreplに変更する	df.replace(pattern, repl, regex=True)
+データフレームのリストカラムの値を正規表現patternでまとめて置換する	df[aList].replace(pattern, repl, regex=True)
+列の値を正規表現patternで置き換える	ds.replace(pattern, repl, regex=True)
+まとめてデータフレームの列をreplに正規表現patternで置き換える	df[col].replace(pattern, repl, regex=True)
+データフレームの値は欠損値か	df.isna()
+データフレームのリスト列の値が欠損値	df[aList].isna()
+データ列の値が欠損値かどうか調べる	ds.isna()
+データフレームのカラムの値は欠損値か調べる	df[col].isna()
+データフレームの中のNaNの個数をカウントする	df.isna().sum()
+データフレームの中にいくつ欠損値が存在するか数える	df.isna().sum()
+データフレームのリストカラムの中の欠損値の合計を求める	df[aList].isna().sum()
+データフレームのリストカラムの中にいくつ未入力値があるかカウントする	df[aList].isna().sum()
+カラムの中の未入力値の合計を数える	ds.isna().sum()
+データ列の中にいくつNaNが含まれるか求める	ds.isna().sum()
+データフレームのカラムの中のNaNの合計をカウントする	df[col].isna().sum()
+データフレームのカラムの中にいくつ未入力値があるか求める	df[col].isna().sum()
+データフレームの中に文字列がある	df.isin([value])
+データフレームのリストカラムの中に文字列がある	df[aList].isin([value])
+データ列の中に文字列がある	ds.isin([value])
+データフレームの列の中に日付データがあるか調べる	df[col].isin([value])
+データフレームの中に存在する文字列の数をカウントする	df.isin([value]).sum()
+データフレームの中にいくつがあるか数える	df.isin([value]).sum()
+データフレームのリストカラムの中に存在する文字列の合計を数える	df[aList].isin([value]).sum()
+データフレームのリストカラムの中にいくつ文字列があるかカウントする	df[aList].isin([value]).sum()
+データ列の中に存在する文字列の合計を求める	ds.isin([value]).sum()
+カラムの中にいくつ日付データがあるかカウントする	ds.isin([value]).sum()
+データフレームの列の中にあるの合計を数える	df[col].isin([value]).sum()
+データフレームの列の中にいくつ文字列があるかカウントする	df[col].isin([value]).sum()
+データフレームの中に文字列と文字列があるかどうか調べる	df.isin([value, value2])
+データフレームのリストカラムの中に文字列と日付データがあるか調べる	df[aList].isin([value, value2])
+データ列の中に日付データと日付データが存在する	ds.isin([value, value2])
+データフレームの列の中に文字列とが存在するか	df[col].isin([value, value2])
+データフレームの中に存在する文字列と文字列の合計を数える	df.isin([value, value2]).sum()
+データフレームの中に日付データとがいくつあるかカウントする	df.isin([value, value2]).sum()
+データフレームのリストカラムの中にあると文字列の合計を数える	df[aList].isin([value, value2]).sum()
+データフレームのリストカラムの中に文字列と文字列がいくつあるか求める	df[aList].isin([value, value2]).sum()
+カラムの中にあると文字列の合計を数える	ds.isin([value, value2]).sum()
+カラムの中に文字列と文字列がいくつあるか数える	ds.isin([value, value2]).sum()
+データフレームのカラムの中にある日付データと文字列の合計を数える	df[col].isin([value, value2]).sum()
+データフレームのカラムの中にと文字列がいくつあるか数える	df[col].isin([value, value2]).sum()
+二つのデータフレームを縦方向にくっつける	pd.concat([df, df2])
+二つのデータフレームを縦向きに連結する	pd.concat([df, df2], axis=0)
+2つのデータフレームを横方向に連結する	pd.concat([df, df2], axis=1)
+3つのデータフレームを縦向きに連結する	pd.concat([df, df2, df3], axis=0)
+3つのデータフレームを横方向に連結する	pd.concat([df, df2, df3], axis=1)
+データフレームとデータフレームの列を一つにする	pd.concat([df, ds], axis=1)
+データフレームとデータフレームの列を横方向に連結する	pd.concat([df, ds], axis=1)
+最初の列をデータフレームから除く	df[df.columns[1:]]
+データフレームから一番右側の列を除く	df[df.columns[:-1]]
+n番目のカラムをデータフレームから除く	pd.concat([df[df.columns[:n]], df[df.columns[n+1:]]], axis=1)
+２つのデータフレームを横向きにマージする	pd.merge(df, df2)
+列をキーにして２つのデータフレームを結合する	pd.merge(df, df2, on=column)
+二つの表データを列'A'と列'B'をキーとして結合する	pd.merge(df, df2, left_on='A', right_on='B')
+2つのデータフレームを異なる列をキーとしてジョインする	pd.merge(df, df2, left_on='A', right_on='B')
+列をキーにして２つのデータフレームを外部結合する	pd.merge(df, df2, on=column, how='outer')
+二つのデータフレームを列をキーにして左結合する	pd.merge(df, df2, on=column, how='left')
+列をキーにして二つのデータフレームを右ジョインする	pd.merge(df, df2, on=column, how='right')
+列'A'と列'B'をキーとして2つのデータフレームを外部結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+異なる列をキーにして二つのデータフレームを外部結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+列'A'と列'B'をキーとして２つのデータフレームを左ジョインする	pd.merge(df, df2, left_on=column, right_on=column2, how='left')
+２つのデータフレームを異なるカラムをキーにして左結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='left')
+異なる列をキーとして２つのデータフレームを右結合する	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+データフレームの列をダミー変数にする	pd.get_dummies(df[column])
+最初のカテゴリーを無視してデータフレームの列をベクトルにする	pd.get_dummies(df[column], drop_first=True)
+表データを使う	import pandas as pd
+データフレームの上n行	df.head(n)
+データフレームの先頭n行を見る	df.head(n)
+データフレームからランダムに一行を取り出す	df.sample()
+表データからランダムにn行を抽出する	df.sample(n)
+表データからn行、サンプリングする	df.sample(n)
+重複ありでデータフレームからn行をランダムにサンプリングする	df.sample(n, replace=True)
+データフレームの行を抽出する	df[start:end]
+データフレームのn行以降取り出す	df[n:]
+データフレームのn行目まで抽出する	df[:n]
+データフレームの指定された列	df[column]
+データフレームの指定されたカラムを配列として取り出す	df[column].values
+列をリストとして取り出す	df[column].values.tolist()
+データフレームからカラムを一つ選択する	df[[column]]
+データフレームから指定された列を取り出す	df[[column]]
+表から列を二つ選択する	df[[column, column2]]
+データフレームの指定された二列を取り出す	df[[column, column2]]
+データフレームから列を三つのみ選択する	df[[column, column2, column3]]
+データフレームから指定された三列を抽出する	df[[column, column2, column3]]
+データフレームの指定された４列を取り出す	df[[column, column2, column3, column4]]
+データフレームの指定された列名一覧の列を選ぶ	df[columns]
+データフレームのn番目の行を抽出する	df.loc[n]
+列の一覧を確認する	df.info()
+データフレームのカラムの名前リストを使う	df.columns
+データフレームの列名を指定された列名一覧に置き換える	df.columns = columns
+データフレームからカテゴリデータの列名のリスト	df.select_dtypes('object').columns
+データフレームから指定したデータ型の列名の一覧を使う	df.select_dtypes(型).columns
+データフレームのインデックスのリスト	df.index
+データフレームのデータ型一覧を使う	df.dtypes
+データフレームから型リストで指定されたデータ型の列だけ抽出する	df.select_dtypes(include=typeList)
+データフレームから数値データの列だけ取り出す	df.select_dtypes('number')
+データフレームから型型の列を抽出する	df.select_dtypes(ty)
+データフレームのシェイプを調べる	df.shape
+データフレームの行列を入れ替える	df.T
+データフレームのリストで指定された列の相関行列	df[aList].corr()
+ピアソンでデータフレームの相関行列	df.corr(method='pearson')
+ピアソンでデータフレームの列と列の相関行列	df[[column, column2]].corr(method='pearson')
+ピアソン相関係数を用いてデータフレームのリストで指定された列の相関行列を求める	df[aList].corr(method='pearson')
+ケンドール相関係数を用いてデータフレームの相関行列	df.corr(method='kendall')
+ケンドールでデータフレームの列と列の相関行列	df[[column, column2]].corr(method='kendall')
+表データのリスト列の相関行列ケンドール相関係数として	df[aList].corr(method='kendall')
+スピアマン相関係数でデータフレームの相関行列を求める	df.corr(method='spearman')
+データフレームの列と列の相関行列スピアマン相関係数を用いて	df[[column, column2]].corr(method='spearman')
+データフレームのリストで指定した列の相関行列スピアマン順位相関係数で	df[aList].corr(method='spearman')
+データフレームの相関行列をヒートマップとしてグラフ化する	sns.heatmap(df.corr())
+ヒートマップとしてデータフレームの列と列の相関行列を描画する	sns.heatmap(df[[column, column2]].corr())
+データフレームのリストで指定された列の相関行列をヒートマップで描画する	sns.heatmap(df[aList].corr())
+データフレームのリストで指定された列のヒートマップを描画する	sns.heatmap(df[aList].corr())
+表データの数値をまとめて丸める	df.round()
+表データを小数点以下n桁で四捨五入する	df.round(n)
+データフレームのカラムの名前を列から文字列に変更する	df.rename(columns={column: name})
+まとめてデータフレームの列名を文字列を文字列に置換する	df.columns = [str(x).replace(s, s2) for x in df.columns]
+データフレームの行の名前をまとめて、nameからname2に付け直す	df.rename(index={name: name2})
+データフレームのカラムの値がxである行を取り出す	df[df[column] == x]
+データフレームの列がxでない行を消す	df[df[column] == x]
+データフレームの行を条件で消すには	df[(df[column] == x) & (df[column2] == x2)]
+データフレームの列がxより少ない行を取り出す	df[df[column] < x]
+データフレームの列がx以下のデータを選択する	df[df[column] <= x]
+データフレームの列がxより大きい行を取り出す	df[df[column] > x]
+データフレームの列がx以上のデータを選択する	df[df[column] >= x]
+データフレームの列がxより大きくx2より少ない行を選択する	df[(x < df[column]) & (df[column] < x2)]
+データフレームの列の値がx以上かつx2未満のデータを選択する	df[(x <= df[column]) & (df[column] < x2)]
+データフレームの列がリストに含まれるデータを選択する	df[df[column].isin(aList)]
+データフレームの列で文字列が含まれる行を抽出する	df[df[column].str.contains(s)]
+データフレームの列で文字列が含まれないデータを選択する	df[not df[column].str.contains(s)]
+データフレームの列の文字列が正規表現文字列にマッチする行を抽出する	df[df[column].str.match(s)]
+データフレームの列の文字列が正規表現文字列にマッチしないデータを取り出す	df[not df[column].str.match(s)]
+データフレームの列が文字列で始まるデータを抽出する	df[df[column].str.startswith(s)]
+データフレームの列が文字列で始まらない行を選ぶ	df[not df[column].str.startswith(s)]
+表データの列の文字列が文字列で終わる行を抽出する	df[df[column].str.endswith(s)]
+データフレームの列が文字列で終わらない行を取り出す	df[not df[column].str.endswith(s)]
+データフレームの欠損値が含まれる箇所に色をつける	df.style.highlight_null()
+データフレームのn行目をドロップして更新する	df.drop(n, axis=0, inplace=True)
+データフレームの列を破壊的に取り除く	df.drop(column, axis=1, inplace=True)
+データフレームの列をドロップしてインプレイスする	df.drop(column, axis=1, inplace=True)
+データフレームのカラムの名前一覧で指定された列を削除する	df.drop(columns, axis=1)
+データフレームの中の未入力値をドロップする	df.dropna()
+データフレームの中のNaNがある行を落とす	df.dropna()
+データフレームが重複しているか確認する	df.duplicated()
+データフレームの重複した行数のマスクを使う	df.duplicated()
+データフレームで何行、重複するか調べる	df.duplicated().sum()
+重複する行のみを抽出する	df[df.duplicated(keep=False)]
+データフレームの中で、列の重複を確認する	df.duplicated(subset=column)
+データフレームで列に重複があるか見る	df.duplicated(subset=column)
+データフレームで、列と列の重複を見る	df.duplicated(subset=[column, column2])
+データフレームの内で、列と列に重複があるか見る	df.duplicated(subset=[column, column2])
+データフレームの列と列に重複があれば、マスクする	df.duplicated(subset=[column, column2])
+データフレームから重複した行を消す	df.drop_duplicates()
+表データから重複したデータを取り除いて、更新する	df.drop_duplicates(inplace=True)
+データフレームからインプレイスで重複したデータを削除する	df.drop_duplicates(inplace=True)
+データフレームから重複を残さず、ドロップする	df.drop_duplicates(keep=False)
+データフレームから重複するデータを残さず削除する	df.drop_duplicates(keep=False)
+列と列の重複をドロップする	df.drop_duplicates(subset=column)
+データフレームの列と列に重複があれば、落とす	df.drop_duplicates(subset=column)
+データフレームで、列と列の重複をドロップする	df.drop_duplicates(subset=[column, column2])
+データフレームの中の列と列に重複があれば落とす	df.drop_duplicates(subset=[column, column2])
+Pandasで、dateStringをタイムスタンプ型に変換する	pd.to_datetime(dateString)
+データフレームのcollを日付データにする	pd.to_datetime(df[col])
+Pandasで文字列を日付データに変換する	pd.to_datetime(s)
+フォーマットを用いてデータフレームのcollを日付データにする	pd.to_datetime(df[col], format='%Y-%m-%d')
+フォーマットでデータ列を日付データに変換する	pd.to_datetime(ds, format='%Y-%m-%d')
+Pandasで書式として文字列を日付データにする	pd.to_datetime(s, format='%Y-%m-%d')
+フォーマットfmtとしてデータフレームのcollをタイムスタンプ型に変換する	pd.to_datetime(df[col], format=fmt)
+Pandasで、フォーマットfmtでデータ列をdatetime64型に変換する	pd.to_datetime(ds, format=fmt)
+Pandasで、文字列をフォーマットfmtとしてPandasの日付型に変換する	pd.to_datetime(s, format=fmt)
+Pandasで、UNIX秒のデータフレームのcollから日付データに変換する	pd.to_datetime(df[col], unit='s', utc=True)
+データフレームのcollのUNIX秒からタイムスタンプに変換する	pd.to_datetime(df[col], unit='s', utc=True)
+Pandasでエポック秒のデータ列から日付データに変換する	pd.to_datetime(ds, unit='s', utc=True)
+Pandasで、データ列の数値時刻から日付データにする	pd.to_datetime(ds, unit='s', utc=True)
+Pandasで文字列のエポック秒から日付データに変換する	pd.to_datetime(s, unit='s', utc=True)
+日付データのデータフレームのカラムをデータフレームのインデックスにする	df.index = pd.DatetimeIndex(df[col])
+Pandasで、Pandasの日付型のデータ列をデータフレームのインデックスにする	df.index = pd.DatetimeIndex(ds)
+Pandasで、データフレームのカラムを日付データに変換し、インデックスにする	df.index = pd.DatetimeIndex(pd.to_datetime(df[col]))
+Pandasでデータ列を日付データに変換しデータフレームのインデックスにする	df.index = pd.DatetimeIndex(pd.to_datetime(ds))
+データフレームのカラムが何日か調べる	df[col].dt.day
+データ列が何日か調べる	ds.dt.day
+データフレームのカラムが何時か確認する	df[col].dt.hour
+データ列が何時か確認する	ds.dt.hour
+データフレームのカラムが何秒か調べる	df[col].dt.second
+データ列は何秒か見る	ds.dt.second
+データフレームのカラムの曜日名を求める	df[col].dt.weekday_name
+データ列の曜日が何日目か調べる	ds.dt.dayofweek
+データフレームを表示するとき表示可能な最大列数を変更する	pd.set_option('display.max_columns', n)
+データフレームを表示するとき、表示可能な列数の最大値をnに指定する	pd.set_option('display.max_columns', n)
+データフレームを表示するときn列までデータフレームを表示可能なようにする	pd.set_option('display.max_columns', n)
+表示可能な最大行数を変更する	pd.set_option('display.max_rows', n)
+データフレームを表示するとき、最大行数をnに設定する	pd.set_option('display.max_rows', n)
+データフレームを表示するときn行までデータフレームを表示できるようにする	pd.set_option('display.max_rows', n)
+データフレームを表示するとき小数点以下の表示精度を設定する	pd.set_option('precision', n)
+データフレームを表示するとき小数点以下の表示精度をn桁に設定する	pd.set_option('precision', n)
+小数点以下n桁まで表示可能なようにする	pd.set_option('precision', n)
+折り返しを無効に設定する	pd.set_option('expand_frame_repr', False)
+データフレームを表示するときカラムの最大幅をnに変更する	pd.set_option('max_colwidth', n)
+ヘッダー行を左寄せに設定する	pd.set_option('colheader_justify', 'left')
+からデータフレームを読み込む	pd.read_excel(filename)
+エクセルファイルファイルをデータフレームとして読む	pd.read_excel(filename)
+エクセルファイルファイルからエクセルファイルを読む	pd.read_excel(filename)
+n番目のシートをエクセルファイルファイルから読み込む	pd.read_excel(filename, sheet_name=n)
+ファイルからnという名前のシートをデータフレームとして読み込む	pd.read_excel(filename, sheet_name=n)
+ファイルのn番目のシートをデータフレームとして読み込む	pd.read_excel(filename, sheet_name=n)
+複数のシートをエクセルデータファイルから読む	pd.read_excel(filename, sheet_name=[n, n2])
+ファイルから全てのシートを読み込む	pd.read_excel(filename, sheet_name=None)
+データフレームをCSVファイルから読む	pd.read_csv(filename, sep=',')
+CSVからデータフレームを読む	pd.read_csv(filename, sep=',')
+CSVを読み込む	pd.read_csv(filename, sep=',')
+TSVファイルからデータフレームを読む	pd.read_csv(filename, sep='\t')
+TSVファイルを読む	pd.read_csv(filename, sep='\t')
+＜オプション＞読み込むシート名をnamesに減らす	sheet_name = names
+＜オプション＞先頭のカラムを行に設定する	index_col = 0
+＜オプション＞n番目の列をインデックスに設定する	index_col = n
+＜オプション＞インデックスを自動的な連番に指定する	index_col = None
+＜オプション＞先頭の行をカラムの名前に設定する	header = 0
+＜オプション＞カラムの名前をnamesに設定する	header = names
+＜オプション＞namesを列の名前に変更する	names = names
+＜オプション＞スキップするフッタをnに設定する	skipfooter = n
+TSVファイルをヘッダを指定せず読む	pd.read_csv(filename, header=None)
+CSVファイルTSVファイルをn番目の列をインデックスとして読み込む	pd.read_csv(filename, index_col=n)
+文字列TSVからn番目のカラムを行としてカンマ区切りのファイルを読み込む	pd.read_csv(filename, index_col=n)
+SJISでタブ区切りのファイルを読む	pd.read_csv(filename, encoding='shift_jis')
+TSVからCSVを文字化けしないように読む	pd.read_csv(filename, encoding='shift_jis')
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+データフレームをTSVから読み込む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+TSVファイルからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+TSVからデータフレームを読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+TSVファイルをデータフレームとして読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+データフレームとしてJSONLファイルを読み込む	pd.read_json(filename, orient='records', lines=True)
+JSONLファイルにファイルでデータフレームを保存する	df.to_excel(filename)
+データフレームをCSVファイルとしてJSONLファイルに保存する	df.to_csv(filename)
+データフレームをタブ区切りとしてJSONLファイルに保存する	df.to_csv(filename, sep='\t')
+JSONLファイルにTSVでデータフレームを書き込む	df.to_csv(filename, sep='\t')
+JSONLファイルにデータフレームをカラムの名前を付けずに書き込む	df.to_csv(filename, header=None)
+データフレームをJSONLファイルに行を付けずに保存する	df.to_csv(filename, index=None)
+JSONLファイルにWindowsで文字化けしないようにデータフレームを保存する	df.to_csv(filename, encoding='utf_8_sig')
+書き込むCSVの小数点以下の桁数を変更する	df.to_csv(filename, float_format='%.3f')
+データフレームを小数点以下3桁までJSONLファイルに保存する	df.to_csv(filename, float_format='%.3f')
+データフレームを列の値によって集約する	df.groupby(column)
+データフレームを列によってまとめたグループを使う	df.groupby(column)
+データフレームを'A'列でグループ化する	df.groupby('A')
+'A'列によってデータフレームをまとめたグループ	df.groupby('A')
+二つの列の値によってデータフレームをグループ化する	df.groupby(['A', 'B'])
+2つの列の値によってデータフレームをまとめた表を見る	df.groupby(['A', 'B'])
+データフレームを複数の列の値によって集計する	df.groupby(columns)
+データフレームを複数の列によってまとめた表	df.groupby(columns)
+関数の値でデータフレームをグループ化する	df.groupby(関数)
+データフレームを関数の値によってまとめた表	df.groupby(関数)
+列の値によってデータフレームをグループ化し、要約統計量を求める	df.groupby(column).describe()
+'A'列の値によってデータフレームをグループ化し、要約統計量を求める	df.groupby('A').describe()
+データフレームを'A'列と'B'列の値によってグループ化し、要約統計量を求める	df.groupby(['A', 'B']).describe()
+複数の列の値によってデータフレームをグループ化し、要約統計量を算出する	df.groupby(columns).describe()
+関数の値によってデータフレームをグループ化し、要約統計量を求める	df.groupby(関数).describe()
+NaNを含めてデータフレームを列の値でグループ化する	df.groupby(column, dropna=False)
+＜オプション＞未入力値を含める	dropna = True
+データフレームを列の値ごとにグループ化し、列挙する	[(name, group) for name, group in df.groupby(column)]
+データフレームを'A'列の値によってグループ化して列挙する	[(name, group) for name, group in df.groupby('A')]
+データフレームを二つの列によってグループ化して、列挙する	[(name, group) for name, group in df.groupby(['A', 'B'])]
+複数の列によってデータフレームをグループ化して、列挙する	[(name, group) for name, group in df.groupby(columns)]
+表データを関数によって集約し、、列挙する	[(name, group) for name, group in df.groupby(関数)]
+データフレームを各列毎にグループ化し、、文字列というグループを使う	df.groupby(column).get_group(s)
+データフレームを列の値でグループ化して各グループごとの件数を知る	df.groupby(column).size()
+データフレームを各列毎にグループ化して文字列というグループの大きさを求める	df.groupby(column).size()[s]
+データフレームのそれぞれのグループ毎の合計を求める	df.groupby(column).sum()
+データフレームを列によってグループ化して、合計を計算する	df.groupby(column).sum()
+データフレームのそれぞれのグループの平均値	df.groupby(column).mean()
+データフレームを列ごとにグループ分けし、平均値を計算する	df.groupby(column).mean()
+データフレームのそれぞれのグループごとの個数を求める	df.groupby(column).count()
+列によってデータフレームをグループ化して、それぞれのグループごとの個数を求める	df.groupby(column).count()
+データフレームを列ごとにグループ化して、それぞれのグループ毎の最大値を求める	df.groupby(column).max()
+データフレームのそれぞれのグループ毎の最小値	df.groupby(column).min()
+データフレームを列によって分類して、それぞれのグループごとの最小値を計算する	df.groupby(column).min()
+データフレームのそれぞれのグループごとの分散を求める	df.groupby(column).var()
+列によってデータフレームをグループ化し、、それぞれのグループごとの分散を計算する	df.groupby(column).var()
+データフレームの各グループごとの標準偏差	df.groupby(column).std()
+データフレームを列の値ごとにグループ化し、それぞれのグループごとの標準偏差を求める	df.groupby(column).std()
+データフレームを各列とカラムの組み合わせ毎に集計して、合計を求める	df.groupby([column, column2], as_index=False).sum()
+データフレームを各列と列の組み合わせ毎にグループ化して、平均値を計算する	df.groupby([column, column2], as_index=False).mean()
+データフレームを各列と列の組み合わせ毎にグループ化し、、個数を求める	df.groupby([column, column2], as_index=False).count()
+データフレームを各列と列の組み合わせ毎に集約し、、最大値を求める	df.groupby([column, column2], as_index=False).max()
+データフレームを各列と列の組み合わせ毎に集約して、最小値を求める	df.groupby([column, column2], as_index=False).min()
+データフレームを各列と列の組み合わせ毎にグループ分けして、分散を計算する	df.groupby([column, column2], as_index=False).var()
+データフレームを各列とカラムの組み合わせ毎にグループ化して、標準偏差を求める	df.groupby([column, column2], as_index=False).std()
+データフレームをグループ化し各列に対し合計を求める	df.groupby(column)[column2].sum()
+各列毎にデータフレームをグループ化し、、列の合計を求める	df.groupby(column)[column2].sum()
+データフレームをグループ化しそれぞれの列に対し平均値を求める	df.groupby(column)[column2].mean()
+データフレームを各列毎にグループ化して、列の平均値を計算する	df.groupby(column)[column2].mean()
+データフレームをグループ化しそれぞれの列に対し個数を計算する	df.groupby(column)[column2].count()
+データフレームを各列毎に集約して列の個数を求める	df.groupby(column)[column2].count()
+データフレームをグループ化し各列に対し最大値を計算する	df.groupby(column)[column2].max()
+各列毎にデータフレームを集約して、列の最大値を計算する	df.groupby(column)[column2].max()
+データフレームをグループ化し、それぞれの列に対し最小値を算出する	df.groupby(column)[column2].min()
+データフレームを各列毎にグループ化し、、列の最小値を求める	df.groupby(column)[column2].min()
+データフレームをグループ化し、それぞれの列に対し分散を算出する	df.groupby(column)[column2].var()
+データフレームを各列毎に集計して、列の分散を計算する	df.groupby(column)[column2].var()
+データフレームをグループ化し各列に対し標準偏差を求める	df.groupby(column)[column2].std()
+データフレームを各列毎に集約して、列の標準偏差を求める	df.groupby(column)[column2].std()
+データフレームを列でグループ化し、、列の要約統計量を算出する	df.groupby(column).describe()[column2]
+列の各値が何回出現するか見る	ds.value_counts()
+列の各データ値の出現数	df[col].value_counts()
+データフレームの列の各データは何回出現するか見る	df[col].value_counts()
+列のユニークな値を確認する	ds.unique()
+列のユニークな要素を調べる	df[col].unique()
+データ列の一意な値の個数	ds.nunique()
+データフレームの列の一意な要素数	df[col].nunique()
+列をカテゴリデータにする	ds.astype(object)
+データフレームの列からユニークな要素を抽出しリスト化する	df[col].unique().tolist()
+データ列からユニークな要素を抽出しリスト化する	ds.unique().tolist()
+データ列と列から重複を取り除く	set(ds.unique().tolist()+ds2.unique().tolist())
+分割数nでデータ列をビン分割する	pd.cut(ds, n)
+n個に列をビン分割する	pd.cut(ds, n)
+データフレームの中のカラムをビン数nでビン分割する	pd.cut(df[col], n)
+n個に等間隔でデータフレームの中の列をビン分割する	pd.cut(df[col], n)
+リストをビン数nで分割する	pd.cut(aList, n)
+配列をビン数nで分割する	pd.cut(aArray, n)
+n個に等間隔で配列をビン分割する	pd.cut(aArray, n)
+ビン数nでデータ列をビン分割し、、namesのラベルをつける	pd.cut(ds, n, labels=names)
+列をn個に分割して、namesのラベルをつける	pd.cut(ds, n, labels=names)
+データフレームの中の列を分割数nでビン分割し、、namesのラベルをつける	pd.cut(df[col], n, labels=names)
+n個にデータフレームの中の列をビン分割し、、namesのラベルをつける	pd.cut(df[col], n, labels=names)
+リストをビン数nで分割してnamesのラベルをつける	pd.cut(aList, n, labels=names)
+リストをn個にビン分割し、、namesのラベルをつける	pd.cut(aList, n, labels=names)
+分割数nで配列をビン分割し、、namesのラベルをつける	pd.cut(aArray, n, labels=names)
+n個に配列をビン分割して、namesのラベルをつける	pd.cut(aArray, n, labels=names)
+データ列を等しい量になるように分割数nでビン分割する	pd.qcut(ds, n)
+n個にデータ列を等量でビン分割する	pd.qcut(ds, n)
+ビン数nでデータフレームの中の列を等量でビン分割する	pd.qcut(df[col], n)
+データフレームの中の列をn個に等量で分割する	pd.qcut(df[col], n)
+リストを等しい量になるようにビン数nを使ってビニングする	pd.qcut(aList, n)
+n個に等量でリストをビン分割する	pd.qcut(aList, n)
+配列を分割数nを用いて等量でビン分割する	pd.qcut(aArray, n)
+配列を等量でn個に分割する	pd.qcut(aArray, n)
+リストを境界値としてデータフレームの中のカラムをビン分割する	pd.cut(df[col], aList)
+配列をリストを境界値としてビンニングする	pd.cut(aArray, aList)
+中央値で列を分割する	pd.qcut(ds, 2)
+リストを中央値でビニングする	pd.qcut(aList, 2)
+データ列を四分位数でビン分割する	pd.qcut(ds, 4)
+四分位数ごとにリストを分割する	pd.qcut(aList, 4)
+四分位数ごとに配列をビン分割する	pd.qcut(aArray, 4)
+表を列によってソートする	df.sort_values(by=column)
+'A'列によってデータフレームをソートする	df.sort_values(by='A')
+'A'列と'B'列でデータフレームを整列する	df.sort_values(by=['A', 'B'])
+データフレームを列名リストによってソートする	df.sort_values(by=column)
+小さい順に列でデータフレームをソートする	df.sort_values(by=column, ascending=True)
+データフレームを昇順に'A'列によってソートする	df.sort_values(by='A', ascending=True)
+データフレームを'A'列と'B'列によって昇順に並べる	df.sort_values(by=['A', 'B'], ascending=True)
+データフレームを複数の列によって昇順に整列する	df.sort_values(by=column, ascending=True)
+データフレームを列によってで降順にソートする	df.sort_values(by=column, ascending=False)
+降順に'A'列によってでデータフレームをソートする	df.sort_values(by='A', ascending=False)
+データフレームを'A'列と'B'列によってで大きい順にソートする	df.sort_values(by=['A', 'B'], ascending=False)
+データフレームを複数の列でによって降順に並べ直す	df.sort_values(by=column, ascending=False)
+データフレームを列によってソートし、、更新する	df.sort_values(by=column, inplace=True)
+データフレームを列を用いてで破壊的にソートする	df.sort_values(by=column, inplace=True)
+表データを'A'列によってソートして、更新する	df.sort_values(by='A', inplace=True)
+データフレームを'A'列によってを用いて破壊的にソートする	df.sort_values(by='A', inplace=True)
+データフレームを'A'列と'B'列によってソートし、、更新する	df.sort_values(by=['A', 'B'], inplace=True)
+データフレームを二つの列を用いてで破壊的にソートする	df.sort_values(by=['A', 'B'], inplace=True)
+複数の列によってデータフレームをソートして更新する	df.sort_values(by=column, inplace=True)
+データフレームを複数の列によってを用いて破壊的に整列する	df.sort_values(by=column, inplace=True)
+表データを列によって昇順に並べ直し、、更新する	df.sort_values(by=column, ascending=True, inplace=True)
+列によって破壊的に小さい順にデータフレームをソートする	df.sort_values(by=column, ascending=True, inplace=True)
+データフレームを'A'列を用いて昇順にソートして、更新する	df.sort_values(by='A', ascending=True, inplace=True)
+破壊的に'A'列によってデータフレームを昇順に整列する	df.sort_values(by='A', ascending=True, inplace=True)
+データフレームを２つの列によって昇順に整列して、更新する	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+小さい順に２つの列で破壊的にデータフレームを並べ直す	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+データフレームを列名リストによって昇順に並べて更新する	df.sort_values(by=column, ascending=True, inplace=True)
+データフレームを複数の列で昇順に破壊的に並べる	df.sort_values(by=column, ascending=True, inplace=True)
+データフレームを列によって大きい順に破壊的に整列する	df.sort_values(by=column, ascending=False, inplace=True)
+破壊的に降順にデータフレームを'A'列で並べ直す	df.sort_values(by='A', ascending=False, inplace=True)
+二つの列でデータフレームを破壊的に降順に並べる	df.sort_values(by=['A', 'B'], ascending=False, inplace=True)
+降順に複数の列を用いてデータフレームを破壊的に並べる	df.sort_values(by=column, ascending=False, inplace=True)
+データフレームを列を用いてソートして、NaNを先頭に来るようにする	df.sort_values(by=column, na_position='first')
+'A'列によってデータフレームをソートして、NaNを先頭にする	df.sort_values(by='A', na_position='first')
+データフレームを二つの列によって整列し、、NaNを先頭にする	df.sort_values(by=['A', 'B'], na_position='first')
+データフレームを複数の列を用いて整列し、、NaNを先頭にする	df.sort_values(by=column, na_position='first')
+＜オプション＞未入力値を先頭にする	na_position = 'first'
+データフレームを列によってソートし、、上の方n件を取り出す	df.sort_values(columns).head(n)
+データフレームを列を用いてソートして、下の方n件を取り出す	df.sort_values(columns).tail(n)
+データフレームを列を用いてソートして、新しい行を加える	df.sort_values(columns).reset_index()
+データフレームを列を用いてソートしてインデックスを振り直す	df.sort_values(columns).reset_index(drop=True)
+データフレームをインデックスによって並べる	df.sort_index()
+表をインデックスを用いて小さい順に並べる	df.sort_index(ascending=True)
+データフレームをインデックスによって降順で並べ直す	df.sort_index(ascending=False)
+範囲を指定して乱数を得る	random.randint(最小値, 最大値)
+最大値・最小値を使って乱数を生成する	random.randint(最小値, 最大値)
+等差数列から整数乱数を得る	random.randrange(start, end, step)
+最大値・最小値の範囲として一様な乱数を求める	random.uniform(最小値, 最大値)
+疑似乱数を正規分布で求める	random.normalvariate(mu=0.5, sigma=0.2)
+平均と標準偏差から疑似乱数を得る	random.normalvariate(mu=0.5, sigma=0.2)
+シーケンスからひとつランダムに選ぶ	random.choice(iterable)
+英文字からひとつランダムに選ぶ	random.choice(string.ascii_uppercase)
+シーケンスからn個ランダムに選ぶ	random.choices(iterable, k=n)
+列からサンプリングする	random.sample(iterable)
+イテラブルからn個サンプリングする	random.sample(iterable, k=n)
+タプルから重複なく、n個ランダムに選ぶ	random.sample(iterable, k=n)
+正規表現をあらかじめコンパイルする	re.compile(pattern)
+ASCII限定として正規表現を事前にコンパイルする	re.compile(pattern, flag=re.ASCI)
+パターンを大文字・小文字を無視してあらかじめコンパイルする	re.compile(pattern, flag=re.IGNORECASE)
+複数行対応としてあらかじめ正規表現をコンパイルする	re.compile(pattern, flag=re.MULTILINE)
+文字列を走査し、パターンにマッチするか見る	re.search(pattern, s)
+文字列を走査し、正規表現にASCII限定としてマッチするか調べる	re.search(pattern, s, flags=re.ASCI)
+文字列を走査し、パターンに大文字・小文字を無視してマッチするか確認する	re.search(pattern, s, flags=re.IGNORECASE)
+文字列の先頭で正規表現にASCII限定としてマッチさせる	re.match(pattern, s, flags=re.ASCI)
+文字列の先頭でパターンにASCII限定としてマッチするか確認する	re.match(pattern, s, flags=re.ASCI)
+大文字・小文字を無視して文字列の先頭でパターンにマッチさせる	re.match(pattern, s, flags=re.IGNORECASE)
+パターンに複数行対応として文字列の先頭でマッチさせる	re.match(pattern, s, flags=re.MULTILINE)
+文字列全体が正規表現にASCII限定としてマッチするか確認する	re.fullmatch(pattern, s, flags=re.ASCI)
+文字列全体を正規表現に大文字・小文字を無視してマッチさせる	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+文字列全体が正規表現に大文字・小文字を無視してマッチするか調べる	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+複数行対応として文字列全体をパターンにマッチさせる	re.fullmatch(pattern, s, flags=re.MULTILINE)
+文字列全体が正規表現に複数行対応としてマッチするか確認する	re.fullmatch(pattern, s, flags=re.MULTILINE)
+正規表現で文字列を分割する	re.split(pattern, s)
+ASCII限定として正規表現で文字列を分割する	re.split(pattern, s, flags=re.ASCI)
+文字列を大文字・小文字を無視してパターンで分割する	re.split(pattern, s, flags=re.IGNORECASE)
+文字列の中の正規表現による全マッチを使う	re.findall(pattern, s)
+文字列の中で正規表現にマッチした全文字列をリストにする	re.findall(pattern, s)
+文字列の中のASCII限定としてパターンによるマッチを使う	re.findall(pattern, s, flags=re.ASCI)
+文字列の中のケースを無視してパターンによる全てのマッチを使う	re.findall(pattern, s, flags=re.IGNORECASE)
+文字列の中で大文字・小文字を無視してパターンにマッチした全ての文字列をリストにする	re.findall(pattern, s, flags=re.IGNORECASE)
+文字列の中の複数行対応として正規表現による全マッチを使う	re.findall(pattern, s, flags=re.MULTILINE)
+文字列の中で複数行対応としてパターンにマッチしたすべての文字列をリストに変換する	re.findall(pattern, s, flags=re.MULTILINE)
+パターンによって文字列を置き換える	re.sub(pattern, newsub, s)
+文字列中の正規表現を新しい文字列で置換する	re.sub(pattern, newsub, s)
+正規表現にマッチした文字列を新しい文字列で置換する	re.sub(pattern, newsub, s)
+イテラブルからセット	set(iterable)
+リストを集合にする	set(iterable)
+セットにイテラブルの要素を全て追加する	aSet.update(iterable)
+イテラブルを集合に追加更新する	aSet.update(iterable)
+値を集合から除く	aSet.remove(element)
+エラーなくセットから要素を取り除く	aSet.discard(element)
+集合から要素を全て除く	aSet.clear()
+二つの集合の共通要素だけにする	aSet.intersection_update(aSet2)
+集合から別の集合の要素を全て除去する	aSet.difference_update(aSet2)
+セットから別の集合との共通要素を全て取り除く	aSet.symmetric_difference_update(aSet2)
+集合から何でもいいから一つ除去する	aSet.pop()
+ふたつの集合の積集合を使う	aSet.intersection(aSet2)
+二つの集合に共通する要素からなる集合	aSet.intersection(aSet2)
+ふたつのリストの積集合を算出する	list(set(aList) & set(aList2))
+セット＼集合	aSet.difference(aSet2)
+ふたつの集合の対称差	aSet.symmetric_difference(aSet2)
+要素が集合のメンバーかどうか調べる	element in aSet
+要素が集合に含まれる	element in aSet
+要素∈セット	element in aSet
+要素がセットの要素でないか調べる	element not in aSet
+要素が集合に含まれない	element not in aSet
+部分集合	aSet.issubset(aSet2)
+セットの全ての要素が別の集合に含まれるか	aSet.issubset(aSet2)
+真下位集合か調べる	aSet < aSet2
+スーパーセットか判定する	aSet.issuperset(aSet2)
+真上位集合かどうか	aSet > aSet2
+スーパーセットもしくは等しいか調べる	aSet > aSet2
+ふたつの集合は共通の要素を持たない	aSet.isdisjoint(aSet2)
+二つの集合が集合と交わりを持たないか確認する	aSet.isdisjoint(aSet2)
+ふたつの集合はセットと互いに素	aSet.isdisjoint(aSet2)
+ふたつの集合が互いに素かどうか調べる	aSet.isdisjoint(aSet2)
+集合が空集合か調べる	len(aSet) == 0
+集合が空でないかどうか	len(aSet) != 0
+セットの浅いコピー	aSet.copy()
+イテラブルのイミュータブルなセット	frozenset(iterable)
+列をイミュータブルな集合にする	frozenset(iterable)
+タブ文字	'\t'
+空白を使う	' '
+英字を全部使う	string.ascii_letters
+小文字を全部使う	string.ascii_lowercase
+アルファベットの大文字を全て見る	string.ascii_uppercase
+十六進数字を全て使う	string.hexdigits
+８進数字を全部見る	string.octdigits
+句点文字を全部見る	string.punctuation
+全印字できる文字	string.printable
+印字可能な文字を全て使う	string.printable
+空白文字を全部見る	string.whitespace
+文字コードに対応する文字を見る	chr(unicode)
+文字をASCIIコードにする	ord(ch)
+文字のユニコードを使う	ord(ch)
+文字列をユニコード列に変換する	[ord(ch) for ch in s]
+文字列の大文字小文字を整える	s.casefold()
+文字列を空白で区切り、、文字列リストに変換する	s.split()
+空白で文字列を区切り、、整数リストに変換する	map(int, s.split())
+文字列をセパレータで区切って、文字列リストに変換する	s.split(sub)
+セパレータを用いて文字列を分割する	s.split(sub)
+文字列をコロンで区切って、文字列リストにする	s.split(':')
+文字列をコロンによって区切り、列挙する	s.split(':')
+文字列を区切りで分割して、文字列リストに変換する	s.split(sep)
+区切りで文字列を区切って、列挙する	s.split(sep)
+文字列を改行で区切り文字列リストにする	s.splitlines()
+文字列を改行によって分割する	s.splitlines()
+文字列を後ろから空白で区切る	s.rsplit()
+末尾から文字列を部分文字列で区切る	s.rsplit(sub)
+文字列を分割する	s.partition(sep)
+文字列を最初の部分文字列で二分割する	s.partition(sub)
+最後の部分文字列を用いて文字列を二分する	s.rpartition(sub)
+文字列を部分文字列で二分し最初の文字列を使う	s.partition(sub)[0]
+文字列を部分文字列で分割した場合の前半の文字列	s.partition(sub)[0]
+文字列を最初の部分文字列で二分し、後半の文字列を使う	s.partition(sub)[-1]
+部分文字列で文字列を分けたときの残りの文字列を求める	s.partition(sub)[-1]
+文字列を最後の部分文字列で二つに区切って最初の文字列を使う	s.rpartition(sub)[0]
+最後の部分文字列で文字列を分けたときの前半の文字列を取り出す	s.rpartition(sub)[0]
+文字列を最後の部分文字列で二分し後半の文字列を使う	s.rpartition(sub)[-1]
+文字列を最後の部分文字列で分けた時の後半の文字列	s.rpartition(sub)[-1]
+新しい文字列によって文字列を置き換える	s.replace(sub, newsub)
+文字列中の部分文字列を別の文字列に置き換える	s.replace(sub, newsub)
+文字列中の部分文字列を回数を制限して新しい文字列に置換する	s.replace(sub, newsub, n)
+文字列から部分文字列を全て除く	s.replace(sub, '')
+文字列中のタブ文字をn個の空白にする	s.expandtabs(tabsize=n)
+文字列の両端から空白を除く	s.strip()
+文字列の両端から部分文字列を除く	s.strip(sub)
+文字列の先頭から余分な空白を除く	s.lstrip()
+文字列の先頭から部分文字列を取り除く	s.lstrip(sub)
+文字列の先頭からタブを取り除く	s.lstrip('\t')
+文字列の左端から空白を除く	s.lstrip(' ')
+文字列の右端から空白を除く	s.rstrip()
+文字列の右端から部分文字列を取り除く	s.rstrip(sub)
+文字列の末尾からタブを除く	s.rstrip('\t')
+文字列の右端から改行を取り除く	s.rstrip('\n')
+文字列の末尾から空白を取り除く	s.rstrip(' ')
+文字列のケースを交換する	s.swapcase()
+文字列が文字列リストにあるか調べる	s in aStringList
+部分文字列かどうか調べる	sub in s
+文字列中に部分文字列が含まれるかどうかテストする	sub in s
+部分文字列が文字列中に含まれないか調べる	sub not in s
+部分文字列を文字列中から探す	s.find(sub)
+部分文字列を文字列の先頭から探す	s.find(sub)
+文字列の開始位置以降に部分文字列が存在するか	s.find(sub, start) != -1
+文字列の開始位置から先に部分文字列が含まれないか調べる	s.find(sub, start) == -1
+部分文字列が文字列の終了位置より前に含まれるか調べる	s.find(sub, 0, end) != -1
+文字列の終了位置より前に部分文字列が含まれないか確認する	s.find(sub, 0, end) == -1
+部分文字列が文字列の開始位置と終了位置の間に含まれるか調べる	s.find(sub, start, end) != -1
+文字列の開始位置からと終了位置の間に部分文字列が含まれる	s.find(sub, start, end) != -1
+部分文字列が文字列の開始位置からと終了位置番目までの範囲に含まれないかどうか調べる	s.find(sub, start, end) == -1
+文字列リストを連結し、ひとつの文字列にする	''.join(aStringList)
+文字列リストをsepを区切りとして結合する	sep.join(aStringList)
+イテラブルを文字列に変換して結合する	''.join(map(str, iterable))
+文字列リストをひとつの文字列にする	''.join(map(str, iterable))
+イテラブルを文字列リストに変換して、空白によって一つにする	' '.join(map(str, iterable))
+文字列リストにタプルを変換して、カンマによって連結する	','.join(map(str, iterable))
+シーケンスを文字列リストに変換して、タブで連結する	'\t'.join(map(str, iterable))
+イテラブルを文字列リストに変換して、'改行で結合する	'\n'.join(map(str, iterable))
+イテラブルを文字列に変換して、部分文字列によって連結する	sub.join(map(str, iterable))
+文字列中の部分文字列の登場回数をカウントする	s.count(sub)
+文字列中に部分文字列がいくつか含まれるか数える	s.count(sub)
+文字列の開始位置から終了位置までの範囲で部分文字列の出現	s.count(sub, start, end)
+文字列の開始位置から終了位置の間で部分文字列をカウントする	s.count(sub, start, end)
+文字列のの開始位置から終了位置までの間に部分文字列がいくつか存在するか調べる	s.count(sub, start, end)
+部分文字列が部分文字列で始まるかどうか調べる	s.startswith(sub)
+文字列の接頭辞が部分文字列かテストする	s.startswith(sub)
+部分文字列で文字列の開始位置以降が始まるかどうか調べる	s.startswith(sub, start)
+文字列が部分文字列で終わるかどうか	s.endswith(sub)
+文字列の接尾辞は部分文字列か調べる	s.endswith(sub)
+文字列の先頭から部分文字列を除く	s.removeprefix(sub)
+文字列の末尾から部分文字列を取り除く	s.removesuffix(sub)
+ファイル名がCSVファイル	filename.endswith('.csv')
+ファイル名がテキストファイルか	filename.endswith('.txt')
+TSVファイルファイル名がか調べる	filename.endswith('.tsv')
+ファイル名がJSONファイルか	filename.endswith('.json')
+文字列が大文字	s.isupper()
+文字列が小文字かどうか調べる	s.islower()
+文字列が全て数字かどうか	s.isdigit()
+文字列がアルファベットか確認する	s.isalpha()
+文字列が全て英数字かどうか調べる	s.isalnum()
+文字列がASCII文字か調べる	s.isascii()
+文字列が空白文字	s.isspace()
+文字列は全て十進数字かどうか調べる	s.isdecimal()
+文字列は数値	s.isnumeric()
+大文字が文字列内に含まれる	any(c.isupper() for c in s)
+文字列内にひとつでも小文字が含まれる	any(c.islower() for c in s)
+文字列内に数字があるか調べる	any(c.isdigit() for c in s)
+文字列内にひとつでもアルファベットが含まれるか	any(c.isalpha() for c in s)
+文字列内にひとつでも英数字が含まれるかどうか調べる	any(c.isalnum() for c in s)
+ひとつでも空白が文字列内に含まれる	any(c.isspace() for c in s)
+文字列内にひとつでもアスキー文字があるか調べる	any(c.isascii() for c in s)
+文字列中にひとつでも非大文字が含まれる	any(not c.isupper() for c in s)
+文字列中にひとつでも非小文字があるか調べる	any(not c.islower() for c in s)
+非数字が文字列中に含まれる	any(not c.isdigit() for c in s)
+文字列中に非英字が含まれる	any(not c.isalpha() for c in s)
+文字列中にひとつでも非英数字がある	any(not c.isalnum() for c in s)
+文字列中に非空白が含まれるか	any(not c.isspace() for c in s)
+文字列中に非アスキー文字が含まれるか判定する	any(not c.isascii() for c in s)
+文字列は全て識別子名かどうか	s.isidentifier()
+文字列はPythonのキーワードか	keyword.iskeyword(s)
+文字列は印字できるか確認する	s.isprintable()
+文字列はタイトル大文字小文字かどうか調べる	s.istitle()
+文字列をユニコードエスケープでバイト列に変換する	s.encode(encoding='unicode_escape')
+文字列をエンコーディングでバイト列にする	s.encode(encoding=encoding)
+文字列をエラーを無視してバイト列に変換する	s.encode(errors='ignore')
+文字列の左側	s[0]
+文字列のn番目を使う	s[n]
+２つの文字列が等しいかどうか調べる	s == s2
+２つの文字列は同じでない	s != s2
+辞書順で文字列が文字列より前	s < s2
+辞書順で文字列が文字列より後かどうか調べる	s > s2
+二つの文字列が大文字小文字を無視して同じか	s.casefold() == s2.casefold()
+２つの文字列を大文字小文字を無視して比較する	s.casefold() < s2.casefold()
+文字列がカタカナ	('ァ' <= ch <= 'ン')
+文字列がひらがなか判定する	('ぁ' <= ch <= 'ん')
+文字列が漢字かどうか調べる	('\u4E00' <= ch <= '\u9FD0')
+文字列に漢字が含まれる	re.search('[\u4E00-\u9FD0]', s)
+日本語が文字列に使われているかどうか調べる	re.search('[あ-んア-ン\u4E00-\u9FD0]', s)
+文字列の片仮名をひらがなに変換する	''.join([chr(ord(ch) - 96) if ('ァ' <= ch <= 'ン') else ch for ch in s])
+平仮名を片仮名に変換する	''.join([chr(ord(ch) + 96) if ('ぁ' <= ch <= 'ん') else ch for ch in s])
+文字列の全角数字を半角数字にする	s.translate(str.maketrans('０１２３４５６７８９', '0123456789'))
+代数計算モジュールを使う	import sympy
+文字列を記号にして変数にする	z = sympy.Symbol(s)
+数値のパラメータに数式を代入する	e.subs(z, e2)
+数式のパラメータを数値で置き換える	e.subs(z, e2)
+数値を簡略化する	sympy.sympify(e)
+数値を方程式として解く	sympy.solve(e)
+方程式として数値の変数の解を計算する	sympy.solve(e, z)
+変数が0に近づくときの数式の極限値を計算する	sympy.limit(e, z, 0)
+変数が無限大に近づくとき、数値の極限値を計算する	sympy.limit(e, z, oo)
+パラメータがマイナス無限大に近づくとき数値の極限値を計算する	sympy.limit(e, z, -oo)
+パラメータについて数式の微分を行う	sympy.diff(e, z)
+数式をパラメータについて微分する	sympy.diff(e, z)
+変数について数値をn階微分する	sympy.diff(e, z, n)
+数式の変数についてのn階微分を行う	sympy.diff(e, z, n)
+数式のインテグラルを計算する	sympy.integrate(e)
+変数について数値を積分する	sympy.integrate(e, z)
+変数について数値の積分を求める	sympy.integrate(e, z)
+数式の数値を算出する	float(e)
+数式の平方根を計算する	sympy.sqrt(e)
+実行環境のバイトオーダを確認する	sys.byteorder
+エンコーディングを知る	sys.getdefaultencoding()
+オブジェクトのバイトサイズを知る	sys.getsizeof(obj)
+現在の再帰の上限	sys.getrecursionlimit()
+プラットホーム名を知る	sys.platform
+実行環境がマックか調べる	sys.platform.startswith('darwin')
+動作環境がLinuxかどうか確認する	sys.platform.startswith('linux')
+環境がウィンドウズか調べる	sys.platform.startswith('win32')
+最初のコマンド引数を調べる	sys.argv[1]
+コマンドの第一引数を確認する	sys.argv[1]
+第一引数で指定したファイルの名前	sys.argv[1]
+コマンドの第２引数を確認する	sys.argv[1]
+コマンド引数のリストを	sys.argv[1:]
+ロードされたモジュールを列挙する	sys.modules
+モジュールとして自分自身をを得る	sys.modules[__name__]
+実行時の標準出力の出力先がターミナル	sys.stdout.isatty()
+実行時に標準出力がパイプかどうか調べる	not sys.stdout.isatty()
+オプションで出力先を標準出力に設定する	file = sys.stdout
+オプションで、標準出力を出力先にする	file = sys.stdout
+オプションで出力先を標準エラーに指定する	file = sys.stderr
+オプションで、出力先をファイルにセットする	file = sys.open(filename, 'w')
+オプションで、ファイルを出力先にする	file = sys.open(filename, 'w')
+標準出力	sys.stdout
+標準エラーを使用する	sys.stderr
+標準入力から1文字読む	sys.stdin.read(1)
+標準入力から改行なしで1行読む	sys.stdin.readline().rstrip()
+1行だけ標準入力から読み込んで、改行を取り除く	sys.stdin.readline().rstrip()
+標準出力のバッファを即時表示する	sys.stdout.flush()
+プログラムの実行を強制的に止める	sys.exit()
+実行を正しく終了する	sys.exit(0)
+実行を異常終了する	sys.exit(1)
