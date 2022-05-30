@@ -53,7 +53,7 @@ def get_optimizer_adamw(hparams, model):
 setup = dict(
     model_name_or_path='megagonlabs/t5-base-japanese-web',
     tokenizer_name_or_path='megagonlabs/t5-base-japanese-web',
-    additional_tokens='<b> </b> <nl> <e0> <e1> <e2> <e3> <e4> <e5> <e6> <e7> <e8> <e9>',
+    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
     seed=42,
     encoding='utf_8',
     column=0, target_column=1,

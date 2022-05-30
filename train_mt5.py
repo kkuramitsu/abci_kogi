@@ -14,7 +14,7 @@ from transformers import (
     get_linear_schedule_with_warmup
 )
 
-from train_common import init_hparams, load_TrainTestDataSet
+from train_common import parse_hparams, load_TrainTestDataSet
 
 # GPU利用有無
 USE_GPU = torch.cuda.is_available()
@@ -208,7 +208,7 @@ def _main():
         output_dir='./model',  # path to save the checkpoints
         model_name_or_path='megagonlabs/t5-base-japanese-web',
         tokenizer_name_or_path='megagonlabs/t5-base-japanese-web',
-        additional_tokens='<e0> <e1> <e2> <e3> <e4> <e5> <e6> <e7> <e8> <e9>',
+        additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
         seed=42,
         encoding='utf_8',
         column=0, target_column=1,
@@ -242,7 +242,7 @@ def _main():
         opt_level='O2',
         max_grad_norm=1.0,
     )
-    hparams = init_hparams(init_dict, Tokenizer=AutoTokenizer)
+    hparams = parse_hparams(init_dict, Tokenizer=AutoTokenizer)
     print(hparams)
 
     # logging.info(f'Start trainig: {hparams.start_date}')
@@ -279,13 +279,9 @@ def _main():
     trainer = pl.Trainer(**train_params)
     trainer.tune(model)
     print(f'Start training: max {hparams.max_epochs} epochs')
-    trainer.nepochs_ = 0
-    trainer.nsteps_ = 0
     trainer.fit(model)
 
     # 最終エポックのモデルを保存
-    train_data = model.train_dataset
-    test_data = model.valid_dataset
     tokenizer = model.tokenizer
     model = model.model
     print('saving pretrained ... ', hparams.output_dir)
@@ -294,12 +290,11 @@ def _main():
 
     DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     model.to(DEVICE)
+    train_dataset, valid_dataset = load_TrainTestDataSet(hparams)
     print('testing ... ', model.device)
     generate = make_generate(model, tokenizer)
-    test_data.test_and_save(
-        generate, f'{hparams.output_dir}/result_test.tsv')
-    train_data.test_and_save(
-        generate, f'{hparams.output_dir}/result_train.tsv', max=1000)
+    valid_dataset.test_and_save(
+        generate, f'{hparams.output_dir}/result_test.tsv', max=1000)
 
 
 if __name__ == '__main__':
