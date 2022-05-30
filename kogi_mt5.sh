@@ -14,10 +14,10 @@ export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/l
 
 python3 train_mt5.py\
     --project='untitled'\
-    --max_epochs=20\
+    --max_epochs=30\
     --model_name_or_path='google/mt5-small'\
     --tokenizer_name_or_path='google/mt5-small'\
     --num_workers=4\
-    --batch_size=0\
-    kogi3_train.tsv kogi3_test.tsv
+    --batch_size=16\
+    kogi6_train.tsv kogi6_test.tsv
 
