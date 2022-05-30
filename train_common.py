@@ -15,16 +15,16 @@ from torch.utils.data import Dataset
 
 
 def transform_nop(src, tgt):
-    return src, tgt
+    return (src, tgt)
 
 
 def _append_data(dataset, src, tgt, transform, c):
-    src2, tgt2 = transform(src, tgt)
+    item = transform(src, tgt)
     if c < 5:
         logging.info(f'{src} -> {tgt}')
-        if src2 != src or tgt2 != tgt:
-            logging.info(f' => {src2} -> {tgt2}')
-    dataset.append((src2, tgt2))
+        if isinstance(item, tuple) and (item[0] != src or item[1] != tgt):
+            logging.info(f' => {item[0]} -> {item[1]}')
+    dataset.append(item)
 
 
 def _loading_dataset(hparams, files=None, transform=transform_nop):
@@ -98,8 +98,7 @@ class TSVDataset(Dataset):
         return len(self.dataset)
 
     def __getitem__(self, index):
-        src, tgt = self.dataset[index]
-        return src, tgt
+        return self.dataset[index]
 
     def test_and_save(self, generate, filename, max=None):
         if self.hparams.testing:
