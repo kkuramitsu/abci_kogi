@@ -38,7 +38,7 @@ def get_transform(tokenizer, max_length=128, max_target_length=None):
     def transform(src, tgt):
         inputs = encode(src, max_length=max_length)
         targets = encode(tgt, max_length=max_target_length)
-        return inputs, targets
+        return (inputs, targets)
 
     return encode, decode, transform
 
