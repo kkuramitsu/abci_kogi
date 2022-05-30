@@ -89,34 +89,6 @@ def _loading_dataset(hparams, files=None, transform=transform_nop):
 # MULTITASKING_TRANSFORM
 
 
-def transform_t5(src, tgt, hparams):
-    inputs = hparams.tokenizer.batch_encode_plus(
-        [src],
-        max_length=hparams.max_seq_length,
-        truncation=True,
-        pad_to_max_length=True,
-        padding="max_length", return_tensors="pt")
-    targets = hparams.tokenizer.batch_encode_plus(
-        [tgt],
-        max_length=hparams.target_max_seq_length,
-        truncation=True,
-        pad_to_max_length=True,
-        padding="max_length", return_tensors="pt")
-
-    source_ids = inputs["input_ids"].squeeze()
-    source_mask = inputs["attention_mask"].squeeze()
-
-    target_ids = targets["input_ids"].squeeze()
-    target_mask = targets["attention_mask"].squeeze()
-
-    return {
-        "source_ids": source_ids.to(dtype=torch.long),
-        "source_mask": source_mask.to(dtype=torch.long),
-        "target_ids": target_ids.to(dtype=torch.long),
-        "target_mask": target_mask.to(dtype=torch.long),
-    }
-
-
 class TSVDataset(Dataset):
     def __init__(self, hparams, dataset):
         self.hparams = hparams

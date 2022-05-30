@@ -16,6 +16,37 @@ from transformers import (
 
 from train_common import parse_hparams, load_TrainTestDataSet
 
+
+def get_transform(hparams):
+    def transform_t5(src, tgt):
+        inputs = hparams.tokenizer.batch_encode_plus(
+            [src],
+            max_length=hparams.max_seq_length,
+            truncation=True,
+            pad_to_max_length=True,
+            padding="max_length", return_tensors="pt")
+        targets = hparams.tokenizer.batch_encode_plus(
+            [tgt],
+            max_length=hparams.target_max_seq_length,
+            truncation=True,
+            pad_to_max_length=True,
+            padding="max_length", return_tensors="pt")
+
+        source_ids = inputs["input_ids"].squeeze()
+        source_mask = inputs["attention_mask"].squeeze()
+
+        target_ids = targets["input_ids"].squeeze()
+        target_mask = targets["attention_mask"].squeeze()
+
+        return {
+            "source_ids": source_ids.to(dtype=torch.long),
+            "source_mask": source_mask.to(dtype=torch.long),
+            "target_ids": target_ids.to(dtype=torch.long),
+            "target_mask": target_mask.to(dtype=torch.long),
+        }
+    return transform_t5
+
+
 # GPU利用有無
 USE_GPU = torch.cuda.is_available()
 N_GPU = torch.cuda.device_count()
@@ -166,7 +197,7 @@ class MT5FineTuner(pl.LightningModule):
         if stage == 'fit' or stage is None:
             if self.train_dataset is None:
                 self.train_dataset, self.valid_dataset = load_TrainTestDataSet(
-                    self.hparams)
+                    self.hparams, transform=get_transform(self.hparams))
             self.t_total = (
                 (len(self.train_dataset) //
                  (self.hparams.batch_size * max(1, self.hparams.n_gpu)))
