@@ -1,0 +1,7 @@
+black 
+Levenshtein 
+nltk 
+sumeval
+slackweb
+gspread
+oauth2client
