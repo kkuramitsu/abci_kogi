@@ -1,5 +1,0 @@
-black 
-Levenshtein 
-nltk 
-sumeval
-slackweb
