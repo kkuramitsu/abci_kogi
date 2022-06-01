@@ -18,7 +18,7 @@ def send_gs(textlist):
   key1 = "1awtKb2uLYXgo"
   key2 = "zNWo02uOuKYjPp"
   key3 = "ChnRM4z1zmAnDn1-k"
-  jsonf = "majestic-stage-352023-d38022826eb3.json"
+  jsonf = "cg_eval/majestic-stage-352023-d38022826eb3.json"
   spread_sheet_key = key1+key2+key3
   
   ws = connect_gspread(jsonf,spread_sheet_key)
