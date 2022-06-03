@@ -1,0 +1,6 @@
+black 
+Levenshtein 
+nltk 
+sumeval
+gspread
+oauth2client
