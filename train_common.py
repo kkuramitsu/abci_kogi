@@ -19,6 +19,10 @@ def transform_nop(src, tgt):
 
 
 def _append_data(dataset, src, tgt, transform, c):
+    src = src.strip().replace('\n', '<nl>')
+    tgt = tgt.strip().replace('\n', '<nl>')
+    if len(src) == 0 or len(tgt) == 0:
+        return
     item = transform(src, tgt)
     if c < 5:
         logging.info(f'{src} -> {tgt}')

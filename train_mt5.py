@@ -295,7 +295,7 @@ def _main():
             ModelSummary(max_depth=-1)
         ],
         # turn off automatic checkpointing
-        enable_checkpointing=False,
+        enable_checkpointing=True,
         enable_progress_bar=hparams.progress_bar,
         # run batch size scaling, result overrides hparams.batch_size
         auto_scale_batch_size="binsearch" if hparams.batch_size <= 2 else None,
