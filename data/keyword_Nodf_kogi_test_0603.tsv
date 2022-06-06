@@ -1,0 +1,2725 @@
+グラフ 色 テーマ 色 差別 なく する	sns.set(pallete='colorblind')
+縦 方向 データ フレーム 連結 する	pd.concat([df, df2, df3], axis=0)
+折れ線 グラフ 四角 印 加える	plt.plot(データ列, データ列2, marker='s')
+折れ線 グラフ 実線 設定 する	plt.plot(データ列, データ列2, linestyle='solid')
+折れ線 グラフ 色 ライト サーモン 指定 する	plt.plot(データ列, データ列2, color='lightsalmon')
+疑似 乱数 求める	random.random()
+文字 列 終了 位置 前 部分 文字 列 含ま れる 確認 する	s.find(sub, 0, end) != -1
+書式 データ 列 日付 データ 変換 する	pd.to_datetime(ds, format='%Y-%m-%d')
+カンマ 区切り ファイル 読む	pd.read_csv(filename, sep=',')
+オプション タブ 区切り 用いる	sep = '\t'
+文字 列 変数 する	sympy.Symbol(s)
+オプション 読み込み 用 セット する	mode = 'r'
+リスト データ 列 散布 図 カラー コード 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*', c=rgb)
+データ フレーム 列 ソート し 更新 する	df.sort_values(by=['A', 'B'], inplace=True)
+シーケンス それぞれ 関数 フィルタ する	map(func, iterable)
+等しい 調べる	n == n2
+辞書 キー 値 参照 する	aDict.get(key)
+ベクトル 列 ごと 合計	np.sum(aArray, axis=0)
+折れ線 グラフ 色 ラベンダー セット する	plt.plot(データ列, データ列2, color='lavender')
+データ フレーム カラム 中 未 入力 値 合計 カウント する	df[col].isna().sum()
+配列 リスト 折れ線 グラフ 描画 する	plt.plot(xdata, ydata)
+列 と列 チェイン する	itertools.chain(iterable, iterable2)
+データ フレーム カラム 文字 列 欠損 値 する	df[col].replace(s, np.nan)
+オプション マーカー 変更 する	marker = '^'
+ファイル データ フレーム 読む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+パステル 調 色 使っ 配列 ヒストグラム 描画 する	plt.hist(xdata, color='pastel')
+線 グラフ 描画 し その 色 ペルー 指定 する	plt.plot(データ列, データ列2, color='peru')
+折れ線 グラフ 描画 し その 色 オレンジ レッド する	plt.plot(データ列, データ列2, color='orangered')
+データ フレーム リスト カラム 中 いくつ ある 数える	df[aList].isna().sum()
+リスト リスト 散布 図 プロット し マーカー バツ 設定 する	plt.plot(xdata, ydata, marker='x')
+折れ線 グラフ 描画 し 色 ダークマゼンタ 指定 する	plt.plot(データ列, データ列2, color='darkmagenta')
+リスト リスト 黒い 明るい グラフ プロット する	plt.plot(xdata, ydata, linestyle='bright', color='k')
+オプション グラフ 色 ゴールド 指定 する	color = 'gold'
+ファイル 開く	open(filepath, encoding='shift_jis')
+分子 分母 有理数 新規 生成 する	fractions.Fraction(分子, 分母)
+オプション 標準 出力 用いる	file = sys.stdout
+データ フレーム リスト カラム 正規 分布 どの 程度 尖っ いる 確認 する	df[aList].skew()
+データ 列 箱 ひ げ 図 プロット する	plt.boxplot(データ列)
+ミディアムスレートブルー ヒストグラム 色 設定 する	plt.hist(データ列, color='mediumslateblue')
+ゼロ 埋め さ れ た ブール 型 ベクトル	np.zeros(要素数, dtype=np.int32)
+オプション 色 ライトゴールドロディイエロー 設定 する	color = 'lightgoldenrodyellow'
+ヒストグラム 描画 し その 色 カーキ 変更 する	plt.hist(データ列, color='khaki')
+乱数 シード 固定 化 する	random.seed(n)
+ダーク オレンジ ヒストグラム 色 設定 する	plt.hist(データ列, color='darkorange')
+オプション サーモン グラフ 色 変更 する	color = 'salmon'
+黒い 淡い グラフ 描く	plt.plot(xdata, ydata, linestyle='muted', color='k')
+データ フレーム 列 位 丸め 整数 型 する	df[col].round(-1).astype(int)
+ヒストグラム 色 する	plt.hist(データ列, color='darkslategrey')
+実行 結果 マゼンタ プリント できる 文字 列 変換 する	f'\033[35m{value}\033[0m'
+オプション サドル ブラウン 用いる	color = 'saddlebrown'
+文字 列 数字 調べる	s.isdigit()
+データ フレーム 各 列 毎 グループ 化 し 文字 列 名前 グループ 使う	df.groupby(column).get_group(s)
+折れ線 グラフ 描画 し その 色 フォレストグリーン 指定 する	plt.plot(データ列, データ列2, color='forestgreen')
+ファイル 付き データ フレーム 保存 する	df.to_csv(filename, encoding='utf_8_sig')
+保存 する 小数点 以下 桁 数 設定 する	df.to_csv(filename, float_format='%.3f')
+データ フレーム グループ 化 し 各 列 標準 偏差 求める	df.groupby(column)[column2].std()
+変数 名 項目 名 マップ 作る	dict(name=element)
+実数 乗	x ** 3
+色 暗く する	sns.set(pallete='dark')
+データ 列 中 ある 文字 列 合計 カウント する	ds.isin([value]).sum()
+折れ線 グラフ 描画 し その 色 パールゴールデンロッド 指定 する	plt.plot(データ列, データ列2, color='palegoldenrod')
+折れ線 グラフ ポイント 印 赤色 する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='r')
+折れ線 グラフ 描画 し その 色 ダークスレートブルー 変更 する	plt.plot(データ列, データ列2, color='darkslateblue')
+論文 用 グラフ 設定 する	sns.set(context='paper')
+データ フレーム グループ 平均 値	df.groupby(column).mean()
+ファイル 文字 列 示す エン コーディング 開く	open(filepath, encoding=s)
+次元 リスト 作る	[[0] * n for _ in range(n2)]
+日付 時刻 データ 分 分 加える	aDatetime + datetime.timedelta(minutes=n)
+日付 データ 分 加える	aDate + datetime.timedelta(minutes=n)
+データ 列 中 ある 文字 列 合計 求める	ds.isin([value, value2]).sum()
+行列 内積	np.dot(aArray, aArray2)
+上限 両端 キュー 作る	collections.deque(maxlen=n)
+データ フレーム リスト カラム 埋める	df[aList].fillna(x)
+配列 各 要素 最小公倍数	np.lcm(aArray, aArray2)
+オプション マーカー 描画 する	marker = 'v'
+データ フレーム 列 空文字 欠損 値 変換 し ドロップ する	df[col].replace('', np.nan).dropna()
+折れ線 グラフ 描画 し 色 ディムグレー 設定 する	plt.plot(データ列, データ列2, color='dimgray')
+ふたつ 集合 共通 する 要素 なる 集合 使う	aSet.intersection(aSet2)
+ヒストグラム 描画 し その 色 ハニーデュー 設定 する	plt.hist(データ列, color='honeydew')
+キー マップ 存在 し ない とき 要素 追加 する	aDict.setdefault(key, element)
+使う	math.nan
+データ フレーム 列 文字 列 正規 表現 文字 列 マッチ する データ 抽出 する	df[df[column].str.match(s)]
+線 グラフ 色 スノー 指定 する	plt.plot(データ列, データ列2, color='snow')
+行列 変形 する	aArray.reshape(行数, 列数)
+整数 セット どれ 確認 する	n in aSet
+八 進数 表記	oct(n)
+進 文字 列 バイト バイナリ 変換 する	int(s, n).to_bytes(length=bytesize, byteorder='big')
+配列 分割 数 ビン 分割 する	pd.cut(aArray, n)
+オプション ピンク 使用 する	color = 'deeppink'
+オプション 深紅 使う	color = 'crimson'
+始まる 無限 な 数列 求める	itertools.count()
+イテラブル 多重 集合 変換 する	collections.Counter(iterable)
+データ 列 度数 分布 図 描く	plt.hist(ds)
+ヒストグラム 描画 し その 色 ピーチ パフ セット する	plt.hist(データ列, color='peachpuff')
+カラム 位 四捨五入 する	ds.round(-1)
+カラー コード 左 三 角 マーカー リスト 配列 散布 図 描画 する	plt.plot(xdata, ydata, marker='<', c=rgb)
+リスト 末尾 除く	aList[:-1]
+左 三 角 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='<')
+データ 列 配列 散布 図 描画 し マーカー 色 パステル 調 の 設定 する	plt.plot(xdata, ydata, c='pastel')
+データ フレーム エポック 秒 日付 データ 変換 する	pd.to_datetime(df[col], unit='s', utc=True)
+二つ データ フレーム 異なる 列 キー ジョイン する	pd.merge(df, df2, left_on='A', right_on='B')
+区間 数 ヒストグラム 描画 する	plt.hist(データ列, bins=n)
+ヒストグラム 描画 し その 色 スノー 変更 する	plt.hist(データ列, color='snow')
+データ フレーム リスト 列 文字 列 欠損 値 変換 する	df[aList].replace(s, np.nan)
+データ フレーム 列 ヒストグラム プロット する	plt.hist(df[column])
+ファイル パス 書き込み ストリーム オープン し する	f = open(filepath, mode='w')
+オプション リネン 使う	color = 'linen'
+データ 列 リスト 折れ線 グラフ 描い ラベル付け する	plt.plot(xdata, ydata, label=untitled)
+データ 列 丸め 整数 する	ds.round().astype(int)
+折れ線 グラフ 描画 し その 色 ターコイズ 変更 する	plt.plot(データ列, データ列2, color='turquoise')
+紺碧 ヒストグラム 色 設定 する	plt.hist(データ列, color='azure')
+再帰 最大 回数 増やす	sys.setrecursionlimit(1000000)
+リスト 配列 散布 図 描画 し マーカー 大 バツ 変更 する	plt.plot(xdata, ydata, marker='X')
+ヒストグラム 色 ロージーブラウン 指定 する	plt.hist(データ列, color='rosybrown')
+データ 列 ユニーク な 値 抽出 し リスト 化 する	ds.unique().tolist()
+データ 列 中 文字 列 ある どう 調べる	ds.isin([value])
+オプション ダーク バイオレット グラフ 色 指定 する	color = 'darkviolet'
+ふたつ マップ マージ する	aDict | aDict2
+グラフ 色 全般 的 濃く する	sns.set(pallete='deep')
+ヒストグラム ビン セット する	plt.hist(データ列, bins=n)
+データ フレーム リスト カラム 欠損 値 後 値 変更 する	df[aList].fillna(method='bfill')
+線 グラフ 描画 し その 色 ライトグリーン する	plt.plot(データ列, データ列2, color='lightseagreen')
+オプション グラフ 種類 点線 セット する	linestyle = 'dotted'
+黒い 菱形 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='D', c='k')
+散布 図 カラー コード 下 三角 マーカー 用いる	plt.plot(xdata, ydata, marker='v', c=rgb)
+データ 列 軸 リスト 横 軸 指定 し 折れ線 描画 する	plt.plot(xdata, ydata)
+破線 色 明るい 指定 する	plt.plot(xdata, ydata, linestyle='dash', color='bright')
+線 グラフ 描画 し 色 インディアン レッド 設定 する	plt.plot(データ列, データ列2, color='indianred')
+今日 何 曜日 知る	datetime.datetime.today().weekday()
+折れ線 グラフ 色 クリムゾン 指定 する	plt.plot(データ列, データ列2, color='crimson')
+折れ線 グラフ 大き さ マーカー 描画 する	plt.plot(データ列, データ列2, marker='v', markersize=n)
+データ フレーム リスト カラム 下位	df[aList].quantile(0.75)
+ヒストグラム 描画 し 色 ホット ピンク セット する	plt.hist(データ列, color='hotpink')
+データ フレーム リスト 列 分 位 数	df[aList].quantile(percent/100)
+ヒストグラム プロット し 正規 化 する	plt.hist(データ列, density=True)
+データ フレーム データ 型 一覧	df.dtypes
+赤色 下 三角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='v', c='r')
+文字 列 コロン 区切り 列挙 する	s.split(':')
+オブジェクト 型 調べる	type(obj)
+オプション 小麦色 グラフ 色 変更 する	color = 'wheat'
+折れ線 グラフ 大き さ 星 印 描画 する	plt.plot(データ列, データ列2, marker='*', markersize=n)
+列 ダミー 変数 する	pd.get_dummies(iterable)
+グラフ パレット パステル 調 する	sns.set(pallete='pastel')
+ヒストグラム 描画 し 色 貝殻 設定 する	plt.hist(データ列, color='seashell')
+シーケンス 各 要素 真 で あれ その 要素 出力 する	itertools.takewhile(predicateFunc, iterable)
+リスト リスト 加え 拡張 する	aList.extend(aList2)
+オプション 茶色 使う	color = 'brown'
+文字 列 片仮名 どう テスト する	('ァ' <= ch <= 'ン')
+欠損 値 含め データ フレーム 列 グループ 化 する	df.groupby(column, dropna=False)
+線 グラフ 描画 し その 色 パウダー ブルー 変更 する	plt.plot(データ列, データ列2, color='powderblue')
+折れ線 グラフ 色 アイボリー セット する	plt.plot(データ列, データ列2, color='ivory')
+データ フレーム 内 列 列 重複 確認 する	df.duplicated(subset=[column, column2])
+リスト 緑色 化 する	f'\033[32m{value}\033[0m'
+本日 日 見る	datetime.datetime.today().day
+ヒストグラム 描画 し 色 カデット ブルー 指定 する	plt.hist(データ列, color='cadetblue')
+オプション 色 ダークスレートブルー 設定 する	color = 'darkslateblue'
+データ フレーム リスト カラム 値 まとめ 置換 する	df[aList].replace(ValueMap)
+既存 配列 元 し 全 要素 初期 値 配列	np.full_like(aArray, 初期値)
+オプション 黄色 色 使用 する	color = 'yellow'
+ヒストグラム 色 茶色 指定 する	plt.hist(データ列, color='brown')
+オブジェクト バイト サイズ 知る	sys.getsizeof(obj)
+データ フレーム 列 グループ 化 し それぞれ グループ 個数 求める	df.groupby(column).count()
+線 グラフ 描画 し 色 ゲインズボロ 変更 する	plt.plot(データ列, データ列2, color='gainsboro')
+折れ線 グラフ 描画 し その 色 ミディアムシアグリーン する	plt.plot(データ列, データ列2, color='mediumseagreen')
+整数 型 ゼロ 埋め さ れ た 配列 作る	np.zeros(要素数, dtype=np.int)
+ピアソン 相関 係数 データ フレーム 相関 行列 計算 する	df.corr(method='pearson')
+浮動 小数点 数 小数点 以下 丸める	round(x, n)
+ヒストグラム 描画 し その 色 バイオレット 変更 する	plt.hist(データ列, color='violet')
+データ フレーム 列 名 リスト 並べ 直す	df.sort_values(by=column)
+折れ線 グラフ 色 ディープスカイブルー セット する	plt.plot(データ列, データ列2, color='deepskyblue')
+エポック 秒 データ 列 日付 型 変換 する	pd.to_datetime(ds, unit='s', utc=True)
+線 グラフ 描画 し その 色 ホワイトスモーク 変更 する	plt.plot(データ列, データ列2, color='whitesmoke')
+データ フレーム 二つ 列 グループ 化 し 列挙 する	[(name, group) for name, group in df.groupby(['A', 'B'])]
+ファイル 名前 シート データ フレーム 読み込む	pd.read_excel(filename, sheet_name=n)
+データ フレーム カラム 欠損 値 モード 設定 する	df[col].fillna(df[col].mode().iloc[0])
+折れ線 グラフ 色 青 緑 変更 する	plt.plot(データ列, データ列2, color='teal')
+ヒストグラム 色 ブランチドアーモンド 変更 する	plt.hist(データ列, color='blanchedalmond')
+タイムスタンプデータ 何 分 知る	aDatetime.minute
+黒い バツ マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='k')
+リスト 配列 散布 図 プロット し マーカー 色 色 差別 ない セット する	plt.plot(xdata, ydata, c='colorblind')
+ヒストグラム 描画 し 色 ディープスカイブルー セット する	plt.hist(データ列, color='deepskyblue')
+折れ線 グラフ 色 ライト コーラル 指定 する	plt.plot(データ列, データ列2, color='lightcoral')
+右 三 角 マーカー 散布 図 用いる	plt.plot(xdata, ydata, marker='>')
+線 グラフ 描画 し 色 ライム グリーン 設定 する	plt.plot(データ列, データ列2, color='limegreen')
+ファイル 書き込み 用 開く	open(filepath, mode='w', encoding='euc_jp')
+折れ線 グラフ マーカー 黄色く する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+赤い 明るい グラフ プロット する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+列 キー し 二つ データ フレーム 右 ジョイン する	pd.merge(df, df2, on=column, how='right')
+カウンタ キー 出現 回数 列挙 する	aCounter.items()
+列 各 データ 値 出現 数 求める	df[col].value_counts()
+暗い 色 青く する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+配列 型	aArray.dtype()
+赤い 色 差別 ない グラフ 描く	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+オプション タン 使う	color = 'tan'
+項目 名 マッピング 上 定義 済み 調べる	key in aDict
+点線 ヒストグラム 設定 する	plt.hist(データ列, linestyle='dotted')
+データ フレーム グループ 化 し それぞれ 列 分散 計算 する	df.groupby(column)[column2].var()
+データ フレーム 列 グループ 化 し それぞれ グループ 分散 計算 する	df.groupby(column).var()
+データ フレーム 行 選択 する	df[start:end]
+複数 カラム ヒストグラム 一 度 描画 する	sns.pairplot(df[[column, column2, column3]])
+オプション 改行 セパレータ 用いる	sep = '\n'
+折れ線 グラフ 描画 し その 色 ライト グレー 変更 する	plt.plot(データ列, データ列2, color='lightgray')
+表 データ カラム ドロップ し 更新 する	df.drop(column, axis=1, inplace=True)
+暗い 折れ線 グラフ リスト リスト 描画 し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+変数 無限 大 近づく 時 数値 極限 値 求める	sympy.limit(e, z, oo)
+第 引数 指定 し た ファイル 名前	sys.argv[1]
+オプション シアン 使う	color = 'cyan'
+キー マッピング 存在 する 調べる	key in aDict
+まとめ データ フレーム カラム 値 置き換える	df[col].replace(ValueMap)
+リスト 空 で ない どう	len(aList) != 0
+リスト 配列 散布 図 マーカー 描画 する	plt.plot(xdata, ydata, marker='v')
+データ フレーム 列 名 リスト 昇順 ソート する	df.sort_values(by=column, ascending=True)
+列 中央 値 分割 する	pd.qcut(ds, 2)
+ファイル ベース ファイル 名 使う	os.path.splitext(os.path.basename(filepath))[0]
+ヒストグラム 一 点 鎖線 設定 する	plt.hist(データ列, linestyle='dashbot')
+リスト リスト 散布 図 淡い 色 重 見やすく プロット する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+ファイル パス 追加 できる よう オープン する	open(filepath, mode='a', encoding='euc_jp')
+バイオレット ヒストグラム 色 設定 する	plt.hist(データ列, color='violet')
+ヒートマップ データ フレーム 相関 行列 グラフ 化 する	sns.heatmap(df.corr())
+データ フレーム リスト カラム 相関 行列 ピアソン 求める	df[aList].corr(method='pearson')
+文字 列 部分 文字 列 区切り 文字 列 リスト 変換 する	s.split(sub)
+マッピング キー 要素 変更 する	aDict[key] = element
+ベクトル 累積 積	np.cumprod(aArray)
+文字 列 先頭 パターン マッチ する 見る	re.match(pattern, s)
+ヒストグラム 色 オーキッド 変更 する	plt.hist(データ列, color='orchid')
+ゼロ 埋め さ れ た 符号 なし ビット 整数 型 ベクトル	np.zeros(要素数, dtype=np.uint8)
+データ フレーム 中 列 と列 重複 あれ 取り除く	df.drop_duplicates(subset=column)
+ファイル パス バイナリ ストリーム オープン し する	f = open(filepath, mode='rb')
+進 リテラル 使う	bin(n)
+ヒストグラム 色 ライト イエロー する	plt.hist(データ列, color='lightyellow')
+オブジェクト 整数 クラス インスタンス どう 確認 する	isinstance(obj, int)
+リスト リスト パステル 調 の 描画 し その 色 黒 する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+データ フレーム 列 列 値 まとめ た グループ	df.groupby(['A', 'B'])
+データ フレーム それぞれ グループ 毎 標準 偏差 算出 する	df.groupby(column).std()
+オプション 色 ライム 設定 する	color = 'lime'
+タプル コピー 作成 する	aDict.copy()
+英字 大文字 全部 使う	string.ascii_uppercase
+折れ線 グラフ 色 ミディアムブルー 指定 する	plt.plot(データ列, データ列2, color='mediumblue')
+暗い 色 カラー コード 変更 する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+線 グラフ 色 淡い ピンク色 設定 する	plt.plot(データ列, データ列2, color='lightpink')
+明るい カラー パレット プロット 描画 使用 する	sns.set(pallete='bright')
+数 乗	x ** n
+折れ線 グラフ 色 ブランチドアーモンド 指定 する	plt.plot(データ列, データ列2, color='blanchedalmond')
+データ フレーム 中 列 等間隔 個 分割 する	pd.cut(df[col], n)
+データ フレーム 列 グループ 化 し 各 グループ ごと 標準 偏差 算出 する	df.groupby(column).std()
+実数 計算 する	math.cos(x)
+リスト リスト 使っ 明るい 折れ線 描い その 線 幅 指定 する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+整数 進 文字 列	oct(n)[2:]
+配列 転置 行列	aArray.T
+赤い バツ マーカー 散布 図 用いる	plt.plot(xdata, ydata, marker='x', c='r')
+線 グラフ 描画 し その 色 チョコレート 指定 する	plt.plot(データ列, データ列2, color='chocolate')
+折れ線 グラフ 大 バツ マーカー サイズ 変更 する	plt.plot(データ列, データ列2, marker='X', markersize=n)
+オプション アンティーク ホワイト グラフ 色 指定 する	color = 'antiquewhite'
+リスト 個 ビン 分割 する	pd.cut(aList, n)
+現在 日付 時刻 求める	datetime.datetime.now()
+線 グラフ 色 スレート ブルー 設定 する	plt.plot(データ列, データ列2, color='slateblue')
+データ フレーム 列 文字 列 文字 列 含ま れ ない 行 選択 する	df[not df[column].str.contains(s)]
+データ フレーム カラム どの 値 最も 現れる 見る	df[col].mode()
+区切り 文字 列 リスト 連結 する	sep.join(aStringList)
+文字 列 全体 パターン 複数 行 対応 マッチ する 見る	re.fullmatch(pattern, s, flags=re.MULTILINE)
+文字 列 ひ ら なか 確認 する	('ぁ' <= ch <= 'ん')
+折れ線 グラフ マーカー 下 三角 印 する	plt.plot(データ列, データ列2, marker='v')
+オプション ライトスチールブルー 色 使用 する	color = 'lightsteelblue'
+オプション 文字 コード 設定 する	encoding = 'shift_jis'
+キュー 中 数値 インデックス 使う	deq.index(element)
+見やすい プロット 描画 する	import seaborn as sns
+データ フレーム 列 まとめ た 表	df.groupby(column)
+配列 数列 散布 図 赤色 バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='x', c='r')
+新しい 文字 列 文字 列 全部 置き換える	s.replace(sub, newsub)
+ファイル ファイル 入力 辞書 する	json.load(fin)
+データ 列 データ 列 色 差別 ない グラフ プロット し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+ファイル 開き 追加 ストリーム 見る	open(filepath, mode='a')
+データ フレーム 重複 し た 行	df[df.duplicated(keep=False)]
+文字 列 赤色 表示 する	print(f'\033[31m{value}\033[0m')
+オプション 色 スラグレー 変更 する	color = 'slategrey'
+アルファベット 文字 ランダム 選ぶ	random.choice(string.ascii_uppercase)
+マッピング 値 コピー する	{k: copy.copy(v) for k, v in aDict.items()}
+折れ線 グラフ 描画 し 色 アイボリー 設定 する	plt.plot(データ列, データ列2, color='ivory')
+等量 リスト ビン 数 分割 する	pd.qcut(aList, n)
+文字 列 ケース 無視 し 比較 する	s.casefold() < s2.casefold()
+符号 付き バイト 列 変換 する	n.to_bytes((n.bit_length() + 7) // 8, byteorder='big', signed=True)
+表 データ カラム 名前 列挙 する	df.columns
+データ フレーム 列 グループ 化 し 列 要約 統計 量 計算 する	df.groupby(column).describe()[column2]
+濃い 色 マーカー 重 見やすく 散布 図 描画 する	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+ファイル パス 追加 モード オープン する	open(filepath, mode='a')
+赤い ポイント マーカー リスト 数列 散布 図 描く	plt.plot(xdata, ydata, marker='.', c='r')
+パス 区切り 記号 見る	os.sep
+データ フレーム カラム 欠損 値 後 値 設定 する	df[col].fillna(method='bfill')
+文字 列 開始 位置 番目 終了 位置 番目 間 部分 文字 列 含ま れ ない	s.find(sub, start, end) == -1
+青 緑 ヒストグラム 色 する	plt.hist(データ列, color='turquoise')
+数列 リスト 破線 グラフ 描画 し その 色 パステル 調 の 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='pastel')
+オプション カラム 名前 連 番 設定 する	header = None
+オプション 四角 マーカー 加える	marker = 's'
+コマンド 引数 一覧 得る	sys.argv[1:]
+ヒストグラム 描画 し 色 ライトゴールドロディイエロー 指定 する	plt.hist(データ列, color='lightgoldenrodyellow')
+データ フレーム 中央 値 置き換える	df.fillna(df.median())
+線 グラフ 色 アクア 変更 する	plt.plot(データ列, データ列2, color='aqua')
+ヒストグラム 色 グレー 変更 する	plt.hist(データ列, color='grey')
+折れ線 グラフ 描画 し 色 スレート ブルー 設定 する	plt.plot(データ列, データ列2, color='slateblue')
+オプション 丸 印 用いる	marker = 'o'
+折れ線 グラフ 青い 上 三 角 マーカー 描画 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+線 グラフ 描画 し 色 ドジャーブルー 設定 する	plt.plot(データ列, データ列2, color='dodgerblue')
+書式 辞書 文字 列 整形 する	formatText.format_map(aDict)
+ファイル データ フレーム 読む	pd.read_csv(filename, sep=',')
+辞書 順 文字 列 文字 列 前 調べる	s < s2
+色 差別 ない 折れ線 色 赤色 設定 する	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+タイムスタンプデータ 日付 時刻 データ 時間 差	aDatetime - aDatetime2
+真 上位 集合	aSet > aSet2
+プロット 画面 用 設定 する	sns.set(context='notebook')
+タプル 消去 する	aDict.clear()
+赤い 丸 印 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='o', markerfacecolor='r')
+ファイル 全体 行 単位 分割 し リスト する	[s.strip() for s in f.readlines()]
+ファイル 書き込み 用 文字 コード オープン する	open(filepath, mode='w', encoding=text)
+データ フレーム 列 昇順 並べ 直し 更新 する	df.sort_values(by=column, ascending=True, inplace=True)
+オプション ラベンダー 色 使用 する	color = 'lavender'
+文字 列 走査 し 正規 表現 ケース 無視 し マッチ する 見る	re.search(pattern, s, flags=re.IGNORECASE)
+両端 キュー 右 値 追加 する	deq.append(element)
+線 グラフ 色 スラグレー 設定 する	plt.plot(データ列, データ列2, color='slategray')
+オプション シーグリーン 使用 する	color = 'seagreen'
+黒い 色 差別 ない グラフ プロット する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+文字 列 末尾 タブ 除く	s.rstrip('\t')
+折れ線 グラフ 色 ミッドナイト ブルー 変更 する	plt.plot(データ列, データ列2, color='midnightblue')
+オプション ライトグリーン 使う	color = 'lightseagreen'
+データ フレーム 列 ソート し 先頭 来る よう する	df.sort_values(by=column, na_position='first')
+本日 金曜日	datetime.datetime.today().weekday() == 4
+ヒストグラム 描画 し 色 ディムグレー 変更 する	plt.hist(データ列, color='dimgray')
+配列 どれ	n in aArray
+エラー なく 集合 値 除去 する	aSet.discard(element)
+日付 データ 日付 データ 前 どう	aDate < aDate2
+何 試し 動かす	print('Hello World')
+データ フレーム タブ 区切り 用い ファイル 保存 する	df.to_csv(filename, sep='\t')
+オプション 青 紫 使う	color = 'violet'
+折れ線 グラフ 描画 し 色 アクア 設定 する	plt.plot(データ列, データ列2, color='aqua')
+オプション グラフ 色 青 紫 する	color = 'violet'
+書き込み できる よう ファイル 文字 列 示す エン コーディング 用い オープン する	open(filepath, mode='w', encoding=s)
+オプション グラフ 色 ディムグレー 指定 する	color = 'dimgray'
+配列 リスト 散布 図 黒色 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*', c='k')
+線 グラフ 色 イエロー グリーン 指定 する	plt.plot(データ列, データ列2, color='yellowgreen')
+リスト ヒストグラム 色 差別 ない 色 用い 描画 する	plt.hist(xdata, color='colorblind')
+ヒストグラム 描画 し 色 ダークターコイズ 設定 する	plt.hist(データ列, color='darkturquoise')
+青い 濃い グラフ プロット する	plt.plot(xdata, ydata, linestyle='deep', color='b')
+データ フレーム 中 列 列 重複 取り除く	df.drop_duplicates(subset=column)
+両端 キュー 番目 値 見る	deq[n]
+オプション 文字 列 示す 文字 コード 用いる	encoding = s
+回 数値 イテラブル 見る	range(n)
+一 桁 整数	-9 <= n <= 9
+ヒストグラム 配列 可視 化 する	plt.hist(aArray)
+オプション グラフ 色 パールバイオレットレッド セット する	color = 'palevioletred'
+赤い 濃い 描画 する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+個 等間隔 配列 分割 する	pd.cut(aArray, n)
+折れ線 グラフ 右 三 角 印 黄色く する	plt.plot(データ列, データ列2, marker='>', markerfacecolor='y')
+リスト 配列 散布 図 プロット し ダイアモンドマーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='D', c=rgb)
+つ 文字 列 順に プリント する	print(value, value2)
+以下	n <= n2
+線 グラフ 色 ハニーデュー 変更 する	plt.plot(データ列, データ列2, color='honeydew')
+データ 列 折れ線 グラフ 描画 し 印 右 三 角 印 する	plt.plot(データ列, データ列2, marker='>')
+データ フレーム 各 列 カラム 組み合わせ 毎 グループ 分け し 分散 求める	df.groupby([column, column2], as_index=False).var()
+全て 八 進 数字	string.octdigits
+組 値 出力 する	print(*aTuple)
+データ フレーム 位 丸め 整数 型 する	df.round(-2).astype(int)
+データ フレーム 列 小さい 順 ソート する	df.sort_values(by='A', ascending=True)
+グラフ 全般 的 パステル 調 する	sns.set(pallete='pastel')
+変数 白色 プリント できる 文字 列 変換 する	f'\033[37m{value}\033[0m'
+列 データ フレーム まとめ た グループ	df.groupby('A')
+折れ線 グラフ 描画 し その 色 ブルー バイオレット する	plt.plot(データ列, データ列2, color='blueviolet')
+折れ線 グラフ 色 タン 変更 する	plt.plot(データ列, データ列2, color='tan')
+折れ線 グラフ 印 三角 印 する	plt.plot(データ列, データ列2, marker='^')
+年 月 日 時 分 タイム スタンプ オブジェクト 化 する	datetime.datetime(year=year, month=month, day=day, hour=hour, minute=minute)
+リスト 空 確認 する	len(aList) == 0
+マッピング 一覧 見る	aDict.values()
+破線 グラフ 色 色 差別 ない セット する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+リスト データ 列 散布 図 暗い 色 重 見やすく 描画 する	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+データ フレーム 各 列 列 組み合わせ 毎 グループ 化 し 平均 値 算出 する	df.groupby([column, column2], as_index=False).mean()
+オプション シーグリーン グラフ 色 設定 する	color = 'seagreen'
+行 列 二 次元 リスト 作る	[[0] * n for _ in range(n2)]
+データ フレーム 行 目 破壊 的 消す	df.drop(n, axis=0, inplace=True)
+セット タプル 変換 する	tuple(aSet)
+数列 配列 散布 図 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*')
+タイムスタンプデータ 秒 分 足す	aDatetime + datetime.timedelta(seconds=n)
+リスト 番目 値 消す	del aList[n]
+大きく かつ 未満 調べる	n < n2 and n2 < n3
+両端 キュー	deq.popleft()
+データ フレーム 列 列 用い 昇順 破壊 的 ソート する	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+ファイル 読む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+集合 更新 不能 変換 する	frozenset(aSet)
+部分 文字 列 文字 列 開始 位置 以降 開始 する どう 調べる	s.startswith(sub, start)
+自然 数 個 個 取り出し た とき 並べ方 総数	math.perm(n, k)
+データ 列 リスト カラー コード 暗い グラフ プロット する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+組 末尾	aTuple[-1]
+棒 描画 し グラフ 幅 変更 する	plt.bar(ラベル列, データ列, width=x)
+辞書 最後 追加 し た 項目 ポップ する	aDict.popitem()
+折れ線 グラフ 黄色い 丸 印 描画 する	plt.plot(データ列, データ列2, marker='o', markerfacecolor='y')
+数列 イテラブル 青い 色 差別 ない グラフ 描画 する	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+小数点 数 無限 大 調べる	math.isinf(x)
+文字 列 キーワード 調べる	keyword.iskeyword(s)
+線 グラフ 色 ゲインズボロ 変更 する	plt.plot(データ列, データ列2, color='gainsboro')
+ふたつ 集合 集合 交わり 持た ない 調べる	aSet.isdisjoint(aSet2)
+列 キー し 二つ データ フレーム 内部 ジョイン する	pd.merge(df, df2, on=column, how='inner')
+ヒストグラム 描画 し その 色 ミディアムアクアマリン 変更 する	plt.hist(データ列, color='mediumaquamarine')
+濃い グラフ 色 カラー コード 指定 する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+配列 リスト 散布 図 カラー コード ポイント マーカー プロット する	plt.plot(xdata, ydata, marker='.', c=rgb)
+暗い 折れ線 グラフ 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='dark', linewidth=n)
+イテラブル イミュータブル な セット	frozenset(iterable)
+折れ線 グラフ 描画 し 色 サドル ブラウン する	plt.plot(データ列, データ列2, color='saddlebrown')
+リスト 数列 折れ線 グラフ 描い 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n)
+二つ 集合 和 集合 算出 する	aSet.union(aSet2)
+データ 列 ラベル 指定 し 棒グラフ プロット する	plt.bar(ラベル列, データ列)
+もしくは もしくは 等しい	n == 1 or n == 2 or n == 3
+オプション ファイル 出力 先 する	file = sys.open(filename, 'w')
+リスト リスト 黒色 淡い 描画 する	plt.plot(xdata, ydata, linestyle='muted', color='k')
+ヒストグラム 色 ゲインズボロ セット する	plt.hist(データ列, color='gainsboro')
+辞書 コピー 作成 する	dict(aDict)
+オプション ダーク グレー 色 用いる	color = 'darkgrey'
+オプション 色 ブラック 設定 する	color = 'black'
+データ フレーム リスト カラム 位 丸め 整数 型 する	df[aList].round(-2).astype(int)
+折れ線 グラフ 下 三角 印 使用 する	plt.plot(データ列, データ列2, marker='v')
+エクセルファイルファイル すべて シート 読み込む	pd.read_excel(filename, sheet_name=None)
+タプル キー その 値 列挙 する	aDict.items()
+リスト リスト 散布 図 丸 マーカー 描く	plt.plot(xdata, ydata, marker='o')
+赤い 丸 マーカー 散布 図 使用 する	plt.plot(xdata, ydata, marker='o', c='r')
+要素 セット メンバー 含ま れる 調べる	element in aSet
+データ フレーム カラム 値 正規 表現 置き換える	df[col].replace(pattern, repl, regex=True)
+マッピング 項目 名 一覧 得る	list(aDict)
+パステル 調 色 カラー コード 設定 する	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+第 二 四 分 位 数 データ フレーム リスト 列 欠損 値 埋める	df[aList].fillna(df[aList].median())
+線 グラフ 色 小麦色 設定 する	plt.plot(データ列, データ列2, color='wheat')
+データ フレーム 列 並べ 更新 する	df.sort_values(by='A', inplace=True)
+行列 ユニーク な 要素 その 個数 求める	u, counts = np.unique(aArray, return_counts=True)
+ファイル 文字 読み込む	f.read(n)
+イテラブル リスト パステル 調 色 折れ線 グラフ 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='pastel')
+データ フレーム 正規 分布 どの 程度 歪ん いる 調べる	df.kurt()
+ファイル ファイル 読む	pd.read_csv(filename, encoding='shift_jis')
+文字 列 シンボル し パラメータ する	z = sympy.Symbol(s)
+データ フレーム リスト 列 値 正規 表現 まとめ 置き換える	df[aList].replace(pattern, repl, regex=True)
+ヒストグラム 描画 し その 色 スラグレー 指定 する	plt.hist(データ列, color='slategrey')
+ヒストグラム 描画 し その 色 ドジャーブルー 変更 する	plt.hist(データ列, color='dodgerblue')
+タプル 順序付け する	enumerate(aTuple, start=n)
+折れ線 グラフ 描画 し 色 シエナ 設定 する	plt.plot(データ列, データ列2, color='sienna')
+淡い 色 折れ線 グラフ 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='muted')
+モカシン ヒストグラム 色 する	plt.hist(データ列, color='moccasin')
+データ フレーム 列 名 付け 直す	df.rename(columns={column: name})
+データ フレーム 指定 さ れ た データ 型 列 名 一覧 使う	df.select_dtypes(型).columns
+大 バツ マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='X')
+ふたつ 集合 互いに 素	aSet.isdisjoint(aSet2)
+リスト リスト 散布 図 暗い 色 描く	plt.plot(xdata, ydata, c='dark')
+データ フレーム インデックス 用い 整列 する	df.sort_index()
+オプション 番目 カラム インデックス 変更 する	index_col = n
+列 と列 キー データ フレーム 外部 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+濃い 折れ線 グラフ 色 赤 する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+折れ線 グラフ 描画 し その 色 グリーン セット する	plt.plot(データ列, データ列2, color='green')
+ファイル パス オープン し バイナリ ストリーム 求める	open(filepath, mode='rb')
+オプション カラム 名前 変更 する	names = names
+小数点 数 ノルム	math.hypot(x, y)
+文字 列 バイト 列 変換 する	s.encode(encoding='utf-8', errors='strict')
+数値 積分 行う	sympy.integrate(e)
+エクセルファイルファイル 読み込む	pd.read_excel(filename)
+ベクトル 形状	aArray.shape
+実数 小数点 四捨五入 する	round(x)
+シーケンス 個 サンプリング する	random.sample(iterable, k=n)
+既存 配列 元 全 要素 ベクトル	np.zeros_like(aArray)
+オプション シート 名 設定 する	sheet_name = names
+二 進数 文字 列 整数 変換 する	int(s, 2)
+データ フレーム 千 位 丸め 整数 する	df.round(-3).astype(int)
+折れ線 グラフ 描画 し その 色 グレー セット する	plt.plot(データ列, データ列2, color='gray')
+文字 列 先頭 限定 パターン マッチ さ せる	re.match(pattern, s, flags=re.ASCI)
+既存 ファイル 文字 コード 追加 できる よう オープン する	open(filepath, mode='a', encoding=text)
+ヒストグラム 描画 し 色 小麦色 設定 する	plt.hist(データ列, color='wheat')
+黄色い ポイント 印 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='.', markerfacecolor='y')
+ベクトル 平均 値	np.mean(aArray)
+列 それぞれ 関数 フィルタ する	filter(func, iterable)
+リスト リスト 散布 図 カラー コード 丸 マーカー プロット する	plt.plot(xdata, ydata, marker='o', c=rgb)
+ヒストグラム 描画 し 色 アクア 設定 する	plt.hist(データ列, color='aqua')
+明るい グラフ 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+ヒストグラム 描画 し その 色 暗い 赤 指定 する	plt.hist(データ列, color='darkred')
+リスト 配列 散布 図 バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='x')
+オプション 色 サンディーブラウン 変更 する	color = 'sandybrown'
+タプル 引数 展開 し プリント する	print(*aTuple, sep=',')
+文字 列 リスト 含ま れ ない どう 調べる	element not in aList
+列 種類 見る	df.info()
+折れ線 グラフ 描画 し 色 パールバイオレットレッド 設定 する	plt.plot(データ列, データ列2, color='palevioletred')
+文字 列 文字 列 リスト 含ま れる どう 判定 する	s in aStringList
+データ 列 折れ線 グラフ 描画 し マーカー 印 する	plt.plot(データ列, データ列2, marker='^')
+リスト リスト 散布 図 描画 し マーカー 星 変更 する	plt.plot(xdata, ydata, marker='*')
+ヒストグラム 色 ダーク サーモン 変更 する	plt.hist(データ列, color='darksalmon')
+実数 実数 掛ける	x * y
+数式 階 微分 求める	sympy.diff(e, z, n)
+文字 列 辞書 変換 する	json.loads(jsonString)
+パステル 調 色 マーカー 重 見やすく 散布 図 描く	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+折れ線 グラフ 描画 し その 色 ゴールデン ロッド 指定 する	plt.plot(データ列, データ列2, color='goldenrod')
+オプション グラフ 色 ダーク オリーブ グリーン する	color = 'darkolivegreen'
+データ フレーム 二つ 列 ソート し 先頭 する	df.sort_values(by=['A', 'B'], na_position='first')
+ヒストグラム 描画 し 色 グリーン イエロー 設定 する	plt.hist(データ列, color='greenyellow')
+オプション ライト コーラル 色 使用 する	color = 'lightcoral'
+赤い 左 三 角 マーカー 散布 図 用いる	plt.plot(xdata, ydata, marker='<', c='r')
+折れ線 グラフ 黒い マーカー 描画 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='k')
+ヒストグラム 描画 し 色 マゼンタ 指定 する	plt.hist(データ列, color='magenta')
+変数 最小 値 求める	min(x, y, z)
+正方 単位 行列 作る	np.identity(N)
+データ 列 中 いくつ 日 付 データ ある 数える	ds.isin([value]).sum()
+カウンタ 同士 演算 する	aCounter & aCounter2
+オブジェクト プロパティ ある	hasattr(obj, プロパティ名)
+値 キュー 番目 挿入 する	deq.insert(n, element)
+文字 列 タイム スタンプ 変換 する	datetime.datetime.fromisoformat(日付の書かれた文字列)
+データ フレーム 列 名 リスト 昇順 破壊 的 ソート する	df.sort_values(by=column, ascending=True, inplace=True)
+データ 列 最小 値 埋める	ds.fillna(ds.min())
+リスト リスト 加える	aList + aList2
+列 コンビネーション	itertools.combinations(iterable, n)
+オプション フローラルホワイト 色 使用 する	color = 'floralwhite'
+折れ線 グラフ 色 コーンフラワーブルー 変更 する	plt.plot(データ列, データ列2, color='cornflowerblue')
+ファイル 書き込み 用 オープン する	open(filepath, mode='w')
+データ フレーム グループ 化 し それぞれ 列 最小 値 求める	df.groupby(column)[column2].min()
+イテラブル 多重 集合 用意 する	collections.Counter(iterable)
+データ 列 十 位 四捨五入 し 整数 型 する	ds.round(-1).astype(int)
+折れ線 グラフ 描画 し その 色 淡い ピンク色 指定 する	plt.plot(データ列, データ列2, color='lightpink')
+グラフ 水平 方向 点線 付ける	plt.axhline(y=0, linestyle='dotted')
+イテラブル リスト カラー コード 色 差別 ない グラフ 描画 する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+色 差別 ない グラフ 色 黒く する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+文字 列 バイト 列 する	s.encode(encoding='sjis', errors='ignore')
+オプション 色 茶色 設定 する	color = 'brown'
+変数 赤色 する	f'\033[31m{value}\033[0m'
+組 末尾 要素 捨てる	aTuple[:-n]
+全 要素 初期 値 初期 化 さ れ た 行列 作る	np.full(要素数, 初期値, dtype=np.int)
+データ フレーム 列 整列 し 下位 件 取り出す	df.sort_values(columns).tail(n)
+ヒストグラム 描画 し その 色 やわらかい 青 設定 する	plt.hist(データ列, color='cornflowerblue')
+値 黒色 化 する	f'\033[30m{value}\033[0m'
+ヒストグラム 描画 し 色 ライトスレイグレー 設定 する	plt.hist(データ列, color='lightslategrey')
+線 グラフ 描画 し その 色 ベージュ 設定 する	plt.plot(データ列, データ列2, color='beige')
+折れ線 グラフ 描画 し その 色 赤 設定 する	plt.plot(データ列, データ列2, color='red')
+データ 列 未 入力 値 直前 値 変更 する	ds.fillna(method='ffill')
+データ フレーム リスト カラム 最大 値 埋める	df[aList].fillna(df[aList].max())
+折れ線 グラフ 描画 し その 色 ピーチ パフ 指定 する	plt.plot(データ列, データ列2, color='peachpuff')
+シャルトリューズ ヒストグラム 色 指定 する	plt.hist(データ列, color='chartreuse')
+線 幅 クロス マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='x', markeredgewidth=n)
+オプション ミディアムスプリンググリーン グラフ 色 設定 する	color = 'mediumspringgreen'
+データ フレーム 読み込む	pd.read_csv(filename, sep='\t')
+ヒストグラム 描画 し その 色 レモン シフォン 設定 する	plt.hist(データ列, color='lemonchiffon')
+データ フレーム 丸め 整数 型 する	df.round().astype(int)
+ヒストグラム 色 オリーブ 指定 する	plt.hist(データ列, color='olive')
+オプション プラム グラフ 色 変更 する	color = 'plum'
+折れ線 グラフ 描画 し その 色 マゼンタ する	plt.plot(データ列, データ列2, color='magenta')
+リスト 回 加える	aList * n
+オプション 青 緑 使用 する	color = 'teal'
+文字 列 部分 文字 列 分け た 場合 残り 文字 列	s.partition(sub)[-1]
+マッピング カウンタ 更新 する	aCounter.update(aDict)
+列 カウント し カウンタ 更新 する	aCounter.update(iterable)
+オプション ターコイズ 使う	color = 'turquoise'
+行列 標準 偏差 求める	np.std(aArray)
+赤い 丸 マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='o', c='r')
+文字 列 中 大文字 小文字 無視 し パターン 全て マッチ 見る	re.findall(pattern, s, flags=re.IGNORECASE)
+線 グラフ 色 オレンジ する	plt.plot(データ列, データ列2, color='orange')
+オプション ホット ピンク グラフ 色 設定 する	color = 'hotpink'
+データ フレーム 列 欠損 値 中央 値 置換 する	df[col].fillna(df[col].median())
+折れ線 グラフ 色 シャルトリューズ する	plt.plot(データ列, データ列2, color='chartreuse')
+ヒストグラム 色 ライム グリーン 指定 する	plt.hist(データ列, color='limegreen')
+タプル 順に 表示 する	print(*aTuple)
+折れ線 グラフ 描画 し その 色 紺 変更 する	plt.plot(データ列, データ列2, color='darkblue')
+折れ線 グラフ 描画 し その 色 ダーク カーキ 設定 する	plt.plot(データ列, データ列2, color='darkkhaki')
+カウンタ 低 頻度 な 方 列挙 する	aCounter.most_common()[::-1]
+カラー コード 星 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='*', c=rgb)
+青い 明るい 描画 する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+オプション 色 トマト セット する	color = 'tomato'
+データ 列 欠損 値 最 頻 値 置換 する	ds.fillna(ds.mode().iloc[0])
+オプション インディゴ 色 使用 する	color = 'indigo'
+散布 図 赤い マーカー 描く	plt.plot(xdata, ydata, marker='^', c='r')
+データ フレーム 破壊 的 重複 消す	df.drop_duplicates(inplace=True)
+表 データ 中 列 と列 重複 あれ マスク する	df.duplicated(subset=[column, column2])
+句点 文字 全て 求める	string.punctuation
+折れ線 グラフ 色 青 セット する	plt.plot(データ列, データ列2, color='blue')
+データ フレーム 各 列 毎 グループ 化 し 列 標準 偏差 算出 する	df.groupby(column)[column2].std()
+文字 列 タプル 要素 で ない どう 確認 する	element not in aTuple
+データ フレーム 行 表示 できる よう する	pd.set_option('display.max_rows', n)
+散布 図 黒色 上 三 角 マーカー 描く	plt.plot(xdata, ydata, marker='^', c='k')
+配列 リスト 青色 濃い 描画 する	plt.plot(xdata, ydata, linestyle='deep', color='b')
+個 等間隔 データ 列 ビン 分割 する	pd.cut(ds, n)
+オプション 色 インディゴ 設定 する	color = 'indigo'
+オプション グラフ 線 種 点線 変更 する	linestyle = 'dotted'
+表 行 目 削除 し 更新 する	df.drop(n, axis=0, inplace=True)
+文字 列 右側 範囲 指定 し 部分 文字 列 探す	s.find(sub, start, end)
+スピアマン 順位 相関 係数 データ フレーム リスト 列 相関 行列	df[aList].corr(method='spearman')
+オプション ブラック 使う	color = 'black'
+折れ線 グラフ 描画 し その 色 フクシア 設定 する	plt.plot(データ列, データ列2, color='fuchsia')
+データ フレーム カラム ユニーク な 要素 数	df[col].nunique()
+折れ線 グラフ 丸 印 線 幅 変更 する	plt.plot(データ列, データ列2, marker='o', markeredgewidth=n)
+数値 簡略 化 行う	sympy.sympify(e)
+辞書 多重 集合 作る	collections.Counter(aDict)
+オプション グラフ 色 ラベンダー 指定 する	color = 'lavender'
+リスト リスト カラー コード 明るい 描画 する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+サブ 型	issubclass(サブクラス, クラス)
+オプション レベッカパープル 使う	color = 'rebeccapurple'
+オブジェクト 数値 確認 する	isinstance(obj, (int,float))
+要素 セット 含ま れ ない 調べる	element not in aSet
+散布 図 黒い 四角 マーカー 使用 する	plt.plot(xdata, ydata, marker='s', c='k')
+配列 列 ごと 標準 偏差 算出 する	np.std(aArray, axis=0)
+オプション グラフ 色 真紅 設定 する	color = 'crimson'
+ヒストグラム 描画 し ビン 数 指定 する	plt.hist(データ列, bins=n)
+オプション ブランチドアーモンド グラフ 色 設定 する	color = 'blanchedalmond'
+折れ線 グラフ 描画 し その 色 ライトスレイグレー 設定 する	plt.plot(データ列, データ列2, color='lightslategrey')
+破壊 的 列 データ フレーム 並べる	df.sort_values(by='A', inplace=True)
+数列 配列 折れ線 グラフ 描い 透明 度 設定 する	plt.plot(xdata, ydata, alpha=alpha)
+オプション ミディアムシアグリーン グラフ 色 設定 する	color = 'mediumseagreen'
+折れ線 グラフ マーカー サイズ する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+折れ線 グラフ マーカー 黒色 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='k')
+日付 データ 水曜日	aDate.weekday() == 2
+線 グラフ 色 ネイビー 設定 する	plt.plot(データ列, データ列2, color='navy')
+文字 列 右端 改行 除く	s.rstrip('\n')
+組 ひとつ 置き 抽出 する	aTuple[::2]
+文字 列 内 ひとつ 数字 ある 確認 する	any(c.isdigit() for c in s)
+現在 時間 数 使う	datetime.date.today().hour
+三角 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='^')
+ヒストグラム アルファ 値 設定 する	plt.hist(データ列, alpha=x)
+実数 タンジェント	math.tan(x)
+折れ線 グラフ 色 ダーク グリーン する	plt.plot(データ列, データ列2, color='darkgreen')
+文字 分 標準 入力 読み込む	sys.stdin.read(1)
+ヒストグラム 色 ピンク する	plt.hist(データ列, color='pink')
+ファイル 使っ オープン する	open(filepath, encoding='utf-8')
+データ フレーム 中 日付 データ 文字 列 ある	df.isin([value, value2])
+データ フレーム リスト 列 中央 値	df[aList].median()
+最初 列 データ フレーム 除く	df[df.columns[1:]]
+パターン マッチ し た 文字 列 新しい 文字 列 置き換える	re.sub(pattern, newsub, s)
+イテラブル 重複 コンビネーション 求める	itertools.combinations_with_replacement(iterable, n)
+部分 文字 列 文字 列 終了 位置 前 ない 判定 する	s.find(sub, 0, end) == -1
+直前 値 データ 列 欠損 値 置換 する	ds.fillna(method='ffill')
+リスト 配列 散布 図 黒色 ポイント マーカー 描画 する	plt.plot(xdata, ydata, marker='.', c='k')
+散布 図 黒色 大 バツ マーカー 使う	plt.plot(xdata, ydata, marker='X', c='k')
+明るい 色 配列 配列 散布 図 プロット する	plt.plot(xdata, ydata, c='bright')
+データ フレーム タブ 区切り ファイル 読み込む	pd.read_csv(filename, sep='\t')
+データ フレーム 列 欠損 値 直前 値 埋める	df[col].fillna(method='ffill')
+グラフ 色 テーマ 指定 する	sns.set(pallete=palleteName)
+ヒストグラム 色 濃い シアン 変更 する	plt.hist(データ列, color='darkcyan')
+折れ線 グラフ 色 コーンズシルク 指定 する	plt.plot(データ列, データ列2, color='cornsilk')
+値 水色 する	f'\033[36m{value}\033[0m'
+データ フレーム 中 存在 する の 合計 数える	df.isin([value]).sum()
+ひとつ 非 英数字 文字 列 中 含ま れる	any(not c.isalnum() for c in s)
+真紅 色 線 グラフ 描画 する	plt.plot(データ列, データ列2, color='crimson')
+オプション アンティーク ホワイト 使う	color = 'antiquewhite'
+緑色 三角 マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+プロット カラー パレット 変更 する	sns.set(pallete=palleteName)
+文字 列 組 要素	element in aTuple
+実行 結果 太字 表示 する	print(f'\033[1m{value}\033[0m')
+両端 キュー 部分 データ	collections.deque(itertools.islice(deq, start, end))
+下 三角 マーカー 用い 散布 図 描画 する	plt.plot(xdata, ydata, marker='v')
+プロット 凡例 場所 指定 する	plt.legend(loc=(x, y))
+リスト リスト 破線 グラフ 描い その 色 明るい 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='bright')
+データ フレーム 中 存在 する	df.isin([value])
+ヒストグラム 描画 し その 色 茶色 設定 する	plt.hist(データ列, color='brown')
+折れ線 グラフ 描画 し 色 ミディアムブルー 設定 する	plt.plot(データ列, データ列2, color='mediumblue')
+用いる	import numpy as np
+オプション 色 アクアマリン 変更 する	color = 'aquamarine'
+ヒストグラム 描画 し その 色 サドル ブラウン セット する	plt.hist(データ列, color='saddlebrown')
+わる 計算 する	n / n2
+折れ線 グラフ 色 ダーク シアン する	plt.plot(データ列, データ列2, color='darkcyan')
+個 等量 配列 ビン 分割 する	pd.qcut(aArray, n)
+オプション ネイビー 使う	color = 'navy'
+文字 列 中 非 小文字 含ま れる 確認 する	any(not c.islower() for c in s)
+リスト 番目 の 求める	aList[n]
+実数 双曲線 余弦 逆数 算出 する	math.acosh(x)
+データ フレーム まとめ 正規 表現 置き換える	df.replace(pattern, repl, regex=True)
+折れ線 グラフ 点線 使っ 描画 する	plt.plot(データ列, データ列2, linestyle='dotted')
+シーケンス イテラブル ペア リスト する	itertools.zip_longest(iterable, iterable2)
+破線 設定 する	plt.axvline(x=0, linestyle='dashed')
+日付 時刻 データ 書式 文字 列 変換 する	aDatetime.isoformat()
+配列 各 要素 加算 する	aArray + aArray2
+小数点 以下 表示 精度 設定 する	pd.set_option('precision', n)
+カラム どの 程度 分散 し いる 見る	ds.var()
+横 方向 つ データ フレーム 連結 する	pd.concat([df, df2], axis=1)
+オプション 色 ネイビー 設定 する	color = 'navy'
+線 幅 丸 印 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='o', markeredgewidth=n)
+データ フレーム カテゴリ データ カラム 名 一覧	df.select_dtypes('object').columns
+データ 列 ラベル 列 指定 し 積み上げ 棒 描く	"plt.bar(ラベル列, データ列, bottom=データ列2, color=""red"")"
+データ フレーム リスト カラム どの 程度 分散 し いる 調べる	df[aList].var()
+オプション グラフ 色 ハニーデュー 指定 する	color = 'honeydew'
+データ フレーム カラム 曜日 何 日 目 確認 する	df[col].dt.dayofweek
+散布 図 カラー コード 右 三 角 マーカー 用いる	plt.plot(xdata, ydata, marker='>', c=rgb)
+リスト リスト 黒い 濃い グラフ プロット する	plt.plot(xdata, ydata, linestyle='deep', color='k')
+書き込み できる よう ファイル オープン する	open(filepath, mode='w')
+リスト 軸 指定 し 折れ線 グラフ 描画 する	plt.plot(range(len(xdata)), xdata)
+辞書 キー 指定 さ れ た エントリ ポップ する	aDict.pop(key)
+タイムスタンプデータ 水曜日	aDatetime.weekday() == 2
+データ フレーム 欠損 値 直前 値 増やす	df.fillna(method='ffill')
+散布 図 赤い ポイント マーカー 用い 描画 する	plt.plot(xdata, ydata, marker='.', c='r')
+カラム 欠損 値 平均 値 設定 する	ds.fillna(ds.mean())
+データ 列 ラベル 列 指定 し 積み上げ 横 棒グラフ 描画 する	"plt.barh(ラベル列, データ列, bottom=データ列2, color=""red"")"
+二 数 最も 小さい 値	min(x, y)
+部分 文字 列 文字 列 接頭 辞 取り除く	s.removeprefix(sub)
+オプション 色 暗い 赤 設定 する	color = 'darkred'
+データ フレーム カラム 正規 分布 どれ 尖っ いる 調べる	df[col].skew()
+折れ線 グラフ 描画 し 色 スノー 設定 する	plt.plot(データ列, データ列2, color='snow')
+オプション 濃い シアン 色 使用 する	color = 'darkcyan'
+折れ線 グラフ 描画 し 色 小麦色 設定 する	plt.plot(データ列, データ列2, color='wheat')
+小数点 数 平方根	math.sqrt(x)
+明るい 色 折れ線 グラフ プロット し その 線 幅 指定 する	plt.plot(xdata, ydata, linewidth=n, color='bright')
+リスト 内 要素 少なくとも ひとつ 真 どう 調べる	any(aList)
+データ フレーム 列 名 リスト 降順 破壊 的 ソート する	df.sort_values(by=column, ascending=False, inplace=True)
+折れ線 グラフ 色 ミディアムアクアマリン セット する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+文字 列 全体 複数 行 対応 パターン マッチ さ せる	re.fullmatch(pattern, s, flags=re.MULTILINE)
+文字 列 開始 位置 終了 位置 間 部分 文字 列 ある どう 調べる	s.find(sub, start, end) != -1
+折れ線 グラフ 左 三 角 マーカー 大き さ セット する	plt.plot(データ列, データ列2, marker='<', markersize=n)
+文字 列 最初 部分 文字 列 探す	s.find(sub)
+オプション インデックス 自動的 な 連 番 する	index_col = None
+列 列 データ フレーム 昇順 並べ 直す	df.sort_values(by=['A', 'B'], ascending=True)
+色 差別 ない 色 折れ線 グラフ 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+データ フレーム 列 分散	df[col].var()
+真 部分 集合	aSet < aSet2
+オプション 標準 エラー 用いる	file = sys.stderr
+データ フレーム カラム 中 文字 列 文字 列 いくつ 含ま れる 数える	df[col].isin([value, value2]).sum()
+散布 図 赤色 三角 マーカー 使う	plt.plot(xdata, ydata, marker='^', c='r')
+データ フレーム リスト カラム 中 ある 文字 列 合計 カウント する	df[aList].isin([value, value2]).sum()
+第 コマンド 引数	sys.argv[1]
+オプション フクシア 色 使用 する	color = 'fuchsia'
+浮動 小数点 数 乗 し 整数 余り	pow(x, n, y)
+折れ線 グラフ 描画 し その 色 ダークターコイズ 指定 する	plt.plot(データ列, データ列2, color='darkturquoise')
+無限 数え上げる する	itertools.count(start=n)
+ビン 数 等量 データ フレーム 中 列 ビン 分割 する	pd.qcut(df[col], n)
+折れ線 グラフ 描画 し その 色 プラム 設定 する	plt.plot(データ列, データ列2, color='plum')
+赤色 下 三角 マーカー 数列 リスト 散布 図 描画 する	plt.plot(xdata, ydata, marker='v', c='r')
+データ フレーム リスト カラム 欠損 値 平均 値 置換 する	df[aList].fillna(df[aList].mean())
+データ フレーム 列 名前 リスト	df.columns
+一 点 鎖線 付ける	plt.axvline(x=0, linestyle='dashbot')
+ゼロ 埋め し た 三 二 ビット 整数 型 配列	np.zeros(要素数, dtype=np.int16)
+文字 列 内 英数字 含ま れる	any(c.isalnum() for c in s)
+オプション ブルー バイオレット 色 用いる	color = 'blueviolet'
+データ フレーム 型 リスト 指定 さ れ た データ 型 列 選ぶ	df.select_dtypes(include=typeList)
+列 使っ データ フレーム グループ 化 し 各 グループ ごと 件数 知る	df.groupby(column).size()
+日付 時刻 データ 金曜日	aDatetime.weekday() == 4
+十 六 進 数字 全て 見る	string.hexdigits
+折れ線 グラフ 描画 し 色 茶色 指定 する	plt.plot(データ列, データ列2, color='brown')
+ヒストグラム 色 カーキ 変更 する	plt.hist(データ列, color='khaki')
+赤い バツ マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='x', c='r')
+ファイル オープン し 書き込み ストリーム 求める	open(filepath, mode='w')
+オプション ラベンダー ブラッシュ グラフ 色 セット する	color = 'lavenderblush'
+配列 配列 リスト 値 応じ 散布 図 色 変える	plt.scatter(xdata, ydata, c=aList, cmap='Blues')
+ヒストグラム 描画 し その 色 イエロー グリーン 指定 する	plt.hist(データ列, color='yellowgreen')
+オプション 白 グラフ 色 セット する	color = 'white'
+オプション インディアン レッド 色 用いる	color = 'indianred'
+文字 列 リスト 結合 し 一つ 文字 列 する	''.join(map(str, iterable))
+オブジェクト 文字 列 クラス インスタンス	isinstance(obj, str)
+実行 結果 カンマ 区切っ 表示 する	print(value, value2, sep=',')
+標準 出力 出力 先 ターミナル 調べる	sys.stdout.isatty()
+データ フレーム 数値 データ カラム 抽出 する	df.select_dtypes('number')
+全 要素 初期 化 さ れ た 整数 型 行列 作る	np.zeros(行数, 列数, dtype=np.int)
+オプション グラフ 色 マゼンタ 指定 する	color = 'magenta'
+辞書 項目 名 値 もしくは 要素 得る	aDict.get(key, element)
+重複 し い ない 行	df[not df.duplicated(keep=False)]
+コード ポイント 最大 値	sys.maxunicode
+整数 十 六 進数 文字 列	hex(n)[2:]
+折れ線 グラフ 菱形 印 黒く する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='k')
+両端 キュー 要素 インプレース 逆 並べ 直す	deq.reverse()
+日付 データ 週間 分 引く	aDate - datetime.timedelta(weeks=n)
+データ フレーム リスト 列 文字 列 欠損 値 変換 する	df[aList].replace(s, np.nan)
+オプション グラフ 色 スプリング グリーン 指定 する	color = 'springgreen'
+ファイル 文字 列 書く	f.write(s)
+オプション アクアマリン 使う	color = 'aquamarine'
+データ 列 イテラブル 散布 図 カラー コード 下 三角 マーカー プロット する	plt.plot(xdata, ydata, marker='v', c=rgb)
+明るい 色 イテラブル ヒストグラム 描画 する	plt.hist(xdata, color='bright')
+オブジェクト 無限 イテラブル	itertools.repeat(element)
+イテラブル 文字 列 リスト 変換 し カンマ 連結 する	','.join(map(str, iterable))
+数 万 位 四捨五入 する	round(x, -4)
+ヒストグラム 描画 し その 色 パープル 設定 する	plt.hist(データ列, color='purple')
+ファイル ストリーム オープン し する	file = open(filepath)
+エポック 秒 文字 列 日付 データ 変換 する	pd.to_datetime(s, unit='s', utc=True)
+オプション 色 ライトスレイグレー セット する	color = 'lightslategray'
+文字 列 パターン 分割 する	re.split(pattern, s)
+黒い パステル 調 の プロット する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+折れ線 グラフ 描画 し その 色 ダークスラテグレー 設定 する	plt.plot(データ列, データ列2, color='darkslategray')
+オプション 色 アリスブルー 設定 する	color = 'aliceblue'
+データ フレーム 各 列 毎 グループ 化 し 列 最小 値 求める	df.groupby(column)[column2].min()
+ファイル 書き込み 用 オープン し する	f = open(filepath, mode='w')
+リスト イテラブル 散布 図 描画 し 下 三角 マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='v', c=rgb)
+列 名 リスト データ フレーム まとめ た 表 求める	df.groupby(columns)
+ヒストグラム 描画 し その 色 ピンク 指定 する	plt.hist(データ列, color='pink')
+データ フレーム 複数 列 整列 し 更新 する	df.sort_values(by=column, inplace=True)
+集合 リスト 要素 全て 追加 する	aSet.update(iterable)
+以上 以下	-9 <= x <= 9
+青色 暗い グラフ 描画 する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+ヒストグラム 描画 し その 色 パールゴールデンロッド 変更 する	plt.hist(データ列, color='palegoldenrod')
+オプション グリーン イエロー グラフ 色 設定 する	color = 'greenyellow'
+文字 列 部分 文字 列 全て 消す	s.replace(sub, '')
+オプション 文字 コード 文字 列 示す エン コーディング 設定 する	encoding = s
+追加 モード 使っ ファイル オープン し する	f = open(filepath, mode='a')
+実数 逆 双曲線 正接 計算 する	math.atanh(x)
+箱 ひ げ 図 つ 並べて プロット する	plt.boxplot([データ列, データ列2])
+双方向 キュー ポップ する	deq.pop()
+色 差別 ない 線 幅 指定 する	plt.plot(xdata, ydata, linestyle='colorblind', linewidth=n)
+文字 列 先頭 パターン 限定 マッチ する 見る	re.match(pattern, s, flags=re.ASCI)
+オプション バッファ サイズ 大きく する	buffering = 4096
+折れ線 グラフ 四角 マーカー 赤色 する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='r')
+文字 列 中 正規 表現 限定 マッチ する 位置 探す	re.search(pattern, s, flags=re.ASCI)
+二つ データ フレーム ジョイン する	pd.merge(df, df2)
+文字 化け し ない よう 読み込む	pd.read_csv(filename, encoding='shift_jis')
+オプション 色 ビスク セット する	color = 'bisque'
+折れ線 グラフ 色 マルーン 指定 する	plt.plot(データ列, データ列2, color='maroon')
+オプション グラフ 色 オレンジ 指定 する	color = 'orange'
+データ 列 並べ ヒストグラム する	plt.hist([データ列, データ列2], color=['b', 'r'])
+キュー 大き さ	len(deq)
+文字 列 最後 部分 文字 列 分け た とき 前半 文字 列 求める	s.rpartition(sub)[0]
+無限 整数 リスト	itertools.repeat(n)
+組 回 連結 する	aTuple * n
+線 グラフ 描画 し 色 デピンク 設定 する	plt.plot(データ列, データ列2, color='deeppink')
+データ 列 等量 個 ビニング する	pd.qcut(ds, n)
+シーケンス 文字 列 連結 する	''.join(map(str, iterable))
+データ フレーム カラム 歪 度 算出 する	df[col].kurt()
+文字 列 リスト 要素 どう 調べる	element in aList
+リスト 数列 散布 図 描画 し マーカー 設定 する	plt.plot(xdata, ydata, marker='^')
+濃い グラフ 色 黒色 指定 する	plt.plot(xdata, ydata, linestyle='deep', color='k')
+行 標準 入力 読む	sys.stdin.readline()
+オプション ダーク ブルー 色 使用 する	color = 'darkblue'
+データ フレーム カラム 標本 標準 偏差 算出 する	df[col].std()
+折れ線 グラフ 描画 し その 色 ダーク バイオレット セット する	plt.plot(データ列, データ列2, color='darkviolet')
+ヒストグラム 描画 し その 色 ゴースト ホワイト セット する	plt.hist(データ列, color='ghostwhite')
+データ 列 何 曜日 調べる	ds.dt.weekday_name
+オプション ダーク バイオレット 色 使用 する	color = 'darkviolet'
+ヒストグラム 色 スノー 変更 する	plt.hist(データ列, color='snow')
+折れ線 グラフ 描画 し 色 レベッカパープル 設定 する	plt.plot(データ列, データ列2, color='rebeccapurple')
+リスト 配列 散布 図 描い マーカー 色 淡い 設定 する	plt.plot(xdata, ydata, c='muted')
+ゴールデン ロッド ヒストグラム 色 設定 する	plt.hist(データ列, color='goldenrod')
+リスト リスト パステル 調 グラフ プロット し その 色 青く する	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+本日 日曜日	datetime.datetime.today().weekday() == 6
+ファイル パス ストリーム 読み込み する	file = open(filepath)
+折れ線 グラフ ポイント マーカー 線 幅 変更 する	plt.plot(データ列, データ列2, marker='.', markeredgewidth=n)
+ヒストグラム 描画 し 色 レベッカパープル 設定 する	plt.hist(データ列, color='rebeccapurple')
+黒色 四角 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='s', c='k')
+グラフ 鉛直 方向 実線 付ける	plt.axvline(x=0, linestyle='solid')
+折れ線 グラフ 印 緑色 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='g')
+行列 平坦 化 する	aArray.flatten()
+データ フレーム 列 用い ソート する	df.sort_values(by='A')
+青い パステル 調 の 描画 する	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+折れ線 グラフ 星 マーカー 大き さ 指定 する	plt.plot(データ列, データ列2, marker='*', markersize=n)
+直前 値 データ フレーム 未 入力 値 埋める	df.fillna(method='ffill')
+赤い 下 三角 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='v', c='r')
+線 グラフ 色 ピーチ パフ 変更 する	plt.plot(データ列, データ列2, color='peachpuff')
+データ 列 何 年 調べる	ds.dt.year
+折れ線 グラフ 色 ダーク カーキ 指定 する	plt.plot(データ列, データ列2, color='darkkhaki')
+データ フレーム 平均 値 置き換える	df.fillna(df.mean())
+タプル 両端 キュー 作る	collections.deque(iterable)
+リスト 要素 数	len(aList)
+オプション 色 ダーク グレー 変更 する	color = 'darkgrey'
+パターン 用い 文字 列 日付 時刻 変換 する	datetime.datetime.strptime(日付の書かれた文字列, format)
+小数点 数 切り下げ 整数 変換 する	math.floor(x)
+ベクトル ユニーク な 要素 ごと 出現 回数	np.unique(aArray, return_counts=True)
+スラグレー ヒストグラム 色 変更 する	plt.hist(データ列, color='slategray')
+ヒストグラム 描画 し 色 ブラック 変更 する	plt.hist(データ列, color='black')
+データ フレーム カラム 日付 型 変換 し インデックス する	df.index = pd.DatetimeIndex(pd.to_datetime(df[col]))
+明るい 色 ヒストグラム 配列 描画 する	plt.hist(xdata, color='bright')
+折れ線 グラフ 描画 し その 色 ダークオーキッド セット する	plt.plot(データ列, データ列2, color='darkorchid')
+配列 要素 ごと 最大公約数	np.gcd(aArray, aArray2)
+黒い 左 三 角 マーカー 配列 リスト 散布 図 描画 する	plt.plot(xdata, ydata, marker='<', c='k')
+線 グラフ 色 コーラル 指定 する	plt.plot(データ列, データ列2, color='coral')
+ディレクトリ	os.getcwd()
+三 ビット 整数 型 全 要素 初期 化 さ れ た 行列	np.zeros(行数, 列数, dtype=np.int16)
+データ フレーム カラム 中 いくつ 未 入力 値 存在 する カウント する	df[col].isna().sum()
+折れ線 グラフ 描画 し 色 青 紫 設定 する	plt.plot(データ列, データ列2, color='violet')
+二つ 辞書 階層 的 つなぐ	collections.ChainMap(aDict, aDict2)
+スーパー セット もしくは 等しい	aSet > aSet2
+データ フレーム 列 列 各 列 間 相関 係数	df[[column, column2]].corr()
+日付 時刻 データ 日付 時刻 データ 同時 どう テスト する	aDatetime == aDatetime2
+折れ線 グラフ 描画 し その 色 ライト コーラル 変更 する	plt.plot(データ列, データ列2, color='lightcoral')
+オプション ライト グレー 使用 する	color = 'lightgray'
+データ フレーム 重複 し いる	df.duplicated()
+リスト 配列 散布 図 マーカー 描画 する	plt.plot(xdata, ydata, marker='^')
+データ フレーム カラム 値 欠損 値 どう 調べる	df[col].isna()
+ヒストグラム 描画 し 色 ベージュ 設定 する	plt.hist(データ列, color='beige')
+データ フレーム 二つ 列 ソート する	df.sort_values(by=['A', 'B'])
+データ フレーム リスト 列 小数点 以下 桁 四捨五入 する	df[aList].round(n)
+データ フレーム 最初	df.head()
+個 データ フレーム 中 列 等量 ビン 分割 する	pd.qcut(df[col], n)
+文字 列 最初 部分 文字 列 二分 し 後半 文字 列 使う	s.partition(sub)[-1]
+明るい 色 カラー コード 指定 する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+何 回 再帰 できる	sys.getrecursionlimit()
+形式 文字 列 ロード する	json.loads(jsonString)
+日付 データ 曜日 使う	aDate.weekday()
+データ 列 百 位 丸め 整数 型 する	ds.round(-2).astype(int)
+折れ線 グラフ 描画 し 色 バリーウッド 設定 する	plt.plot(データ列, データ列2, color='burlywood')
+データ フレーム 列 大きい データ 取り出す	df[df[column] > x]
+イテラブル リスト 散布 図 描画 し 左 三 角 マーカー 色 カラー コード 指定 する	plt.plot(xdata, ydata, marker='<', c=rgb)
+データ 列 折れ線 グラフ 描画 し マーカー 大 バツ する	plt.plot(データ列, データ列2, marker='X')
+三つ リスト 表示 する	print(value, value2, value3)
+イテラブル 配列 散布 図 大 バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='X')
+ネイピア 数 使う	math.e
+列 名 指定 さ れ た 列 名前 一覧 置き換える	df.columns = columns
+データ フレーム 内 列 重複 見る	df.duplicated(subset=column)
+それぞれ 指定 する	x, y, z = n, n2, n3
+実数 絶対 値 計算 する	math.fabs(x)
+カラー バー 横向き 設定 する	plt.colorbar(orientation='horizontal')
+イテラブル リスト 散布 図 赤い ダイアモンドマーカー プロット する	plt.plot(xdata, ydata, marker='D', c='r')
+ヒストグラム 描画 し 色 ライトグリーン 変更 する	plt.hist(データ列, color='lightgreen')
+データ フレーム 表示 する とき 最大 列 数 減らす	pd.set_option('display.max_columns', n)
+小数点 数 小数 部 計算 する	math.modf(x)[0]
+ヒストグラム 色 サーモン 指定 する	plt.hist(データ列, color='salmon')
+データ フレーム カラム 中 含ま れる 日付 データ 合計 数える	df[col].isin([value]).sum()
+文字 列 水色 プリント できる 文字 列 変換 する	f'\033[36m{value}\033[0m'
+ダークターコイズ ヒストグラム 色 指定 する	plt.hist(データ列, color='darkturquoise')
+今日 文字 列 フォーマット し 文字 列 する	"datetime.datetime.today().strftime(""%d/%m/%y"")"
+負 数	n < 0
+濃い グラフ 線 幅 指定 する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+真に なる シーケンス 要素	itertools.dropwhile(predicateFunc, iterable)
+リスト 配列 散布 図 明るい 色 重 見やすく 描画 する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+タイムスタンプデータ 時間 分 減算 する	aDatetime - datetime.timedelta(hours=n)
+文字 列 中 正規 表現 ケース 無視 し マッチ する 文字 列 探す	re.search(pattern, s, flags=re.IGNORECASE)
+インデント 付き タプル 文字 列 変換 する	json.dumps(aDict, ensure_ascii=False, indent=n)
+最大 値 データ 列 未 入力 値 埋める	ds.fillna(ds.max())
+以下 または 以上 どう 調べる	n <= n2 or n >= n3
+濃い 色 散布 図 描画 する	plt.plot(xdata, ydata, c='deep')
+実数 乗 する	x ** 2
+破線 ヒストグラム 指定 する	plt.hist(データ列, linestyle='dashed')
+ファイル バイナリ できる よう 開く	open(filepath, mode='rb')
+数列 リスト 暗い 描画 し その 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+ヒストグラム 描画 し その 色 ダークオーキッド 設定 する	plt.hist(データ列, color='darkorchid')
+折れ線 グラフ 描画 し 色 ライム 設定 する	plt.plot(データ列, データ列2, color='lime')
+プロット サイズ 横 縦 設定 する	plt.figure(figsize=(width, height))
+オプション グラフ 色 パールゴールデンロッド 指定 する	color = 'palegoldenrod'
+リスト ビン 数 用い 分割 し ラベル つける	pd.cut(aList, n, labels=names)
+オプション ゴールド 色 用いる	color = 'gold'
+リスト リスト 加える	aList.extend(aList2)
+オブジェクト リスト タプル	isinstance(obj, (list)
+リスト データ 列 淡い 色 折れ線 グラフ 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='muted')
+配列 配列 散布 図 描画 し マーカー 設定 する	plt.plot(xdata, ydata, marker='v')
+データ 列 ラベル 指定 し 縦 棒グラフ 描画 する	plt.bar(ラベル列, データ列)
+文字 列 中 複数 行 対応 パターン 全 マッチ 見る	re.findall(pattern, s, flags=re.MULTILINE)
+二つ データ フレーム 横 方向 一つ する	pd.merge(df, df2)
+線 グラフ 描画 し その 色 耐火 レンガ 設定 する	plt.plot(データ列, データ列2, color='firebrick')
+日付 時刻 データ 週間 減算 する	aDatetime - datetime.timedelta(weeks=n)
+ヒストグラム 描画 し その 色 オレンジ 指定 する	plt.hist(データ列, color='orange')
+文字 列 全て 文字	s.isascii()
+オプション 色 スラグレー 指定 する	color = 'slategray'
+タブ 区切り ファイル データ フレーム 読み込む	pd.read_csv(filename, sep='\t', encoding='shift_jis')
+データ フレーム 列 欠損 値 最大 値 置換 する	df[col].fillna(df[col].max())
+オプション パレットトルコイズ 使用 する	color = 'paleturquoise'
+タイムスタンプデータ 日 分 減算 する	aDatetime - datetime.timedelta(days=n)
+枠 なし データ ラベル 入れる	plt.legend(frameon=False)
+値 太字 する	f'\033[1m{value}\033[0m'
+文字 列 全体 正規 表現 ケース 無視 し マッチ する 見る	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+タプル 文字 列 リスト 変換 し 空白 用い 連結 する	' '.join(map(str, iterable))
+黒い 濃い グラフ 描く	plt.plot(xdata, ydata, linestyle='deep', color='k')
+散布 図 黒色 ポイント マーカー 使う	plt.plot(xdata, ydata, marker='.', c='k')
+データ フレーム 行 後ろ 抽出 する	df[n:]
+データ フレーム 行 行 抽出 する	df.loc[n]
+線 グラフ 描画 し 色 ダーク グリーン 設定 する	plt.plot(データ列, データ列2, color='darkgreen')
+文字 列 辞書 順 比較 する	s < s2
+折れ線 グラフ 色 フクシア 指定 する	plt.plot(データ列, データ列2, color='fuchsia')
+ファイル パス 読み込み ストリーム 開い する	f = open(filepath, mode='r')
+各 桁 総和 算出 する	sum(map(int, str(n)))
+データ フレーム 使う	import pandas as pd
+濃い グラフ 色 青く する	plt.plot(xdata, ydata, linestyle='deep', color='b')
+黒い マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='v', c='k')
+データ フレーム 行 目 ドロップ する	df.drop(n, axis=0)
+オプション マゼンタ 使用 する	color = 'magenta'
+リスト 各 値 関数 適用 し た 結果 ソート する	sorted(aList, key=func)
+リスト 合計 値 求める	sum(aList)
+ヒストグラム 描画 し 色 ダークスレートブルー 設定 する	plt.hist(データ列, color='darkslateblue')
+文字 列 空白 分割 する	s.split()
+文字 列 両端 部分 文字 列 除く	s.strip(sub)
+ヒストグラム 描画 し その 色 ライトスチールブルー 指定 する	plt.hist(データ列, color='lightsteelblue')
+データ 列 データ 列 散布 図 カラー コード バツ マーカー 描く	plt.plot(xdata, ydata, marker='x', c=rgb)
+変数 近づく とき 数式 極限 値 計算 する	sympy.limit(e, z, 0)
+データ フレーム カラム 丸め 整数 型 する	df[col].round().astype(int)
+データ フレーム 中 いくつ 日 付 データ ある 数える	df.isin([value]).sum()
+リスト 末尾 要素 求める	aList[-1]
+オプション ミッドナイト ブルー グラフ 色 設定 する	color = 'midnightblue'
+折れ線 グラフ 星 印 青色 する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='b')
+データ 列 日付 型 変換 する	pd.to_datetime(ds)
+配列 配列 明るい グラフ 描画 し その 色 青 する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+データ フレーム 列 丸める	df[col].round()
+折れ線 グラフ マーカー 菱形 印 する	plt.plot(データ列, データ列2, marker='D')
+暗い 折れ線 グラフ 色 赤色 指定 する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+イテラブル キュー 変換 する	collections.deque(iterable)
+リスト リスト 相関 可視 化 する	plt.scatter(xdata, ydata)
+ファイル パス 書き込み 用 開く	open(filepath, mode='w', encoding='utf-8')
+文字 列 走査 し パターン マッチ する 確認 する	re.search(pattern, s)
+文字 列 リスト イテラブル 変換 し タブ 結合 する	'\t'.join(map(str, iterable))
+ファイル ディレクトリ 名 見る	os.path.dirname(filepath)
+オプション 暗い 赤色 使用 する	color = 'darkred'
+データ フレーム 読む	pd.read_excel(filename)
+オプション シルバー 色 使用 する	color = 'silver'
+ヒストグラム 描画 し その 色 真紅 設定 する	plt.hist(データ列, color='crimson')
+イテラブル 累加 し た 列	itertools.accumulate(iterable)
+線 グラフ 色 ダークターコイズ 変更 する	plt.plot(データ列, データ列2, color='darkturquoise')
+データ フレーム リスト カラム 欠損 値 前 行 値 置換 する	df[aList].fillna(method='ffill')
+グラフ パレット 全般 的 明るく する	sns.set(pallete='bright')
+淡い グラフ 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+線 グラフ 描画 し 色 珊瑚 設定 する	plt.plot(データ列, データ列2, color='coral')
+青 緑色 線 グラフ 描画 する	plt.plot(データ列, データ列2, color='turquoise')
+行列 ユニーク な 要素 その 位置	u, indices = np.unique(aArray, return_index=True)
+散布 図 赤い 右 三 角 マーカー 用いる	plt.plot(xdata, ydata, marker='>', c='r')
+折れ線 グラフ 描画 し 印 丸 印 する	plt.plot(データ列, データ列2, marker='o')
+リスト 値 並べる	sorted(aList)
+バイナリ 書き込み モード ファイル 開い する	f = open(filepath, mode='wb')
+ファイル 読み込み モード 用い 開く	open(filepath, mode='r')
+カラー コード マーカー リスト 配列 散布 図 プロット する	plt.plot(xdata, ydata, marker='^', c=rgb)
+オプション オールド レース 色 用いる	color = 'oldlace'
+改行 文字 列 分割 し 文字 列 リスト する	s.splitlines()
+四 分 位 数 ごと 配列 ビン 分割 する	pd.qcut(aArray, 4)
+データ 列 何 月 調べる	ds.dt.month
+マッピング インデント 幅 形式 文字 列 変換 する	json.dumps(aDict, ensure_ascii=False, indent=n)
+データ フレーム 列 降順 ソート する	df.sort_values(by=column, ascending=False)
+カウンタ ユニーク な キー リスト し 得る	list(aCounter)
+縦 方向 二つ データ フレーム 連結 する	pd.concat([df, df2])
+オプション アイボリー 色 使用 する	color = 'ivory'
+黒い マーカー 散布 図 使用 する	plt.plot(xdata, ydata, marker='^', c='k')
+オプション マーカー 変更 する	marker = 'v'
+カラー コード 三角 マーカー 使っ 散布 図 描画 する	plt.plot(xdata, ydata, marker='^', c=rgb)
+アンダーライン 付き 変数 プリント する	print(f'\033[4m{value}\033[0m')
+黄色い マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='y')
+カウンタ 要素 その 出現 回数 列挙 する	aCounter.elements()
+オプション 大 バツ マーカー 加える	marker = 'X'
+赤色 左 三 角 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='<', c='r')
+プロット 中 日本語 フォント 有効 する	sns.set(font='IPAexGothic')
+タプル 内 要素 少なくとも 一つ 真	any(aTuple)
+赤い 四角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='s', c='r')
+リスト 最初	aList[0]
+折れ線 グラフ ポイント 印 使う	plt.plot(データ列, データ列2, marker='.')
+折れ線 グラフ 三角 マーカー 使用 する	plt.plot(データ列, データ列2, marker='^')
+オプション グラフ 線 種 一 点 鎖線 変更 する	linestyle = 'dashbot'
+個 配列 等間隔 ビンニング し ラベル つける	pd.cut(aArray, n, labels=names)
+文字 列 プレフィックス 部分 文字 列	s.startswith(sub)
+プロット カラー パレット 色 差別 なく する	sns.set(pallete='colorblind')
+二つ リスト 共 通り スト	list(set(aList) & set(aList2))
+折れ線 グラフ 左 三 角 マーカー 使用 する	plt.plot(データ列, データ列2, marker='<')
+平均 標準 偏差 乱数 得る	random.normalvariate(mu=0.5, sigma=0.2)
+データ フレーム 型 抽出 する	df.select_dtypes(ty)
+オプション フォレストグリーン 色 設定 する	color = 'forestgreen'
+文字 列 回 置き換える	s.replace(sub, newsub, n)
+タイムスタンプデータ 時間 前 戻す	aDatetime - datetime.timedelta(hours=n)
+文字 列 先頭 パターン 複数 行 対応 マッチ する 確認 する	re.match(pattern, s, flags=re.MULTILINE)
+データ フレーム リスト 列 空文字 欠損 値 変換 し ドロップ する	df[aList].replace('', np.nan).dropna()
+透明 度 折れ線 描画 する	plt.plot(xdata, ydata, alpha=alpha)
+データ フレーム 末尾 確認 する	df.tail()
+プログラム 実行 強制 的 止める	sys.exit()
+文字 列 アンダーライン 付き する	f'\033[4m{value}\033[0m'
+線 グラフ 描画 し その 色 サーモン 設定 する	plt.plot(データ列, データ列2, color='salmon')
+文字 列 最後 部分 文字 列 分け た とき 残り 文字 列	s.rpartition(sub)[-1]
+ベクトル 行 方向 連結 する	np.concatenate([aArray, aArray2], axis=1)
+ヒストグラム 描画 し その 色 オーキッド 変更 する	plt.hist(データ列, color='orchid')
+集合 任意 要素 取り除く	aSet.pop()
+淡い カラー パレット グラフ 描画 使う	sns.set(pallete='muted')
+折れ線 グラフ 色 ライトゴールドロディイエロー 変更 する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+実数 コサイン 逆数	math.acos(x)
+等しい 量 なる よう データ 列 ビン 数 ビン 分割 する	pd.qcut(ds, n)
+オプション グラフ 色 リネン 指定 する	color = 'linen'
+割り切れる どう	n % 2 == 0
+値 集合 含ま れる どう 調べる	element in aSet
+配列 配列 濃い グラフ 描い 色 青色 設定 する	plt.plot(xdata, ydata, linestyle='deep', color='b')
+文字 列 中 複数 行 対応 パターン マッチ し た 文字 列 リスト 変換 する	re.findall(pattern, s, flags=re.MULTILINE)
+データ 列 欠損 値 最 頻 値 指定 する	ds.fillna(ds.mode().iloc[0])
+イテラブル 淡い 色 ヒストグラム 描画 する	plt.hist(xdata, color='muted')
+データ フレーム 破壊 的 二つ 列 並べる	df.sort_values(by=['A', 'B'], inplace=True)
+グラフ スライド 用 変更 する	sns.set(context='talk')
+セット 補 集合	aSet.difference(aSet2)
+折れ線 グラフ 描画 し 色 カデット ブルー 設定 する	plt.plot(データ列, データ列2, color='cadetblue')
+ヒストグラム 描画 し 色 ダーク バイオレット セット する	plt.hist(データ列, color='darkviolet')
+無限 続く リスト	itertools.repeat(n)
+オプション ミディアムターコイズ 使用 する	color = 'mediumturquoise'
+データ フレーム 列 最 頻 値 置換 する	df[col].fillna(df[col].mode().iloc[0])
+散布 図 黒い ダイアモンドマーカー 用いる	plt.plot(xdata, ydata, marker='D', c='k')
+ヒストグラム 描画 し 色 ゴールデン ロッド 変更 する	plt.hist(データ列, color='goldenrod')
+線 グラフ 描画 し その 色 コーンズシルク 設定 する	plt.plot(データ列, データ列2, color='cornsilk')
+白色 文字 列 出力 する	print(f'\033[37m{value}\033[0m')
+リスト 全て 真	all(aList)
+ヒストグラム 色 耐火 レンガ 変更 する	plt.hist(データ列, color='firebrick')
+データ フレーム グループ 化 し 各 列 平均 値 求める	df.groupby(column)[column2].mean()
+データ 列 曜日 使う	ds.dt.weekday_name
+ヒストグラム 描画 し 色 ラベンダー 設定 する	plt.hist(データ列, color='lavender')
+データ 列 配列 散布 図 黒い バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='x', c='k')
+文字 列 右側 空白 消す	s.rstrip()
+ヒストグラム プロット し 透明 度 指定 する	plt.hist(データ列, alpha=x)
+折れ線 グラフ 下 三角 印 線 幅 セット する	plt.plot(データ列, データ列2, marker='v', markeredgewidth=n)
+折れ線 グラフ 色 ライト ブルー 指定 する	plt.plot(データ列, データ列2, color='lightblue')
+最初 カテゴリー 除外 し 表 データ 列 ベクトル 変換 する	pd.get_dummies(df[column], drop_first=True)
+ヒストグラム 色 レモン シフォン 変更 する	plt.hist(データ列, color='lemonchiffon')
+折れ線 グラフ 大き さ ダイアモンド 印 描画 する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+オプション 珊瑚 使う	color = 'coral'
+列 と列 キー し 二つ データ フレーム 左 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='left')
+底 する 対数 求める	math.log10(x)
+オプション 星 印 使う	marker = '*'
+オプション インディアン レッド 色 設定 する	color = 'indianred'
+データ フレーム リスト カラム 位 丸め 整数 する	df[aList].round(-3).astype(int)
+カウンタ セット 変換 する	set(aCounter)
+ヒストグラム 色 ダーク バイオレット 指定 する	plt.hist(データ列, color='darkviolet')
+事前 パターン コンパイル する	re.compile(pattern)
+オブジェクト フィールド 消す	delattr(obj, プロパティ名)
+リスト データ 列 散布 図 描画 し 四角 マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='s', c=rgb)
+ランダム データ フレーム 重複 あり で 行 サンプリング する	df.sample(n, replace=True)
+ヒストグラム 描画 し その 色 トマト 指定 する	plt.hist(データ列, color='tomato')
+データ 列 正規 分布 左右 対称 性	ds.kurt()
+数式 数値 算出 する	float(e)
+データ フレーム 中 文字 列 いくつ ある 数える	df.isin([value, value2]).sum()
+数 正	x > 0
+ヒストグラム 描画 し 色 ゲインズボロ 設定 する	plt.hist(データ列, color='gainsboro')
+データ 列 中 未 入力 値 数 数える	ds.isna().sum()
+ヒストグラム 描画 し 色 サーモン 設定 する	plt.hist(データ列, color='salmon')
+折れ線 グラフ 描画 し 色 スラグレー 設定 する	plt.plot(データ列, データ列2, color='slategrey')
+線 グラフ 描画 し その 色 ロイヤル ブルー 設定 する	plt.plot(データ列, データ列2, color='royalblue')
+オプション アイボリー グラフ 色 指定 する	color = 'ivory'
+名前	sys.platform
+データ フレーム エクセルファイル 形式 ファイル 書き込む	df.to_excel(filename)
+浮動 小数点 数 仮数	math.frexp(x)[0]
+ファイル 番目 カラム 行 読み込む	pd.read_csv(filename, index_col=n)
+度数 分布 図 描画 し 半 透明 する	plt.hist(データ列, alpha=0.5)
+黒い 暗い グラフ 描く	plt.plot(xdata, ydata, linestyle='dark', color='k')
+整数 最大公約数	math.gcd(n, n2)
+リスト 最後 番目 以前 部分 取り出す	aList[:-n]
+片仮名 平仮名 変換 する	''.join([chr(ord(ch) - 96) if ('ァ' <= ch <= 'ン') else ch for ch in s])
+オプション コーラル グラフ 色 設定 する	color = 'coral'
+リスト リスト 明るい グラフ 描画 し その 色 黒 する	plt.plot(xdata, ydata, linestyle='bright', color='k')
+単位 行列 初期 化 する	np.eye(行数, 列数)
+ヒストグラム 描画 し 色 リネン 変更 する	plt.hist(データ列, color='linen')
+オプション グラフ 色 設定 する	color = 'darkslategrey'
+範囲 ヒストグラム 描画 する	plt.hist(データ列, range=(start, end))
+ヒストグラム 色 リネン 変更 する	plt.hist(データ列, color='linen')
+列 と列 キー し 二つ データ フレーム 内部 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='inner')
+データ フレーム 列 各 データ 何 回 出現 する 確認 する	df[col].value_counts()
+リスト 配列 散布 図 描画 し マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='^', c=rgb)
+コンビネーション	math.comb(n, k)
+数値 黒色 表示 する	print(f'\033[30m{value}\033[0m')
+折れ線 グラフ 色 サドル ブラウン 変更 する	plt.plot(データ列, データ列2, color='saddlebrown')
+赤い 四角 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='s', c='r')
+オプション 黄 緑色 使う	color = 'chartreuse'
+線 グラフ 描画 し その 色 コーンフラワーブルー 指定 する	plt.plot(データ列, データ列2, color='cornflowerblue')
+データ フレーム カラム 何 日 確認 する	df[col].dt.day
+印字 できる 文字 全部 使う	string.printable
+オールド レース ヒストグラム 色 変更 する	plt.hist(データ列, color='oldlace')
+リスト リスト 散布 図 色 差別 ない 色 描画 する	plt.plot(xdata, ydata, c='colorblind')
+折れ線 グラフ 描画 し 色 青 緑 する	plt.plot(データ列, データ列2, color='teal')
+折れ線 グラフ 描画 し その 色 シアン 設定 する	plt.plot(データ列, データ列2, color='cyan')
+データ フレーム 列 位 丸める	df[col].round(-2)
+折れ線 グラフ 緑色 マーカー 描画 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+分子 分母 有理数 作る	fractions.Fraction(numerator=n, denominator=m)
+既存 ファイル 追加 できる よう 開く	open(filepath, mode='a', encoding='shift_jis')
+ライト サーモン ヒストグラム 色 指定 する	plt.hist(データ列, color='lightsalmon')
+折れ線 グラフ 描画 し 色 スチール ブルー 指定 する	plt.plot(データ列, データ列2, color='steelblue')
+ファイル データ フレーム 保存 する	df.to_csv(filename, encoding='shift_jis')
+整数 十 六 進数 表記 変換 する	hex(n)
+折れ線 グラフ 色 ゴールド 指定 する	plt.plot(データ列, データ列2, color='gold')
+値 デック 先頭 追加 する	deq.appendleft(element)
+タプル 合計 値 求める	sum(aTuple)
+折れ線 グラフ 色 ベージュ 変更 する	plt.plot(データ列, データ列2, color='beige')
+ヒストグラム 描画 し 色 ダーク シアン 設定 する	plt.hist(データ列, color='darkcyan')
+列 値 データ フレーム グループ 化 する	df.groupby(column)
+データ フレーム つ 列 値 グループ 化 する	df.groupby(['A', 'B'])
+ラベンダー ヒストグラム 色 変更 する	plt.hist(データ列, color='lavender')
+円周 率 用いる	math.pi
+リスト マゼンタ する	f'\033[35m{value}\033[0m'
+逆 双曲線 余弦	math.acosh(x)
+スクリプト ファイル 同じ フォルダ ファイル パス 使う	os.path.join(os.path.dirname(os.path.abspath(__file__)), filepath)
+折れ線 グラフ 描画 し その 色 シャルトリューズ 変更 する	plt.plot(データ列, データ列2, color='chartreuse')
+ファイル パス 読み込み モード 開き する	f = open(filepath, mode='r')
+データ フレーム リスト 列 平均 値 求める	df[aList].mean()
+リスト データ 列 散布 図 四角 マーカー 描く	plt.plot(xdata, ydata, marker='s')
+ヒストグラム 描画 し その 色 ティール 設定 する	plt.hist(データ列, color='teal')
+ベクトル 差	aArray - aArray2
+タイムスタンプデータ 曜日 使う	aDatetime.weekday()
+プロット データ ラベル 付ける	plt.legend()
+オプション 色 ライト コーラル 指定 する	color = 'lightcoral'
+黄色 ヒストグラム 色 設定 する	plt.hist(データ列, color='yellow')
+グラフ 描画 パステル 調 色 使う	sns.set(pallete='pastel')
+既存 配列 ベース 全 要素 行列	np.ones_like(aArray)
+リスト 柱状 図 暗い 色 プロット する	plt.hist(xdata, color='dark')
+部分 文字 列 文字 列 右側 探す	s.rfind(sub)
+ベクトル 行 ごと 合計 求める	np.sum(aArray, axis=1)
+フォーマット バイト 列 辞書 する	json.loads(b.decode('unicode-escape'))
+ヒストグラム 色 ディムグレー セット する	plt.hist(データ列, color='dimgrey')
+配列 イテラブル 散布 図 黒い 三角 マーカー 描画 する	plt.plot(xdata, ydata, marker='^', c='k')
+折れ線 グラフ 色 オレンジ レッド 変更 する	plt.plot(データ列, データ列2, color='orangered')
+文字 列 全て 十 進 数字 テスト する	s.isdecimal()
+折れ線 グラフ 下 三角 マーカー 黄色 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='y')
+線 グラフ 描画 し その 色 ライトゴールドロディイエロー 設定 する	plt.plot(データ列, データ列2, color='lightgoldenrodyellow')
+インデント 幅 辞書 フォーマット 文字 列 変換 する	json.dumps(aDict, ensure_ascii=False, indent=n)
+データ フレーム 内 列 と列 重複 あれ 削除 する	df.drop_duplicates(subset=[column, column2])
+ファイル 名 ファイル	filename.endswith('.json')
+ファイル データ フレーム 読み込む	pd.read_excel(filename)
+カンマ 文字 列 分割 し 列挙 する	s.split(',')
+整数 二 進数 表現 変換 する	bin(n)
+折れ線 グラフ 描画 し 色 ディープスカイブルー 指定 する	plt.plot(データ列, データ列2, color='deepskyblue')
+パステル 調 折れ線 グラフ 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+書式 データ フレーム 日付 データ 変換 する	pd.to_datetime(df[col], format='%Y-%m-%d')
+コマンド 第 引数 知る	sys.argv[1]
+データ フレーム 重複 残さ ず 消す	df.drop_duplicates(keep=False)
+オプション ダーク シアン 色 設定 する	color = 'darkcyan'
+線 グラフ 描画 し その 色 オールド レース 設定 する	plt.plot(データ列, データ列2, color='oldlace')
+ビン 数 配列 ビン 分割 し ラベル つける	pd.cut(aArray, n, labels=names)
+折れ線 グラフ 星 マーカー 線 幅 セット する	plt.plot(データ列, データ列2, marker='*', markeredgewidth=n)
+データ フレーム 指定 さ れ た 二つ 列 取り出す	df[[column, column2]]
+タイムスタンプデータ 秒 数	aDatetime.second
+マッピング 要素 項目 名 加える	aDict[key] = element
+ファイル バイナリ 書き込み モード オープン する	open(filepath, mode='wb')
+箱 ヒゲ 図 つ 並べる	plt.boxplot([データ列, データ列2])
+ベスト な 位置 データ ラベル 入れる	plt.legend(loc='best')
+データ フレーム 読む	pd.read_csv(filename, sep='\t')
+リスト 配列 散布 図 カラー コード 大 バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='X', c=rgb)
+底 する 浮動 小数点 数 対数 計算 する	math.log(x, k)
+今日 何 月 知る	datetime.datetime.today().month
+浮動 小数点 数 乗 実数 剰余	pow(x, n, y)
+両端 キュー 要素 積む	deq.append(element)
+列 データ フレーム ソート し 新しい インデックス 振り 直す	df.sort_values(columns).reset_index()
+小数点 以下 表示 精度 桁 する	pd.set_option('precision', n)
+プラットホーム 確認 する	sys.platform.startswith('win32')
+実数 負 数	x < 0
+値 マゼンタ 表示 する	print(f'\033[35m{value}\033[0m')
+データ フレーム 指定 さ れ た 三つ 列 取り出す	df[[column, column2, column3]]
+折れ線 ラベル セット する	plt.plot(xdata, ydata, label=untitled)
+日付 データ 日 分 加算 する	aDate + datetime.timedelta(days=n)
+折れ線 グラフ 色 ペルー 指定 する	plt.plot(データ列, データ列2, color='peru')
+データ フレーム 欠損 値 補う	df.fillna(x)
+データ フレーム グループ 化 し それぞれ 列 個数 算出 する	df.groupby(column)[column2].count()
+列 ユニーク な 値	df[col].unique()
+イテラブル リスト 折れ線 グラフ カラー コード 描画 する	plt.plot(xdata, ydata, color=rgb)
+ヒストグラム 色 ロイヤル ブルー 変更 する	plt.hist(データ列, color='royalblue')
+リスト 先頭 捨てる	aList[1:]
+リスト リスト 散布 図 プロット し 大 バツ マーカー 色 カラー コード する	plt.plot(xdata, ydata, marker='X', c=rgb)
+辞書 項目 名 ワード 引数 用い 更新 する	aDict.update(**kwargs)
+オプション 色 シアン 設定 する	color = 'cyan'
+列 分割 する	pd.cut(ds, aList)
+区間 度数 分布 図 する	plt.hist(データ列, range=(start, end))
+正弦 逆数	math.asin(x)
+現在 月数	datetime.datetime.today().month
+線 グラフ 描画 し その 色 ミスティローズ 変更 する	plt.plot(データ列, データ列2, color='mistyrose')
+散布 図 四角 マーカー 描く	plt.plot(xdata, ydata, marker='s')
+ミスティローズ ヒストグラム 色 指定 する	plt.hist(データ列, color='mistyrose')
+列 キー 二つ データ フレーム 左 ジョイン する	pd.merge(df, df2, on=column, how='left')
+正 整数 どう 調べる	n > 0
+日付 データ 日付 データ 時間 差 秒 求める	(aDate - aDate2).total_seconds()//60
+数列 数列 散布 図 プロット し マーカー 丸 設定 する	plt.plot(xdata, ydata, marker='o')
+データ フレーム カラム 位 丸め 整数 する	df[col].round(-2).astype(int)
+折れ線 グラフ 描画 し その 色 トマト 設定 する	plt.plot(データ列, データ列2, color='tomato')
+リスト リスト 黒色 色 差別 ない グラフ 描画 する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+前もって 限定 正規 表現 コンパイル する	re.compile(pattern, flag=re.ASCI)
+オプション ピーチ パフ 使う	color = 'peachpuff'
+ローン グリーン ヒストグラム 色 設定 する	plt.hist(データ列, color='lawngreen')
+黒い 右 三 角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='>', c='k')
+データ フレーム 列 ワン ホット ベクトル する	pd.get_dummies(df[column])
+逆順 キュー 見る	reversed(deq)
+折れ線 グラフ バツ マーカー 使用 する	plt.plot(データ列, データ列2, marker='x')
+データ フレーム カラム 中 日付 データ ある どう 調べる	df[col].isin([value])
+リスト 配列 散布 図 プロット し 星 マーカー 色 カラー コード 指定 する	plt.plot(xdata, ydata, marker='*', c=rgb)
+データ フレーム 中 カラム ビン 数 ビン 分割 し ラベル つける	pd.cut(df[col], n, labels=names)
+底 する 対数	math.log2(x)
+リスト 値 クリア する	aList.clear()
+データ フレーム ファイル 行 付け ず 保存 する	df.to_csv(filename, index=None)
+データ フレーム 関数 グループ 分け する	df.groupby(関数)
+データ フレーム 表示 する とき 表示 可能 な 列 数 最大 値 増やす	pd.set_option('display.max_columns', n)
+現在 タプル 変換 する	datetime.datetime.today().timetuple()
+データ フレーム 中 列 重複 ある 確認 する	df.duplicated(subset=column)
+改行 せ ず 変数 プリント する	print(value, value2, end='')
+大きい どう 調べる	n > n2
+ヒストグラム 描画 し その 色 チョコレート 指定 する	plt.hist(データ列, color='chocolate')
+グラフ 使う 軸 ラベル 設定 する	plt.ylabel(untitled)
+線 グラフ 色 紺 設定 する	plt.plot(データ列, データ列2, color='darkblue')
+日付 データ 火曜日 どう 調べる	aDate.weekday() == 1
+実数 整数 部 求める	math.modf(x)[1]
+データ フレーム 列 欠損 値 埋める	df[col].fillna(x)
+ヒストグラム 色 紺 変更 する	plt.hist(データ列, color='darkblue')
+現在 書式 文字 列 する	datetime.datetime.today().isoformat()
+リスト リスト 淡い 描き その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='muted', linewidth=n)
+オプション エン コーディング 変更 する	encoding = 'utf-8'
+データ 列 何時 見る	ds.dt.hour
+折れ線 グラフ 黄色い クロス マーカー 描画 する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='y')
+フォーマット 文字 列 日付 データ 変換 する	pd.to_datetime(s, format='%Y-%m-%d')
+オブジェクト 浮動 小数点 数 どう 調べる	isinstance(obj, float)
+変数 黄色 化 する	f'\033[33m{value}\033[0m'
+実数 双曲線 正弦 逆数 求める	math.asinh(x)
+代数 計算 モジュール 使用 する	import sympy
+青い 大 バツ 印 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='b')
+改行 なし で 標準 入力 行 読み込む	sys.stdin.readline().rstrip()
+数列 リスト 散布 図 赤い 左 三 角 マーカー プロット する	plt.plot(xdata, ydata, marker='<', c='r')
+番目 要素 取り出す	aList.pop(n)
+文字 列 先頭 部分 文字 列 除去 する	s.lstrip(sub)
+線 グラフ 色 ラベンダー ブラッシュ セット する	plt.plot(データ列, データ列2, color='lavenderblush')
+値 赤色 表示 できる 文字 列 変換 する	f'\033[31m{value}\033[0m'
+集合 イテラブル 追加 する	aSet.update(iterable)
+線 グラフ 色 黄色 指定 する	plt.plot(データ列, データ列2, color='yellow')
+範囲 指定 し 整数 乱数 発生 さ せる	random.randint(最小値, 最大値)
+オプション ロージーブラウン 用いる	color = 'rosybrown'
+線 グラフ 描画 し 色 ミディアムスレートブルー 設定 する	plt.plot(データ列, データ列2, color='mediumslateblue')
+数 十 位 丸める	round(x, -1)
+折れ線 グラフ 描画 し 印 する	plt.plot(データ列, データ列2, marker='v')
+オプション グレー 色 指定 する	color = 'grey'
+破壊 的 列 小さい 順 データ フレーム 並べ 直す	df.sort_values(by=column, ascending=True, inplace=True)
+大文字 小文字 無視 し 文字 列 全体 正規 表現 マッチ さ せる	re.fullmatch(pattern, s, flags=re.IGNORECASE)
+文字 列 区切り 記号 分割 し 列挙 する	s.split(sep)
+	n == n2
+ファイル 名 ファイル どう 調べる	filename.endswith('.tsv')
+等しい もの	None
+オプション どの カラム 行 し ない	index_col = None
+暗い パレット グラフ 描画 使う	sns.set(pallete='dark')
+ヒストグラム 描画 し その 色 シアン 指定 する	plt.hist(データ列, color='cyan')
+グラフ 日本語 使える よう する	sns.set(font='IPAexGothic')
+データ フレーム 列 名 リスト 値 集約 する	df.groupby(columns)
+直後 値 データ フレーム 欠損 値 埋める	df.fillna(method='bfill')
+プロット 題名 設定 する	plt.title(untitled)
+ヒストグラム 描画 し その 色 淡い ピンク色 変更 する	plt.hist(データ列, color='lightpink')
+データ フレーム リスト カラム 尖 度 求める	df[aList].skew()
+標準 入力	sys.stdin
+異なる 列 キー し データ フレーム 外部 ジョイン する	pd.merge(df, df2, left_on=column, right_on=column2, how='outer')
+八 進 文字 列 変換 する	oct(n)[2:]
+要素 キュー 末尾 取り除く	deq.pop()
+データ フレーム それぞれ グループ 毎 個数	df.groupby(column).count()
+データ フレーム カラム 破壊 的 削除 する	df.drop(column, axis=1, inplace=True)
+タイムスタンプデータ 秒 減算 する	aDatetime - datetime.timedelta(seconds=n)
+文字 列 漢字 使わ れ いる	re.search('[\u4E00-\u9FD0]', s)
+リスト 回 あわせ た デカルト 積	itertools.product(iterable, repeat=2)
+横 棒グラフ 描い 中央 寄せ する	plt.barh(ラベル列, データ列, align='center')
+文字 列 開始 位置 終了 位置 間 部分 文字 列 いくつ ある カウント する	s.count(sub, start, end)
+リスト 順に 出力 する	print(*aList)
+データ フレーム 番目 列 消す	pd.concat([df[df.columns[:n]], df[df.columns[n+1:]]], axis=1)
+オプション 貝殻 使用 する	color = 'seashell'
+ヒストグラム 描画 し その 色 赤 する	plt.hist(データ列, color='red')
+二つ 集合 共通 要素 する	aSet.intersection_update(aSet2)
+要素 集合 追加 する	aSet.add(element)
+データ 列 文字 列 変換 する	ds.replace(s, np.nan)
+環境 調べる	sys.platform.startswith('darwin')
+線 グラフ 描画 し その 色 ラベンダー 指定 する	plt.plot(データ列, データ列2, color='lavender')
+ヒストグラム 色 ホット ピンク 変更 する	plt.hist(データ列, color='hotpink')
+パールバイオレットレッド ヒストグラム 色 変更 する	plt.hist(データ列, color='palevioletred')
+データ フレーム 指定 し た 列 配列 抽出 する	df[column].values
+番目 シート エクセルファイルファイル データ フレーム 読む	pd.read_excel(filename, sheet_name=n)
+折れ線 グラフ マーカー 緑色 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='g')
+ヒストグラム 色 ネイビー する	plt.hist(データ列, color='navy')
+ヒストグラム 描画 し その 色 ダークシアグリーン 指定 する	plt.hist(データ列, color='darkseagreen')
+配列 リスト 散布 図 描い 色 暗い 設定 する	plt.plot(xdata, ydata, c='dark')
+オプション グラフ 色 パパイヤウィップ する	color = 'papayawhip'
+折れ線 グラフ 描画 し その 色 ダーク オリーブ グリーン セット する	plt.plot(データ列, データ列2, color='darkolivegreen')
+グラフ パレット 淡く する	sns.set(pallete='muted')
+データ フレーム 重複 する 行 ドロップ する	df.drop_duplicates()
+ヒストグラム 描画 し 色 プラム 設定 する	plt.hist(データ列, color='plum')
+データ 列 第 一 四 分 位 数 求める	ds.quantile(0.25)
+オブジェクト フィールド 持つ	hasattr(obj, プロパティ名)
+淡い 折れ線 グラフ 色 カラー コード 設定 する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+リスト リスト 散布 図 描き マーカー ポイント 指定 する	plt.plot(xdata, ydata, marker='.')
+タイムスタンプデータ 日数	aDatetime.day
+テンプレート 引数 文字 列 整形 する	formatText.format(*args)
+ブラック ヒストグラム 色 設定 する	plt.hist(データ列, color='black')
+ヒストグラム 描画 し その 色 シャルトリューズ 変更 する	plt.hist(データ列, color='chartreuse')
+ヒストグラム 描画 し その 色 ミディアムパープル 指定 する	plt.hist(データ列, color='mediumpurple')
+データ 列 書式 日付 データ 変換 する	pd.to_datetime(ds, format=fmt)
+ヒストグラム 描画 し その 色 バリーウッド 変更 する	plt.hist(データ列, color='burlywood')
+今日 日付 時刻	datetime.datetime.today()
+縦 軸 軸 名 つける	plt.ylabel(untitled)
+文字 列 改行 区切っ 出力 する	print(value, value2, sep='\n')
+度数 分布 図 ビン 設定 し 描く	plt.hist(データ列, bins=n)
+アーク コサイン	math.acos(x)
+部分 文字 列 テスト する	sub in s
+ファイル 文字 列 し 書く	f.write(str(x))
+文字 列 リスト リスト 変換 し 改行 連結 する	'\n'.join(map(str, iterable))
+ヒストグラム 描画 し その 色 パールバイオレットレッド 設定 する	plt.hist(データ列, color='palevioletred')
+散布 図 色 差別 ない 色 マーカー 重 見やすく 描画 する	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+グラフ プロット する 準備 する	from sympy import N
+オプション ミディアムブルー 色 用いる	color = 'mediumblue'
+オプション 色 ミディアムアクアマリン 指定 する	color = 'mediumaquamarine'
+カラー コード マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='v', c=rgb)
+表 中 欠損 値 削除 する	df.dropna()
+折れ線 グラフ 左 三 角 マーカー 線 幅 セット する	plt.plot(データ列, データ列2, marker='<', markeredgewidth=n)
+赤い 左 三 角 マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='r')
+列 データ フレーム グループ 化 し 列挙 する	[(name, group) for name, group in df.groupby(column)]
+文字 列 ひとつ タプル	(element,)
+タイムスタンプデータ 時間 数	aDatetime.hour
+空白 文字 列 区切っ 列挙 する	s.split()
+折れ線 グラフ 描画 し その 色 ダーク グレー 指定 する	plt.plot(データ列, データ列2, color='darkgrey')
+折れ線 グラフ 描画 し その 色 スラグレー 変更 する	plt.plot(データ列, データ列2, color='slategray')
+ヒストグラム 描画 し その 色 ロージーブラウン 変更 する	plt.hist(データ列, color='rosybrown')
+カウンタ 文字 列 カウント	aCounter[element]
+既存 ファイル 付き 追加 できる よう オープン する	open(filepath, mode='a', encoding='utf_8_sig')
+イテラブル 重複 なく 個 選ぶ	random.sample(iterable, k=n)
+オプション グラフ 色 ダークオーキッド セット する	color = 'darkorchid'
+列 で データ フレーム 降順 ソート する	df.sort_values(by='A', ascending=False)
+文字 列 文字 列 リスト いづれ テスト する	s in aStringList
+ヒストグラム 描画 し 色 白 設定 する	plt.hist(データ列, color='white')
+出力 ストリーム 全体 行 単位 分割 し 読み込む	f.readlines()
+折れ線 グラフ 下 三角 印 サイズ 設定 する	plt.plot(データ列, データ列2, marker='v', markersize=n)
+両端 キュー 数値 エン キュー する	deq.appendleft(element)
+折れ線 グラフ 四角 印 大き さ 設定 する	plt.plot(データ列, データ列2, marker='s', markersize=n)
+線 グラフ 描画 し その 色 オリベドラブ 指定 する	plt.plot(データ列, データ列2, color='olivedrab')
+緑色 左 三 角 マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='<', markerfacecolor='g')
+ヒストグラム 色 デピンク 変更 する	plt.hist(データ列, color='deeppink')
+進 文字 列	bin(n)[2:]
+ヒストグラム 描画 し その 色 スラグレー 変更 する	plt.hist(データ列, color='slategray')
+線 グラフ 色 ライト シアン 変更 する	plt.plot(データ列, データ列2, color='lightcyan')
+オプション コロン 区切り 記号 使う	sep = ':'
+行列 最大 値 算出 する	np.max(aArray)
+散布 図 カラー コード クロス マーカー 使う	plt.plot(xdata, ydata, marker='x', c=rgb)
+散布 図 カラー コード 四角 マーカー 描画 する	plt.plot(xdata, ydata, marker='s', c=rgb)
+文字 列 複数 行 対応 パターン 区切る	re.split(pattern, s, flags=re.MULTILINE)
+算術 計算 ライブラリ イン ポート する	import math
+ヒストグラム 色 ベージュ する	plt.hist(データ列, color='beige')
+ライト グレー ヒストグラム 色 指定 する	plt.hist(データ列, color='lightgrey')
+ヒストグラム 描画 し 色 ミディアムスプリンググリーン 設定 する	plt.hist(データ列, color='mediumspringgreen')
+行列 次元 数	aArray.ndim
+ライト グレー ヒストグラム 色 変更 する	plt.hist(データ列, color='lightgray')
+リスト リスト 散布 図 描画 し ポイント マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='.', c=rgb)
+オプション グリーン 色 用いる	color = 'green'
+バツ マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='x')
+配列 データ 列 散布 図 黒い 大 バツ マーカー 描画 する	plt.plot(xdata, ydata, marker='X', c='k')
+十 六 進数 文字 列 変換 する	hex(n)[2:]
+折れ線 グラフ 線 幅 菱形 マーカー 描画 する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+文字 列 エポック 秒 タイム スタンプ 型 する	pd.to_datetime(s, unit='s', utc=True)
+シスル ヒストグラム 色 設定 する	plt.hist(データ列, color='thistle')
+配列 リスト 破線 グラフ 描い その 色 濃い 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+ヒストグラム 描画 し その 色 ダーク カーキ する	plt.hist(データ列, color='darkkhaki')
+折れ線 グラフ 大 バツ マーカー 加える	plt.plot(データ列, データ列2, marker='X')
+リスト 青色 プリント する	print(f'\033[34m{value}\033[0m')
+グラフ パレット 濃く する	sns.set(pallete='deep')
+データ フレーム 未 入力 値 指定 する	df.fillna(x)
+ピアソン 積 率 相関 係数 データ フレーム 列 列 相関 行列 計算 する	df[[column, column2]].corr(method='pearson')
+付き 書き込み 用 ファイル オープン する	open(filepath, mode='w', encoding='utf_8_sig')
+配列 リスト 散布 図 描画 し マーカー 四角 設定 する	plt.plot(xdata, ydata, marker='s')
+オプション 右 三 角 印 加える	marker = '>'
+散布 図 赤い 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*', c='r')
+リスト リスト 青色 暗い 描画 する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+オプション ディムグレー 使用 する	color = 'dimgrey'
+折れ線 グラフ 透明 度 指定 する	plt.plot(xdata, ydata, alpha=alpha)
+リスト リスト 濃い 色 折れ線 グラフ 描画 し その 線 幅 変更 する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+集合 濃度 計算 する	len(aSet)
+文字 列 ファイル ファイル 番目 列 行 し 読む	pd.read_csv(filename, index_col=n)
+折れ線 グラフ 色 ミディアムスプリンググリーン 指定 する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+線 グラフ 色 赤 設定 する	plt.plot(データ列, データ列2, color='red')
+文字 列 中 正規 表現 全て マッチ 求める	re.findall(pattern, s)
+カラー コード ポイント マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='.', c=rgb)
+データ 列 標本 標準 偏差 計算 する	ds.std()
+線 グラフ 色 アクアマリン 指定 する	plt.plot(データ列, データ列2, color='aquamarine')
+文字 列 書式 日付 時刻 変換 する	datetime.datetime.fromisoformat(日付の書かれた文字列)
+本日 水曜日	datetime.datetime.today().weekday() == 2
+ヒストグラム 描画 し その 色 ライト グレー セット する	plt.hist(データ列, color='lightgray')
+折れ線 グラフ 線 幅 指定 する	plt.plot(xdata, ydata, linewidth=n)
+線 グラフ 描画 し 色 黄色 設定 する	plt.plot(データ列, データ列2, color='yellow')
+線 グラフ 描画 し その 色 シーグリーン 指定 する	plt.plot(データ列, データ列2, color='seagreen')
+ベクトル 合計 値	np.sum(aArray)
+データ フレーム 中 列 列 重複 消す	df.drop_duplicates(subset=[column, column2])
+ファイル 改行 なし で 一行 読む	f.readline()
+データ フレーム 各 列 列 組み合わせ 毎 グループ 化 し 標準 偏差 計算 する	df.groupby([column, column2], as_index=False).std()
+デフォルト グラフ 見た目 イイ 感じ 設定 する	sns.set()
+ヒストグラム 色 ラベンダー ブラッシュ 変更 する	plt.hist(データ列, color='lavenderblush')
+行 標準 入力 読み込ん 改行 取り除く	sys.stdin.readline().rstrip()
+データ フレーム リスト カラム 最大 値 指定 する	df[aList].fillna(df[aList].max())
+ムーア ペン ローズ 擬似 逆 行列	np.linalg.pinv(aArray)
+要素 辞書 値 含ま れ いる どう	element in aDict.values()
+データ フレーム リスト カラム 相関 行列 ヒートマップ 描画 する	sns.heatmap(df[aList].corr())
+オプション エン コーディング 付き 指定 する	encoding = 'utf_8_sig'
+オプション スラッシュ 分割 記号 使う	sep = '/'
+データ フレーム 欠損 値 最 頻 値 セット する	df.fillna(df.mode().iloc[0])
+キー 辞書 上 定義 さ れ い ない 調べる	key not in aDict
+ファイル パス 追加 ストリーム オープン し する	f = open(filepath, mode='a')
+列 記述 統計 量	ds.describe()
+原点 浮動 小数点 数 距離	math.hypot(x, y)
+データ フレーム 列 大きい 順 破壊 的 ソート する	df.sort_values(by='A', ascending=False, inplace=True)
+床 数	math.floor(x)
+改行 文字 列 区切る	s.splitlines()
+数 小数点 以下 第 一 位 丸める	round(x, 1)
+折れ線 グラフ サイズ クロス マーカー 描画 する	plt.plot(データ列, データ列2, marker='x', markersize=n)
+リスト 行列 作成 する	np.array(aList)
+ヒストグラム 描画 し 色 ミディアムバイオレットレッド 設定 する	plt.hist(データ列, color='mediumvioletred')
+リスト リスト 折れ線 アルファ 値 描く	plt.plot(xdata, ydata, alpha=alpha)
+クラス 名前 付き タプル 確認 する	issubclass(C, tuple)
+オプション 色 ダーク グリーン 指定 する	color = 'darkgreen'
+変数 太字 プリント できる 文字 列 変換 する	f'\033[1m{value}\033[0m'
+ヒストグラム 描画 し その 色 青 緑 設定 する	plt.hist(データ列, color='turquoise')
+形式 ファイル 入力 読み込ん する	data = json.load(fin)
+実線 ヒストグラム 線 スタイル 変更 する	plt.hist(データ列, linestyle='solid')
+変数 黒色 プリント できる 文字 列 変換 する	f'\033[30m{value}\033[0m'
+カウンタ いずれ 含ま れる 要素	aCounter | aCounter2
+カラー コード 丸 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='o', c=rgb)
+線 グラフ 描画 し 色 ゴールド 設定 する	plt.plot(データ列, データ列2, color='gold')
+データ フレーム 列 並べ 更新 する	df.sort_values(by=column, inplace=True)
+データ フレーム 列 と列 取り除く	df.drop([column, column2], axis=1)
+全 要素 初期 化 さ れ た 配列	np.ones(要素数, dtype=np.int)
+進 文字 列 バイト 列 変換 する	int(s, 16).to_bytes(length=bytesize, byteorder='big')
+濃い グラフ 描い 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+オプション ポイント マーカー 加える	marker = '.'
+データ フレーム 列 正規 表現 文字 列 マッチ し ない 行 取り出す	df[not df[column].str.match(s)]
+文字 列 最初 部分 文字 列 分割 し た とき 前半 文字 列 使う	s.partition(sub)[0]
+文字 列 大文字 小文字 変換 する	s.casefold()
+線 グラフ 色 ダークオーキッド 設定 する	plt.plot(データ列, データ列2, color='darkorchid')
+追加 できる よう 既存 ファイル パス オープン する	open(filepath, mode='a', encoding='utf-8')
+データ フレーム カラム 何時 見る	df[col].dt.hour
+グラフ 目盛り 線 入れる	plt.grid(True)
+オプション 先頭 来る よう する	na_position = 'first'
+折れ線 グラフ 右 三 角 マーカー 線 幅 変更 する	plt.plot(データ列, データ列2, marker='>', markeredgewidth=n)
+折れ線 グラフ 描画 し 色 ライトスカイブルー セット する	plt.plot(データ列, データ列2, color='lightskyblue')
+大きい 判定 する	n > n2
+折れ線 グラフ 黄色い 四角 印 描画 する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='y')
+変数 緑色 表示 できる 文字 列 変換 する	f'\033[32m{value}\033[0m'
+オプション タン 色 する	color = 'tan'
+ヒストグラム 描画 し 色 ミディアムターコイズ 指定 する	plt.hist(データ列, color='mediumturquoise')
+折れ線 グラフ ダイアモンドマーカー 赤色 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='r')
+タプル 項目 名 ある 調べる	key not in aDict
+線 グラフ 色 ライム 指定 する	plt.plot(データ列, データ列2, color='lime')
+ヒストグラム 色 サドル ブラウン 指定 する	plt.hist(データ列, color='saddlebrown')
+データ フレーム 列 ソート し 上 方 件 取り出す	df.sort_values(columns).head(n)
+線 グラフ 色 ダーク オリーブ グリーン 設定 する	plt.plot(データ列, データ列2, color='darkolivegreen')
+折れ線 グラフ 描画 し その 色 マルーン する	plt.plot(データ列, データ列2, color='maroon')
+データ フレーム インデックス 小さい 順 ソート する	df.sort_index(ascending=True)
+オプション 色 スカイ ブルー 設定 する	color = 'skyblue'
+ヒストグラム 描画 し その 色 ダークゴールデンロッド 変更 する	plt.hist(データ列, color='darkgoldenrod')
+実行 異常 終了 する	sys.exit(1)
+オプション グラフ 色 パープル 指定 する	color = 'purple'
+二つ 整数 最小公倍数	math.lcm(n, n2)
+文字 列 中 パターン 新しい 文字 列 置き換える	re.sub(pattern, newsub, s)
+行列 同じ 大き さ 空 行列 作成 する	np.empty_like(aArray)
+ヒストグラム 描画 し 色 グレー 設定 する	plt.hist(データ列, color='grey')
+折れ線 グラフ クロス マーカー サイズ 設定 する	plt.plot(データ列, データ列2, marker='x', markersize=n)
+データ 列 エポック 秒 タイム スタンプ する	pd.to_datetime(ds, unit='s', utc=True)
+リスト データ 列 散布 図 描画 し マーカー 菱形 セット する	plt.plot(xdata, ydata, marker='D')
+折れ線 グラフ 一 点 鎖線 描画 する	plt.plot(データ列, データ列2, linestyle='dashbot')
+ヒストグラム 描画 し 色 ダーク グレー 設定 する	plt.hist(データ列, color='darkgray')
+日付 時刻 データ 日付 時刻 データ 前 調べる	aDatetime < aDatetime2
+文字 列 内 空白 含ま れる	any(c.isspace() for c in s)
+カラー コード 菱形 マーカー 散布 図 プロット する	plt.plot(xdata, ydata, marker='D', c=rgb)
+ファイル 文字 コード オープン する	open(filepath, encoding=text)
+データ 列 欠損 値 補う	ds.fillna(x)
+二つ 列 で 降順 データ フレーム ソート する	df.sort_values(by=['A', 'B'], ascending=False)
+ミディアムブルー ヒストグラム 色 設定 する	plt.hist(データ列, color='mediumblue')
+線 グラフ 描画 し その 色 ペールグリーン セット する	plt.plot(データ列, データ列2, color='palegreen')
+カウンタ 要素 数	len(aCounter)
+線 グラフ 色 青 紫 設定 する	plt.plot(データ列, データ列2, color='violet')
+オプション グラフ 色 ピーチ パフ 変更 する	color = 'peachpuff'
+オプション ディープスカイブルー 使う	color = 'deepskyblue'
+カラー コード 上 三 角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='^', c=rgb)
+折れ線 グラフ サイズ 上 三 角 印 描画 する	plt.plot(データ列, データ列2, marker='^', markersize=n)
+データ フレーム リスト カラム 中 文字 列 ある どう 調べる	df[aList].isin([value])
+辞書 項目 名 値 エラー なく 得る	aDict.get(key, None)
+変数 数値 微分 行う	sympy.diff(e, z)
+データ フレーム カラム パーセンタイル	df[col].quantile(0.75)
+文字 列 開始 位置 以降 部分 文字 列 含ま れ ない	s.find(sub, start) == -1
+マスク し た リスト 要素 取り出す	itertools.compress(iterable, selectors=iterable2)
+年月日 時間 タイム スタンプ	datetime.datetime(年, 月, 日, 時, 分, 秒)
+リスト リスト 折れ線 グラフ 描画 し 色 文字 列 変更 する	plt.plot(xdata, ydata, color=s)
+二つ 変数 コロン 区切っ プリント する	print(value, value2, sep=':')
+濃い 色 折れ線 グラフ 描き その 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='deep')
+オブジェクト 同じ 参照 調べる	obj is obj2
+配列 行 ごと 最小 値	np.min(aArray, axis=1)
+ミディアムスプリンググリーン ヒストグラム 色 設定 する	plt.hist(データ列, color='mediumspringgreen')
+データ フレーム 各 列 列 組み合わせ 毎 グループ 化 し 個数 求める	df.groupby([column, column2], as_index=False).count()
+散布 図 赤い 大 バツ マーカー 用いる	plt.plot(xdata, ydata, marker='X', c='r')
+行列 重複 除い た ベクトル 作る	np.unique(aArray)
+緑色 文字 列 プリント する	print(f'\033[32m{value}\033[0m')
+行列 列 ごと 最大 求める	np.max(aArray, axis=0)
+リスト 数列 破線 描画 し 色 暗い 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='dark')
+折れ線 グラフ 描画 し その 色 レモン シフォン 変更 する	plt.plot(データ列, データ列2, color='lemonchiffon')
+ヒストグラム 色 パレットトルコイズ 変更 する	plt.hist(データ列, color='paleturquoise')
+データ フレーム カラム 欠損 値 メディアン 設定 する	df[col].fillna(df[col].median())
+データ フレーム タブ 区切り ファイル 読む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+オプション 色 レベッカパープル 指定 する	color = 'rebeccapurple'
+折れ線 グラフ 描画 し 色 アンティーク ホワイト 設定 する	plt.plot(データ列, データ列2, color='antiquewhite')
+ふたつ 関係 確認 する	aSet.issubset(aSet2)
+データ フレーム カラム 欠損 値 直前 値 指定 する	df[col].fillna(method='ffill')
+行列 演算 行う	import numpy as np
+文字 列 開始 位置 終了 位置 間 部分 文字 列 ある 調べる	s.find(sub, start, end) != -1
+カウンタ 少ない 方 リスト し 得る	aCounter.most_common()[::-1]
+折れ線 グラフ 色 ナバホホワイト 変更 する	plt.plot(データ列, データ列2, color='navajowhite')
+小さい 確認 する	n < n2
+データ フレーム リスト カラム 十 位 丸め 整数 型 する	df[aList].round(-1).astype(int)
+データ フレーム カラム 一つ 選択 する	df[[column]]
+データ フレーム カラム 欠損 値 平均 値 補う	df[col].fillna(df[col].mean())
+文字 列 内 ひとつ 文字 含ま れる 調べる	any(c.isascii() for c in s)
+折れ線 グラフ 色 トマト 変更 する	plt.plot(データ列, データ列2, color='tomato')
+シーケンス 自身 長 さ 順列 得る	itertools.permutations(iterable, n)
+カラー コード 左 三 角 マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='<', c=rgb)
+データ 列 欠損 値 直後 値 指定 する	ds.fillna(method='bfill')
+文字 列 先頭 大文字 小文字 無視 し パターン マッチ さ せる	re.match(pattern, s, flags=re.IGNORECASE)
+データ フレーム 第 一 四 分 位 数 算出 する	df.quantile(0.25)
+オプション トマト 色 用いる	color = 'tomato'
+文字 列 最後 部分 文字 列 二つ 区切っ 前半 文字 列 求める	s.rpartition(sub)[0]
+線 グラフ 色 インディアン レッド 設定 する	plt.plot(データ列, データ列2, color='indianred')
+以上 以下	-9 <= n <= 9
+データ フレーム 列 中 ある 日付 データ 文字 列 合計 数える	df[col].isin([value, value2]).sum()
+双方向 キュー 先頭 イテラブル 各 値 追加 する	deq.extendleft(iterable)
+浮動 小数点 数 十 六 進 文字 列 変換 する	x.hex()
+空 マッピング	{}
+貝殻 ヒストグラム 色 セット する	plt.hist(データ列, color='seashell')
+文字 列 開始 位置 終了 位置 間 部分 文字 列 出現 カウント する	s.count(sub, start, end)
+折れ線 グラフ 描画 し 色 フローラルホワイト 指定 する	plt.plot(データ列, データ列2, color='floralwhite')
+オプション 色 ナバホホワイト 設定 する	color = 'navajowhite'
+実数 実数 除算 し た 余り	x % y
+ファイル パス 拡張 子 付き ファイル 名 使う	os.path.basename(filepath)
+データ フレーム グループ ごと 最小 値	df.groupby(column).min()
+データ フレーム 含ま れる 箇所 色 付ける	df.style.highlight_null()
+データ フレーム 列 文字 列 始まら ない 行 取り出す	df[not df[column].str.startswith(s)]
+改行 せ ず リスト プリント する	print(value, end='')
+列 名 リスト データ フレーム ソート し 先頭 する	df.sort_values(by=column, na_position='first')
+フォーマット 文字 列 日付 データ 変換 する	pd.to_datetime(s, format=fmt)
+キュー タプル 変換 する	tuple(deq)
+型 データ フレーム カラム インデックス する	df.index = pd.DatetimeIndex(df[col])
+データ 列 箱 ひ げ 図 可視 化 する	plt.boxplot(データ列)
+オプション ペールグリーン 用いる	color = 'palegreen'
+数列 暗い 色 柱状 グラフ 描画 する	plt.hist(xdata, color='dark')
+最大 値 最小 値 範囲 用い 一様 な 疑似 乱数 求める	random.uniform(最小値, 最大値)
+線 グラフ 描画 し その 色 ダークシアグリーン 設定 する	plt.plot(データ列, データ列2, color='darkseagreen')
+プロット 色 淡く する	sns.set(pallete='muted')
+等差 数列 整数 乱数 得る	random.randrange(start, end, step)
+データ フレーム 列 かつ カラム で ある 行 抽出 する	df[(df[column] == x) & (df[column2] == x2)]
+倍数 で ない	n % n2 != 0
+データ フレーム データ 列 横向き 連結 する	pd.concat([df, ds], axis=1)
+最小 値 データ フレーム リスト 列 埋める	df[aList].fillna(df[aList].min())
+タプル 番目 以降 要素 得る	aTuple[n:]
+文字 列 番目 使う	s[n]
+書き込み 用 ファイル オープン する	open(filepath, mode='w', encoding='shift_jis')
+散布 図 赤い 菱形 マーカー 描画 する	plt.plot(xdata, ydata, marker='D', c='r')
+オプション グラフ 色 シャルトリューズ 変更 する	color = 'chartreuse'
+マッピング 値 列挙 する	aDict.values()
+散布 図 明るい 色 描く	plt.plot(xdata, ydata, c='bright')
+デフォルト スタイル 適用 する	sns.set()
+折れ線 グラフ 菱形 印 サイズ 設定 する	plt.plot(データ列, データ列2, marker='D', markersize=n)
+オプション シエナ グラフ 色 指定 する	color = 'sienna'
+線 グラフ 色 ミディアムバイオレットレッド 設定 する	plt.plot(データ列, データ列2, color='mediumvioletred')
+中央 値 リスト ビン 分割 する	pd.qcut(aList, 2)
+文字 列 リスト 含ま れる	element in aList
+線 グラフ 描画 し その 色 ミディアムパープル 設定 する	plt.plot(データ列, データ列2, color='mediumpurple')
+小さい 順 リスト ソート する	sorted(aList, reverse=False)
+集合 全て 要素 消す	aSet.clear()
+プラットホーム	sys.platform.startswith('linux')
+有理数 モジュール イン ポート する	import fractions
+データ フレーム 欠損 値 最小 値 補う	df.fillna(df.min())
+もしくは どう 調べる	x == 1 or x == 2
+オプション 色 イエロー グリーン 設定 する	color = 'yellowgreen'
+データ フレーム リスト カラム 中 ある 文字 列 数 数える	df[aList].isin([value]).sum()
+データ フレーム 列 値 グループ 分け する	df.groupby('A')
+データ フレーム フォーマット 日付 データ 変換 する	pd.to_datetime(df[col], format=fmt)
+リスト 配列 破線 グラフ 描い その 色 色 差別 ない 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='colorblind')
+明るい 折れ線 グラフ 色 赤 する	plt.plot(xdata, ydata, linestyle='bright', color='r')
+折れ線 グラフ 描画 し その 色 ライトスチールブルー 指定 する	plt.plot(データ列, データ列2, color='lightsteelblue')
+文字 列 先頭 正規 表現 大文字 小文字 無視 し マッチ する 確認 する	re.match(pattern, s, flags=re.IGNORECASE)
+タプル 最初 取り除く	aTuple[1:]
+線 グラフ 描画 し その 色 淡い 茶色 指定 する	plt.plot(データ列, データ列2, color='tan')
+折れ線 グラフ 描画 し 色 インディゴ 変更 する	plt.plot(データ列, データ列2, color='indigo')
+ベクトル 計算 行う	import numpy as np
+ヒストグラム 描画 し その 色 ライト ブルー 設定 する	plt.hist(データ列, color='lightblue')
+データ フレーム カラム 欠損 値 最小 値 変更 する	df[col].fillna(df[col].min())
+タプル キー 一覧	aDict.keys()
+折れ線 グラフ 描画 し その 色 ブラック 指定 する	plt.plot(データ列, データ列2, color='black')
+リスト 境界 値 配列 ビン 分割 する	pd.cut(aArray, aList)
+オプション グラフ 色 ミディアムブルー 指定 する	color = 'mediumblue'
+折れ線 グラフ 描画 し その 色 ライト ブルー 指定 する	plt.plot(データ列, データ列2, color='lightblue')
+データ フレーム リスト カラム パーセンタイル 計算 する	df[aList].quantile(0.25)
+オプション ミディアムスレートブルー 色 設定 する	color = 'mediumslateblue'
+ファイル 開い 読み込み ストリーム 使う	open(filepath, mode='r')
+実数 自然 対数 求める	math.log(x)
+データ フレーム 値	df.isna()
+データ フレーム 形式 ファイル 読み込む	pd.read_json(filename, orient='records', lines=True)
+文字 列 中 大文字 小文字 無視 し 正規 表現 マッチ し た 全て 文字 列 リスト する	re.findall(pattern, s, flags=re.IGNORECASE)
+折れ線 グラフ 色 ライトグリーン 指定 する	plt.plot(データ列, データ列2, color='lightseagreen')
+ハロー ワールド プリント する	print('Hello World')
+折れ線 グラフ 丸 マーカー サイズ する	plt.plot(データ列, データ列2, marker='o', markersize=n)
+列 値 データ フレーム グループ 化 し 列挙 する	[(name, group) for name, group in df.groupby('A')]
+データ フレーム 列 ユニーク な 要素 抽出 し リスト 化 する	df[col].unique().tolist()
+点線 折れ線 グラフ スタイル セット する	plt.plot(データ列, データ列2, linestyle='dotted')
+データ フレーム グループ 化 し それぞれ 列 最大 値 求める	df.groupby(column)[column2].max()
+リスト データ 列 散布 図 赤色 上 三 角 マーカー 描画 する	plt.plot(xdata, ydata, marker='^', c='r')
+日付 時刻 データ 木曜日	aDatetime.weekday() == 3
+データ フレーム リスト カラム 中 いくつ 文字 列 ある 求める	df[aList].isin([value]).sum()
+ふたつ 集合 差 集合 算出 する	aSet.difference(aSet2)
+折れ線 グラフ 大 バツ マーカー 線 幅 指定 する	plt.plot(データ列, データ列2, marker='X', markeredgewidth=n)
+イテラブル カウント し カウンタ 引く	aCounter.subtract(iterable)
+昇順 タプル 並べる	sorted(aTuple, reverse=False)
+データ フレーム リスト 列 欠損 値 前 行 値 設定 する	df[aList].fillna(method='ffill')
+ヒストグラム 描画 し 色 ライト シアン 指定 する	plt.hist(データ列, color='lightcyan')
+値 黄色 プリント できる 文字 列 変換 する	f'\033[33m{value}\033[0m'
+が 名前 付き タプル	hasattr(obj, '_asdict') and hasattr(obj, '_fields')
+折れ線 グラフ 三角 印 赤く する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='r')
+ファイル 開き バイナリ 書き込み ストリーム 求める	open(filepath, mode='wb')
+配列 移り変わり 折れ線 グラフ プロット する	plt.plot(range(len(xdata)), xdata)
+ヒストグラム 色 ライトスレイグレー 指定 する	plt.hist(データ列, color='lightslategrey')
+ミディアムアクアマリン ヒストグラム 色 設定 する	plt.hist(データ列, color='mediumaquamarine')
+オレンジ ヒストグラム 色 設定 する	plt.hist(データ列, color='orange')
+データ フレーム カラム どの 程度 分散 し いる 確認 する	df[col].var()
+データ フレーム リスト 列 欠損 値 モード 補う	df[aList].fillna(df[aList].mode().iloc[0])
+年 月 日 タイム スタンプ オブジェクト 化 する	datetime.datetime(year=year, month=month, day=day)
+末尾 文字 列 空白 区切る	s.rsplit()
+青い 淡い グラフ 描く	plt.plot(xdata, ydata, linestyle='muted', color='b')
+エクセルファイルファイル 番目 シート 読み込む	pd.read_excel(filename, sheet_name=n)
+プロット 使う	from sympy import N
+ヒストグラム 描画 し その 色 ライトスレイグレー 設定 する	plt.hist(データ列, color='lightslategray')
+本日 月曜日 どう 調べる	datetime.datetime.today().weekday() == 0
+リスト イテラブル パステル 調 の 描い その 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='pastel', linewidth=n)
+カンマ 文字 列 分割 し 文字 列 リスト する	s.split(',')
+リスト データ 列 折れ線 グラフ 文字 列 色 描く	plt.plot(xdata, ydata, color=s)
+各 列 毎 データ フレーム グループ 化 し 列 合計 求める	df.groupby(column)[column2].sum()
+論理 値 型 全 要素 初期 化 さ れ た 行列 作る	np.zeros(行数, 列数, dtype=np.int32)
+折れ線 グラフ 黄色い 菱形 印 描画 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='y')
+以上	n >= n2
+文字 列 リスト 要素 で ない 調べる	element not in aList
+データ フレーム カラム 中 文字 列 文字 列 含ま れる	df[col].isin([value, value2])
+データ 列 正規 分布 どの 程度 尖っ いる 調べる	ds.skew()
+線 グラフ 色 オールド レース 設定 する	plt.plot(データ列, データ列2, color='oldlace')
+ヒストグラム 描画 し 色 アクアマリン 指定 する	plt.hist(データ列, color='aquamarine')
+割っ た 結果 切り上げ 求める	(n + n2 - 1) // n2
+部分 文字 列 文字 列 二つ 分ける	s.partition(sub)
+文字 列 表示 する	print(value)
+二 点 間 ユークリッド 距離 計算 する	math.dist(point, point2)
+イテラブル リスト 色 差別 ない 折れ線 グラフ 描画 し その 線 幅 変更 する	plt.plot(xdata, ydata, linestyle='colorblind', color=rgb)
+数列 リスト 散布 図 赤い 大 バツ マーカー プロット する	plt.plot(xdata, ydata, marker='X', c='r')
+ヒストグラム 描画 し その 色 青 指定 する	plt.hist(データ列, color='blue')
+キュー 最初 要素 取り除く	deq.remove(element)
+オプション マーカー 使う	marker = 'v'
+ふたつ 集合 対称 差 使う	aSet.symmetric_difference(aSet2)
+データ 列 リスト 折れ線 グラフ 描き 色 カラー コード 設定 する	plt.plot(xdata, ydata, color=rgb)
+列 集合 変換 する	set(iterable)
+オプション 紺碧 グラフ 色 設定 する	color = 'azure'
+文字 文字 コード 求める	ord(ch)
+折れ線 グラフ 描画 し その 色 ゴースト ホワイト 設定 する	plt.plot(データ列, データ列2, color='ghostwhite')
+タプル 浅く コピー する	dict(aDict)
+折れ線 グラフ クロス マーカー 青く する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='b')
+折れ線 グラフ 大 バツ マーカー 赤色 する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='r')
+色 差別 ない 色 散布 図 描画 する	plt.plot(xdata, ydata, c='colorblind')
+線 グラフ 描画 し その 色 貝殻 セット する	plt.plot(データ列, データ列2, color='seashell')
+ゼロ 埋め し た 配列	np.zeros(要素数)
+両端 キュー クリア する	deq.clear()
+データ フレーム 関数 値 グループ 化 し 列挙 する	[(name, group) for name, group in df.groupby(関数)]
+ヒストグラム 描画 し その 色 ダーク グリーン 変更 する	plt.hist(データ列, color='darkgreen')
+折れ線 グラフ 上 三 角 マーカー 黒く する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='k')
+折れ線 グラフ 丸 印 使用 する	plt.plot(データ列, データ列2, marker='o')
+折れ線 グラフ 線 幅 マーカー 描画 する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+最大 値 最小 値 乱数 生成 する	random.randint(最小値, 最大値)
+データ 列 柱状 グラフ 可視 化 する	plt.hist(ds)
+ヒストグラム 描画 し 色 ロイヤル ブルー 変更 する	plt.hist(データ列, color='royalblue')
+リスト ヒストグラム 可視 化 する	plt.hist(aList)
+データ フレーム 標準 偏差 求める	df.std()
+データ フレーム 読み込む	pd.read_csv(filename, sep=',')
+データ フレーム カラム 直後 値 埋める	df[col].fillna(method='bfill')
+カウンタ 上位 リスト し 得る	aCounter.most_common(k)
+進 数字 全部 見る	string.octdigits
+オプション ライトスレイグレー グラフ 色 指定 する	color = 'lightslategrey'
+トマト ヒストグラム 色 設定 する	plt.hist(データ列, color='tomato')
+折れ線 グラフ 描画 し その 色 ミント クリーム 変更 する	plt.plot(データ列, データ列2, color='mintcream')
+オプション グラフ 色 ゲインズボロ 変更 する	color = 'gainsboro'
+リスト 数列 散布 図 右 三 角 マーカー 描画 する	plt.plot(xdata, ydata, marker='>')
+データ フレーム 列 以上 データ 抽出 する	df[df[column] >= x]
+セット 空 で ない 調べる	len(aSet) != 0
+配列 ユニーク な 要素 計算 する	np.unique(aArray)
+標準 出力 出力 先 ターミナル どう 調べる	os.isatty(sys.stdin.fileno())
+双方向 キュー 中 要素 含ま れ てる 調べる	element in deq
+オプション ホット ピンク 使う	color = 'hotpink'
+年 月 タイム スタンプ 変換 する	datetime.datetime(year=year, month=month, day=1)
+文字 列 黄色 表示 する	print(f'\033[33m{value}\033[0m')
+線 グラフ 色 ゴースト ホワイト 変更 する	plt.plot(データ列, データ列2, color='ghostwhite')
+リスト データ 列 カラー コード パステル 調 グラフ プロット する	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+ケン ドール 相関 係数 使っ データ フレーム 相関 行列	df.corr(method='kendall')
+オプション ペルー 色 使用 する	color = 'peru'
+ヒストグラム 描画 し その 色 スチール ブルー する	plt.hist(データ列, color='steelblue')
+現在 再帰 上限	sys.getrecursionlimit()
+カウンタ 最 頻出 な 項目 求める	aCounter.most_common()[0]
+文字 列 中 非 アスキー 文字 含ま れる	any(not c.isascii() for c in s)
+リスト 数列 散布 図 描画 し 文字 列 データ ラベル 用 ラベル 設定 する	plt.scatter(xdata, xdata, label=s)
+オプション グラフ 色 カデット ブルー 指定 する	color = 'cadetblue'
+横 方向 複数 データ フレーム 一つ する	pd.concat([df, df2, df3], axis=1)
+リスト 四 分 位 数 ビン 分割 する	pd.qcut(aList, 4)
+ヒストグラム 描画 し 色 ネイビー 設定 する	plt.hist(データ列, color='navy')
+リスト オブジェクト 位置 エラー なく 使う	aList.index(element) if element in aList else -1
+データ 列 中央 値 補う	ds.fillna(ds.median())
+プロット ポスター 用 設定 する	sns.set(context='poster')
+オプション グラフ 色 フクシア 変更 する	color = 'fuchsia'
+オプション グラフ 色 ライトグリーン 指定 する	color = 'lightseagreen'
+オプション ロージーブラウン グラフ 色 変更 する	color = 'rosybrown'
+カラー コード クロス マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='x', c=rgb)
+黒い 下 三角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='v', c='k')
+データ 列 欠損 値 中央 値 セット する	ds.fillna(ds.median())
+日本語 文字 列 ある どう	re.search('[あ-んア-ン\u4E00-\u9FD0]', s)
+データ フレーム 数値 まとめ 四捨五入 する	df.round()
+カウンタ ゼロ カウント 削除 する	+aCounter
+データ 列 タイム ゾーン 日本 指定 する	ds.tz_convert('Asia/Tokyo')
+ヒストグラム 描画 し 色 ミスティローズ 設定 する	plt.hist(データ列, color='mistyrose')
+カラー バー 横向き 描く	plt.colorbar(orientation='horizontal')
+折れ線 グラフ サイズ 丸 マーカー 描画 する	plt.plot(データ列, データ列2, marker='o', markersize=n)
+各 列 毎 データ フレーム グループ 分け し 列 分散 計算 する	df.groupby(column)[column2].var()
+データ フレーム リスト 列 歪 度	df[aList].kurt()
+折れ線 グラフ マーカー クロス 印 する	plt.plot(データ列, データ列2, marker='x')
+青い マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='v', markerfacecolor='b')
+折れ線 グラフ 描画 し 色 ミディアムオーキッド 指定 する	plt.plot(データ列, データ列2, color='mediumorchid')
+データ 列 リスト 濃い グラフ 描画 し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='deep', color='r')
+折れ線 グラフ 色 ダーク サーモン 指定 する	plt.plot(データ列, データ列2, color='darksalmon')
+スピアマン 相関 係数 データ フレーム 列 列 相関 行列 算出 する	df[[column, column2]].corr(method='spearman')
+オプション ゴールデン ロッド 使用 する	color = 'goldenrod'
+データ フレーム グループ 化 し 各 列 合計 算出 する	df.groupby(column)[column2].sum()
+ヒストグラム 描画 し その 色 紺碧 設定 する	plt.hist(データ列, color='azure')
+データ フレーム 列 名前 一覧 指定 し た カラム ドロップ する	df.drop(columns, axis=1)
+データ 列 ビン 数 ビン 分割 し ラベル つける	pd.cut(ds, n, labels=names)
+ヒストグラム 描画 し その 色 ライト コーラル する	plt.hist(データ列, color='lightcoral')
+オブジェクト 回 繰り返す イテラブル	itertools.repeat(element, n)
+数 整数 する	int(x)
+データ フレーム 上 行	df.head(n)
+読み込み できる よう ファイル パス オープン する	open(filepath, mode='r')
+散布 図 ダイアモンドマーカー 用いる	plt.plot(xdata, ydata, marker='D')
+タプル 全て 真	all(aTuple)
+部分 文字 列 文字 列 開始 位置 後 含ま れる 調べる	s.find(sub, start) != -1
+逆 双曲線 正弦	math.asinh(x)
+折れ線 グラフ 色 ゴールデン ロッド 指定 する	plt.plot(データ列, データ列2, color='goldenrod')
+オブジェクト フィールド 値 使う	getattr(obj, プロパティ名)
+折れ線 グラフ 描画 し その 色 グレー 変更 する	plt.plot(データ列, データ列2, color='grey')
+折れ線 グラフ 色 ブラウン 設定 する	plt.plot(データ列, データ列2, color='brown')
+イテラブル 配列 散布 図 赤い 右 三 角 マーカー プロット する	plt.plot(xdata, ydata, marker='>', c='r')
+オプション カーキ 使用 する	color = 'khaki'
+変数 一番 小さい 値	max(x, y, z)
+リスト 数列 散布 図 描画 し マーカー 右 三 角 設定 する	plt.plot(xdata, ydata, marker='>')
+オプション ダークゴールデンロッド グラフ 色 変更 する	color = 'darkgoldenrod'
+個 整数 リスト 作る	list(range(n))
+列 値 データ フレーム グループ 化 し 基本 統計 量 求める	df.groupby('A').describe()
+タプル 文字 列 最初 見つかる 場所	aTuple.index(element)
+データ フレーム 列 列 値 グループ 化 し 基本 統計 量 求める	df.groupby(['A', 'B']).describe()
+降順 データ フレーム 複数 列 整列 する	df.sort_values(by=column, ascending=False)
+タプル 末尾 除く	aTuple[:-1]
+使える 色 名 一覧	matplotlib.colors.cnames
+オプション グラフ 色 ダーク カーキ 変更 する	color = 'darkkhaki'
+線 グラフ 描画 し その 色 ダークゴールデンロッド 変更 する	plt.plot(データ列, データ列2, color='darkgoldenrod')
+オプション 線 種 実線 変更 する	linestyle = 'solid'
+データ 列 リスト 境界 値 ビニング する	pd.cut(ds, aList)
+オプション 三角 マーカー 加える	marker = '^'
+データ フレーム カラム 第 二 四 分 位 数	df[col].median()
+オプション 色 ベージュ 指定 する	color = 'beige'
+リスト リスト 暗い 描い 色 黒 する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+折れ線 グラフ スタイル 破線 する	plt.plot(データ列, データ列2, linestyle='dashed')
+線 グラフ 描画 し 色 グリーン イエロー する	plt.plot(データ列, データ列2, color='greenyellow')
+浮動 小数点 数 する	float(x)
+オプション 小麦色 使う	color = 'wheat'
+文字 列 中 パターン マッチ する 文字 列 探す	re.search(pattern, s)
+正規 表現 文字 列 置換 する	re.sub(pattern, newsub, s)
+組 長 さ	len(aTuple)
+横 棒 描い 幅 設定 する	plt.barh(ラベル列, データ列, width=x)
+辞書 ソート し 形式 文字 列 する	json.dumps(aDict, ensure_ascii=False, sort_keys=True)
+データ フレーム 欠損 値 直後 値 減らす	df.fillna(method='bfill')
+データ フレーム カラム 未 入力 値 最大 値 設定 する	df[col].fillna(df[col].max())
+カラム 最小 値 設定 する	ds.fillna(ds.min())
+データ フレーム まとめ 小数点 以下 桁 丸める	df.round(n)
+ヒストグラム 色 シエナ 指定 する	plt.hist(データ列, color='sienna')
+カウンタ 最 頻出 な 項目 件数 求める	aCounter.most_common()[1]
+データ フレーム ファイル 小数点 以下 桁 書き込む	df.to_csv(filename, float_format='%.3f')
+線 グラフ 描画 し その 色 パープル 設定 する	plt.plot(データ列, データ列2, color='purple')
+アルファベット 小文字 使う	string.ascii_lowercase
+線 グラフ 色 レベッカパープル 指定 する	plt.plot(データ列, データ列2, color='rebeccapurple')
+暗い 折れ線 グラフ データ 列 リスト 用い 描き その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='dark', color=rgb)
+折れ線 グラフ 描画 し その 色 ライト サーモン 指定 する	plt.plot(データ列, データ列2, color='lightsalmon')
+日付 時刻 データ 火曜日 どう テスト する	aDatetime.weekday() == 1
+アクア ヒストグラム 色 変更 する	plt.hist(データ列, color='aqua')
+リスト リスト 散布 図 ポイント マーカー 描画 する	plt.plot(xdata, ydata, marker='.')
+オプション グラフ 色 ダークターコイズ 変更 する	color = 'darkturquoise'
+画面 プロット 設定 する	sns.set(context='notebook')
+オプション ブランチドアーモンド 色 使用 する	color = 'blanchedalmond'
+黒色 ポイント マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='.', c='k')
+データ フレーム 中 いくつ 存在 する カウント する	df.isna().sum()
+折れ線 グラフ 描画 し 色 ビスク 設定 する	plt.plot(データ列, データ列2, color='bisque')
+リスト データ 列 散布 図 文字 列 凡例 用 ラベル 付ける	plt.scatter(xdata, xdata, label=s)
+オプション グラフ 色 ロイヤル ブルー 変更 する	color = 'royalblue'
+折れ線 グラフ 色 ロージーブラウン する	plt.plot(データ列, データ列2, color='rosybrown')
+まとめ データ 列 値 置き換える	ds.replace(ValueMap)
+データ フレーム 列 グループ 化 し それぞれ グループ 毎 最大 値 求める	df.groupby(column).max()
+データ フレーム 位 丸め 整数 する	df.round(-1).astype(int)
+オプション ドジャーブルー 色 使用 する	color = 'dodgerblue'
+データ 列 各 データ 値 出現 回数	ds.value_counts()
+文字 列 文字 コード バイト 列 変換 する	s.encode(encoding=encoding)
+プラットホーム バイト オーダ 知る	sys.byteorder
+やわらかい 青 ヒストグラム 色 設定 する	plt.hist(データ列, color='cornflowerblue')
+線 グラフ 描画 し その 色 シルバー 設定 する	plt.plot(データ列, データ列2, color='silver')
+数列 リスト 黒色 暗い グラフ 描画 する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+データ フレーム リスト 列 相関 行列 計算 する	df[aList].corr()
+文字 列 中 非 大文字 含ま れる 判定 する	any(not c.isupper() for c in s)
+黒色 丸 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='o', c='k')
+文字 列 同じ	s == s2
+列 用い データ フレーム ソート し 先頭 来る よう する	df.sort_values(by='A', na_position='first')
+データ 列 中 文字 列 ある	ds.isin([value, value2])
+リスト 末尾 文字 列 加える	aList.append(element)
+オプション グラフ 色 スチール ブルー セット する	color = 'steelblue'
+辞書 値 要素 含ま れ い ない 確認 する	element not in aDict.values()
+オプション ダークゴールデンロッド 使う	color = 'darkgoldenrod'
+濃い 色 ヒストグラム リスト プロット する	plt.hist(xdata, color='deep')
+配列 パステル 調 色 ヒストグラム 描く	plt.hist(xdata, color='pastel')
+データ フレーム 中 欠損 値 数 求める	df.isna().sum()
+ヒストグラム 描画 し 色 ミディアムシアグリーン する	plt.hist(データ列, color='mediumseagreen')
+データ フレーム 列 以上 かつ 未満 データ 抽出 する	df[(x <= df[column]) & (df[column] < x2)]
+折れ線 グラフ 色 パパイヤウィップ セット する	plt.plot(データ列, データ列2, color='papayawhip')
+データ フレーム 最初 行	df.head(n)
+青い 色 差別 ない 描画 する	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+オプション 色 ターコイズ 指定 する	color = 'turquoise'
+シーケンス 最大 長 双方向 キュー 生成 する	collections.deque(iterable, maxlen=n)
+限定 正規 表現 文字 列 分割 する	re.split(pattern, s, flags=re.ASCI)
+オプション ハニーデュー 色 用いる	color = 'honeydew'
+異なる 列 キー し 二つ データ フレーム 内部 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='inner')
+オブジェクト プロパティ 値 設定 する	setattr(obj, プロパティ名, 値)
+等間隔 個 列 ビン 分割 し ラベル つける	pd.cut(ds, n, labels=names)
+データ 列 未 入力 値 直後 値 補う	ds.fillna(method='bfill')
+マッピング マッピング 項目 追加 する	aDict.update(aDict2)
+小数点 以下 桁 出力 する	print(':.3f'.format(x))
+パープル ヒストグラム 色 変更 する	plt.hist(データ列, color='purple')
+ヒストグラム 描画 し その 色 オリーブ 設定 する	plt.hist(データ列, color='olive')
+二つ 実行 結果 スラッシュ 区切っ プリント する	print(value, value2, sep='/')
+ヒストグラム 描画 し その 色 ダークスラテグレー 変更 する	plt.hist(データ列, color='darkslategray')
+シーケンス 文字 列 リスト 変換 し 部分 文字 列 つなげる	sub.join(map(str, iterable))
+データ フレーム 列 値 集約 し それぞれ グループ ごと 平均 値 算出 する	df.groupby(column).mean()
+文字 列 小文字 どう 調べる	s.islower()
+変数 シアン プリント する	print(f'\033[36m{value}\033[0m')
+オプション ベージュ 使う	color = 'beige'
+リスト 数列 黒色 パステル 調 グラフ 描画 する	plt.plot(xdata, ydata, linestyle='pastel', color='k')
+ヒストグラム 描画 し その 色 ダークマゼンタ 設定 する	plt.hist(データ列, color='darkmagenta')
+データ 列 位 四捨五入 する	ds.round(-3)
+列 データ フレーム 並べる	df.sort_values(by=column)
+棒グラフ 色 設定 する	plt.bar(ラベル列, データ列, color=rgb)
+ヒストグラム 色 ゴールド 変更 する	plt.hist(データ列, color='gold')
+正規 分布 疑似 乱数 生成 する	random.normalvariate(mu=0.5, sigma=0.2)
+実数 二 進 対数 求める	math.log2(x)
+全 要素 初期 化 さ れ た 配列 作る	np.zeros(要素数)
+折れ線 グラフ 右 三 角 印 使用 する	plt.plot(データ列, データ列2, marker='>')
+オプション グレー 色 設定 する	color = 'gray'
+小さい テスト する	n < n2
+オプション ライト ブルー グラフ 色 設定 する	color = 'lightblue'
+折れ線 グラフ 右 三 角 印 サイズ 設定 する	plt.plot(データ列, データ列2, marker='>', markersize=n)
+データ 列 配列 淡い グラフ 描画 し その 色 青く する	plt.plot(xdata, ydata, linestyle='muted', color='b')
+整数 十 六 進 表記 使う	hex(n)
+複数 列 破壊 的 データ フレーム ソート する	df.sort_values(by=column, inplace=True)
+データ フレーム 列 中 いくつ 日 付 データ ある 数える	df[col].isin([value]).sum()
+カウンタ 列 更新 する	aCounter.update(iterable)
+線 グラフ 色 ホワイト 設定 する	plt.plot(データ列, データ列2, color='white')
+パステル 調 色 数列 リスト 散布 図 重なり 見やすく 描画 する	plt.plot(xdata, ydata, c='pastel', alpha=0.5)
+データ フレーム 列 値 グループ 化 し 記述 統計 量 求める	df.groupby(column).describe()
+横 並べ ヒストグラム プロット する	plt.hist([データ列, データ列2], color=['b', 'r'])
+折れ線 グラフ 描画 し その 色 オレンジ セット する	plt.plot(データ列, データ列2, color='orange')
+折れ線 グラフ 描画 し 色 ローン グリーン セット する	plt.plot(データ列, データ列2, color='lawngreen')
+データ 列 折れ線 グラフ 描画 し 印 ポイント 印 する	plt.plot(データ列, データ列2, marker='.')
+カラー コード 右 三 角 マーカー リスト リスト 散布 図 プロット する	plt.plot(xdata, ydata, marker='>', c=rgb)
+日付 データ 秒 減算 する	aDate - datetime.timedelta(seconds=n)
+赤色 暗い プロット する	plt.plot(xdata, ydata, linestyle='dark', color='r')
+散布 図 黒い 星 マーカー 使っ 描画 する	plt.plot(xdata, ydata, marker='*', c='k')
+オブジェクト タプルクラス	isinstance(obj, tuple)
+散布 図 パステル 調 色 マーカー プロット する	plt.plot(xdata, ydata, c='pastel')
+オプション ミディアムスレートブルー 色 使用 する	color = 'mediumslateblue'
+折れ線 グラフ 描画 し その 色 ロージーブラウン 設定 する	plt.plot(データ列, データ列2, color='rosybrown')
+レベッカパープル ヒストグラム 色 設定 する	plt.hist(データ列, color='rebeccapurple')
+リスト リスト 色 差別 ない 色 折れ線 グラフ 描画 し その 線 幅 変更 する	plt.plot(xdata, ydata, linewidth=n, color='colorblind')
+値 引い する	n -= n2
+文字 列 型 する	pd.to_datetime(s)
+オプション ホワイト 色 使う	color = 'white'
+グラフ 描画 綺麗 する	import seaborn as sns
+ヒストグラム 描画 し その 色 アイボリー 指定 する	plt.hist(データ列, color='ivory')
+日付 データ 日付 データ 同時	aDate == aDate2
+配列 リスト 散布 図 カラー コード 四角 マーカー 描画 する	plt.plot(xdata, ydata, marker='s', c=rgb)
+文字 列 タプル 含ま れ ない どう 調べる	element not in aTuple
+整数 リスト どれ どう	n in aList
+ファイル 絶対 パス する	os.path.abspath(filepath)
+もしくは もしくは 等しい	x == 1 or x == 2 or x == 3
+イテラブル イテラブル 続け た イテラブル 得る	itertools.chain(iterable, iterable2)
+カウンタ 同士 積 集合 求める	aCounter & aCounter2
+二 進数 文字 列 バイト 列 する	int(s, 2).to_bytes(length=bytesize, byteorder='big')
+ヒストグラム 描画 し その 色 フクシア 設定 する	plt.hist(データ列, color='fuchsia')
+データ 列 欠損 値 平均 補う	ds.fillna(ds.mean())
+双方向 キュー 最初 要素 取り除く	deq.popleft()
+柱状 図 半 透明 化 する	plt.hist(データ列, alpha=0.5)
+シート ファイル 読み込む	pd.read_excel(filename, sheet_name=[n, n2])
+データ フレーム ファイル ファイル 書き込む	df.to_csv(filename)
+ポスター グラフ 用途 設定 する	sns.set(context='poster')
+ヒストグラム 色 シーグリーン 変更 する	plt.hist(データ列, color='seagreen')
+ヒストグラム 描画 し その 色 ゴールド 設定 する	plt.hist(データ列, color='gold')
+一 桁 正 数	0 <= x <= 9
+オプション 色 青 設定 する	color = 'blue'
+ファイル 存在 する	os.path.exists(filepath)
+文字 列 中 ひとつ 非 数字 ある	any(not c.isdigit() for c in s)
+ヒストグラム 描画 し 色 淡い 茶色 設定 する	plt.hist(データ列, color='tan')
+データ フレーム 各 列 毎 グループ 化 し 列 平均 値 計算 する	df.groupby(column)[column2].mean()
+実数 浮動 小数点 数 整数 除算 する	x // y
+文字 列 左側 空白 除く	s.lstrip(' ')
+明るい 色 青く する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+データ フレーム リスト カラム 中 文字 列 ある	df[aList].isin([value, value2])
+異なる 列 キー 二つ データ フレーム 右 ジョイン する	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+リスト データ 列 散布 図 濃い 色 使っ 重 見 やすく 描く	plt.plot(xdata, ydata, c='deep', alpha=0.5)
+オプション グラフ 色 ディムグレー 変更 する	color = 'dimgrey'
+文字 列 出力 改行 し なく 行う	print(value, end='')
+赤色 右 三 角 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='>', c='r')
+列 パーセンタイル	ds.quantile(0.75)
+データ 列 位 四捨五入 する	ds.round(-2)
+ヒストグラム 色 青 指定 する	plt.hist(データ列, color='blue')
+散布 図 黒色 バツ マーカー 使う	plt.plot(xdata, ydata, marker='x', c='k')
+キュー	collections.deque()
+乗	n ** 2
+二つ 集合 積 集合 算出 する	aSet.intersection(aSet2)
+データ フレーム データ フレーム 列 横 くっつける	pd.concat([df, ds], axis=1)
+形式 データ フレーム ファイル 保存 する	df.to_csv(filename, sep='\t')
+数列 データ 列 散布 図 描い 色 濃い 変更 する	plt.plot(xdata, ydata, c='deep')
+オプション グラフ 色 ペールグリーン 変更 する	color = 'palegreen'
+足す 求める	n + n2
+オプション ビスク 使う	color = 'bisque'
+データ フレーム 列 小さい 順 破壊 的 ソート する	df.sort_values(by='A', ascending=True, inplace=True)
+データ フレーム 列 選択 する	df[[column, column2, column3, column4]]
+データ フレーム 調べる	df.head()
+オブジェクト タプル 含ま れる 調べる	element in aTuple
+オプション 標準 出力 出力 先 する	file = sys.stdout
+オプション ダークターコイズ 色 用いる	color = 'darkturquoise'
+折れ線 色 文字 列 設定 する	plt.plot(xdata, ydata, color=s)
+折れ線 グラフ バツ 印 黄色 する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='y')
+リスト 数列 暗い グラフ 描画 し その 色 青く する	plt.plot(xdata, ydata, linestyle='dark', color='b')
+データ フレーム ファイル カラム 名前 付け ず 保存 する	df.to_csv(filename, header=None)
+進 文字 列 整数 変換 する	int(s, 8)
+ヒストグラム 色 ダークシアグリーン する	plt.hist(データ列, color='darkseagreen')
+大文字 小文字 交換 する	s.swapcase()
+リスト 色 差別 ない 色 柱状 図 描画 する	plt.hist(xdata, color='colorblind')
+折れ線 グラフ 描画 し 色 アクアマリン 設定 する	plt.plot(データ列, データ列2, color='aquamarine')
+折れ線 グラフ 描画 し 色 設定 する	plt.plot(データ列, データ列2, color='darkslategrey')
+辞書 項目 名 列挙 する	aDict.keys()
+次元 リスト 転置 行列 算出 する	[list(x) for x in list(zip(*aList))]
+文字 列 中 正規 表現 マッチ し た 文字 列 リスト 変換 する	re.findall(pattern, s)
+黒色 左 三 角 マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='<', c='k')
+タプル 最後 番目 以前 部分 得る	aTuple[:-n]
+散布 図 赤色 星 マーカー 用いる	plt.plot(xdata, ydata, marker='*', c='r')
+行列 列 ごと 最小	np.min(aArray, axis=0)
+ヒストグラム 色 ダークスラテグレー 変更 する	plt.hist(データ列, color='darkslategray')
+日付 データ 日 減算 する	aDate - datetime.timedelta(days=n)
+逆 行列 計算 する	np.linalg.inv(aArray)
+二つ データ フレーム 列 キー し ジョイン する	pd.merge(df, df2, on=column)
+小数点 以下 桁 表示 する	print(':.1f'.format(x))
+ケース 無視 し 事前 正規 表現 コンパイル する	re.compile(pattern, flag=re.IGNORECASE)
+オプション オレンジ レッド 使う	color = 'orangered'
+折れ線 グラフ ダイアモンドマーカー 線 幅 する	plt.plot(データ列, データ列2, marker='D', markeredgewidth=n)
+文字 列 全て 英数字	s.isalnum()
+折れ線 グラフ 色 パールバイオレットレッド 指定 する	plt.plot(データ列, データ列2, color='palevioletred')
+オプション ライト イエロー グラフ 色 セット する	color = 'lightyellow'
+折れ線 グラフ 緑色 クロス 印 描画 する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='g')
+ヒストグラム 色 スチール ブルー 変更 する	plt.hist(データ列, color='steelblue')
+ポイント マーカー 用い 散布 図 描画 する	plt.plot(xdata, ydata, marker='.')
+データ 列 中 文字 列 文字 列 いくつ ある 求める	ds.isin([value, value2]).sum()
+データ フレーム カラム 平均 値 求める	df[col].mean()
+データ フレーム 列 昇順 並べ 直し 更新 する	df.sort_values(by=['A', 'B'], ascending=True, inplace=True)
+今日 何 日 知る	datetime.datetime.today().day
+ファイル 拡張 子 なし ファイル 名 取り出す	os.path.splitext(os.path.basename(filepath))[0]
+浮動 小数点 数 実数 割っ 切り捨てる	x // y
+全 要素 初期 化 さ れ た ビット 整数 型 行列 作る	np.zeros(行数, 列数, dtype=np.int8)
+日付 データ 時間 足す	aDate + datetime.timedelta(hours=n)
+データ フレーム 行 目 行 目 取り出す	df[start:end]
+データ フレーム リスト 列 平均 値 設定 する	df[aList].fillna(df[aList].mean())
+タプル 平均 値 求める	sum(aTuple)/len(aTuple)
+データ 列 正規 分布 どれ 歪ん いる 見る	ds.kurt()
+自然 数 最大公約数 求める	math.gcd(n, n2, n3)
+折れ線 グラフ 三角 マーカー 線 幅 指定 する	plt.plot(データ列, データ列2, marker='^', markeredgewidth=n)
+色 差別 ない グラフ 描画 し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='colorblind', color='r')
+部分 文字 列 部分 文字 列 始まる 調べる	s.startswith(sub)
+データ フレーム 各 列 列 組み合わせ 毎 グループ 化 し 最大 値 求める	df.groupby([column, column2], as_index=False).max()
+以上 かつ 以下	n <= n2 and n2 <= n3
+組 番目 番目 部分	aTuple[n:n2]
+オプション 無視 する フッタ 設定 する	skipfooter = n
+カウンタ 要素 一つ 増やす	aCounter[element] += 1
+最大 値 データ フレーム 補う	df.fillna(df.max())
+昇順 データ フレーム 列 用い 並べ 直す	df.sort_values(by=column, ascending=True)
+データ フレーム カラム カラム 折れ線 グラフ プロット する	plt.plot(df[col], df[col2])
+文字 列 先頭 空白 タブ 取り除く	s.lstrip()
+線 グラフ 描画 し その 色 ハニーデュー 設定 する	plt.plot(データ列, データ列2, color='honeydew')
+マップ キー その 値 ペア 取り出す	aDict.items()
+線 グラフ 色 グリーン イエロー 変更 する	plt.plot(データ列, データ列2, color='greenyellow')
+文字 列 文字 リスト する	list(s)
+リスト 組 変換 する	tuple(aList)
+データ フレーム どの 程度 分散 し いる 確認 する	df.var()
+実数 アーク タンジェント	math.atan(x)
+配列 行 ごと 標準 偏差	np.std(aArray, axis=1)
+数列 データ 列 明るい 色 折れ線 グラフ 描き その 線 幅 変更 する	plt.plot(xdata, ydata, linewidth=n, color='bright')
+行列 要素 ごと アダマール 積	np.multiply(aArray, aArray2)
+折れ線 グラフ 描画 し 色 ディムグレー 変更 する	plt.plot(データ列, データ列2, color='dimgrey')
+マルーン ヒストグラム 色 設定 する	plt.hist(データ列, color='maroon')
+文字 列 中 部分 文字 列 出現 回数 カウント する	s.count(sub)
+淡い グラフ プロット し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+データ フレーム 重複 する 行 消し 入れ替える	df.drop_duplicates(inplace=True)
+グラフ 目的 論文 指定 する	sns.set(context='paper')
+オプション 出力 先 標準 出力 変更 する	file = sys.stdout
+進 対数	math.log(x, k)
+色 差別 ない 色 重 見やすく データ 列 リスト 散布 図 描画 する	plt.plot(xdata, ydata, c='colorblind', alpha=0.5)
+タイムスタンプデータ 日付	aDatetime.date()
+データ フレーム 表示 する とき ヘッダー 行 右寄せ 変更 する	pd.set_option('colheader_justify', 'right')
+行列 和	aArray + aArray2
+シーケンス シーケンス デカルト 積 求める	itertools.product(iterable, iterable2)
+リスト 数列 散布 図 濃い 色 描く	plt.plot(xdata, ydata, c='deep')
+実行 結果 青色 プリント できる 文字 列 変換 する	f'\033[34m{value}\033[0m'
+文字 列 部分 文字 列 用い 区切る	s.split(sub)
+線 グラフ 描画 し その 色 オリーブ 変更 する	plt.plot(データ列, データ列2, color='olive')
+フローラルホワイト ヒストグラム 色 する	plt.hist(データ列, color='floralwhite')
+列 シーケンス 続ける	itertools.chain(iterable, iterable2)
+オプション 線 幅 変更 する	linewidth = n
+文字 列 中 タブ 文字 個 空白 置換 する	s.expandtabs(tabsize=n)
+データ フレーム 列 以下 行 取り出す	df[df[column] <= x]
+リスト リスト 色 差別 ない グラフ 描画 し その 色 青 する	plt.plot(xdata, ydata, linestyle='colorblind', color='b')
+タイム スタンプ データ 列 インデックス する	df.index = pd.DatetimeIndex(ds)
+マッピング キー 値	aDict[key]
+データ 列 中 いくつ 欠損 値 含ま れる 数える	ds.isna().sum()
+折れ線 グラフ クロス 印 赤く する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='r')
+散布 図 赤色 ダイアモンドマーカー 使う	plt.plot(xdata, ydata, marker='D', c='r')
+淡い 色 散布 図 重なり 見やすく 描画 する	plt.plot(xdata, ydata, c='muted', alpha=0.5)
+文字 列 最後 使う	s[-1]
+ベクトル 分散	np.var(aArray)
+ヒストグラム 描画 し その 色 デピンク 指定 する	plt.hist(データ列, color='deeppink')
+黒色 大 バツ マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='X', c='k')
+オプション グラフ 色 ディープスカイブルー 指定 する	color = 'deepskyblue'
+列 ひとつ ランダム 選ぶ	random.choice(iterable)
+集合 全て 要素 別 集合 含ま れる	aSet.issubset(aSet2)
+データ フレーム カラム 二つ 選択 する	df[[column, column2]]
+オプション ダーク グリーン 使用 する	color = 'darkgreen'
+変数 マイナス 無限 大 近づく とき 数式 極限 値 求める	sympy.limit(e, z, -oo)
+文字 列 内 アルファベット 含ま れる	any(c.isalpha() for c in s)
+データ 列 折れ線 グラフ 描画 し 印 左 三 角 する	plt.plot(データ列, データ列2, marker='<')
+暗い 色 マーカー 散布 図 重なり 見やすく プロット する	plt.plot(xdata, ydata, c='dark', alpha=0.5)
+リスト 末尾 要素 除く	aList[:-n]
+オプション パールバイオレットレッド 使う	color = 'palevioletred'
+ファイル オープン する	open(filepath, encoding='euc_jp')
+ヒストグラム 色 ディムグレー 指定 する	plt.hist(データ列, color='dimgray')
+オブジェクト バイト 列 どう 調べる	isinstance(obj, bytes)
+オプション ダーク グレー 色 用いる	color = 'darkgray'
+ヒストグラム 描画 し その 色 フローラルホワイト 設定 する	plt.hist(データ列, color='floralwhite')
+文字 列 全て 大文字 確認 する	s.isupper()
+全 要素 初期 化 さ れ た 行列 作る	np.ones(行数, 列数, dtype=np.int)
+実数 値 整数 調べる	x.is_integer()
+文字 列 等しく ない 調べる	s != s2
+リスト 縦 軸 配列 横 軸 大き さ 散布 図 描画 する	plt.scatter(xdata, ydata, s=n)
+カラム 文字 列 欠損 値 変換 する	ds.replace(s, np.nan)
+文字 列 全て アルファベット	s.isalpha()
+配列 データ 列 青色 明るい グラフ プロット する	plt.plot(xdata, ydata, linestyle='bright', color='b')
+リスト 配列 破線 グラフ 描画 し その 色 淡い 設定 する	plt.plot(xdata, ydata, linestyle='dash', color='muted')
+日付 時刻 データ 時間 加算 する	aDatetime + datetime.timedelta(hours=n)
+もしくは	n == 1 or n == 2
+折れ線 グラフ 描画 し 色 クリムゾン 設定 する	plt.plot(データ列, データ列2, color='crimson')
+配列 リスト 散布 図 黒い 四角 マーカー プロット する	plt.plot(xdata, ydata, marker='s', c='k')
+列 イテラブル ペア リング する	itertools.zip_longest(iterable, iterable2)
+配列 数列 散布 図 黒い マーカー 描画 する	plt.plot(xdata, ydata, marker='v', c='k')
+降順 データ フレーム 破壊 的 列 用い ソート する	df.sort_values(by=column, ascending=False, inplace=True)
+ヒストグラム 描画 し その 色 ペールグリーン 指定 する	plt.hist(データ列, color='palegreen')
+データ フレーム 列 落とす	df.drop(column, axis=1)
+データ フレーム 中 列 中央 値 ビンニング する	pd.qcut(df[col], 2)
+データ フレーム 基本 統計 量	df.describe()
+データ フレーム 表示 する とき カラム 最大 幅 設定 する	pd.set_option('max_colwidth', n)
+オプション 耐火 レンガ グラフ 色 指定 する	color = 'firebrick'
+データ フレーム リスト 列 未 入力 値 直後 値 置換 する	df[aList].fillna(method='bfill')
+リスト リスト 暗い 色 折れ線 グラフ 描い その 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+折れ線 グラフ 大 バツ マーカー 黒色 する	plt.plot(データ列, データ列2, marker='X', markerfacecolor='k')
+折れ線 グラフ 描画 し 色 暗い 赤 設定 する	plt.plot(データ列, データ列2, color='darkred')
+グラフ 一 点 鎖線 つける	plt.axhline(y=0, linestyle='dashbot')
+小数点 数 正弦	math.sin(x)
+行列 累積 和 求める	np.cumsum(aArray)
+イテラブル 配列 作成 する	np.array(iterable)
+複数 シート ファイル 読む	pd.read_excel(filename, sheet_name=[n, n2])
+淡い 折れ線 グラフ 色 赤色 設定 する	plt.plot(xdata, ydata, linestyle='muted', color='r')
+データ フレーム 値 まとめ 変更 する	df.replace(ValueMap)
+折れ線 グラフ マーカー 青く する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='b')
+コロン 文字 列 分割 し 文字 列 リスト する	s.split(':')
+バイナリ モード ファイル オープン する	open(filepath, mode='rb')
+データ フレーム リスト 列 未 入力 値 最 頻 値 設定 する	df[aList].fillna(df[aList].mode().iloc[0])
+実数 正接 逆数 求める	math.atan(x)
+配列 データ 列 散布 図 プロット し バツ マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='x', c=rgb)
+オプション 欠損 値 含める	dropna = True
+一 桁 整数 どう 調べる	-9 <= x <= 9
+散布 図 カラー コード ダイアモンドマーカー 用いる	plt.plot(xdata, ydata, marker='D', c=rgb)
+線 グラフ 描画 し その 色 モカシン 設定 する	plt.plot(データ列, データ列2, color='moccasin')
+二つ データ フレーム 列 と列 キー 右 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='right')
+配列 イテラブル 明るい グラフ プロット し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='bright', color=rgb)
+ヒストグラム 描画 し 色 ミディアムオーキッド 設定 する	plt.hist(データ列, color='mediumorchid')
+ヒストグラム 描画 し その 色 パパイヤウィップ する	plt.hist(データ列, color='papayawhip')
+ビン 数 データ フレーム 中 列 分割 する	pd.cut(df[col], n)
+線 グラフ 色 モカシン 設定 する	plt.plot(データ列, データ列2, color='moccasin')
+コーンズシルク ヒストグラム 色 指定 する	plt.hist(データ列, color='cornsilk')
+折れ線 グラフ 色 アリスブルー 変更 する	plt.plot(データ列, データ列2, color='aliceblue')
+文字 列 内 ひとつ 小文字 含ま れる	any(c.islower() for c in s)
+組 各 要素 関数 適用 し た 結果 ソート する	sorted(aTuple, key=func)
+数字 全て 使う	string.digits
+線 グラフ 色 アンティーク ホワイト 変更 する	plt.plot(データ列, データ列2, color='antiquewhite')
+文字 列 走査 し 正規 表現 限定 マッチ する 調べる	re.search(pattern, s, flags=re.ASCI)
+リスト 数列 散布 図 プロット する	plt.scatter(xdata, ydata)
+カラー コード 大 バツ マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='X', c=rgb)
+折れ線 グラフ 描画 し 色 ダーク オレンジ 設定 する	plt.plot(データ列, データ列2, color='darkorange')
+つ データ フレーム 縦 方向 一つ する	pd.concat([df, df2], axis=0)
+オプション 色 スノー 指定 する	color = 'snow'
+ヒストグラム 色 スレート ブルー する	plt.hist(データ列, color='slateblue')
+折れ線 グラフ 描画 し 色 リネン 設定 する	plt.plot(データ列, データ列2, color='linen')
+表 データ カテゴリ データ 列 抽出 する	df.select_dtypes('object')
+辞書 多重 集合 変換 する	collections.Counter(aDict)
+タイムスタンプデータ 日 分 加算 する	aDatetime + datetime.timedelta(days=n)
+タイムスタンプデータ 月曜日 どう 調べる	aDatetime.weekday() == 0
+データ フレーム インデックス 降順 整列 する	df.sort_index(ascending=False)
+タイムスタンプデータ 日 前 する	aDatetime - datetime.timedelta(days=n)
+データ フレーム カラム 最 頻 値 求める	df[col].mode()
+ダーク グレー ヒストグラム 色 指定 する	plt.hist(データ列, color='darkgray')
+ビット 積 計算 する	n & n2
+折れ線 グラフ 赤い マーカー 描画 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='r')
+表 複数 列 値 グループ 化 し 要約 統計 量 求める	df.groupby(columns).describe()
+リスト オブジェクト 等しい 最初 要素 除く	aList.remove(element)
+折れ線 グラフ 描画 し その 色 ライトスレイグレー 設定 する	plt.plot(データ列, データ列2, color='lightslategray')
+オプション 先頭 カラム インデックス セット する	index_col = 0
+リスト 等量 個 分割 する	pd.qcut(aList, n)
+データ フレーム 欠損 値 パーセンタイル 変更 する	df.fillna(df.median())
+データ 列 配列 青色 パステル 調 グラフ 描く	plt.plot(xdata, ydata, linestyle='pastel', color='b')
+列 ユニーク な 値	ds.unique()
+形式 ファイル データ フレーム 読む	pd.read_csv(filename, sep='\t', encoding='utf-8')
+両端 キュー 空 で ない どう 調べる	len(deq) != 0
+小数点 以下 桁 出力 する	print(':.2f'.format(x))
+数列 リスト 散布 図 黒い 右 三 角 マーカー 描画 する	plt.plot(xdata, ydata, marker='>', c='k')
+整数 順列 総数 求める	math.perm(n)
+ヒストグラム 描画 し その 色 ダーク サーモン 設定 する	plt.hist(データ列, color='darksalmon')
+データ フレーム 破壊 的 列 並べ 直す	df.sort_values(by=column, inplace=True)
+線 グラフ 描画 し 色 ミディアムスプリンググリーン 設定 する	plt.plot(データ列, データ列2, color='mediumspringgreen')
+文字 列 全て 数値 判定 する	s.isnumeric()
+文字 列 中 ひとつ 非 空白 含ま れる 確認 する	any(not c.isspace() for c in s)
+列 データ フレーム ソート し インデックス 振り 直す	df.sort_values(columns).reset_index(drop=True)
+部分 文字 列 文字 列 中 含ま れ ない	sub not in s
+リスト データ 列 散布 図 赤い 四角 マーカー 描画 する	plt.plot(xdata, ydata, marker='s', c='r')
+データ フレーム ランダム 取り出す	df.sample()
+重複 し た 行 データ フレーム 破壊 的 削除 する	df.drop_duplicates(inplace=True)
+オブジェクト プロパティ 値 変更 する	setattr(obj, プロパティ名, 値)
+線 グラフ 色 ディムグレー 設定 する	plt.plot(データ列, データ列2, color='dimgrey')
+付き ファイル オープン する	open(filepath, encoding='utf_8_sig')
+濃い 折れ線 線 幅 指定 する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+本日 土曜日 どう	datetime.datetime.today().weekday() == 5
+パターン 文字 列 マッチ さ せる	re.match(pattern, s)
+折れ線 グラフ 描画 し 色 ライト グレー 設定 する	plt.plot(データ列, データ列2, color='lightgrey')
+データ フレーム それぞれ グループ 最大 値	df.groupby(column).max()
+オプション 色 ミスティローズ 設定 する	color = 'mistyrose'
+両端 キュー 空か どう 確認 する	len(deq) == 0
+マッピング キー 値 入れ替える	{v: k for k, v in aDict.items()}
+パラメータ 数式 積分 計算 する	sympy.integrate(e, z)
+スラグレー ヒストグラム 色 設定 する	plt.hist(データ列, color='slategrey')
+横 棒グラフ 色 指定 する	plt.barh(ラベル列, データ列, color=rgb)
+重 見やすく 散布 図 明るい 色 マーカー 用い 描画 する	plt.plot(xdata, ydata, c='bright', alpha=0.5)
+マッピング 形式 文字 列 変換 する	json.dumps(aDict, ensure_ascii=False)
+リスト 配列 カラー コード 淡い 描画 する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+リスト 配列 散布 図 描き 右 三 角 マーカー 色 カラー コード セット する	plt.plot(xdata, ydata, marker='>', c=rgb)
+セット 要素 取り除く	aSet.remove(element)
+ヒストグラム 描画 し 色 ライム 設定 する	plt.hist(データ列, color='lime')
+カラム 値 正規 表現 まとめ 置き換える	ds.replace(pattern, repl, regex=True)
+列 各 データ 何 回 出現 する 見る	ds.value_counts()
+集合 更新 不能 な セット する	frozenset(aSet)
+文字 列 部分 文字 列 終了 する どう 調べる	s.endswith(sub)
+ヒストグラム 色 ビスク 変更 する	plt.hist(データ列, color='bisque')
+折れ線 グラフ 色 ライトスチールブルー 変更 する	plt.plot(データ列, データ列2, color='lightsteelblue')
+オプション 色 サドル ブラウン 指定 する	color = 'saddlebrown'
+線 グラフ 描画 し その 色 ネイビー 設定 する	plt.plot(データ列, データ列2, color='navy')
+オプション バリー ウッド 使う	color = 'burlywood'
+データ フレーム 行 条件 取り除く	df[(df[column] == x) & (df[column2] == x2)]
+つ 辞書 階層 化 する	collections.ChainMap(aDict, aDict2)
+双方向 キュー リスト 変換 する	list(deq)
+倍数	n % 5 == 0
+ヒストグラム 描画 し その 色 コーラル セット する	plt.hist(データ列, color='coral')
+イテラブル 変更 不能 な 集合 変換 する	frozenset(iterable)
+散布 図 黒い 丸 マーカー 用いる	plt.plot(xdata, ydata, marker='o', c='k')
+ファイル パス バイナリ 書き込み ストリーム 開い する	f = open(filepath, mode='wb')
+ヒストグラム 色 インディアン レッド 指定 する	plt.hist(データ列, color='indianred')
+ファイル 絶対 ファイル パス	os.path.abspath(filepath)
+黒色 右 三 角 マーカー 散布 図 描画 する	plt.plot(xdata, ydata, marker='>', c='k')
+倍数 どう 調べる	n % n2 == 0
+データ フレーム カラム 設定 する	df[col].fillna(x)
+今日 木曜日 調べる	datetime.datetime.today().weekday() == 3
+要素 集合 メンバー で ない	element not in aSet
+列 昇順 データ フレーム 並べ 更新 する	df.sort_values(by='A', ascending=True, inplace=True)
+グラフ 軸 ラベル 設定 する	plt.xlabel(untitled)
+オブジェクト ある クラス	isinstance(obj, クラス)
+奇数	n % 2 == 1
+本日 年	datetime.datetime.today().year
+右 三 角 マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='>')
+シーケンス 累積 し た イテラブル	itertools.accumulate(iterable, operator.mul)
+綺麗 な プロット 使う 準備 する	import seaborn as sns
+折れ線 グラフ 描画 し その 色 ピンク 指定 する	plt.plot(データ列, データ列2, color='pink')
+ヒストグラム 色 カデット ブルー セット する	plt.hist(データ列, color='cadetblue')
+ヒストグラム 色 オリベドラブ 変更 する	plt.hist(データ列, color='olivedrab')
+データ フレーム リスト カラム 正規 分布 どれ 歪ん いる 見る	df[aList].kurt()
+オプション 区切り 記号 使わ ない	sep = ''
+タプル 逆順 する	reversed(aTuple)
+黄色い 上 三 角 印 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='^', markerfacecolor='y')
+ヒストグラム 描画 し 色 ディムグレー 変更 する	plt.hist(データ列, color='dimgrey')
+整数 八 進 表記 する	oct(n)
+プロット フォント 日本語 する	sns.set(font='IPAexGothic')
+つ リスト マップ	dict(zip(aList, aList2))
+データ フレーム 中 含ま れる 文字 列 日付 データ 合計 数える	df.isin([value, value2]).sum()
+データ フレーム グループ 毎 分散 求める	df.groupby(column).var()
+ヒストグラム 描画 し その 色 ライム グリーン 指定 する	plt.hist(データ列, color='limegreen')
+折れ線 グラフ 描画 し その 色 ダーク グレー 設定 する	plt.plot(データ列, データ列2, color='darkgray')
+折れ線 グラフ 四角 マーカー 黄色 する	plt.plot(データ列, データ列2, marker='s', markerfacecolor='y')
+線 グラフ 色 ミディアムターコイズ 指定 する	plt.plot(データ列, データ列2, color='mediumturquoise')
+キュー 中 要素 数 カウント する	deq.count(element)
+文字 列 左端 文字	s[0]
+リスト 末尾 値 ポップ する	aList.pop()
+オプション 区切り 記号 改行 する	sep = '\n'
+折れ線 グラフ 描画 し マーカー 星 する	plt.plot(データ列, データ列2, marker='*')
+濃い リスト 配列 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='deep', linewidth=n)
+実数 浮動 小数点 数 引く	x - y
+オプション 色 ミント クリーム 設定 する	color = 'mintcream'
+リスト リスト 散布 図 左 三 角 マーカー 描画 する	plt.plot(xdata, ydata, marker='<')
+データ フレーム 列 要約 統計 量 求める	df[col].describe()
+線 グラフ 色 オリーブ 設定 する	plt.plot(データ列, データ列2, color='olive')
+文字 列 後ろ 空白 取り除く	s.rstrip(' ')
+文字 列 全体 正規 表現 限定 マッチ する 調べる	re.fullmatch(pattern, s, flags=re.ASCI)
+ヒストグラム 色 パールゴールデンロッド 指定 する	plt.hist(データ列, color='palegoldenrod')
+オプション ライトスカイブルー グラフ 色 指定 する	color = 'lightskyblue'
+オプション 色 青 緑 設定 する	color = 'teal'
+オプション 色 ゴールデン ロッド 設定 する	color = 'goldenrod'
+データ フレーム 日付 データ 変換 する	pd.to_datetime(df[col])
+破線 グラフ 色 濃い 変更 する	plt.plot(xdata, ydata, linestyle='dash', color='deep')
+表 データ 指定 さ れ た 列 抽出 する	df[column]
+日付 時刻 データ タイムスタンプデータ 時間 差 秒 数 計算 する	(aDatetime - aDatetime2).total_seconds()//60
+プログラム 実行 適切 終了 する	sys.exit(0)
+データ フレーム 関数 グループ 化 し 要約 統計 量 求める	df.groupby(関数).describe()
+浮動 小数点 数 乗	math.exp(x)
+リスト リスト カラー コード 濃い グラフ 描く	plt.plot(xdata, ydata, linestyle='deep', color=rgb)
+オプション グラフ 色 シルバー 変更 する	color = 'silver'
+オプション マルーン グラフ 色 設定 する	color = 'maroon'
+文字 コード エスケープ 文字 列 バイト 列 変換 する	s.encode(encoding='unicode_escape')
+オプション グラフ 種類 一 点 鎖線 する	linestyle = 'dashbot'
+リスト 境界 値 リスト 分割 する	pd.cut(aList, aList)
+カラム 最大 値 設定 する	ds.fillna(ds.max())
+ヒストグラム 色 クリムゾン 指定 する	plt.hist(データ列, color='crimson')
+オプション 色 ダーク オレンジ 設定 する	color = 'darkorange'
+オプション 二 ビット 整数 型 使用 する	dtype = np.int16
+グラフ 中 場所 データ ラベル 入れる	plt.legend(loc=(x, y))
+二つ 変数 タブ 区切っ 表示 する	print(value, value2, sep='\t')
+散布 図 ダイアモンドマーカー 描画 する	plt.plot(xdata, ydata, marker='D')
+最後 部分 文字 列 文字 列 二 分割 する	s.rpartition(sub)
+データ フレーム カラム 正規 分布 どの 程度 歪ん いる 調べる	df[col].kurt()
+日付 データ 週間 加える	aDate + datetime.timedelta(weeks=n)
+ふたつ 集合 共通 要素 持た ない どう 調べる	aSet.isdisjoint(aSet2)
+折れ線 グラフ ラベル つける	plt.plot(xdata, ydata, label=untitled)
+オプション ライム グリーン 色 設定 する	color = 'limegreen'
+二つ 集合 集合 互いに 素 調べる	aSet.isdisjoint(aSet2)
+ヒストグラム 描画 し その 色 スプリング グリーン 変更 する	plt.hist(データ列, color='springgreen')
+ヒストグラム 描画 し その 色 ブランチドアーモンド 変更 する	plt.hist(データ列, color='blanchedalmond')
+データ 列 データ 列 散布 図 ダイアモンドマーカー 描く	plt.plot(xdata, ydata, marker='D')
+ハッシュ 値 計算 する	hash(x)
+ヒストグラム 描画 し 色 シエナ 設定 する	plt.hist(データ列, color='sienna')
+ヒストグラム 描画 し その 色 ダーク グレー 指定 する	plt.hist(データ列, color='darkgrey')
+ヒストグラム 描画 し 色 フォレストグリーン 変更 する	plt.hist(データ列, color='forestgreen')
+オブジェクト 辞書 型 インスタンス どう 調べる	isinstance(obj, dict)
+線 グラフ 色 インディゴ 設定 する	plt.plot(データ列, データ列2, color='indigo')
+マッピング 形式 ファイル 出力 保存 する	json.dump(aDict, fout, ensure_ascii=False)
+空 集合 見る	set()
+折れ線 グラフ 色 シエナ 指定 する	plt.plot(データ列, データ列2, color='sienna')
+データ フレーム 最後 行 抽出 する	df.tail(n)
+文字 列 中 限定 パターン 全て マッチ 見る	re.findall(pattern, s, flags=re.ASCI)
+パステル 調 グラフ 配列 リスト 描画 し 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+データ フレーム リスト カラム 最小 値 セット する	df[aList].fillna(df[aList].min())
+折れ線 グラフ 描画 し 色 サンディーブラウン 設定 する	plt.plot(データ列, データ列2, color='sandybrown')
+プロット 描画 濃い カラー パレット 用いる	sns.set(pallete='deep')
+線 グラフ 描画 し その 色 スプリング グリーン 設定 する	plt.plot(データ列, データ列2, color='springgreen')
+セット 別 集合 共通 要素 除く	aSet.symmetric_difference_update(aSet2)
+パステル 調 折れ線 グラフ リスト イテラブル プロット し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='pastel', color=rgb)
+データ フレーム 欠損 値 平均 設定 する	df.fillna(df.mean())
+ライト コーラル ヒストグラム 色 設定 する	plt.hist(データ列, color='lightcoral')
+浮動 小数点 数 複素数 変換 する	complex(x)
+リスト データ 列 色 差別 ない グラフ 描い 色 黒 する	plt.plot(xdata, ydata, linestyle='colorblind', color='k')
+文字 列 最初 タブ 取り除く	s.lstrip('\t')
+オプション 色 パウダー ブルー 設定 する	color = 'powderblue'
+浮動 小数点 数 実数 除する	x / y
+データ フレーム リスト カラム 位 四捨五入 する	df[aList].round(-2)
+ヒストグラム 色 ダーク オリーブ グリーン 変更 する	plt.hist(データ列, color='darkolivegreen')
+本日 火曜日 判定 する	datetime.datetime.today().weekday() == 1
+プロット パレット 明るく する	sns.set(pallete='bright')
+黒い 星 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='*', c='k')
+散布 図 黒い クロス マーカー 描く	plt.plot(xdata, ydata, marker='x', c='k')
+折れ線 グラフ 緑色 ダイアモンド 印 描画 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+文字 列 開始 位置 番目 終了 位置 番目 間 部分 文字 列 含ま れ ない	s.find(sub, start, end) == -1
+リスト 昇順 ソート する	sorted(aList, reverse=True)
+現在 実行 中 例外 情報 調べる	sys.exc_info()
+散布 図 赤い ポイント マーカー 用いる	plt.plot(xdata, ydata, marker='.', c='r')
+データ フレーム カラム 何 曜日 調べる	df[col].dt.weekday_name
+整数 タプル どれ どう 調べる	n in aTuple
+オプション サーモン 色 用いる	color = 'salmon'
+列 毎 データ フレーム 分類 し それぞれ グループ ごと 合計 求める	df.groupby(column).sum()
+整数 符号 付き 長 さ バイナリ する	n.to_bytes(length=bytesize, byteorder='big', signed=True)
+時刻 使う	import time
+つ 実行 結果 文字 列 区切っ 表示 する	print(value, value2, sep=s)
+マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='^')
+オプション グラフ 色 ダーク ブルー 設定 する	color = 'darkblue'
+数式 変数 解 方程式 算出 する	sympy.solve(e, z)
+集合 別 セット 要素 全て 除去 する	aSet.difference_update(aSet2)
+データ フレーム リスト カラム 未 入力 値 中央 値 指定 する	df[aList].fillna(df[aList].median())
+文字 列 タイトル 大文字 小文字 どう 調べる	s.istitle()
+浮動 小数点 数 実数 加える	x + y
+文字 列 右側 部分 文字 列 消す	s.rstrip(sub)
+文字 列 両端 不要 な 空白 取り除く	s.strip()
+キュー 先頭	deq[0]
+シルバー ヒストグラム 色 設定 する	plt.hist(データ列, color='silver')
+ヒストグラム 描画 し その 色 オールド レース 指定 する	plt.hist(データ列, color='oldlace')
+文字 列 全て 識別子 名	s.isidentifier()
+カラー コード 丸 マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='o', c=rgb)
+線 グラフ 描画 し 色 ライト シアン 指定 する	plt.plot(データ列, データ列2, color='lightcyan')
+ヒストグラム 描画 し 色 パウダー ブルー 変更 する	plt.hist(データ列, color='powderblue')
+線 グラフ 描画 し その 色 ナバホホワイト 設定 する	plt.plot(データ列, データ列2, color='navajowhite')
+一 桁 数	0 <= n <= 9
+オプション スラグレー 使う	color = 'slategray'
+オプション レモン シフォン 色 設定 する	color = 'lemonchiffon'
+カウンタ 多い 順番 列挙 する	aCounter.most_common()
+両端 キュー 順 右 個 分 輪番 回す	deq.rotate(n)
+データ フレーム 内 列 と列 重複 ある 見る	df.duplicated(subset=[column, column2])
+データ フレーム 指定 さ れ た 列 抽出 する	df[[column]]
+カウンタ 同士 和 集合 演算 する	aCounter | aCounter2
+ヒストグラム 描く	plt.hist(データ列)
+ヒストグラム 描画 し その 色 ダーク オレンジ する	plt.hist(データ列, color='darkorange')
+データ フレーム 列 値 リスト 含ま れる 行 抽出 する	df[df[column].isin(aList)]
+ヒストグラム 描画 し その 色 ローン グリーン セット する	plt.hist(データ列, color='lawngreen')
+データ フレーム 列 行 セット する	df.set_index(column)
+列 ビン 数 分割 する	pd.cut(ds, n)
+折れ線 グラフ 色 変更 する	plt.plot(データ列, データ列2, color='darkslategrey')
+データ フレーム 列 分 位 数	df[col].quantile(percent/100)
+ヒストグラム 色 ホワイト 設定 する	plt.hist(データ列, color='white')
+小数点 数 逆 正弦	math.asin(x)
+スーパー セット どう 判定 する	aSet.issuperset(aSet2)
+ヒストグラム 描画 し その 色 シルバー 設定 する	plt.hist(データ列, color='silver')
+折れ線 グラフ 描画 し その 色 シスル 設定 する	plt.plot(データ列, データ列2, color='thistle')
+オプション ダイアモンドマーカー 使用 する	marker = 'D'
+日付 時刻 データ 週間 加える	aDatetime + datetime.timedelta(weeks=n)
+列 データ フレーム 集約 し グループ 毎 最小 値 求める	df.groupby(column).min()
+線 グラフ 色 マゼンタ 変更 する	plt.plot(データ列, データ列2, color='magenta')
+淡い ピンク色 ヒストグラム 色 する	plt.hist(データ列, color='lightpink')
+データ 列 設定 する	ds.fillna(x)
+行列 行 ごと 平均 値 求める	np.mean(aArray, axis=1)
+データ 列 ラベル 列 指定 し 横 棒グラフ 描く	plt.barh(ラベル列, データ列)
+年 月 日 時 タイム スタンプ	datetime.datetime(year=year, month=month, day=day, hour=hour)
+イテラブル 数列 散布 図 描画 し マーカー 左 三 角 設定 する	plt.plot(xdata, ydata, marker='<')
+折れ線 グラフ 描画 し マーカー ダイアモンド する	plt.plot(データ列, データ列2, marker='D')
+データ 列 日付 データ 変換 し データ フレーム インデックス する	df.index = pd.DatetimeIndex(pd.to_datetime(ds))
+文字 列 空白 なる 調べる	s.isspace()
+ヒストグラム 色 バリーウッド 指定 する	plt.hist(データ列, color='burlywood')
+線 グラフ 描画 し 色 アリスブルー 設定 する	plt.plot(データ列, データ列2, color='aliceblue')
+まとめ データ フレーム 列 名前 文字 列 文字 列 置換 する	df.columns = [str(x).replace(s, s2) for x in df.columns]
+データ フレーム カラム 位 四捨五入 し 整数 型 する	df[col].round(-3).astype(int)
+実行 結果 アンダーライン 付き プリント できる 文字 列 変換 する	f'\033[4m{value}\033[0m'
+折れ線 グラフ 描画 し 色 白 設定 する	plt.plot(データ列, データ列2, color='white')
+ファイル パス バイナリ モード 開い する	f = open(filepath, mode='rb')
+つ 浮動 小数点 数 十分 近い	math.isclose(x, x2)
+リスト 中 文字 列 最初 見つかる インデックス	aList.index(element)
+オプション グラフ 色 ホワイトスモーク セット する	color = 'whitesmoke'
+変数 白色 する	f'\033[37m{value}\033[0m'
+リスト 配列 淡い グラフ 描画 し その 色 黒色 設定 する	plt.plot(xdata, ydata, linestyle='muted', color='k')
+小数点 以下 桁 プリント する	print(':.5f'.format(x))
+表 データ 指定 さ れ た 列 名 一覧 列 抽出 する	df[columns]
+日付 データ 月曜日 どう	aDate.weekday() == 0
+オプション ダークシアグリーン グラフ 色 設定 する	color = 'darkseagreen'
+データ フレーム 指定 さ れ た 列 取り出す	df[[column, column2, column3, column4]]
+オブジェクト 論理 値 型	isinstance(obj, bool)
+リスト リスト 散布 図 赤色 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*', c='r')
+小数点 数 天井 求める	math.ceil(x)
+オプション 赤 グラフ 色 変更 する	color = 'red'
+異なる カラム キー 二つ データ フレーム 左 結合 する	pd.merge(df, df2, left_on=column, right_on=column2, how='left')
+ヒストグラム 描画 し その 色 耐火 レンガ 指定 する	plt.hist(データ列, color='firebrick')
+ヒストグラム 色 ティール 設定 する	plt.hist(データ列, color='teal')
+日付 時刻 データ 日付 時刻 データ 時間 差 秒 計算 する	(aDatetime - aDatetime2).total_seconds()
+カウンタ 高 頻出 方 リスト し 得る	aCounter.most_common()
+リスト リスト 散布 図 描画 し その 大き さ 設定 する	plt.scatter(xdata, ydata, s=n)
+折れ線 グラフ 色 ミスティローズ セット する	plt.plot(データ列, データ列2, color='mistyrose')
+データ フレーム リスト 列 ヒートマップ グラフ 化 する	sns.heatmap(df[aList].corr())
+オプション プラム 使う	color = 'plum'
+ファイル 名 テキストファイル	filename.endswith('.txt')
+本日 曜日 使う	datetime.datetime.today().weekday()
+配列 列 ごと 平均	np.mean(aArray, axis=0)
+折れ線 グラフ 破線 描画 する	plt.plot(データ列, データ列2, linestyle='dashed')
+ヒストグラム 描画 し 色 ミディアムブルー する	plt.hist(データ列, color='mediumblue')
+ビット 長	n.bit_length()
+日付 データ 金曜日 どう	aDate.weekday() == 4
+データ フレーム 中 欠損 値 存在 する 行 消す	df.dropna()
+オプション 色 フローラルホワイト 設定 する	color = 'floralwhite'
+最大 行 数 設定 する	pd.set_option('display.max_rows', n)
+折れ線 グラフ 描画 し その 色 ダーク サーモン する	plt.plot(データ列, データ列2, color='darksalmon')
+オプション アクア グラフ 色 変更 する	color = 'aqua'
+線 グラフ 色 パールゴールデンロッド 設定 する	plt.plot(データ列, データ列2, color='palegoldenrod')
+線 グラフ 色 バリーウッド 設定 する	plt.plot(データ列, データ列2, color='burlywood')
+データ フレーム 列 文字 列 文字 列 含ま れる 行 取り出す	df[df[column].str.contains(s)]
+オプション ミディアムバイオレットレッド グラフ 色 変更 する	color = 'mediumvioletred'
+ヒストグラム 描画 し その 色 スレート ブルー 指定 する	plt.hist(データ列, color='slateblue')
+データ フレーム 列 つ 選択 する	df[[column, column2, column3]]
+四角 マーカー 散布 図 使う	plt.plot(xdata, ydata, marker='s')
+日付 データ する	pd.to_datetime(dateString)
+文字 列 右側 部分 文字 列	s.endswith(sub)
+棒グラフ 描画 し 中央 寄せ する	plt.bar(ラベル列, データ列, align='center')
+折れ線 グラフ 描画 し その 色 スカイ ブルー する	plt.plot(データ列, データ列2, color='skyblue')
+データ フレーム 正規 分布 どれ 尖っ いる 見る	df.skew()
+集合 空 集合	len(aSet) == 0
+サンディーブラウン ヒストグラム 色 セット する	plt.hist(データ列, color='sandybrown')
+折れ線 グラフ 描画 し その 色 ミディアムアクアマリン セット する	plt.plot(データ列, データ列2, color='mediumaquamarine')
+ディレクトリ 変更 する	os.chdir(os.dirname(filepath))
+日付 時刻 データ 浮動 小数点 数 する	aDatetime.timestamp()
+オプション グラフ 色 スレート ブルー 変更 する	color = 'slateblue'
+配列 作成 する	np.arange(N)
+オプション グリーン イエロー 色 使用 する	color = 'greenyellow'
+データ フレーム 型 リスト 指定 さ れ た データ 型 列 除外 する	df.select_dtypes(exclude=typeList)
+データ フレーム 重複 し た 行 残さ ず 消す	df.drop_duplicates(keep=False)
+配列 リスト 散布 図 黒い 菱形 マーカー 描画 する	plt.plot(xdata, ydata, marker='D', c='k')
+オプション グラフ 色 コーンフラワーブルー する	color = 'cornflowerblue'
+配列 リスト 折れ線 描画 する	plt.plot(xdata, ydata)
+真 なら ない 列 部分	itertools.dropwhile(predicateFunc, iterable)
+折れ線 グラフ 四角 印 線 幅 する	plt.plot(データ列, データ列2, marker='s', markeredgewidth=n)
+オプション グラフ 色 黄色 セット する	color = 'yellow'
+ビット 和 求める	n | n2
+折れ線 グラフ 描画 し 色 濃い シアン 設定 する	plt.plot(データ列, データ列2, color='darkcyan')
+アルファベット 全部 見る	string.ascii_letters
+いつ オブジェクト 続く イテラブル 求める	itertools.repeat(element)
+データ 列 四 分 位 数 ごと 分割 する	pd.qcut(ds, 4)
+オプション バツ 印 使う	marker = 'x'
+折れ線 グラフ 描画 し 色 ミディアムバイオレットレッド 設定 する	plt.plot(データ列, データ列2, color='mediumvioletred')
+多重 集合 作る	collections.Counter()
+空 チェーン マップ 作る	collections.ChainMap()
+折れ線 グラフ 色 スプリング グリーン 指定 する	plt.plot(データ列, データ列2, color='springgreen')
+データ 列 時刻 使う	ds.dt.hour
+タブ 区切り ファイル ヘッダ 指定 せ ず 読む	pd.read_csv(filename, header=None)
+補足 位置 設定 する	plt.legend(loc=(x, y))
+二つ オブジェクト 等しい 確認 する	obj == obj2
+折れ線 グラフ 菱形 マーカー 加える	plt.plot(データ列, データ列2, marker='D')
+オブジェクト 集合 クラス 調べる	isinstance(obj, set)
+リスト いつ 繰り返す	itertools.cycle(iterable)
+青い ダイアモンドマーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+赤色 淡い グラフ 描く	plt.plot(xdata, ydata, linestyle='muted', color='r')
+パステル 調 色 赤 する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+ケン ドール 相関 係数 用い データ フレーム 列 列 相関 行列	df[[column, column2]].corr(method='kendall')
+オプション オリベドラブ 色 用いる	color = 'olivedrab'
+ファイル 拡張 子 付き ファイル 名 取り出す	os.path.basename(filepath)
+散布 図 星 マーカー 描画 する	plt.plot(xdata, ydata, marker='*')
+配列 リスト 散布 図 淡い 色 描画 する	plt.plot(xdata, ydata, c='muted')
+大 バツ マーカー 散布 図 使用 する	plt.plot(xdata, ydata, marker='X')
+スピアマン データ フレーム 相関 行列	df.corr(method='spearman')
+パターン 事前 複数 行 対応 コンパイル する	re.compile(pattern, flag=re.MULTILINE)
+青い クロス マーカー 折れ線 グラフ 描画 する	plt.plot(データ列, データ列2, marker='x', markerfacecolor='b')
+データ フレーム 列 で ある 行 取り出す	df[df[column] == x]
+横 軸 ラベル 付ける	plt.xlabel(untitled)
+データ フレーム 指定 さ れ た カラム 配列 変換 する	df[column].values
+データ フレーム インデックス 名前 一覧	df.index
+配列 イテラブル 濃い 描画 し その 色 黒色 設定 する	plt.plot(xdata, ydata, linestyle='deep', color='k')
+リスト 複数個 ランダム 選ぶ	random.choices(iterable, k=n)
+データ フレーム パーセンタイル	df.median()
+カウンタ 用いる	import collections
+文字 列 中 ひとつ 非 英字 含ま れる テスト する	any(not c.isalpha() for c in s)
+秒 データ フレーム 日付 データ する	pd.to_datetime(df[col], unit='s', utc=True)
+データ フレーム 欠損 値 最大 値 変更 する	df.fillna(df.max())
+ヒストグラム 描画 し その 色 オレンジ レッド 指定 する	plt.hist(データ列, color='orangered')
+丸 マーカー 用い 散布 図 描画 する	plt.plot(xdata, ydata, marker='o')
+数値 青色 する	f'\033[34m{value}\033[0m'
+ヒストグラム 描画 し その 色 紺 変更 する	plt.hist(データ列, color='darkblue')
+オプション ミディアムターコイズ グラフ 色 指定 する	color = 'mediumturquoise'
+個 分 双方向 キュー 順序 左 ロー テンション する	deq.rotate(-n)
+データ フレーム 列 値 大きく 少ない 行 取り出す	df[(x < df[column]) & (df[column] < x2)]
+文字 列 最後 部分 文字 列 区切る	s.rsplit(sub)
+一方 含ま れ 他方 含ま れ ない 集合 計算 する	aSet.difference(aSet2)
+折れ線 グラフ ダイアモンド 印 緑色 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='g')
+日付 時刻 データ タイムスタンプデータ 後ろ	aDatetime > aDatetime2
+ファイル 名 ファイル	filename.endswith('.csv')
+データ フレーム 各 列 列 組み合わせ 毎 分類 し 合計 求める	df.groupby([column, column2], as_index=False).sum()
+行列 次元 行 変形 する	aArray.reshape(1, -1)
+文字 列 文字 列 凡例 付ける	plt.legend([s, s2])
+イテラブル リスト 散布 図 描画 し 丸 マーカー 色 カラー コード 設定 する	plt.plot(xdata, ydata, marker='o', c=rgb)
+ヒストグラム 描画 し その 色 インディアン レッド 指定 する	plt.hist(データ列, color='indianred')
+文字 列 サフィックス 安全 部分 文字 列 取り除く	s.removesuffix(sub)
+二 数 一番 小さい 値	max(x, y)
+散布 図 淡い 色 描く	plt.plot(xdata, ydata, c='muted')
+日付 データ 分 減算 する	aDate - datetime.timedelta(minutes=n)
+カウンタ 要素 リスト し 得る	aCounter.keys()
+ヒストグラム 描画 し 色 設定 する	plt.hist(データ列, color='darkslategrey')
+データ フレーム 表示 する とき 最大 行 数 変更 する	pd.set_option('display.max_rows', n)
+整数 列 使う	list(range(n, n2+1))
+ヒストグラム 描画 し 色 スカイ ブルー 設定 する	plt.hist(データ列, color='skyblue')
+文字 列 区切り 区切っ 文字 列 リスト 変換 する	s.split(sep)
+オプション グリーン グラフ 色 指定 する	color = 'green'
+プラットフォーム 整数 最大 値 知る	sys.maxsize
+データ フレーム 行 目 抽出 する	df[:n]
+オプション 左 三 角 印 加える	marker = '<'
+二つ 列 並べ 箱 ひ げ 図 する	plt.boxplot([df[column], df[column2]])
+ヒストグラム 描画 し 色 ホワイトスモーク 指定 する	plt.hist(データ列, color='whitesmoke')
+常用 対数 算出 する	math.log10(x)
+データ フレーム リスト 列 分散	df[aList].var()
+オプション スノー 色 用いる	color = 'snow'
+上限 指定 し 両端 キュー 作る	collections.deque(maxlen=n)
+タプル 組 接続 する	aTuple + aTuple2
+小数点 数 有限	math.isfinite(x)
+組 ソート する	sorted(aTuple)
+折れ線 グラフ 描画 し 印 四角 印 する	plt.plot(データ列, データ列2, marker='s')
+色 差別 ない パレット グラフ 描画 用いる	sns.set(pallete='colorblind')
+データ フレーム 各 カラム 毎 グループ 化 し 列 最大 値 計算 する	df.groupby(column)[column2].max()
+データ フレーム 中 列 分割 する	pd.cut(df[col], aList)
+明るい の 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='bright', linewidth=n)
+線 グラフ 描画 し 色 イエロー グリーン 設定 する	plt.plot(データ列, データ列2, color='yellowgreen')
+データ フレーム リスト 列 位 四捨五入 する	df[aList].round(-1)
+折れ線 グラフ ダイアモンド 印 青色 する	plt.plot(データ列, データ列2, marker='D', markerfacecolor='b')
+オプション 出力 先 標準 エラー 変更 する	file = sys.stderr
+ヒストグラム 色 ライト シアン セット する	plt.hist(データ列, color='lightcyan')
+折れ線 グラフ 色 ダークスレートブルー セット する	plt.plot(データ列, データ列2, color='darkslateblue')
+リスト リスト 青い 淡い 描画 する	plt.plot(xdata, ydata, linestyle='muted', color='b')
+赤色 パステル 調 グラフ 描画 する	plt.plot(xdata, ydata, linestyle='pastel', color='r')
+各 列 毎 データ フレーム グループ 化 し 列 個数 求める	df.groupby(column)[column2].count()
+オプション ローン グリーン グラフ 色 指定 する	color = 'lawngreen'
+割り切れ ない	n % n2 != 0
+ヒストグラム 描画 し 色 ミント クリーム 設定 する	plt.hist(データ列, color='mintcream')
+オプション グラフ 色 ゴースト ホワイト する	color = 'ghostwhite'
+未満 または 以上	n < n2 or n >= n3
+実数	math.isnan(x)
+八 進 文字 列 バイナリ 変換 する	int(s, 8).to_bytes(length=bytesize, byteorder='big')
+オプション 色 ライト シアン 設定 する	color = 'lightcyan'
+イテラブル 要素 両端 キュー 末尾 追加 する	deq.extend(iterable)
+パステル 調 色 折れ線 グラフ 描画 し その 線 幅 設定 する	plt.plot(xdata, ydata, linewidth=n, color='pastel')
+二つ データ 列 並べ 箱 髭 図 する	plt.boxplot([データ列, データ列2])
+エポック 秒 日付 時刻 する	datetime.datetime.fromtimestamp(timestamp)
+スライド プロット 用途 する	sns.set(context='talk')
+折れ線 グラフ 描画 し その 色 ライトグリーン 指定 する	plt.plot(データ列, データ列2, color='lightgreen')
+表 データ 各 列 毎 集約 し 文字 列 グループ 個数 計算 する	df.groupby(column).size()[s]
+アリス ブルー ヒストグラム 色 設定 する	plt.hist(データ列, color='aliceblue')
+配列 配列 散布 図 描画 し マーカー 色 明るい 変更 する	plt.plot(xdata, ydata, c='bright')
+文字 列 全て 印字 できる どう 調べる	s.isprintable()
+ファイル パス 存在 し ない	not os.path.exists(filepath)
+データ フレーム カラム 平均 値 変更 する	df[col].fillna(df[col].mean())
+個 データ フレーム 中 列 ビン 分割 し ラベル つける	pd.cut(df[col], n, labels=names)
+データ フレーム リスト カラム 四捨五入 し 整数 型 する	df[aList].round().astype(int)
+パステル 調 色 使っ 数列 配列 散布 図 プロット する	plt.plot(xdata, ydata, c='pastel')
+リスト 番目 番目	aList[n:n2]
+文字 コード 対応 する 文字 使う	chr(unicode)
+データ フレーム リスト 列 中 文字 列 文字 列 いくつ ある 数える	df[aList].isin([value, value2]).sum()
+データ フレーム 列 ヒストグラム 可視 化 する	plt.hist(df[column])
+データ フレーム 列 加え ダミー 変数 変換 する	pd.get_dummies(df[column], dummy_na=True)
+空白 文字 列 区切っ 数列 変換 する	map(int, s.split())
+本日 日付 使う	datetime.date.today()
+淡い 色 柱状 図 描画 する	plt.hist(xdata, color='muted')
+文字 列 最後 部分 文字 列 二分 し 後半 文字 列 使う	s.rpartition(sub)[-1]
+真 なる リスト 部分	itertools.takewhile(predicateFunc, iterable)
+暗い 色 黒く する	plt.plot(xdata, ydata, linestyle='dark', color='k')
+ヒストグラム 描画 し 色 ペルー 設定 する	plt.hist(データ列, color='peru')
+データ フレーム 列 表示 可能 な よう する	pd.set_option('display.max_columns', n)
+両端 キュー 番目 部分 要素	collections.deque(itertools.islice(deq, start, end))
+ケンドール データ フレーム リスト 列 相関 行列	df[aList].corr(method='kendall')
+オプション バイナリ 用 設定 する	mode = 'rb'
+オプション 最初 行 ヘッダ 設定 する	header = 0
+散布 図 暗い 色 マーカー 使っ 描画 する	plt.plot(xdata, ydata, c='dark')
+折り返し 無効 設定 する	pd.set_option('expand_frame_repr', False)
+タプル 値 昇順 ソート する	sorted(aTuple, reverse=True)
+赤い 大 バツ マーカー 散布 図 描く	plt.plot(xdata, ydata, marker='X', c='r')
+カウンタ 辞書 減らす	aCounter.subtract(aDict)
+ヒストグラム 色 ライトスレイグレー セット する	plt.hist(データ列, color='lightslategray')
+デフォルト エン コーディング 知る	sys.getdefaultencoding()
+リスト 個 ビニング し ラベル つける	pd.cut(aList, n, labels=names)
+データ フレーム 列 名 リスト グループ 化 し 列挙 する	[(name, group) for name, group in df.groupby(columns)]
+行列 行 ごと 最大	np.max(aArray, axis=1)
+オプション コーンフラワーブルー 色 使用 する	color = 'cornflowerblue'
+データ フレーム 各 カラム 列 組み合わせ 毎 グループ 化 し 最小 値 求める	df.groupby([column, column2], as_index=False).min()
+データ フレーム シェイプ	df.shape
+イテラブル 数列 散布 図 カラー コード ダイアモンドマーカー 描く	plt.plot(xdata, ydata, marker='D', c=rgb)
+間 ヒストグラム 用い 配列 描く	plt.hist(データ列, range=(start, end))
+ヒストグラム 色 ダークスレートブルー セット する	plt.hist(データ列, color='darkslateblue')
+折れ線 グラフ 描画 し その 色 ホット ピンク セット する	plt.plot(データ列, データ列2, color='hotpink')
+ヒストグラム 描画 し 色 モカシン 設定 する	plt.hist(データ列, color='moccasin')
+文字 列 フォーマット し タイムスタンプデータ 文字 列 変換 する	"aDatetime.strftime(""%d/%m/%y"")"
+カラム モード	ds.mode()
+文字 列 漢字	('\u4E00' <= ch <= '\u9FD0')
+ヒストグラム 描画 し 色 ミディアムスレートブルー 設定 する	plt.hist(データ列, color='mediumslateblue')
+実数 乗	x ** 2
+データ フレーム 列 未 入力 値 最小 値 埋める	df[col].fillna(df[col].min())
+タプル 中 一番 小さい 値	min(aTuple)
+文字 列 ケース 無視 し 正規 表現 分ける	re.split(pattern, s, flags=re.IGNORECASE)
+オプション 色 オーキッド 設定 する	color = 'orchid'
+データ 列 データ 列 折れ線 ラベル付け し 描画 する	plt.plot(xdata, ydata, label=untitled)
+真 テスト する	bool(x)
+ヒストグラム 描画 し 色 アリスブルー 変更 する	plt.hist(データ列, color='aliceblue')
+ファイル パス ストリーム 使う	open(filepath)
+散布 図 黒色 左 三 角 マーカー 用いる	plt.plot(xdata, ydata, marker='<', c='k')
+折れ線 グラフ 描画 し その 色 青 設定 する	plt.plot(データ列, データ列2, color='blue')
+イテラブル 集合 使う	set(iterable)
+日付 データ 日付 データ 後ろ どう 調べる	aDate > aDate2
+データ フレーム リスト カラム 中 欠損 値 数 数える	df[aList].isna().sum()
+オプション ダーク カーキ 色 用いる	color = 'darkkhaki'
+双方向 キュー 末尾 使う	deq[-1]
+タプル キー 対応 し た 値 参照 する	aDict.get(key)
+データ フレーム 一番 右側 列 除く	df[df.columns[:-1]]
+オプション カーキ グラフ 色 設定 する	color = 'khaki'
+オプション グラフ 色 ライト グレー 変更 する	color = 'lightgray'
+データ フレーム 列 文字 列 文字 列 終わら ない データ 取り出す	df[not df[column].str.endswith(s)]
+タプル 最初 値 見る	aTuple[0]
+折れ線 グラフ 色 ディムグレー 変更 する	plt.plot(データ列, データ列2, color='dimgray')
+オブジェクト リスト クラス 確認 する	isinstance(obj, list)
+暗い 色 折れ線 描い その 線 幅 指定 する	plt.plot(xdata, ydata, linewidth=n, color='dark')
+ヒストグラム 描画 し 色 マルーン 設定 する	plt.hist(データ列, color='maroon')
+データ フレーム リスト 列 値 未 入力 値 調べる	df[aList].isna()
+線 グラフ 描画 し その 色 ラベンダー ブラッシュ する	plt.plot(データ列, データ列2, color='lavenderblush')
+文字 列 平仮名 カタカナ する	''.join([chr(ord(ch) + 96) if ('ぁ' <= ch <= 'ん') else ch for ch in s])
+線 グラフ 描画 し その 色 パパイヤウィップ 指定 する	plt.plot(データ列, データ列2, color='papayawhip')
+データ フレーム 欠損 値 モード 埋める	df.fillna(df.mode().iloc[0])
+赤色 丸 マーカー リスト 配列 散布 図 描画 する	plt.plot(xdata, ydata, marker='o', c='r')
+カウンタ 同士	aCounter | aCounter2
+等しい 量 なる よう 配列 分割 数 使っ ビン 分割 する	pd.qcut(aArray, n)
+文字 列 部分 文字 列 二分 し 前半 文字 列 見る	s.partition(sub)[0]
+線 グラフ 色 ローン グリーン 設定 する	plt.plot(データ列, データ列2, color='lawngreen')
+ヒストグラム 描画 し 色 ラベンダー ブラッシュ 指定 する	plt.hist(データ列, color='lavenderblush')
+パラメータ 数値 積分 する	sympy.integrate(e, z)
+スクリプト ファイル フォルダパス	os.path.dirname(os.path.abspath(__file__))
+グラフ 水平 方向 破線 付ける	plt.axhline(y=0, linestyle='dashed')
+ヒストグラム 描画 し その 色 グリーン 指定 する	plt.hist(データ列, color='green')
+新しい 文字 列 文字 列 中 部分 文字 列 置き換える	s.replace(sub, newsub)
+マイナス 算出 する	n - n2
+濃い 柱状 図 描画 する	plt.hist(xdata, color='deep')
+オプション 色 モカシン セット する	color = 'moccasin'
+オプション カンマ 区切り 使う	sep = ','
+オプション 色 用いる	color = 'darkslategrey'
+イテラブル 行列 変換 する	np.array(iterable)
+オプション ミント クリーム 使う	color = 'mintcream'
+データ フレーム 列 列 降順 破壊 的 並べる	df.sort_values(by=['A', 'B'], ascending=False, inplace=True)
+二つ カウンタ 共通 する データ 計算 する	aCounter & aCounter2
+ファイル バイト 読み込む	f.read(1)
+水平 方向 実線 付ける	plt.axhline(y=0, linestyle='solid')
+データ フレーム インデックス 名前 一 度 付け 直す	df.rename(index={name: name2})
+線 グラフ 色 シーグリーン 設定 する	plt.plot(データ列, データ列2, color='seagreen')
+カラム 値 欠損 値	ds.isna()
+数値 パラメータ 微分 する	sympy.diff(e, z)
+文字 列 リスト 結合 し 一つ 文字 列 する	''.join(aStringList)
+部分 文字 列 文字 列 中 ある 調べる	sub in s
+日付 時刻 データ タプル する	aDatetime.timetuple()
+点線 つける	plt.axvline(x=0, linestyle='dotted')
+オプション 色 貝殻 変更 する	color = 'seashell'
+データ フレーム 列 値 小さい データ 抽出 する	df[df[column] < x]
+折れ線 グラフ 描画 し 色 カーキ 変更 する	plt.plot(データ列, データ列2, color='khaki')
+配列 リスト 散布 図 大き さ 描画 する	plt.scatter(xdata, ydata, s=n)
+イテラブル 配列 淡い グラフ 描画 し その 線 幅 設定 する	plt.plot(xdata, ydata, linestyle='muted', color=rgb)
+カラー コード 右 三 角 マーカー 用い 散布 図 描画 する	plt.plot(xdata, ydata, marker='>', c=rgb)
+リスト ビン 数 使っ ビニング する	pd.cut(aList, n)
+ライム ヒストグラム 色 変更 する	plt.hist(データ列, color='lime')
+散布 図 左 三 角 マーカー 用いる	plt.plot(xdata, ydata, marker='<')
+ヒストグラム 色 珊瑚 指定 する	plt.hist(データ列, color='coral')
+線 グラフ 色 ライト グレー セット する	plt.plot(データ列, データ列2, color='lightgrey')
+データ フレーム カラム 何 分 見る	df[col].dt.minute
+データ フレーム 指定 さ れ た 列 リスト 取り出す	df[column].values.tolist()
+文字 列 示す エン コーディング 既存 ファイル 追加 できる よう オープン する	open(filepath, mode='a', encoding=s)
+折れ線 グラフ 星 印 赤色 する	plt.plot(データ列, データ列2, marker='*', markerfacecolor='r')
+数列 リスト 散布 図 黒い 丸 マーカー 描画 する	plt.plot(xdata, ydata, marker='o', c='k')
+辞書 順 文字 列 文字 列 後	s > s2
+ファイル ディレクトリ 名 取り出す	os.path.dirname(filepath)
+データ フレーム 関数 値 まとめ た グループ	df.groupby(関数)
+オプション フォレストグリーン 色 用いる	color = 'forestgreen'
+配列 スカラー 倍 算出 する	aArray * n
+文字 列 内 ひとつ 大文字 含ま れる	any(c.isupper() for c in s)
+オプション ダークシアグリーン 色 用いる	color = 'darkseagreen'
+ヒストグラム 描画 し 色 ビスク 設定 する	plt.hist(データ列, color='bisque')
+列 キー し 二つ データ フレーム 外部 ジョイン する	pd.merge(df, df2, on=column, how='outer')
+符号 なし ビット 整数 型 全 要素 初期 化 さ れ た 行列	np.zeros(行数, 列数, dtype=np.uint8)
+列 と列 キー 二つ データ フレーム ジョイン する	pd.merge(df, df2, left_on='A', right_on='B')
+ファイル 全部 読み込む	f.read()
+マッピング 項目 数	len(aDict)
+偶数	n % 2 == 0
+データ 列 千 位 丸め 整数 型 する	ds.round(-3).astype(int)
+等しい どう 調べる	n == n2
+データ フレーム 複数 列 昇順 整列 し 更新 する	df.sort_values(by=column, ascending=True, inplace=True)
+オプション イエロー グリーン 用いる	color = 'yellowgreen'
+割り切れる	n % 3 == 0
+オプション 青色 用いる	color = 'blue'
+配列 度数 分布 図 プロット する	plt.hist(aArray)
+データ 列 折れ線 グラフ 描画 し 印 バツ 印 する	plt.plot(データ列, データ列2, marker='x')
+オプション 耐火 レンガ 色 使用 する	color = 'firebrick'
