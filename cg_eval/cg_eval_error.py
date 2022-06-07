@@ -135,7 +135,10 @@ def main():
   index_id, pred_id = arg(textlist)
 
   ss = read_tsv(sys.argv[1])
-  textlist.append(sys.argv[1])
+  try:
+    textlist.append(sys.argv[2])
+  except:
+    textlist.append(sys.argv[1])
   textlist.append('\n')
 
   Exact_Match(ss,textlist)
