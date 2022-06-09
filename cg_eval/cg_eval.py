@@ -5,6 +5,7 @@ import Levenshtein
 import nltk
 #nltk.download('punkt')
 from nltk import bleu_score
+from nltk.translate.bleu_score import corpus_bleu
 from io import BytesIO
 from tokenize import tokenize, open
 import re
@@ -46,11 +47,6 @@ def Exact_Match(ss,textlist):
 
     except:
       black_NG+=1
-      #blackを利用した際にERRORが発生した箇所をテキストファイルに記入
-      #with open('BLACK_NG.txt',mode='a') as f:
-        #f.writelines(line)
-        #f.write('\n')
-      #print(line)
 
   #誤答数
   no_correct=len(ss)-correct
@@ -59,15 +55,10 @@ def Exact_Match(ss,textlist):
   correct_answer_rate=correct/len(ss)
 
   textlist.append(f'全体件数：{len(ss)}')
-  textlist.append('\n')
   textlist.append(f'BLACK_NG：{black_NG}')
-  textlist.append('\n')
   textlist.append(f'正答数：{correct}')
-  textlist.append('\n')
   textlist.append(f'誤答数：{no_correct}')
-  textlist.append('\n')
   textlist.append(f'正答率：{round(correct_answer_rate,5)}')
-  textlist.append('\n')
 
 
 def Levenstein(ss,textlist):
@@ -84,7 +75,7 @@ def Levenstein(ss,textlist):
   leven=sum_Levenstein/len(ss)
   
   textlist.append(f'leven：{round(leven,5)}')
-  textlist.append('\n')
+
 
 def BLEU(ss,textlist):
   
@@ -101,19 +92,19 @@ def BLEU(ss,textlist):
       except:
           return pattern.split(code)
 
-  #合計
-  sum_bleu = 0
+  references=[]
+  predictions=[]
 
   for line in ss:
     index=line[0]
     pred=line[1]
-    sum_bleu += bleu_score.sentence_bleu([tokenize_pycode(index)],tokenize_pycode(pred))
 
-     #平均値
-  bleu = sum_bleu / len(ss)
-
+    references.append([tokenize_pycode(index)])
+    predictions.append(tokenize_pycode(pred))
+    
+  bleu=corpus_bleu(references,predictions)
   textlist.append(f'BLEU：{round(bleu,5)}')
-  textlist.append('\n')
+
 
 def ROUGE_L(ss,textlist):
 
@@ -133,16 +124,14 @@ def ROUGE_L(ss,textlist):
   ROUGE_score=sum_ROUGE_score/len(ss)
 
   textlist.append(f'ROUGE-L：{round(ROUGE_score,5)}')
-  textlist.append('\n')
+
 
 def arg(textlist):
   try:
-    textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
-    textlist.append('\n')
+    #textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
     return int(sys.argv[2]),int(sys.argv[3])
   except:
     # textlist.append("index = 2, pred = 1")
-    textlist.append('\n')
     return 2, 1
     
 
@@ -159,17 +148,16 @@ def main():
     textlist.append(sys.argv[2])
   except:
     textlist.append(sys.argv[1])
-  textlist.append('\n')
 
   Exact_Match(ss,textlist)
   BLEU(ss,textlist)
   ROUGE_L(ss,textlist)
   Levenstein(ss,textlist)
 
-  text1=""
+  text1=''
   for textlist_line in textlist:
-    text1+=textlist_line
+    text1+=textlist_line+'\n'
   
   gs.send_gs(text1)
-
+  
 main()

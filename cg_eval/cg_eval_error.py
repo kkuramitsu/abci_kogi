@@ -1,14 +1,13 @@
 import csv
 import sys
-import black
 import Levenshtein
 import nltk
 #nltk.download('punkt')
 from nltk import bleu_score
-from io import BytesIO
-from tokenize import tokenize, open
+from nltk.translate.bleu_score import corpus_bleu
 import re
 from sumeval.metrics.rouge import RougeCalculator
+from janome.tokenizer import Tokenizer
 import gs
 
 import warnings
@@ -19,7 +18,7 @@ def read_tsv(filename):
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
         for row in reader:
-          ss.append((row[index_id], row[pred_id]))
+          ss.append((row[index_id].replace('<tab> ','<tab>'), row[pred_id].replace('<tab> ','<tab>')))
     return ss
 
 
@@ -42,13 +41,9 @@ def Exact_Match(ss,textlist):
   correct_answer_rate=correct/len(ss)
 
   textlist.append(f'全体件数：{len(ss)}')
-  textlist.append('\n')
   textlist.append(f'正答数：{correct}')
-  textlist.append('\n')
   textlist.append(f'誤答数：{no_correct}')
-  textlist.append('\n')
   textlist.append(f'正答率：{round(correct_answer_rate,5)}')
-  textlist.append('\n')
 
 def Levenstein(ss,textlist):
 
@@ -64,36 +59,33 @@ def Levenstein(ss,textlist):
   leven=sum_Levenstein/len(ss)
   
   textlist.append(f'leven：{round(leven,5)}')
-  textlist.append('\n')
 
 def BLEU(ss,textlist):
   
   pattern = re.compile(r'[\(, .\+\-\)]')
 
-  def tokenize_pycode(code):
-      try:
-          ss=[]
-          tokens = tokenize(BytesIO(code.encode('utf-8')).readline)
-          for toknum, tokval, _, _, _ in tokens:
-              if toknum != 62 and tokval != '' and tokval != 'utf-8':
-                  ss.append(tokval)
-          return ss
-      except:
-          return pattern.split(code)
+  def tokenize_japanese(japanese):
+    try:
+      t=Tokenizer()
+      tokens=t.tokenize(japanese)
+      ss=[token.surface for token in tokens]
+      return ss
+    except:
+      return pattern.split(japanese)
 
-  #合計
-  sum_bleu = 0
+  references=[]
+  predictions=[]
 
   for line in ss:
     index=line[0]
     pred=line[1]
-    sum_bleu += bleu_score.sentence_bleu([tokenize_pycode(index)],tokenize_pycode(pred))
 
-     #平均値
-  bleu = sum_bleu / len(ss)
-
+    references.append([tokenize_japanese(index)])
+    predictions.append(tokenize_japanese(pred))
+    
+  bleu=corpus_bleu(references,predictions)
   textlist.append(f'BLEU：{round(bleu,5)}')
-  textlist.append('\n')
+
 
 def ROUGE_L(ss,textlist):
 
@@ -113,16 +105,14 @@ def ROUGE_L(ss,textlist):
   ROUGE_score=sum_ROUGE_score/len(ss)
 
   textlist.append(f'ROUGE-L：{round(ROUGE_score,5)}')
-  textlist.append('\n')
+
 
 def arg(textlist):
   try:
-    textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
-    textlist.append('\n')
+    # textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
     return int(sys.argv[2]),int(sys.argv[3])
   except:
-    textlist.append("index = 2, pred = 1")
-    textlist.append('\n')
+    # textlist.append("index = 2, pred = 1")
     return 2, 1
     
 
@@ -139,7 +129,6 @@ def main():
     textlist.append(sys.argv[2])
   except:
     textlist.append(sys.argv[1])
-  textlist.append('\n')
 
   Exact_Match(ss,textlist)
   BLEU(ss,textlist)
@@ -148,7 +137,7 @@ def main():
 
   text1=""
   for textlist_line in textlist:
-    text1+=textlist_line
+    text1+=textlist_line+'\n'
   
   gs.send_gs(text1)
 
