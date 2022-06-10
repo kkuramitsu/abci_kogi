@@ -104,7 +104,7 @@ class TSVDataset(Dataset):
     def __getitem__(self, index):
         return self.dataset[index]
 
-    def test_and_save(self, generate, filename, max=None):
+    def test_and_save2(self, generate, filename, max=None):
         if self.hparams.testing:
             max = 10
         with open(filename, 'w') as f:
@@ -115,6 +115,23 @@ class TSVDataset(Dataset):
                 gen = generate(src)
                 print(f'{src}\t{gen}\t{tgt}', file=f)
                 f.flush()
+                if c % 10 == 0:
+                    logging.info(f'{src}\t{gen}\t{tgt}')
+                c += 1
+                if max is not None and c > max:
+                    break
+
+    def test_and_save(self, generate, filename, max=None):
+        if self.hparams.testing:
+            max = 10
+        with open(filename, 'w') as f:
+            c = 0
+            if max is not None:
+                random.shuffle(self.dataset)
+            writer = csv.writer(f, delimiter="\t")
+            for src, tgt in self.dataset:
+                gen = generate(src)
+                writer.writerow([src, gen, tgt])
                 if c % 10 == 0:
                     logging.info(f'{src}\t{gen}\t{tgt}')
                 c += 1
