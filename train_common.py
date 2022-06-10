@@ -139,8 +139,8 @@ class TSVDataset(Dataset):
                     break
 
 
-def load_DataSet(hparams, transform=transform_nop):
-    train_data = _loading_dataset(hparams, None, transform)
+def load_DataSet(hparams, files=None, transform=transform_nop):
+    train_data = _loading_dataset(hparams, files, transform)
     return TSVDataset(hparams, train_data)
 
 
@@ -189,9 +189,10 @@ def _add_arguments(parser, args_dict):
 
 
 DEFAULT_SETUP = dict(
+    model_path='google/mt5-small',
     model_name_or_path='google/mt5-small',
     tokenizer_name_or_path='google/mt5-small',
-    additional_tokens='<b> </b> <nl> <e0> <e1> <e2> <e3> <e4> <e5> <e6> <e7> <e8> <e9>',
+    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
     seed=42,
     encoding='utf_8',
     column=0, target_column=1,
@@ -264,6 +265,12 @@ def parse_hparams(setups={}, Tokenizer=None):
         hparams.additional_tokens = []
     else:
         hparams.additional_tokens = hparams.additional_tokens.split()
+
+    if hparams.model_name_or_path == '':
+        hparams.model_name_or_path = hparams.model_path
+
+    if hparams.tokenizer_name_or_path == '':
+        hparams.tokenizer_name_or_path = hparams.model_name_or_path
 
     if Tokenizer is not None:
         # if not hasattr(hparams, 'use_fast_tokenizer'):
