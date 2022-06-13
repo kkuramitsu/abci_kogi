@@ -88,7 +88,7 @@ def _main():
     print(model)
 
     DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-    #model.to(DEVICE)
+    model.to(DEVICE)
 
     print('testing ... ', model.device)
     generate = make_generate(model, tokenizer)
