@@ -59,22 +59,29 @@ class MT5FineTuner(pl.LightningModule):
 
         print(self.hparams.tokenizer.vocab_size, self.hparams.vocab_size)
 
-        # 事前学習済みモデルの読み込み
-        config = AutoConfig.from_pretrained(
-            self.hparams.model_name_or_path)
-        config.vocab_size = max(config.vocab_size,
-                                self.hparams.tokenizer.vocab_size,
-                                self.hparams.vocab_size)
-        if '/mt5' in self.hparams.model_name_or_path:
-            self.model = MT5ForConditionalGeneration(config)
+        # # 事前学習済みモデルの読み込み
+        # config = AutoConfig.from_pretrained(
+        #     self.hparams.model_name_or_path)
+        # config.vocab_size = max(config.vocab_size,
+        #                         self.hparams.tokenizer.vocab_size,
+        #                         self.hparams.vocab_size)
+        # if '/mt5' in self.hparams.model_name_or_path:
+        #     self.model = MT5ForConditionalGeneration(config)
+        # else:
+        #     self.model = MT5ForConditionalGeneration(config)
+        if 'mt5' in self.hparams.model_name_or_path:
+            self.model = MT5ForConditionalGeneration.from_pretrained(
+                self.hparams.model_name_or_path)
         else:
-            self.model = MT5ForConditionalGeneration(config)
+            self.model = T5ForConditionalGeneration.from_pretrained(
+                self.hparams.model_name_or_path)
         self.tokenizer = self.hparams.tokenizer
         print(self.model.config)
-        print(self.model.config.vocab_size, self.hparams.vocab_size)
+        print('vocab_size', self.hparams.tokenizer.vocab_size,
+              self.model.config.vocab_size, self.hparams.vocab_size)
         self.train_dataset = None
-        self.nsteps_ = -1
-        self.nepochs_ = -1
+        # self.nsteps_ = -1
+        # self.nepochs_ = -1
 
     def forward(self, input_ids, attention_mask=None, decoder_input_ids=None,
                 decoder_attention_mask=None, labels=None):
@@ -110,8 +117,8 @@ class MT5FineTuner(pl.LightningModule):
     def training_step(self, batch, batch_idx):
         """訓練ステップ処理"""
         loss = self._step(batch)
-        if self.nsteps_ >= 0:
-            self.nsteps_ += 1
+        # if self.nsteps_ >= 0:
+        #     self.nsteps_ += 1
         return {"loss": loss}
 
     def training_epoch_end(self, outputs):
@@ -119,8 +126,8 @@ class MT5FineTuner(pl.LightningModule):
         # print(self.epoch_, outputs)
         loss = torch.stack([x["loss"] for x in outputs]).mean()
         self.log("train_loss", loss, prog_bar=self.hparams.progress_bar)
-        if self.nepochs_ >= 0:
-            self.nepochs_ += 1
+        # if self.nepochs_ >= 0:
+        #     self.nepochs_ += 1
         if not self.hparams.progress_bar:
             print(
                 f'Epoch {self.current_epoch} train_loss {loss} train_PPL {math.exp(loss)}')
@@ -236,10 +243,9 @@ def make_generate(model, tokenizer):
 
 def _main():
     init_dict = dict(
-        output_dir='./model',  # path to save the checkpoints
-        model_name_or_path='megagonlabs/t5-base-japanese-web',
-        tokenizer_name_or_path='megagonlabs/t5-base-japanese-web',
-        additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
+        model_name_or_path='',
+        tokenizer_name_or_path='',
+        additional_tokens='<nl> <tab> <b> </b>',
         seed=42,
         encoding='utf_8',
         column=0, target_column=1,
