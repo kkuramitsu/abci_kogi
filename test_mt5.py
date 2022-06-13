@@ -30,9 +30,9 @@ def make_generate(model, tokenizer):
 def _main():
     init_dict = dict(
         output_dir='./model',  # path to save the checkpoints
-        model_name_or_path='megagonlabs/t5-base-japanese-web',
-        tokenizer_name_or_path='megagonlabs/t5-base-japanese-web',
-        additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
+        model_name_or_path='',
+        tokenizer_name_or_path='',
+        #additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
         seed=42,
         encoding='utf_8',
         column=0, target_column=1,
@@ -72,10 +72,10 @@ def _main():
     # 事前学習済みモデルの読み込み
     tokenizer = hparams.tokenizer
     config = AutoConfig.from_pretrained(hparams.model_name_or_path)
-    config.vocab_size = max(config.vocab_size,
-                            tokenizer.vocab_size,
-                            hparams.vocab_size)
-    if '/mt5' in hparams.model_name_or_path:
+    # config.vocab_size = max(config.vocab_size,
+    #                         tokenizer.vocab_size,
+    #                         hparams.vocab_size)
+    if 'mt5' in hparams.model_name_or_path:
         model = MT5ForConditionalGeneration(config)
     else:
         model = T5ForConditionalGeneration(config)
