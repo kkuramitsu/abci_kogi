@@ -72,20 +72,10 @@ def _main():
     # 事前学習済みモデルの読み込み
     tokenizer = hparams.tokenizer
     print(tokenizer)
-    # config = AutoConfig.from_pretrained(hparams.model_name_or_path)
-    # # config.vocab_size = max(config.vocab_size,
-    # #                         tokenizer.vocab_size,
-    # #                         hparams.vocab_size)
-    # if 'mt5' in hparams.model_name_or_path:
-    #     model = MT5ForConditionalGeneration(config)
-    # else:
-    #     model = T5ForConditionalGeneration(config)
     if 'mt5' in hparams.model_name_or_path:
         model = MT5ForConditionalGeneration.from_pretrained(hparams.model_name_or_path)
     else:
         model = T5ForConditionalGeneration.from_pretrained(hparams.model_name_or_path)
-    print(hparams.model_name_or_path)
-    print(model)
 
     DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     model.to(DEVICE)

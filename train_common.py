@@ -141,6 +141,78 @@ def load_TrainTestDataSet(hparams, transform=transform_nop):
     test_data = _loading_dataset(hparams, test_files, transform)
     return TSVDataset(hparams, train_data), TSVDataset(hparams, test_data)
 
+## Load_TextDataset
+
+def transform_nop(s):
+    return s
+
+def load_text_file(file, dataset, transform=transform_nop, hparams=None):
+    encoding = hparams.encoding if hparams else 'utf-8'
+    logging.info(f'loading text {file}')
+    with io.open(file, encoding=encoding) as f:
+        for c, line in enumerate(f.readlines()):
+            line = line.rstrip('\n')
+            dataset.append(transform(line))
+
+def load_text(files, transform=transform_nop, hparams = None):
+    dataset = []
+    for file in files:
+        load_text_file(file, dataset, transform=transform, hparams=hparams)
+    if hparams and hparams.testing:
+        return dataset[:20]
+    return dataset
+
+
+class TextDataset(Dataset):
+    def __init__(self, dataset, hparams):
+        self.dataset = dataset
+        self.hparams = hparams
+
+    def __len__(self):
+        return len(self.dataset)
+
+    def transform_dynamic(self, s):
+        return s
+
+    def __getitem__(self, index):
+        pair = self.transform_dynamic(self.dataset[index])
+        if self.hparams is not None:
+            return self.transform_encode(pair)
+        return pair
+       
+    def transform_encode(self, pair):
+        src, tgt = pair
+        inputs = self.hparams.tokenizer.batch_encode_plus(
+            [src],
+            max_length=self.hparams.max_seq_length,
+            truncation=True,
+            pad_to_max_length=True,
+            padding="max_length", return_tensors="pt")
+        targets = self.hparams.tokenizer.batch_encode_plus(
+            [tgt],
+            max_length=self.hparams.target_max_seq_length,
+            truncation=True,
+            pad_to_max_length=True,
+            padding="max_length", return_tensors="pt")
+
+        source_ids = inputs["input_ids"].squeeze()
+        source_mask = inputs["attention_mask"].squeeze()
+
+        target_ids = targets["input_ids"].squeeze()
+        target_mask = targets["attention_mask"].squeeze()
+
+        return {
+            "source_ids": source_ids.to(dtype=torch.long),
+            "source_mask": source_mask.to(dtype=torch.long),
+            "target_ids": target_ids.to(dtype=torch.long),
+            "target_mask": target_mask.to(dtype=torch.long),
+        }
+
+def load_TextDataset(files, TDataset=TextDataset, transform=transform_nop, hparams=None):
+    dataset = load_text(files)
+    return TDataset(dataset, hparams)
+
+
 # argparse
 
 
