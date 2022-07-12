@@ -20,13 +20,16 @@ from teruchi import mask
 
 # 新しいスキームを定義したら
 
+
 class MaskingTextDataset(TextDataset):
     def transform_dynamic(self, src):
         return mask(src, ratio=0.4), src
 
+
 MaskingScheme = {
     'mask40': MaskingTextDataset,
 }
+
 
 def load_MaskedDataset(files, hparams):
     if hparams.scheme in MaskingScheme:
@@ -39,6 +42,7 @@ def load_MaskedDataset(files, hparams):
 # GPU利用有無
 USE_GPU = torch.cuda.is_available()
 N_GPU = torch.cuda.device_count()
+
 
 class MT5FineTuner(pl.LightningModule):
     def __init__(self, hparams):
@@ -107,31 +111,6 @@ class MT5FineTuner(pl.LightningModule):
         #     self.tokenizer.save_pretrained(output_dir)
         #     self.model.save_pretrained(output_dir)
 
-    # def validation_step(self, batch, batch_idx):
-    #     """バリデーションステップ処理"""
-    #     loss = self._step(batch)
-    #     return {"val_loss": loss}
-
-    # def validation_epoch_end(self, outputs):
-    #     # """バリデーション完了処理"""
-    #     #print(self.epoch_, outputs)
-    #     avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-    #     self.log("val_loss", avg_loss, prog_bar=self.hparams.progress_bar)
-    #     if not self.hparams.progress_bar:
-    #         print(f'Epoch {self.current_epoch} val_loss {avg_loss} val_PPL {math.exp(avg_loss)}')
-    #     # self.dataset.split()
-
-    # def test_step(self, batch, batch_idx):
-    #     """テストステップ処理"""
-    #     loss = self._step(batch)
-    #     self.log("test_loss", loss)
-    #     return {"test_loss": loss}
-
-    # def test_epoch_end(self, outputs):
-    #     """テスト完了処理"""
-    #     avg_loss = torch.stack([x["test_loss"] for x in outputs]).mean()
-    #     self.log("test_loss", avg_loss, prog_bar=True)
-
     def configure_optimizers(self):
         """オプティマイザーとスケジューラーを作成する"""
         model = self.model
@@ -165,7 +144,8 @@ class MT5FineTuner(pl.LightningModule):
     def setup(self, stage=None):
         """初期設定（データセットの読み込み）"""
         if stage == 'fit' or stage is None:
-            self.dataset = load_MaskedDataset(self.hparams.files, hparams=self.hparams)
+            self.dataset = load_MaskedDataset(
+                self.hparams.files, hparams=self.hparams)
             self.t_total = (
                 (len(self.dataset) //
                  (self.hparams.batch_size * max(1, self.hparams.n_gpu)))
@@ -186,7 +166,7 @@ def _main():
     init_dict = dict(
         model_name_or_path='',
         tokenizer_name_or_path='',
-        scheme='mask40', 
+        scheme='mask40',
         additional_tokens='<nl> <tab> <b> </b>',
         seed=42,
         encoding='utf_8',
@@ -229,10 +209,10 @@ def _main():
         gradient_clip_val=hparams.max_grad_norm,
         #    checkpoint_callback=checkpoint_callback,
         # callbacks=[LoggingCallback()],
-#        callbacks=[
-#            EarlyStopping(monitor="val_loss"),
-#            ModelSummary(max_depth=-1)
-#        ],
+        #        callbacks=[
+        #            EarlyStopping(monitor="val_loss"),
+        #            ModelSummary(max_depth=-1)
+        #        ],
         # turn off automatic checkpointing
         enable_checkpointing=True,
         enable_progress_bar=hparams.progress_bar,
@@ -257,7 +237,6 @@ def _main():
     print('saving pretrained ... ', hparams.output_dir)
     tokenizer.save_pretrained(hparams.output_dir)
     model.save_pretrained(hparams.output_dir)
-
 
 
 if __name__ == '__main__':
