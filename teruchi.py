@@ -20,7 +20,7 @@ def py_token(text):
     return lst[1:-2] #文頭に文字コード、文末に改行が入ってしまうため
 
 def mask(s:str, ratio=0.4):
-  token = py_token(s)
+  token = get_token(s)
   token_idx = [idx for idx in range(len(token))] 
   buffer = []
   num = 0
@@ -33,15 +33,14 @@ def mask(s:str, ratio=0.4):
           buffer.append(masked_token)
           num += 1
         else:
-          if masked_token != buffer[-1]: #ひとつ前がMASKではなかったらMASKを追加
+          if "<extra_id_" not in buffer[-1]: #ひとつ前がMASKではなかったらMASKを追加
             buffer.append(masked_token)
             num += 1
           else:
             pass
       elif random.random() > 0.8 and random.random() < 0.9: # 10% of the time, replace with random word
-        masked_token = token[random.randint(0, len(token_idx) - 1)]
-        buffer.append(masked_token)
-        num += 1
+        random_token = token[random.randint(0, len(token_idx) - 1)]
+        buffer.append(random_token)
       else:      # 10% of the time, keep original
         buffer.append(token[index])
     else:
