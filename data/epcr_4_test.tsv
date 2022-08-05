@@ -1,0 +1,1124 @@
+TypeError: A object is not iterable<tab>'int'<tab>for c in N:	for c in range(N): に直そう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print(int(X+1))"	うーん。
+NameError: name A is not defined<tab>'x'<tab>x==-1	変数<A>を使う前に <A>=...  のように値を代入しよう。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-22-528c318acff0> 2<tab>	<B>行目のインデントがおかしいよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-6-93058df136b9> 3<tab>	<B>行目の書き方が違うよ。
+ValueError: invalid literal for A() with base B: C<tab>int 0 'A'<tab>a = int('A',K)	うーん。
+TypeError: A object is not callable<tab>'int'<tab>print(max([s,t,u,v]))	max = buitlins.max で初期化してみよう。
+"KeyError: ""None of A are in the B""<tab>'[Index(['住', '宅', '価', '格'], dtype='obje...<tab>"	データフレームに存在しない列名を使っているよ。
+"KeyError: ""A not in index""<tab>['kacal']<tab>X = df[['curry','kacal']]"	データフレームの列名<A>が間違っているよ。
+ValueError: too many values to unpack (expected A)<tab>2<tab>x, y = map(int, input().split())	問題番号と入力データはあってる？
+ValueError: invalid literal for A() with base B: C<tab>int 10 '3.456'<tab>print(int(X)+1)	うーん。
+NameError: name A is not defined<tab>'math'<tab>math.ceil(n)	import <A> を実行しよう。
+TypeError: A object is not iterable<tab>'int'<tab>x = [int(i) for i in item]	<A> = builtins.<A> で初期化してみよう。
+NameError: name A is not defined<tab>'i'<tab>while a<=i:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not callable<tab>'int'<tab>s,t,x=map(int(),input().split())	map(<A>, input().split()) に直そう。
+ValueError: Cannot pass values for both A and B<tab>`x` `y`<tab>sns.countplot(x='自由時間', y='G3')	うーん。
+NameError: name A is not defined<tab>'x'<tab>while x==0:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>if 100+(1*a)>=X:	自分で実行を止めた？
+TypeError: string indices must be integers<tab><tab>df.groupby('血液型'['身長'].describe())	うーん。
+"KeyError: ""A not found in axis""<tab>['']<tab>df.drop('', axis=1, inplace=True)"	データフレームの列名<A>が間違っているよ。
+KeyboardInterrupt:<tab><tab>A,B,C=map(int,input().split())	自分で実行を止めた？
+TypeError: unsupported operand type(s) for /: A and B<tab>'str' 'int'<tab>	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '1t'<tab>A,B=map(int,input().split())	問題番号と入力データはあってる？
+KeyboardInterrupt:<tab><tab>a, b = map(int, input().split())	自分で実行を止めた？
+"KeyError: ""A not in index""<tab>['BMI']<tab>df1[['名前', 'チーム', '身長', '体重', 'BMI']]"	データフレームの列名<A>が間違っているよ。
+TypeError: A() takes at least B argument (C given)<tab>endswith 1 0<tab>print(s.endswith())	うーん。
+KeyError: (A, B)<tab>'soldout' 'kcal'<tab>pd.DataFrame({'実測': df['soldout','kcal'], '予測':y_pred}).head()	[[<A>, <B>]] ←２重括弧だよ。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-14-0ea8bbfac5c5> 2<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+AttributeError: A object has no attribute B<tab>'str' 'sprit'<tab>a = input().sprit()	split のスペルミスだよ。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[100, 10]<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-26-1ad656083e37> 7<tab>	<B>行目の書き方が違うよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-23-c8a77472d245> 3<tab>	<B>行目の書き方が違うよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-5-4b3cca9e2ead> 2<tab>	<B>行目の書き方が違うよ。
+TypeError: unhashable type: A<tab>'list'<tab>SET.add(s)	うーん。
+ValueError: X has A features, but LinearRegression is expecting B features as input.<tab>4 3<tab>y_pred = model.predict(X_test)	X_testと訓練データの説明変数の次元を揃えよう。
+NameError: name A is not defined<tab>'weather'<tab>weather_num=int(weather)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print(X*(A+1)+(A+2)*Y)"	うーん。
+"TypeError: sequence item A: expected str instance, list found<tab>0<tab>a="""".join(l)"	うーん。
+TypeError: unsupported operand type(s) for -: A and B<tab>'int' 'list'<tab>ans +=j *a[j]-sum_a	うーん。
+AttributeError: A object has no attribute B<tab>'float' 'split'<tab>df['year'] = df['datetime'].apply(lambda x : x.split('-')[0])	<B>しようとしているのは<A>だよ。
+NameError: name A is not defined<tab>'Jリーグ選手身長体重'<tab>Jリーグ選手身長体重.csv	<A>.csv というファイルがないよ
+AttributeError: A object has no attribute B<tab>'list' 'replace'<tab>print(*ans.replace(' '))	<B>できるのは文字列だよ。
+NameError: name A is not defined<tab>'string'<tab>S, T = map(string, input().split())	str のスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-2-0d61c8a9c1be> 7<tab>	<B>行目の書き方が違うよ。
+KeyError: A<tab>'df_week'<tab>df['week'] = df['df_week']	データフレームに<A>という列はないよ。
+IndexError: list index out of range<tab><tab>while a[i]<b[j]+ab and j<len(a):	インデックスはリストの大きさより小さくしよう。
+ValueError: Expected more than A value per channel when training, got input size torch.Size(B)<tab>1 [1, 12]<tab>model(test[0][0].view(1,-1))	うーん。
+NameError: name A is not defined<tab>'cross_val_score'<tab>cross_val_score(モデル, X, y, cv=5, scoring='r2')	from sklearn.model_selection import <A> を実行しよう。
+KeyboardInterrupt:<tab><tab>ans = g1(a(i-1)) - g2(a(i-1))	自分で実行を止めた？
+NameError: name A is not defined<tab>'y_pred'<tab>plt.scatter(y, y_pred, color = 'red', alpha=0.3)	予測データがまだ<A>に代入されていないよ。
+IndexError: index A is out of bounds for axis B with size C<tab>11 0 11<tab>plot_tree(model, feature_names=X.columns[:-1], filled=True)	うーん。
+TypeError: A() takes no arguments (B given)<tab>isupper 1<tab>s.isupper('a')	うーん。
+TypeError: unsupported operand type(s) for -: A and B<tab>'list' 'int'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'sort_value'<tab>df3.sort_value('身長',ascending=True)	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>print(l[i][k])	整数は先に文字列に変換しよう。
+KeyboardInterrupt:<tab><tab>X=input()	自分で実行を止めた？
+NameError: name A is not defined<tab>'wakachi'<tab>words.append(wakachi(name))	関数<A> を定義しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '1 1 7 2'<tab>x=int(input())	問題番号と入力データはあってる？
+AttributeError: A object has no attribute B<tab>'LinearRegression' 'coef_'<tab>print(model.coef_, model.intercept_)	うーん。
+KeyboardInterrupt:<tab><tab>s, t, x = map(int, input().split())	自分で実行を止めた？
+TypeError: A object is not subscriptable<tab>'method'<tab>df.to_excel['arashi.xlsx']	うーん。
+TypeError: unsupported operand type(s) for -: A and B<tab>'str' 'str'<tab>n+=str(i)-str(min(A))	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>mean_lists = [mean_list(s[j]) for j in range(len(sample_list1))]	うーん。
+TypeError: ufunc A not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule BsafeC<tab>'true_divide' '' ''<tab>	うーん。
+TypeError: A object is not callable<tab>'set'<tab>keys_list(key)	うーん。
+KeyError: A<tab>'あん'<tab>for key, df_name in df.groupby('あん'):	データフレームに<A>という列はないよ。
+TypeError: unsupported operand type(s) for -: A and B<tab>'str' 'int'<tab>base = ord('A'-1) # TOTO:ベースのところを修正する	うーん。
+IndexError: list index out of range<tab><tab>print(s[1][1])	インデックスはリストの大きさより小さくしよう。
+AttributeError: module A has no attribute B<tab>'pandas' 'DataFlame'<tab>df = pd.DataFlame()	DataFrameのスペルミスだよ。
+NameError: name A is not defined<tab>'ans'<tab>ans<=A/B	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: Length mismatch: Expected axis has A elements, new values have B elements<tab>13 12<tab>df.columns = columns  #差し替え	うーん。
+KeyboardInterrupt:<tab><tab>x=list(map(int,input().split()))	自分で実行を止めた？
+TypeError: A is an invalid key<tab>'(['week_num'], ['weather_num'], ['tempe...<tab>df[['week_num'],['weather_num'],['temperature'],['kcal']]	うーん。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-218-eeab14b30e07> 36<tab>	<B>行目のインデントがおかしいよ。
+TypeError: A object is not iterable<tab>'bool'<tab>for i in y>n:	while y>n: に直そう。
+NameError: name A is not defined<tab>'sort'<tab>sort(mount)	sorted(mount) に直そう。
+NameError: name A is not defined<tab>'split'<tab>	うーん。
+AttributeError: module A has no attribute B<tab>'pandas' 'red_csv'<tab>	read_csvのスペルミスだよ。
+"FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'bento_train.csv'<tab>df = pd.read_csv(""bento_train.csv"")"	<B>というファイルが存在するか確認しよう。
+NameError: name A is not defined<tab>'l'<tab>	うーん。
+ParserError: Error tokenizing data. C error: Expected A fields in line B, saw C<tab>2002 6 5<tab>X_train_numa_p = pd.read_csv('https://drive.google.com/drive/folders/14AfV9rPm_1wp-uvpGtX2ogWnMcbBV35W?usp=sharing/train_Numa_print.csv')	ファイルを先にダウンロードしよう。
+"KeyError: ""A not found in axis""<tab>['生年月日']<tab>df2.drop('生年月日',axis=1,inplace=True)"	データフレームの列名<A>が間違っているよ。
+KeyError: A<tab>'友人と遊ぶ頻度'<tab>sns.boxplot(x=df['友人と遊ぶ頻度'], y=df['G3'])	データフレームに<A>という列はないよ。
+NameError: name A is not defined<tab>'np'<tab>np.array()	import numpy as <A> を実行しよう。
+TypeError: A not supported between instances of B and C<tab>'>=' 'str' 'int'<tab>if a + b >= 10 :	<B>と<C>の比較になっちゃているよ。
+"TypeError: can only concatenate str (not A) to str<tab>""list""<tab>ss[i]=ss[i]+[s[i+j]]"	うーん。
+TypeError: object of type A has no B()<tab>'int' len<tab>a=len(A)	<B>(str(A)) に直そう。
+"KeyError: ""A not found in axis""<tab>['身長_y']<tab>df.drop('身長_y', axis=1, inplace=True)"	データフレームの列名<A>が間違っているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-4-6115ef6c1b48> 2<tab>	<B>行目の書き方が違うよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-2-58425dea66da> 4<tab>	<B>行目の書き方が違うよ。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[414, 207]<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=0)	うーん。
+TypeError: not all arguments converted during string formatting<tab><tab>A=N%10	うーん。
+NameError: name A is not defined<tab>'corr'<tab>rho = corr(df[column], df['y'])	print(df[column].<A>(df['y'])) に直そう。
+NameError: name A is not defined<tab>'X'<tab>np.where( np.isnan(X) )	変数<A>を使う前に <A>=...  のように値を代入しよう。
+AttributeError: A object has no attribute B<tab>'str' 'endwith'<tab>if S.endwith('er'):	endswith のスペルミスだよ。
+ValueError: could not convert string to float: A<tab>'--'<tab>model.fit(X, y)	説明変数から非数値データを取り除こう。
+NameError: name A is not defined<tab>'df6'<tab>df6.drop('生年月日', axis=1, inplace=True)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: Length of values (A) does not match length of index (B)<tab>1 643<tab>df['職業'] =['Jリーガー']	df[X] = [Y] * len(df) のようにしよう。
+TypeError: unsupported operand type(s) for &: A and B<tab>'str' 'str'<tab>if S[3] == S[4] & S[5] == S[6]:	うーん。
+IndexError: list index out of range<tab><tab>print(A[i1], A[i2], A[j1], A[j2])	インデックスはリストの大きさより小さくしよう。
+NameError: name A is not defined<tab>'sort'<tab>B=sort(A)	sorted(A) に直そう。
+NameError: name A is not defined<tab>'ss'<tab>ss.append(chr(a))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>d=c+100	自分で実行を止めた？
+TypeError: can't multiply sequence by non-int of type A<tab>'str'<tab>print(a+a*a+a*a*a)	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'nikoandsolstice'<tab>x=int(S)	str(input()) に直そう。
+NameError: name A is not defined<tab>'lens'<tab>if lens(K)>lens(S):	len のスペルミスだよ。
+NameError: name A is not defined<tab>'model'<tab>optimizer = torch.optim.SGD(model.parameters(), lr=0.1) #parameters : 重みつけてる？, lr : どのくらいずらすか	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'model'<tab>for parameter in iter(model.parameters()):	変数<A>を使う前に <A>=...  のように値を代入しよう。
+UnboundLocalError: local variable A referenced before assignment<tab>'y'<tab>y+=x**2+2*x+3	うーん。
+ValueError: A() base must be >= B and <= C, or D<tab>int 2 36 0<tab>a = int('A',K)	うーん。
+AttributeError: module A has no attribute B<tab>'pandas' 'DateFrame'<tab>df = pd.DateFrame()	DataFrameのスペルミスだよ。
+NameError: name A is not defined<tab>'math'<tab>math.floor	import <A> を実行しよう。
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported types are: floatA, floatB, floatC, complex64, complex128, intD, intE, intF, intG, uint8, and bool.<tab>64 32 16 64 32 16 8<tab>y = torch.tensor(mnist.target, dtype=torch.int64)	うーん。
+AttributeError: A object has no attribute B<tab>DecisionTreeRegressor' 'DecisionTreeReg...<tab>plt.barh(X_train.columns[:-1], model.DecisionTreeRegressor)	うーん。
+TypeError: list expected at most A arguments, got B<tab>1 2<tab>s=list(int,input().split())	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-180-d9ef3f535147> 20<tab>	<B>行目の書き方が違うよ。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'grouby'<tab>df.grouby('血液型').describe()	groupbyのスペルミスだよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '123 234'<tab>	うーん。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>A, B = input().split()	問題番号と入力データはあってる？
+TypeError: A object cannot be interpreted as an integer<tab>'Series'<tab>for b in range(y+1,len(col)+1):	rangeの引数は整数だけだよ。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[63, 207]<tab>print('R2(テスト):', r2_score(y_test, y_pred))	うーん。
+NameError: name A is not defined<tab>'itemgetter'<tab>	うーん。
+NameError: name A is not defined<tab>'df'<tab>	うーん。
+KeyboardInterrupt:<tab><tab>s=s+[list(map(str,input().split()))]	自分で実行を止めた？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-26-ea613ef27229> 1<tab>	<B>行目の書き方が違うよ。
+KeyError: A<tab>'家族「'<tab>df.groupby('家族「')['G3'].describe()	データフレームに<A>という列はないよ。
+TypeError: A object is not subscriptable<tab>'type'<tab>print(max(list[e,f,g,h]))	本当にlist変数？
+"KeyError: ""A not in index""<tab>['低所得理']<tab>X = df[['低所得理', '資産税']]"	データフレームの列名<A>が間違っているよ。
+AttributeError: A object has no attribute B<tab>'Series' 'filna'<tab>df3['体重']=df3['体重'].filna(df3['体重'.mean])	figsizeのスペルミスだよ。
+ValueError: could not convert string to float: A<tab>'--'<tab>model.fit(X_train, y_train)	説明変数から非数値データを取り除こう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-20-900f256eab46> 3<tab>	<B>行目の書き方が違うよ。
+EOFError:<tab><tab>N=int(input())	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-6-a2aaecc5fb2a> 4<tab>	<B>行目の書き方が違うよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'ABCXYZ'<tab>S = int(input())	map(str, input().split()) に直そう。
+ValueError: method must be either A, B, C, or a callable, D was supplied<tab>'pearson' 'spearman' 'kendall' '住所'<tab>df.corr('住所')['通学時間']	うーん。
+AttributeError: A object has no attribute B<tab>'list' 'sorted'<tab>aa=a.sorted()	<B>(a) に直そう。
+NameError: name A is not defined<tab>'df'<tab>plt.scatter(df['部屋数'], df['住宅価格'], alpha=0.3)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'教育内容'<tab>plt.hist(df['教育内容'])	データフレームに<A>という列はないよ。
+ValueError: x and y must be the same size<tab><tab>plt.scatter(X_test , y_pred, c='red', alpha=0.3)	X_testとy_predのデータ数を揃えよう。
+NameError: name A is not defined<tab>'datetime'<tab>season = datetime.int.replace('11', '3')	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: empty separator<tab><tab>str(223).split('')	うーん。
+KeyboardInterrupt:<tab><tab>X=float(input())	自分で実行を止めた？
+ModuleNotFoundError: No module named A<tab>'janome'<tab>from janome.tokenizer import Tokenizer	!pip install <A> を実行しよう。
+ValueError: Sum of input lengths does not equal the length of the input dataset!<tab><tab>train, val, test = torch.utils.data.random_split(dataset, [n_train, n_val, n_test])	うーん。
+TypeError: object of type A has no B()<tab>'int' len<tab>print(S.replace(len(0),len(3)))	str(0) に直そう。
+NameError: name A is not defined<tab>'a'<tab>print(s(a), s(b))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+MisconfigurationException: No A method defined. Lightning B expects as minimum a C, D and E to be defined.<tab>`configure_optimizers()` `Trainer` `trai...<tab>trainer.fit(model, train_loader, val_loader)	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = Pipeline(max_depth=5)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+KeyError: A<tab>'test_loss'<tab>torch.sqrt(torch.tensor(trainer.callback_metrics['test_loss']))	データフレームに<A>という列はないよ。
+IndexError: pop from empty list<tab><tab>kari=ss[0].pop(0)	リストが空のとき popしないように条件を加えよう。
+KeyboardInterrupt:<tab><tab>s=int(input())	自分で実行を止めた？
+ValueError: invalid literal for A() with base B: C<tab>int 10 'oder'<tab>S,T = map(int, input().split())	うーん。
+KeyboardInterrupt:<tab><tab>str_x_list = list(str(x))	自分で実行を止めた？
+KeyError: A<tab>'[5] not found in axis'<tab>df3=df3.drop(5,axis=0)	データフレームに<A>という列はないよ。
+ValueError: not enough values to unpack (expected A, got B)<tab>3 2<tab>N=a,b,c=int,input().split()	問題番号と入力データはあってる？
+TypeError: A object is not iterable<tab>'int'<tab>ans+=i	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-6b411a195c8d> 4<tab>	<B>行目の書き方が違うよ。
+"TypeError: can only concatenate str (not A) to str<tab>""float""<tab>print(N+1/2)"	うーん。
+KeyboardInterrupt:<tab><tab>if i>n:	自分で実行を止めた？
+NameError: name A is not defined<tab>'Series'<tab>for key in Series:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>n,p=map(int,input().split())	自分で実行を止めた？
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[414, 207]<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)	うーん。
+KeyError: A<tab>'curry'<tab>df['curry']	データフレームに<A>という列はないよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'nikoandsolstice'<tab>K=int(input())	str(input()) に直そう。
+ValueError: Columns must be same length as key<tab><tab>df['week'] = df_week = pd.get_dummies(df['week'], dummy_na=False, columns=['week'])	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'set' 'set'<tab>n12_lis=set(n1_lis+n2_lis)	うーん。
+TypeError: not all arguments converted during string formatting<tab><tab>b=(N%10)	うーん。
+TypeError: A is an invalid key<tab>'(['犯罪率'], ['犯罪率'])'<tab>X = df[[column1],[column2]]  # ひとつ選ぶ	うーん。
+KeyboardInterrupt:<tab><tab>N,A,B = map(int,input().split())	自分で実行を止めた？
+KeyboardInterrupt:<tab><tab>x=x+1	自分で実行を止めた？
+"KeyError: ""A not in index""<tab>['川辺']<tab>X = df[['低所得率', '川辺']]"	データフレームの列名<A>が間違っているよ。
+TypeError: list indices must be integers or slices, not str<tab><tab>print(n['1'],n['9'])	うーん。
+NameError: name A is not defined<tab>'column'<tab>X=df[[column]]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'type'<tab>if x==list[1::N]:	本当にlist変数？
+TypeError: A is an invalid key<tab>'(['犯罪率'], ['犯罪率'])'<tab>X = df[[column1], [column2]]  # 説明変数	うーん。
+NameError: name A is not defined<tab>'y'<tab>y +=i	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'i'<tab>if n[i]=='1':	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: not enough values to unpack (expected A, got B)<tab>3 1<tab>a,b,c=map(str,input().split())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'モデル'<tab>cross_val_score(モデル, X, y, cv=5, scoring='r2')	文字列は '<A>' のように' 'で囲もう。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>N,M=map(int,input().split())	問題番号と入力データはあってる？
+TypeError: A object cannot be interpreted as an integer<tab>'str'<tab>A=[list(map(str, input().split())) for W in range(H)]	うーん。
+KeyboardInterrupt:<tab><tab>a+=N	自分で実行を止めた？
+TypeError: A object is not subscriptable<tab>'int'<tab>c=A[0]+A[1]+A[2]	整数は先に文字列に変換しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-25-19feac46b862> 4<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'datetime'<tab>type(datetime)	import <A> を実行しよう。
+TypeError: A object is not iterable<tab>'bool'<tab>	うーん。
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>n.replace(1,9 )	<A>できるのは文字列だよ。
+NameError: name A is not defined<tab>'s'<tab>season = s.str.replace('11', '3')	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-a74efd3c388d> 14<tab>	<B>行目の書き方が違うよ。
+TypeError: A object does not support item assignment<tab>'int'<tab>N[-1]=a	うーん。
+TypeError: A object is not iterable<tab>'type'<tab>for S in range:	for i in range(S): に直そう。
+TypeError: A object is not callable<tab>'DataFrame'<tab>df('Jリーグ選手身長体重.csv')	うーん。
+NameError: name A is not defined<tab>'mean_lists'<tab>mean_list_all.append(mean_lists)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: too many values to unpack (expected A)<tab>2<tab>S, T = input()	問題番号と入力データはあってる？
+AttributeError: A object has no attribute B<tab>'DataFrame' 'show'<tab>df3.show()	データフレームに<B>というメソッドはないよ。
+IndentationError: expected an indented block (A, line B)<tab><ipython-input-59-735e1e8e75a1> 10<tab>	<B>行目のインデントがおかしいよ。
+KeyError: A<tab>'datetid'<tab>df['datetid'].head()	データフレームに<A>という列はないよ。
+KeyError: A<tab>'year'<tab>df['year'] = df['year'].astype(np.int)	データフレームに<A>という列はないよ。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>x,y=map(str, input().split())	問題番号と入力データはあってる？
+IndexError: Target A is out of bounds.<tab>7<tab>trainer.fit(net)	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-20-97d887c0f881> 6<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'sample'<tab>	うーん。
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'list'<tab>b+=int(a)	うーん。
+KeyError: A<tab>'0'<tab>sns.kdeplot(df.groupby('学習時間').get_group('0')['G3'], shade = True, label = '1')	データフレームに<A>という列はないよ。
+TypeError: A is an invalid key<tab>'(['kcal'], ['soldout'])'<tab>X = df[['kcal'],['soldout']]	うーん。
+AttributeError: module A has no attribute B<tab>'pandas' 'marge'<tab>pd.marge(df, df2, on='名前')	mergeのスペルミスだよ。
+NameError: name A is not defined<tab>'words'<tab>vec = model.fit_transform(words)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-24-2509d861e24a> 4<tab>	<B>行目の書き方が違うよ。
+ValueError: too many values to unpack (expected A)<tab>2<tab>a, b = map(int, input().split())	問題番号と入力データはあってる？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-181-cc59f9f42be4> 20<tab>	<B>行目の書き方が違うよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'sippuu'<tab>S=int(input())	うーん。
+ValueError: Boolean array expected for the condition, not object<tab><tab>df3 =df3[pd.merge(df, df2, on='名前', how='outer')]	うーん。
+AttributeError: A object has no attribute B<tab>'tuple' 'strip'<tab>print(x.strip(''))	うーん。
+NameError: name A is not defined<tab>'info'<tab>info()	df.<A>() に直そう。
+TypeError: A() must have at least two arguments.<tab>map<tab>A=list(map( input().split()))	<A>(int, input().split()) に直そう。
+NameError: name A is not defined<tab>'train_dataloader'<tab>trainer.fit(model, train_dataloader, val_loader)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+AttributeError: A object has no attribute B<tab>'str' 'isuppper'<tab>if ss.isuppper():	isupper のスペルミスだよ。
+NameError: name A is not defined<tab>'mean'<tab>mean(df3['身長_x']+df3['身長_y'])	(df3['身長_x']+df3['身長_y']).mean() ←ピリオド注意。
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>print(s.replace(1, 9).replace(9, 1))	<A>できるのは文字列だよ。
+AttributeError: A object has no attribute B<tab>'LinearRegression' 'preddict'<tab>y_pred=model.preddict(X)	predict のスペルミスだよ。
+IndexError: list index out of range<tab><tab>Costi += math.sqrt((h[n-1] - h[m-1])**2)	インデックスはリストの大きさより小さくしよう。
+TypeError: A object cannot be interpreted as an integer<tab>'tuple'<tab>print(int(A, K))	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'NoneType' 'int'<tab>kansuu(kansuu(kansuu(t)+t)+kansuu(kansuu(t)))	うーん。
+TypeError: A not supported between instances of B and C<tab>'>' 'str' 'int'<tab>if N > 4:	<B>と<C>の比較になっちゃているよ。
+KeyError: (A, B, C)<tab>'soldout' 'kcal' 'temperature'<tab>X = df['soldout','kcal','temperature']  # 価格以外を全て説明変数に	[[<A>, <B>, <C>, <D>]] ←２重括弧だよ。
+NameError: name A is not defined<tab>'N'<tab>print(N)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'head'<tab>df,head()	df.<A>() ←ピリオド注意。
+TypeError: A object is not iterable<tab>'int'<tab>for item in n:	for item in range(n): に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-43-45fed38e3a77> 6<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'n'<tab>for i in range(n):	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ParserError: Error tokenizing data. C error: Expected A fields in line B, saw C<tab>2001 6 2<tab>X_train_numa_p = pd.read_csv('https://drive.google.com/drive/my-drive/nuna-chan/train_Numa_print.csv')	ファイルを先にダウンロードしよう。
+KeyboardInterrupt:<tab><tab>a,b=map(int,input().split())	自分で実行を止めた？
+NameError: name A is not defined<tab>'read_csv'<tab>df = pd,read_csv('boston.csv')	pd.<A>('boston.csv') ←ピリオド注意。
+TypeError: A() must have at least two arguments.<tab>map<tab>P=list(map(input().split()))	<A>(int, input().split()) に直そう。
+IndexError: index A is out of bounds for dimension B with size C<tab>152 0 152<tab>result = model(test[i][0].view(1,-1))	うーん。
+TypeError: A() must have at least two arguments.<tab>map<tab>A, B = map( input().split())	<A>(int, input().split()) に直そう。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-8-2277a2e1e7b5> 1<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+AttributeError: A object attribute B is read-only<tab>'list' 'append'<tab>k.append=S[1]	k.<B>(S[1]) に直そう。
+TypeError: A object is not subscriptable<tab>'builtin_function_or_method'<tab>	うーん。
+NameError: name A is not defined<tab>'d'<tab>ykn=(d*1.01)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-25-fe031f4fd67e> 7<tab>	<B>行目の書き方が違うよ。
+TypeError: A not supported between instances of B and C<tab>'>' 'int' 'str'<tab>print(max(b))	<B>と<C>の比較になっちゃているよ。
+NameError: name A is not defined<tab>'プロ野球選手身長体重'<tab>df = pd.DataFrame(プロ野球選手身長体重.csv)	文字列は '<A>' のように' 'で囲もう。
+AttributeError: A object has no attribute B<tab>'str' 'sorted'<tab>print(''.sorted(str(A)))	うーん。
+AttributeError: A object has no attribute B<tab>'list' 'split'<tab>	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-32-b55ec5c162c2> 5<tab>	<B>行目の書き方が違うよ。
+TypeError: A() expected a character, but string of length B found<tab>ord 3<tab>base=ord('A-1')	うーん。
+"KeyError: ""None of A are in the B""<tab>[Index(['カレー'], dtype='object')] [column...<tab>X = df[['カレー']]"	データフレームに存在しない列名を使っているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-182-95caa386cf0f> 25<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'er'<tab>print(S.rfind(er))	文字列は '<A>' のように' 'で囲もう。
+IndexError: list index out of range<tab><tab>x1=B[l]-a	インデックスはリストの大きさより小さくしよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-16-68ec1b02134c> 7<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'pint'<tab>pint(a)	print のスペルミスだよ。
+NameError: name A is not defined<tab>'er'<tab>print(s.endswith(er))	文字列は '<A>' のように' 'で囲もう。
+NameError: name A is not defined<tab>'column'<tab>X = df[column]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'no'<tab>print(no.array(scores).mean())	np のスペルミスだよ。
+NameError: name A is not defined<tab>'n'<tab>if s>n:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: must be real number, not function<tab><tab>print(ceil(a))	うーん。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-10-62b2c9941e8d> 5<tab>	<B>行目のインデントがおかしいよ。
+TypeError: A object is not subscriptable<tab>'type'<tab>str[s,t,u,v]	本当にstr変数？
+"KeyError: ""None of [Index([(A, B),          (C, D),\n                (E, F),      (G, H),\n                (I, J),          (K, L),\n                (M, '...<tab>ArrowRight' 'ArrowRight' 'ArrowRight' '...<tab>X_train = X_train_all[sample_list]"	データフレームに存在しない列名を使っているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-13-a9db6c84677c> 3<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'y_predict'<tab>cm = confusion_matrix(y_test, y_predict)	y_pred のスペルミスだよ。
+TypeError: unsupported operand type(s) for ** or A(): B and C<tab>pow 'int' 'list'<tab>	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>print(int(l[i][k])+int(l[j-i][l-k]))	整数は先に文字列に変換しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-49-8303a2387c05> 5<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'White'<tab>print(White)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A() missing B required positional argument: C<tab>__init__ 1 'steps'<tab>model = Pipeline()	<C>が必要だよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'oder'<tab>	うーん。
+NameError: name A is not defined<tab>'blue'<tab>sns.kdeplot(df.groupby('学習時間').get_group(1)['G3'], shade = True, color = blue)	文字列は '<A>' のように' 'で囲もう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '4,10'<tab>A,B=map(int, input().split())	問題番号と入力データはあってる？
+TypeError: A() argument B must be str, not list<tab>replace 1<tab>print(S.replace([0],[2]))	<A>できるのは文字列だよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-10-b8db8b4d9da9> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'s0'<tab>	うーん。
+TypeError: A object is not iterable<tab>'int'<tab>print(max(x*y))	max = buitlins.max で初期化してみよう。
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>print(n.replace(1,9))	<A>できるのは文字列だよ。
+TypeError: A object is not subscriptable<tab>'builtin_function_or_method'<tab>print(a.find[S[x]])	a.find(S[x]) に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-87-8f2ca23348c4> 4<tab>	<B>行目の書き方が違うよ。
+IndexError: string index out of range<tab><tab>S[120]	インデックスは文字列長より小さくしよう。
+ValueError: could not convert string to float: A<tab>'3 4 5'<tab>	うーん。
+KeyboardInterrupt:<tab><tab>a*=C	自分で実行を止めた？
+NameError: name A is not defined<tab>'er'<tab>if S.find(er):	文字列は '<A>' のように' 'で囲もう。
+NameError: name A is not defined<tab>'c'<tab>c+=1	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: object of type A has no B()<tab>'int' len<tab>while len(b)<a:	<B>(str(b)) に直そう。
+NameError: name A is not defined<tab>'replace'<tab>x = S,replace(' ', '')	S.<A>(' ', '')  ←ピリオド注意。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-9-2277a2e1e7b5> 1<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+OSError: A Can't find model B. It doesn't seem to be a shortcut link, a Python package or a valid path to a data directory.<tab>[E050] 'ja_ginaza'<tab>nlp = spacy.load('ja_ginaza')	うーん。
+TypeError: A object is not callable<tab>'Counter'<tab>	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>A=0+'N'	うーん。
+TypeError: can't multiply sequence by non-int of type A<tab>'str'<tab>a1=a*b	うーん。
+TypeError: unsupported operand type(s) for *: A and B<tab>'NoneType' 'NoneType'<tab>print(a*b)	うーん。
+NameError: name A is not defined<tab>'s'<tab>print(A+s[0])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'strip'<tab>print(T, S, strip())	S.<A>() ←カンマ注意。
+NameError: name A is not defined<tab>'plt'<tab>plt.figure(figsize=(7, 7))	import matplotlib.pyplot as <A> を実行しよう。
+TypeError: A object does not support item assignment<tab>'str'<tab>x[i]='-1'	うーん。
+KeyboardInterrupt:<tab><tab>s+=s//100	自分で実行を止めた？
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'NoneType'<tab>if int(A) <= int(i) <= int(B):	うーん。
+TypeError: A() expected string of length B, but int found<tab>ord 1<tab>print(ord(x))	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>	うーん。
+NameError: name A is not defined<tab>'value'<tab>Y <= value and value <= X	変数<A>を使う前に <A>=...  のように値を代入しよう。
+AttributeError: A object has no attribute B<tab>'str' 'sorted'<tab>print(''.sorted(int(A)))	うーん。
+ValueError: Expected 2D array, got 1D array instead:<tab><tab>y_pred = model.predict(x)	うーん。
+TypeError: object of type A has no B()<tab>'int' len<tab>for i in range(min(len(a),len(b))):	<B>(str(a)) に直そう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>for n in range(A,B+1,C):"	うーん。
+AttributeError: module A has no attribute B<tab>'matplotlib.pyplot' 'scater'<tab>plt.scater(df['部屋数'],df['住宅価格'], alpha=0.3)	scatterのスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-16-033d3bbd91d8> 6<tab>	<B>行目の書き方が違うよ。
+IndexError: list index out of range<tab><tab>vec[i][w]+=wa2.count(word(w))	インデックスはリストの大きさより小さくしよう。
+NameError: name A is not defined<tab>'X_train_pr_name'<tab>X_train_pr_name = X_train_pr_name.sample(int(len(X_train_pr_any)*raito))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>if N[0] == a:	整数は先に文字列に変換しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>if N[1]==[2,4,5,7,9]:	整数は先に文字列に変換しよう。
+AttributeError: A object has no attribute B<tab>'str' 'isslower'<tab>if s.isslower and ss.isupper:	うーん。
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>a=b.replace(1,9)	<A>できるのは文字列だよ。
+NameError: name A is not defined<tab>'str_list'<tab>str_list	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"NameError: name A is not defined<tab>'df'<tab>df[""文字数""] = df[""コメント""].str.len()"	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'通勤時間'<tab>X = df['通勤時間']  # ひとつ選ぶ	データフレームに<A>という列はないよ。
+"KeyError: ""A not found in axis""<tab>['rewarks']<tab>df.drop('rewarks', axis=1, inplace=True)"	データフレームの列名<A>が間違っているよ。
+TypeError: A object is not iterable<tab>'int'<tab>a=list(n)	うーん。
+NameError: name A is not defined<tab>'sample_list'<tab>mean_lists = [mean_list(S[k]) for k in range(len(sample_list))]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: Shape of passed values is (A, B), indices imply (C, D)<tab>2 4 86 4<tab>pd.DataFrame(X,index=df['コメント'])	うーん。
+NameError: name A is not defined<tab>'AxorB'<tab>	うーん。
+NameError: name A is not defined<tab>'xa'<tab>if xa%200!=0:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>0<tab>keys_list(df_key['keys'][0])	.iloc[<A>] じゃない？
+SyntaxError: invalid character in identifier (A, line B)<tab><ipython-input-5-0781ba81823e> 1<tab>	<B>行目で全角文字を使っていない？
+TypeError: A object is not iterable<tab>'int'<tab>for column in len(df.columns):	for column in range(len(df.columns)): に直そう。
+TypeError: A not supported between instances of B and C<tab>'>=' 'int' 'str'<tab>if len(S) >=  K:	<B>と<C>の比較になっちゃているよ。
+TypeError: A not supported between instances of B and C<tab>'<=' 'int' 'str'<tab>if 0<=N<10:	<B>と<C>の比較になっちゃているよ。
+NameError: name A is not defined<tab>'TensorDataset'<tab>dataset = TensorDataset(X, y)	from torch.utils.data import <A> を実行しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '123 234'<tab>t=int(input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'犯罪率'<tab>X = df[[犯罪率]]	文字列は '<A>' のように' 'で囲もう。
+KeyboardInterrupt:<tab><tab>Y = int(Y+1.01)	自分で実行を止めた？
+"KeyError: ""None of A are in the B""<tab>'[Index(['kcal', 'weather_num', 'temperat...<tab>df[['kcal','weather_num','temperature']]"	データフレームに存在しない列名を使っているよ。
+TypeError: A not supported between instances of B and C<tab>'>=' 'list' 'int'<tab>hanimi=max(np.where(b>=a[i]-ab))	<B>と<C>の比較になっちゃているよ。
+KeyboardInterrupt:<tab><tab>m = int(input())	自分で実行を止めた？
+TypeError: A object is not subscriptable<tab>'int'<tab>return int(x[-1])	整数は先に文字列に変換しよう。
+TypeError: A object cannot be interpreted as an integer<tab>'tuple'<tab>for i in range(n):	うーん。
+NameError: name A is not defined<tab>'printr'<tab>	うーん。
+KeyError: A<tab>'カレー'<tab>for key, df_name in df.groupby('カレー'):	データフレームに<A>という列はないよ。
+IndexError: list assignment index out of range<tab><tab>A[i], B[i] = map(int, input().split())	代入する位置はリストの大きさより小さくしよう。
+AttributeError: A object has no attribute B<tab>'str' 'inupper'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'list' 'sprt'<tab>	うーん。
+"KeyError: ""A not found in axis""<tab>['datetime']<tab>df.drop('datetime', axis=1, inplace=True)"	データフレームの列名<A>が間違っているよ。
+TypeError: unsupported operand type(s) for +=: A and B<tab>'int' 'str'<tab>x +=i	うーん。
+NameError: name A is not defined<tab>'DecisionTreeRegressior'<tab>model = DecisionTreeRegressior()	DecisionTreeRegressor のスペルミスだよ。
+KeyboardInterrupt:<tab><tab>N = 0+N	自分で実行を止めた？
+ValueError: could not convert string to float: A<tab>'日'<tab>print(cosine_similarity(news1, news2))	うーん。
+IndentationError: expected an indented block (A, line B)<tab><ipython-input-17-e978d813583f> 10<tab>	<B>行目のインデントがおかしいよ。
+"KeyError: ""A not in index""<tab>['\\t低所得率']<tab>X = df[['  低所得率','教員比']]"	データフレームの列名<A>が間違っているよ。
+IndexError: string index out of range<tab><tab>ans = ans + S[i]	インデックスは文字列長より小さくしよう。
+"KeyError: ""None of A are in the B""<tab>[Index(['低所得'], dtype='object')] [column...<tab>X = df[['低所得']]"	データフレームに存在しない列名を使っているよ。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'Jリーグ選手身長体重'<tab>df = pd.read_csv('Jリーグ選手身長体重')	<B>というファイルが存在するか確認しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-114-d051be579387> 15<tab>	<B>行目の書き方が違うよ。
+ValueError: Input contains NaN, infinity or a value too large for dtype(A).<tab>'float64'<tab>model.fit(X, y)	説明変数からNaNや無限大を取り除こう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '80 94'<tab>X = int(input())	問題番号と入力データはあってる？
+TypeError: A object is not callable<tab>'int'<tab>print(min(A))	min = buitlins.min で初期化してみよう。
+NameError: name A is not defined<tab>'trainX'<tab>print('trainX:', trainX.shape)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A() can't convert non-string with explicit base<tab>int<tab>ans = int(x, K)	<A>()の最初の引数は文字列にしてみよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-19-8d4c77313e7d> 5<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'r2_scpre'<tab>r2 = r2_scpre(y, y_pred)	r2_score のスペルミスだよ。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'ja.csv'<tab>df = pd.read_csv('ja.csv')	<B>というファイルが存在するか確認しよう。
+"NameError: name A is not defined<tab>'replace'<tab>print(replace(""9"",""1""))"	<A>は、文字列名.<A>() のように操作する文字列が必要だよ。
+TypeError: A object is not callable<tab>'tuple'<tab>print(S.replace((S[0],S[-1])(S[1],S[0])))	うーん。
+AttributeError: A object has no attribute B<tab>'NoneType' 'drop'<tab>df3.drop('身長_y', axis=1, inplace=True)	データフレームがNoneだよ。inplace=True による結果を代入していない？
+AttributeError: A object has no attribute B<tab>'Tensor' 'y_test'<tab>calculate_r2(X_test .y_test)	calculate_r2(X_test, <B>) ←カンマ注意。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-35-b705bbf1ed20> 2<tab>	<B>行目の書き方が違うよ。
+TypeError: A object is not subscriptable<tab>'int'<tab>return int(A[x]) + int(B[x])	整数は先に文字列に変換しよう。
+TypeError: A object is not callable<tab>'list'<tab>keys_list(df_key['keys'])	うーん。
+KeyError: A<tab>'dattetime'<tab>df['year'] = df['dattetime'].apply(lambda x : x.split('-')[0])	データフレームに<A>という列はないよ。
+KeyError: A<tab>'remark'<tab>df['remark'] = df['remark'].map({	データフレームに<A>という列はないよ。
+KeyboardInterrupt:<tab><tab>print(math.ceil((Y-X)/10))	自分で実行を止めた？
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'random_dtate'<tab>model = GradientBoostingRegressor(random_dtate=0)	うーん。
+TypeError: sequence item A: expected str instance, int found<tab>0<tab>print(''.join(a))	うーん。
+ValueError: Unable to convert array of bytes/strings into decimal numbers with dtype=A<tab>'numeric'<tab>model.fit(X,y)	うーん。
+TypeError: A object is not subscriptable<tab>'map'<tab>a=a+[ab[0]]	うーん。
+AttributeError: A object has no attribute B<tab>'str' 'sort'<tab>	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-37-6ecf74a78cdb> 2<tab>	<B>行目の書き方が違うよ。
+AttributeError: A object has no attribute B<tab>'Series' 'bar'<tab>	うーん。
+IndexError: list index out of range<tab><tab>if need[N-j]==True:	インデックスはリストの大きさより小さくしよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '快晴'<tab>df['weather'].astype('int')	うーん。
+TypeError: unsupported operand type(s) for %: A and B<tab>'list' 'int'<tab>	うーん。
+TypeError: A object is not callable<tab>'list'<tab>x = list()	<A> = builtins.<A> で初期化してみよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '100 80'<tab>A,B=map(int(input()))	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'X'<tab>X = torch.tensor(X.values, dtype=torch.float32)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"KeyError: ""None of [Float64Index([ A, B,  C,\n              D, E, F,\n              G,  H,  I,\n           ...<tab>25.21793429676885 25.270782015721192 31....<tab>r2 = r2_score( df['住宅価格'], df[y_pred])"	データフレームに存在しない列名を使っているよ。
+TypeError: unsupported operand type(s) for /: A and B<tab>'list' 'list'<tab>df4['BMI'] = ['体重'] / (['身長']*2)	うーん。
+NameError: name A is not defined<tab>'join'<tab>print('',join(ss))   #リストを文字列に	""""".<A>(ss) ←ピリオド注意。"
+TypeError: A() got multiple values for argument B<tab>drop 'axis'<tab>df.drop('datetime','week', axis=1, inplace=True)	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>sort_values 'assending'<tab>df3.sort_values(by=' 身長', assending=True)	うーん。
+AttributeError: A object has no attribute B<tab>'NoneType' 'replace'<tab>l=print(str(m.replace('1','9')))	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>a=A[0]+A[-1]+A[-2]	整数は先に文字列に変換しよう。
+"TypeError: can only concatenate str (not A) to str<tab>""list""<tab>ss[i]=ss[i]+[kari]"	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-14-0c73839379b1> 1<tab>	<B>行目の書き方が違うよ。
+"TypeError: can only concatenate str (not A) to str<tab>""list""<tab>return chr('64'+a)"	うーん。
+TypeError: A is an invalid key<tab>'(['weather'], ['temperature'])'<tab>X = df[['weather'],['temperature']]	うーん。
+NameError: name A is not defined<tab>'df3'<tab>df3	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '2 3'<tab>N=int(input())	問題番号と入力データはあってる？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-4-cde8be40c64f> 2<tab>	<B>行目の書き方が違うよ。
+KeyboardInterrupt:<tab><tab>A,B,C = map(int, input().split())	自分で実行を止めた？
+NameError: name A is not defined<tab>'X'<tab>y_pred = model.predict(X)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: could not convert string to float: A<tab>'2013-11-18'<tab>model.fit(X, z)	説明変数から非数値データを取り除こう。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'train_Numa_print.csv'<tab>X_train_numa_p = pd.read_csv('train_Numa_print.csv')	<B>というファイルが存在するか確認しよう。
+AttributeError: A object has no attribute B<tab>'DecisionTreeRegressor' 'tree_'<tab>plt.barh(X_train.columns[::-1], model.feature_importances_[::-1])	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-20-f0bbe1c566ea> 15<tab>	<B>行目の書き方が違うよ。
+TypeError: A() argument must be a string or a number, not B<tab>float 'list'<tab>x=float(input().split())	うーん。
+TypeError: A not supported between instances of B and C<tab>'>=' 'str' 'int'<tab>if X >=100:	<B>と<C>の比較になっちゃているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-22-a4107dbf0fae> 2<tab>	<B>行目の書き方が違うよ。
+KeyError: (A, B)<tab>'犯罪率' '犯罪率'<tab>X = df[column1, column]	[[<A>, <B>]] ←２重括弧だよ。
+AttributeError: type object A has no attribute B<tab>'int' 'input'<tab>a,b=map(int.input().split())	map(<A>, <B>().split()) ←カンマ注意。
+TypeError: must be str, not int<tab><tab>if moji.index(int(x[i])+1)!=x[i+1]:	うーん。
+ValueError: too many values to unpack (expected A)<tab>3<tab>A,BA,B=map(int,input().split())	問題番号と入力データはあってる？
+KeyboardInterrupt:<tab><tab>if (input() in a)!=True:	自分で実行を止めた？
+ValueError: too many values to unpack (expected A)<tab>2<tab>A,B=map(int,input().split())	問題番号と入力データはあってる？
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'colums'<tab>pd.pivot_table(df, index = ""血液型"", colums = ""身長"")"	columnsのスペルミスだよ。
+NameError: name A is not defined<tab>'a'<tab>while a>=Y:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>X,Y,Z = str(int,input().split())	自分で実行を止めた？
+KeyboardInterrupt:<tab><tab>A,B=map(int,input().split())	自分で実行を止めた？
+"IndexError: string index out of range<tab><tab>if  S[1]==""1""or""9""  and  S[3]==""1""or""9"" and  S[2]==""1""or""9""  :"	インデックスは文字列長より小さくしよう。
+SyntaxError: invalid character in identifier (A, line B)<tab><ipython-input-40-1ae28e7eeddd> 11<tab>	<B>行目で全角文字を使っていない？
+TypeError: type str doesn't define __round__ method<tab><tab>round(X,1)	うーん。
+NameError: name A is not defined<tab>'er'<tab>print(er)	文字列は '<A>' のように' 'で囲もう。
+ValueError: Expected 2D array, got 1D array instead:<tab><tab>model.fit(X,y)	うーん。
+NameError: name A is not defined<tab>'pd'<tab>df = pd.read_csv('bento_train.csv')	import pandas as <A> を実行しよう。
+TypeError: A not supported between instances of B and C<tab>'>' 'numpy.ndarray' 'str'<tab>print(max('決定係数(R2):', r2, '(',column1,', ', column2,', ', column3,')' ))	<B>と<C>の比較になっちゃているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-9-f2833686bfb8> 7<tab>	<B>行目の書き方が違うよ。
+TypeError: A object is not iterable<tab>'bool'<tab>for i in X>=Y:	while X>=Y: に直そう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[100, 10]<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=0)	うーん。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-15-04da771e12ab> 2<tab>	<B>行目のインデントがおかしいよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-38-2e6011e40ca5> 2<tab>	<B>行目の書き方が違うよ。
+TypeError: object of type A has no B()<tab>'int' len<tab>print(S.replace(len(0),len(2)))	str(0) に直そう。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>K,S=map(str, input().split())	問題番号と入力データはあってる？
+InvalidIndexError: Reindexing only valid with uniquely valued Index objects<tab><tab>pd.concat([df_name, df2], axis=1)	うーん。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>a,b=map(int,input().split())	問題番号と入力データはあってる？
+TypeError: A object is not callable<tab>'float'<tab>a,b,h,m=map(float(),input().split())	map(<A>, input().split()) に直そう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '3 4 5'<tab>A,B,C=map(int(input()))	問題番号と入力データはあってる？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-5-99d97b7330b4> 3<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'continueif'<tab>continueif	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: argument of type A is not iterable<tab>'int'<tab>9' in 99	うーん。
+KeyError: A<tab>'temprature'<tab>y = df['temprature']	データフレームに<A>という列はないよ。
+TypeError: string indices must be integers<tab><tab>df['name']	うーん。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-5-e2b3631c39e6> 9<tab>	<B>行目のインデントがおかしいよ。
+ValueError: Length of values (A) does not match length of index (B)<tab>1 207<tab>df['curry'] =  [~df['name'].str.contains('ハンバーグ')]# and df['name'].str.contains('カレー')	うーん。
+TypeError: list indices must be integers or slices, not tuple<tab><tab>print(T[0,1])	うーん。
+NameError: name A is not defined<tab>'DataLoader'<tab>train_loader = DataLoader(train, model.batch_size, shuffle=True)	うーん。
+KeyError: A<tab>'kal'<tab>df['kal'].describe	データフレームに<A>という列はないよ。
+"KeyError: ""None of A are in the B""<tab>'[Index(['月', '火', '水', '木', '金', '月', '火...<tab>df[df['week']]"	データフレームに存在しない列名を使っているよ。
+NameError: name A is not defined<tab>'raw'<tab>n=raw.translate(str.maketrans({'1':'9', '9':'1'}))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not callable<tab>'list'<tab>mean_lists.append(mean_list(s1))	うーん。
+TypeError: must be str, not int<tab><tab>print(S.index(i))	うーん。
+ValueError: could not convert string to float: A<tab>'日'<tab>print(cosine_similarity(X, Y))	うーん。
+KeyboardInterrupt:<tab><tab>for a in range (1,X+1):	自分で実行を止めた？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-21-08f9d2ba1151> 8<tab>	<B>行目の書き方が違うよ。
+IndexError: list index out of range<tab><tab>print(l[i][j])	インデックスはリストの大きさより小さくしよう。
+ValueError: Input contains NaN, infinity or a value too large for dtype(A).<tab>'float64'<tab>model.fit(X_train, y_train)	説明変数からNaNや無限大を取り除こう。
+KeyError: A<tab>'week'<tab>y_train['week'].value_counts()	データフレームに<A>という列はないよ。
+NameError: name A is not defined<tab>'x3'<tab>if x[0]==x[1] and x[0]==x[2] and x[0]==x3:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid character in identifier (A, line B)<tab><ipython-input-38-3997828710fa> 11<tab>	<B>行目で全角文字を使っていない？
+TypeError: A not supported between instances of B and C<tab>'>=' 'str' 'int'<tab>if K>=x:	<B>と<C>の比較になっちゃているよ。
+IndexError: only integers, slices (A), ellipsis (B), numpy.newaxis (C) and integer or boolean arrays are valid indices<tab>`:` `...` `None`<tab>X = df[df.columns['kcal','tempreature']]	.columns は要らないよ！消して！
+IndexError: only integers, slices (A), ellipsis (B), numpy.newaxis (C) and integer or boolean arrays are valid indices<tab>`:` `...` `None`<tab>X = df[df.columns['y','kcal','tempreature']]	.columns は要らないよ！消して！
+TypeError: unsupported operand type(s) for -: A and B<tab>'int' 'str'<tab>r=0*(4-N)	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-16-a9f802896dd2> 2<tab>	<B>行目の書き方が違うよ。
+TypeError: A() takes exactly one argument (B given)<tab>translate 2<tab>print(n.translate('1','9').translate('9','1'))	うーん。
+ModuleNotFoundError: No module named A<tab>'pytorch_lightning'<tab>from pytorch_lightning import Trainer	!pip install <A> を実行しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>a = n[-1]	<A>(str(n[-1])) に直そう。
+NameError: name A is not defined<tab>'floor'<tab>print(floor(N+1)/2)	math.<A> に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-28-aeb8fd390979> 7<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'colums3'<tab>X = df[[column, column2,colums3]] #1つ選ぶ	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'X'<tab>X	うーん。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-3-14775433998b> 21<tab>	<B>行目のインデントがおかしいよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-20-354997c2403f> 4<tab>	<B>行目の書き方が違うよ。
+"KeyError: A<tab>'second'<tab>plt.plot(train[train[""second""] == 1].groupby(""name"")[""y""].mean())"	データフレームに<A>という列はないよ。
+ValueError: could not convert string to float: A<tab>'快晴'<tab>y_pred = model.predict(X)	うーん。
+KeyboardInterrupt:<tab><tab>A= A*101//100	自分で実行を止めた？
+TypeError: list indices must be integers or slices, not str<tab><tab>X = df[['week_num'],['weather_num'],['temperature']['kcal']]	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-17-9422ae48786a> 4<tab>	<B>行目の書き方が違うよ。
+KeyboardInterrupt:<tab><tab>if 3*a + 4*a*b + 3*b == i :	自分で実行を止めた？
+ValueError: No axis named A for object type DataFrame<tab>5<tab>df.drop('生年月日', axis=5, inplace=True)	うーん。
+AttributeError: A object has no attribute B<tab>'Series' 'strip'<tab>for token in t.tokenize(s):	うーん。
+TypeError: string indices must be integers<tab><tab>if S[2,3]=='f' and S[4,6]=='e':	うーん。
+NameError: name A is not defined<tab>'confusion_matrix'<tab>cm = confusion_matrix(y_test, y_pred)	from sklearn.metrics import <A> を実行しよう。
+NameError: name A is not defined<tab>'Xn'<tab>if X%100==0 and Xn==0:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'select'<tab>select	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: not all arguments converted during string formatting<tab><tab>if X % 100 == 0:	うーん。
+IndexError: string index out of range<tab><tab>S2=S.replace(S[2],S[3])	インデックスは文字列長より小さくしよう。
+NameError: name A is not defined<tab>'Pipeline'<tab>model = Pipeline([('poly', PolynomialFeatures(degree=2)),('linear', LinearRegression())])	from sklearn.pipeline import  <A> を実行しよう。
+ValueError: empty separator<tab><tab>S = list(input().split(''))	うーん。
+TypeError: A() missing B required positional argument: C<tab>fit 1 'y'<tab>model.fit(X_train, y_train)	うーん。
+"TypeError: can only concatenate list (not A) to list<tab>""str""<tab>ss[1]=ss[1]+s[1]"	うーん。
+IndexError: string index out of range<tab><tab>S[1][2][0]	インデックスは文字列長より小さくしよう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[354, 152]<tab>print('R2(テスト):', r2_score(y_train, y_pred))	うーん。
+KeyError: A<tab>'temperature'<tab>X = df['temperature']	データフレームに<A>という列はないよ。
+ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.<tab><tab>X_train_numa_p = pd.read_csv('https://drive.google.com/file/d/1yWj9QG29CmUOufrvE2NITNBxwRlRtD7g/view?usp=sharing')	ファイルを先にダウンロードしよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-15-1c55df5ff291> 48<tab>	<B>行目の書き方が違うよ。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-12-95ff718b6a02> 2<tab>	<B>行目のインデントがおかしいよ。
+TypeError: A object is not callable<tab>'int'<tab>print(max(s,t,u,v))	max = buitlins.max で初期化してみよう。
+ValueError: Length of values (A) does not match length of index (B)<tab>642 70<tab>df['職業']=['Jリーガー']*642	df[X] = [Y] * len(df) のようにしよう。
+TypeError: A not supported between instances of B and C<tab>'>' 'NoneType' 'int'<tab>if a > ord('Z'):	<B>と<C>の比較になっちゃているよ。
+ValueError: could not convert string to float: A<tab>'42.5-00'<tab>X=float(input())	うーん。
+NameError: name A is not defined<tab>'df3'<tab>sns.scatterplot(data=df3, x='pc1', y='pc2', hue='target')	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'digitSumS'<tab>elif digitSumS(A)<digitSumS(B):	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"KeyError: ""A not in index""<tab>['tempreture']<tab>df[['kcal','weather_num','tempreture']]"	データフレームの列名<A>が間違っているよ。
+"ValueError: invalid literal for A() with base B: C<tab>int 10 '1 3'<tab>l=[int(input()).split("" "") for i in range(x)]"	問題番号と入力データはあってる？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-27-1ad656083e37> 7<tab>	<B>行目の書き方が違うよ。
+KeyboardInterrupt:<tab><tab>x=int(i*1.01)	自分で実行を止めた？
+TypeError: range expected A arguments, got B<tab>1 0<tab>S,T=[list(map(str, input().split())) for N in range()]	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-12-c193fb53d000> 1<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'o'<tab>if y[x-1]==o:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-22-fe85f2743bd4> 15<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+NameError: name A is not defined<tab>'n'<tab>while i<n:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'type'<tab>S=list[s]	本当にlist変数？
+ValueError: invalid literal for A() with base B: C<tab>int 10 '80 94'<tab>X=int(input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'er'<tab>S.rfind(er)	文字列は '<A>' のように' 'で囲もう。
+ValueError: Length of values (A) does not match length of index (B)<tab>642 70<tab>df['職業'] = ['Jリーガー']*642	df[X] = [Y] * len(df) のようにしよう。
+NameError: name A is not defined<tab>'datetime'<tab>type(df_2[datetime[0]])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ImportError: cannot import name A from B C<tab>'MLPRegressor' 'sklearn.linear_model' (/...<tab>from sklearn.linear_model import MLPRegressor	@CheckImportPath(<A>)
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>print(n.replace(1,'x').replace(9,1).replace('x',9))	<A>できるのは文字列だよ。
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'list'<tab>x=int(list(input()))	<B>(map(<A>, input().split())) に直そう。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = SVR(max_depth=5)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'list'<tab>x = list(map(int(input().split())))	<B>(map(<A>, input().split())) に直そう。
+NameError: name A is not defined<tab>'A_lower'<tab>A_lower.append(S)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: unsupported operand type(s) for +: A and B<tab>'NoneType' 'int'<tab>f(f(f(t)+t)+f(f(t)))	うーん。
+AttributeError: A object has no attribute B<tab>'list' 'replace'<tab>S.replace('x','0')	<B>できるのは文字列だよ。
+NameError: name A is not defined<tab>'kogi_login'<tab>kogi_login(class_name='atcoder')	関数<A> を定義しよう。
+NameError: name A is not defined<tab>'x'<tab>y = x**2 - 2*x + 1	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-17-7b7886143d3b> 8<tab>	<B>行目の書き方が違うよ。
+IndexError: only integers, slices (A), ellipsis (B), numpy.newaxis (C) and integer or boolean arrays are valid indices<tab>`:` `...` `None`<tab>X = df[df.columns[df.dropna(axis=1)]]	.columns は要らないよ！消して！
+NameError: name A is not defined<tab>'r_score'<tab>r =r_score(y,y_pred)	r2_score のスペルミスだよ。
+AttributeError: A object has no attribute B<tab>'function' 'split'<tab>A,B,C=map(int,input.split())	map(int,input().<B>()) に直そう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>a,b =map(int,input())	問題番号と入力データはあってる？
+TypeError: Labels in y_true and y_pred should be of the same type. Got y_true=A and y_pred=B. Make sure that the predictions provided by the classifier coincides with the true labels.<tab>[0 1] ['0' '1']<tab>print('正解率(test)', model.score(X_test, y_test))	うーん。
+NameError: name A is not defined<tab>'f'<tab>鶏肉とカシューナッツ炒め':4	文字列は '<A>' のように' 'で囲もう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '99.9'<tab>N=int(input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'l'<tab>x = fc1(l)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: object of type A has no B()<tab>'int' len<tab>nl=len(n)	<B>(str(n)) に直そう。
+TypeError: A() missing B required positional argument: C<tab>fit 1 'y'<tab>model.fit(X.y)	model.<A>(X,<B>) ← カンマ注意。
+KeyError: (A, B, C, D)<tab>'soldout' 'kcal' 'payday' 'temperature'<tab>X = df['soldout','kcal','payday','temperature']  # 価格以外を全て説明変数に	[[<A>, <B>, <C>, <D>]] ←２重括弧だよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-037648f0eafd> 3<tab>	<B>行目の書き方が違うよ。
+ValueError: A must increase monotonically, when an array<tab>`bins`<tab>	うーん。
+ValueError: Could not interpret input A<tab>'weather'<tab>sns.countplot(x='weather', data=df)	うーん。
+NameError: name A is not defined<tab>'x'<tab>if int(X[i+1])-int(x[i])!=1 or -9:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>print(int(x)+'+')	うーん。
+"NameError: name A is not defined<tab>'mean_squared_error'<tab>print(""MSE(テスト): "", mean_squared_error(y_test, y_pred) )"	from sklearn.metrics import <A> を実行しよう。
+AttributeError: module A has no attribute B<tab>'pandas' 'contact'<tab>pd.contact([dfbb2, dfsoccer2])	concatのスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-b2c9cb6fd71d> 4<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'x_pred'<tab>plt.scatter(y, x_pred, c='red', alpha=0.3)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>print(n)	自分で実行を止めた？
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'aggfuncs'<tab>pd.pivot_table(df, index = ""血液型"", columns = ""身長"", values = ""生年"", aggfuncs = ""count"")"	aggfuncのスペルミスだよ。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>print(55-sum(x))	うーん。
+ImportError: cannot import name A from B C<tab>'KNeighborsRegressor' 'sklearn.ensemble'...<tab>from sklearn.ensemble import KNeighborsRegressor	@CheckImportPath(<A>)
+NameError: name A is not defined<tab>'model'<tab>y_train_pred= model.predict(X)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'make_mean_list1'<tab>mean_list_all = make_mean_list1(sample_list, df_keys['keys'])	関数<A> を定義しよう。
+NameError: name A is not defined<tab>'x'<tab>x==1	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-14-56e98d2f1708> 2<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+NameError: name A is not defined<tab>'n'<tab>A = [0 for i in range(n)]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A is an invalid key<tab>(['week'], ['weather'], ['temperature']...<tab>X = df[['week'],['weather'],['temperature']]	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '3.456'<tab>n = int(input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'soeted'<tab>x = soeted(list)	sorted のスペルミスだよ。
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'colums'<tab>pd.pivot_table(df,index=""血液型"", colums=""身長"",values=""生年"",aggfunc=""count"")"	columnsのスペルミスだよ。
+TypeError: not all arguments converted during string formatting<tab><tab>print(a.find(S[x])+N%26)	うーん。
+AttributeError: module A has no attribute B<tab>'math' 'float'<tab>	うーん。
+TypeError: '(A      B<tab>0 0<tab>X = df[df['soldout'],df['kcal'],df['temperature']]  # 価格以外を全て説明変数に	うーん。
+KeyError: A<tab>'わかち書き'<tab>docs = np.array(df['わかち書き'])	データフレームに<A>という列はないよ。
+SyntaxError: invalid character in identifier (A, line B)<tab><ipython-input-37-2096d0606100> 11<tab>	<B>行目で全角文字を使っていない？
+NameError: name A is not defined<tab>'inbt'<tab>sx,sy,gx,gy = map(inbt,input().strip().split())	int のスペルミスだよ。
+TypeError: sequence item A: expected str instance, int found<tab>0<tab>ai=''.join(l[i])	うーん。
+AttributeError: type object A has no attribute B<tab>'int' 'input'<tab>list=map(int.input().split())	map(<A>, <B>().split()) ←カンマ注意。
+KeyboardInterrupt:<tab><tab>N=str(input())	自分で実行を止めた？
+InvalidIndexError: Reindexing only valid with uniquely valued Index objects<tab><tab>df_all = pd.concat([df, df_name], axis=1)	うーん。
+TypeError: A() argument B must be str, not int<tab>replace 1<tab>print(n.replace(1,9).replave(9,1))	<A>できるのは文字列だよ。
+TypeError: sequence item A: expected str instance, int found<tab>0<tab>print(''.join(N))	うーん。
+"KeyError: ""None of A are in the B""<tab>[Index(['川辺'], dtype='object')] [columns...<tab>X = df[['川辺']]  # ひとつ選ぶ"	データフレームに存在しない列名を使っているよ。
+NotFittedError: This SVR instance is not fitted yet. Call A with appropriate arguments before using this estimator.<tab>'fit'<tab>y_pred = model.predict(X_test)	modelが未学習だから先に<A>()しよう。
+TypeError: A object does not support item assignment<tab>'str'<tab>S[i] = chr(s_num)	うーん。
+KeyboardInterrupt:<tab><tab>print(x<p for x in map(int,input().split()))	自分で実行を止めた？
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = SVR, LinearSVR(max_depth=5)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+KeyboardInterrupt:<tab><tab>print(a)	自分で実行を止めた？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-37-2e6011e40ca5> 2<tab>	<B>行目の書き方が違うよ。
+IndexError: list index out of range<tab><tab>costn_k = cost[N-1-k]	インデックスはリストの大きさより小さくしよう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[207, 63]<tab>r2 = r2_score(y, y_pred)	うーん。
+AttributeError: module A has no attribute B<tab>'math' 'decimal'<tab>print(math.decimal(X))	うーん。
+AttributeError: A object has no attribute B<tab>'DecisionTreeRegressor' 'tree_'<tab>for column, importance in zip(X_train.columns, model.feature_importances_):	うーん。
+ValueError: not enough values to unpack (expected A, got B)<tab>4 0<tab>a,b,c,d = str()	うーん。
+NameError: name A is not defined<tab>'list_w'<tab>print(wakachi(list_w,'吾輩は猫である。名前はまだない。'))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'num_10'<tab>print(num_10)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'figsize'<tab>plt.figure(figsize(6,6))	plt.figure(<A>=(6,6)) に直そう。
+TypeError: A not supported between instances of B and C<tab>'<' 'str' 'int'<tab>df['恋人'].plot.pie()	<B>と<C>の比較になっちゃているよ。
+IndexingError: Unalignable boolean Series provided as indexer (index of the boolean Series and of the indexed object do not match).<tab><tab>X=df.dtypes[x.dtypes=='int64']	うーん。
+TypeError: type str doesn't define __round__ method<tab><tab>n=round(x)	うーん。
+ImportError: cannot import name A from B C<tab>'RandomForestRegressor' 'sklearn.tree' (...<tab>from sklearn.tree import RandomForestRegressor	@CheckImportPath(<A>)
+KeyboardInterrupt:<tab><tab>n,m=map(int,input().split())	自分で実行を止めた？
+TypeError: can't multiply sequence by non-int of type A<tab>'tuple'<tab>e=c*d	うーん。
+ValueError: at least one array or dtype is required<tab><tab>	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>N+=int(A[i])	<A>(str(A[i])) に直そう。
+KeyError: A<tab>'成績'<tab>sns.boxplot(x=df['成績'], y=df['G3'], order=order_by)	データフレームに<A>という列はないよ。
+IndexError: pop from empty list<tab><tab>last = x.pop()	リストが空のとき popしないように条件を加えよう。
+NameError: name A is not defined<tab>'prin'<tab>prin(A*B)	print のスペルミスだよ。
+TypeError: A object is not callable<tab>'module'<tab>print(decimal(X))	うーん。
+"KeyError: ""A not in index""<tab>['川辺']<tab>X = df[['緑地', '川辺']]  # 説明変数"	データフレームの列名<A>が間違っているよ。
+IndexError: string index out of range<tab><tab>if S[i].islower and S[i+1].isupper:	インデックスは文字列長より小さくしよう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[414, 207]<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=0)	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>s +=chr(base + s)	うーん。
+TypeError: A() must have at least two arguments.<tab>map<tab>a,b=map(input())	<A>(int, input().split()) に直そう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '0 2 3 4 5'<tab>x = int(input())	問題番号と入力データはあってる？
+AttributeError: A object has no attribute B<tab>'function' 'head'<tab>df4.head	df4が関数になってしまっているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-30-f40080a3b7e7> 3<tab>	<B>行目の書き方が違うよ。
+KeyError: A<tab>'[5] not found in axis'<tab>df3.drop(5, axis=1)	データフレームに<A>という列はないよ。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print((N+1)/2)"	うーん。
+IndexError: list index out of range<tab><tab>if int(l[i][2])-int(l[i][0])>0:	インデックスはリストの大きさより小さくしよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'SAT'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'PLSRegression' 'feature_importances_'<tab>plt.barh(X_train.columns, model.feature_importances_)	うーん。
+"KeyError: ""A not found in axis""<tab>['投']<tab>df2.drop('投',axis=1,inplace=True)"	データフレームの列名<A>が間違っているよ。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] './data/train.csv'<tab>train = pd.read_csv('./data/train.csv',index_col=['datetime'])	<B>というファイルが存在するか確認しよう。
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'list'<tab>print(int(S))	うーん。
+NameError: name A is not defined<tab>'a'<tab>res=min(res, a[i]+b[j] if i==j else max(a[i], b[j]))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'F'<tab>trainer.fit(model, train_loader, val_loader)	うーん。
+TypeError: A not supported between instances of B and C<tab>'>' 'str' 'int'<tab>if a>c:	<B>と<C>の比較になっちゃているよ。
+TypeError: A() got an unexpected keyword argument B<tab>dropna 'asix'<tab>df_uid_all = df_uid_all.dropna(asix=1)	うーん。
+NameError: name A is not defined<tab>'upper'<tab>	うーん。
+TypeError: A() must have at least two arguments.<tab>map<tab>a,b,h,m=map(input().split())	<A>(int, input().split()) に直そう。
+TypeError: A() argument B must be str, not list<tab>replace 1<tab>print(S.replace([0],[1]))	<A>できるのは文字列だよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-88-b217bf570134> 5<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'result'<tab>pred = result.predict(X)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ModuleNotFoundError: No module named A<tab>'pytorch_lightning'<tab>import pytorch_lightning as pl	!pip install <A> を実行しよう。
+NameError: name A is not defined<tab>'sns'<tab>sns.heatmap(cm, annot=True, cmap='Blues', fmt='d')	import seaborn as <A> を実行しよう。
+"NameError: name A is not defined<tab>'ans1'<tab>if ans1 == ""Yes"" and ans2 == ""Yes"" and ans3 == ""Yes"" :"	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>a = list(map(int,input().split()))	自分で実行を止めた？
+ValueError: invalid literal for A() with base B: C<tab>int 10 '1 0'<tab>	うーん。
+NameError: name A is not defined<tab>'white'<tab>print(white)	文字列は '<A>' のように' 'で囲もう。
+NotFittedError: This LinearRegression instance is not fitted yet. Call A with appropriate arguments before using this estimator.<tab>'fit'<tab>y_pred = model.predict(X)	modelが未学習だから先に<A>()しよう。
+IndexError: list index out of range<tab><tab>if a[i]>10:	インデックスはリストの大きさより小さくしよう。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = LinearRegression(max_depth=5)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+TypeError: A object is not iterable<tab>'int'<tab>x=list(x)	<A> = builtins.<A> で初期化してみよう。
+ValueError: A() arg is an empty sequence<tab>min<tab>mina2=min(a)	うーん。
+NameError: name A is not defined<tab>'train'<tab>X_train = pd.get_dummies(train[['week', 'temperature']])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>for i in range (100,X+1):	自分で実行を止めた？
+NameError: name A is not defined<tab>'accuracy_score'<tab>accurancy_random_forest = accuracy_score(y_test, y_pred)	from sklearn.metrics import <A> を実行しよう。
+AttributeError: A object has no attribute B<tab>'LinearRegression' 'future_importances_'<tab>model.future_importances_	feature_importances_ のスペルミスだよ。
+TypeError: A object is not iterable<tab>'int'<tab>	うーん。
+KeyboardInterrupt:<tab><tab>N, X = map(int, input().split())	自分で実行を止めた？
+KeyboardInterrupt:<tab><tab>H,W= map(int, input().split())	自分で実行を止めた？
+KeyboardInterrupt:<tab><tab>N,K=map(int,input().split())	自分で実行を止めた？
+NameError: name A is not defined<tab>'x'<tab>print(ReLU(x))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: unsupported operand type(s) for ** or A(): B and C<tab>pow 'str' 'int'<tab>a=A[0]*(K**3)+A[1]*(K**2)+A[2]*(K**1)+A[4]*(K**0)	うーん。
+IndexError: string index out of range<tab><tab>a=A[0]*(K**3)+A[1]*(K**2)+A[2]*(K**1)+A[4]*(K**0)	インデックスは文字列長より小さくしよう。
+IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer<tab><tab>}).astype(int)	うーん。
+ValueError: too many values to unpack (expected A)<tab>2<tab>a,b=map(str,input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'df_uid_pr'<tab>df_uid_pr	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 2 'A'<tab>print(int('A',K))	うーん。
+AttributeError: A object has no attribute B<tab>'int' 'replace'<tab>N=n.replace('1','9')	整数は先に文字列に変換してから<B>しよう。
+IndexError: list index out of range<tab><tab>ln_2 = l[N-2]	インデックスはリストの大きさより小さくしよう。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'inplace'<tab>df3.inplace(axis=5)	<B>はキーワード引数だよ。
+IndexError: string index out of range<tab><tab>if i%2 == 0 and S[i].isupper and S[i+1].islower:	インデックスは文字列長より小さくしよう。
+TypeError: unsupported operand type(s) for -: A and B<tab>'str' 'int'<tab>for i in range (N-1):	うーん。
+TypeError: A object is not iterable<tab>'builtin_function_or_method'<tab>	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>print(a[j][i])	整数は先に文字列に変換しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'nikoandsolstice'<tab>k=int(input())	str(input()) に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-234-19d9dab6a5f4> 29<tab>	<B>行目の書き方が違うよ。
+"TypeError: can only concatenate str (not A) to str<tab>""float""<tab>print(round(X+0.5))"	うーん。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'train.csv'<tab>train = pd.read_csv('train.csv') # 学習データの読み込み	<B>というファイルが存在するか確認しよう。
+KeyError: A<tab>'名前'<tab>df3 = pd.merge(df, df2, on='名前', how='outer')	データフレームに<A>という列はないよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>c=int(X[2])	うーん。
+OSError: A Could not read config file from /usr/local/lib/python3.7/dist-packages/ja_ginza/ja_ginzaBC/config.cfg<tab>[E053] -4.0 .0<tab>nlp = spacy.load('ja_ginza')	うーん。
+KeyError: A<tab>'身長'<tab>df3=df3.sort_values(by='身長', ascending=False)	データフレームに<A>という列はないよ。
+KeyError: (A, B)<tab>'通勤' '教員比'<tab>X = df['通勤', '教員比']  # 説明変数	[[<A>, <B>]] ←２重括弧だよ。
+KeyError: A<tab>'target'<tab>y = df['target']	データフレームに<A>という列はないよ。
+NameError: name A is not defined<tab>'join'<tab>print(join(S[1:X]) + S[0])	print(S[1:X] + S[0]) に直そう。
+NameError: name A is not defined<tab>'raw'<tab>N=raw.translate(n)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'販売数'<tab>y = df['販売数']	データフレームに<A>という列はないよ。
+NotFittedError: This SVC instance is not fitted yet. Call A with appropriate arguments before using this estimator.<tab>'fit'<tab>y_pred = model.predict(X_test)	modelが未学習だから先に<A>()しよう。
+KeyError: A<tab>'name'<tab>	データフレームに<A>という列はないよ。
+AttributeError: A object has no attribute B<tab>'list' 'indet'<tab>i=a.indet(max(a))	うーん。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'yo_execel'<tab>df.yo_execel('arashi.xlsx')	to_excel()のスペルミスだよ。
+AttributeError: A object has no attribute B<tab>'Series' 'info'<tab>df['event'].info()	<B>()はデータフレームのメソッドだよ。
+NameError: name A is not defined<tab>'Pipeli'<tab>Pipeli	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '2 2 '<tab>n=int(input())	問題番号と入力データはあってる？
+AttributeError: module A has no attribute B<tab>'math' 'seil'<tab>	cielのスペルミスだよ。
+TypeError: slice indices must be integers or None or have an __index__ method<tab><tab>	うーん。
+NameError: name A is not defined<tab>'train'<tab>week_encoded = train.groupby('week').new_y.median()	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>c=int(A[0])+int(A[1])+int(A[2])	整数は先に文字列に変換しよう。
+NotFittedError: This TruncatedSVD instance is not fitted yet. Call A with appropriate arguments before using this estimator.<tab>'fit'<tab>X = svd.transform(X.toarray())	modelが未学習だから先に<A>()しよう。
+FileNotFoundError: A No such file or directory: B<tab>'[Errno 2] '/root/desktop/OJT/numa-chan/t...<tab>X_train_numa_p = pd.read_csv('~/desktop/OJT/numa-chan/train_Numa_print.csv')	<B>というファイルが存在するか確認しよう。
+NameError: name A is not defined<tab>'x'<tab>x==0	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'X'<tab>	うーん。
+TypeError: list indices must be integers or slices, not range<tab><tab>aa=sorted(a[range(n)][1])	うーん。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'sort_ylues'<tab>df3.sort_ylues(by = '身長', ascending = False)	うーん。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-6-2277a2e1e7b5> 1<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+NameError: name A is not defined<tab>'df'<tab>X = df[df.columns[:-1]]  # 価格以外を全て説明変数に	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: No engine for filetype: A<tab>'csv'<tab>df.to_excel('arashi.csv', index=False,encoding='utf_8_sig')	to_excelはExcelファイルにしか対応していないよ。
+TypeError: A object is not iterable<tab>'int'<tab>B+=b	うーん。
+TypeError: A() takes B positional arguments but C were given<tab>make_mean_list 2 3<tab>mean_list_all = make_mean_list(sample_list, df_keys['keys'],df_keys)	うーん。
+TypeError: A object is not callable<tab>'int'<tab>A, B = map(int(),input().split())	map(<A>, input().split()) に直そう。
+NameError: name A is not defined<tab>'kogi_login'<tab>kogi_login(ai_key='1fnp38_4EYzTU39qtvj7QWbWZ1c5XFw_m', class_name='atcoder')	関数<A> を定義しよう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[7, 207]<tab>model.fit(X, y)	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>sort_values 'asccending'<tab>df3.sort_values(by=['身長_x'], asccending=False)	うーん。
+TypeError: unsupported operand type(s) for +=: A and B<tab>'int' 'list'<tab>x+=[]	うーん。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'boston.csv'<tab>df = pd.read_csv('boston.csv')	<B>というファイルが存在するか確認しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-183-0f358f55e67c> 22<tab>	<B>行目の書き方が違うよ。
+IndexError: string index out of range<tab><tab>print(n[1])	インデックスは文字列長より小さくしよう。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'maxdepth'<tab>model = DecisionTreeRegressor(maxdepth=5)	max_depthのスペルミスだよ。
+NameError: name A is not defined<tab>'bags'<tab>vec = bags.toarray()	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A() must have at least two arguments.<tab>map<tab>A,B,C=map(input().split())	<A>(int, input().split()) に直そう。
+KeyError: (A, B)<tab>'犯罪率' '犯罪率'<tab>rho = corr(df[column,column], df['住宅価格'])	[[<A>, <B>]] ←２重括弧だよ。
+TypeError: A not supported between instances of B and C<tab>'>=' 'str' 'int'<tab>	<B>と<C>の比較になっちゃているよ。
+"KeyError: ""None of A are in the B""<tab>[Index(['temperature'], dtype='object', ...<tab>X = df[['temperature']]"	データフレームに存在しない列名を使っているよ。
+"ValueError: cannot reindex from a duplicate axis<tab><tab>X_test_pr.loc[X_train_pr[""uid""] == u_id,'target'] = ""1"""	うーん。
+"KeyError: ""A not found in axis""<tab>['身長_y']<tab>df3=df3.drop('身長_y',axis=1,inplace=True)"	データフレームの列名<A>が間違っているよ。
+NameError: name A is not defined<tab>'B'<tab>B=str(B)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: type str doesn't define __round__ method<tab><tab>round(X)	うーん。
+NameError: name A is not defined<tab>'m'<tab>SS.append(S[m])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>B-(A-n+1)*x	自分で実行を止めた？
+NameError: name A is not defined<tab>'roud'<tab>print(roud(x))	roundのスペルミスだよ。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = PassiveAggressiveRegressor(max_depth=3)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+NameError: name A is not defined<tab>'Y'<tab>print(Y)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-151-6268e1cb1036> 40<tab>	<B>行目の書き方が違うよ。
+TypeError: can't multiply sequence by non-int of type A<tab>'float'<tab>BMI': [('体重'/(('身長'*0.01)**2))*6]	うーん。
+TypeError: decoding to str: need a bytes-like object, type found<tab><tab>s=str(int,input())	うーん。
+AttributeError: A object has no attribute B<tab>'tuple' 'fit'<tab>model.fit(X_train, y_train)	うーん。
+IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer<tab><tab>df['weather_num'].astype('int')	うーん。
+KeyError: A<tab>'身長'<tab>df4=df4.sort_values(by=' 身長',ascending=False)	データフレームに<A>という列はないよ。
+"KeyError: ""A not found in axis""<tab>['ポジション']<tab>df.drop('ポジション',axis=0,inplace=True)"	データフレームの列名<A>が間違っているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-b797da0d24cf> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'make_mean_list'<tab>mean_list_all = make_mean_list(sample_list, df_keys['keys'])	関数<A> を定義しよう。
+NameError: name A is not defined<tab>'intmax'<tab>print(b[b.index(intmax(c))])	b[c.index(max(int(c)))] に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-98-70d3db6a0973> 12<tab>	<B>行目の書き方が違うよ。
+TypeError: A object is not iterable<tab>'int'<tab>for letter in len(S):	for letter in S: に直そう。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'Jリーグ選手身長体重体重.csv'<tab>df = pd.read_csv('Jリーグ選手身長体重体重.csv')	<B>というファイルが存在するか確認しよう。
+AttributeError: A object has no attribute B<tab>'builtin_function_or_method' 'A_list'<tab>	うーん。
+ValueError: num must be A <= num <= B, not C<tab>2001 2 3<tab>plt.subplot(2,1,3)	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 2 'a'<tab>a1=int('a',k)	うーん。
+KeyError: A<tab>0<tab>df[0]	.iloc[<A>] じゃない？
+KeyError: A<tab>'身長'<tab>df3.sort_values(' 身長') #身長順に並べる	データフレームに<A>という列はないよ。
+TypeError: A object does not support item assignment<tab>'str'<tab>df4['職業'] = 'Jリーガー'	うーん。
+AttributeError: A object has no attribute B<tab>'LinearRegression' 'coef_'<tab>print('a=', model.coef_, ', b=', model.intercept_)	うーん。
+NameError: name A is not defined<tab>'student'<tab>df = pd.read_csv(student-mat.csv)	文字列は '<A>' のように' 'で囲もう。
+IndexError: string index out of range<tab><tab>int(A[1])	インデックスは文字列長より小さくしよう。
+NameError: name A is not defined<tab>'np'<tab>	うーん。
+NameError: name A is not defined<tab>'ptint'<tab>ptint(0)	print のスペルミスだよ。
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'colums'<tab>pd.pivot_table(df, index=""血液型"",colums=""身長"")"	columnsのスペルミスだよ。
+NameError: name A is not defined<tab>'torch'<tab>X = torch.tensor(X.values, dtype=torch.float32)	import <A> を実行しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>n[1], n[9] = n[9], n[1]	整数は先に文字列に変換しよう。
+IndexError: too many indices for tensor of dimension A<tab>0<tab>trainer.fit(model)	うーん。
+IndexError: list index out of range<tab><tab>hh = abs(h[n]-h[n-1])	インデックスはリストの大きさより小さくしよう。
+KeyError: A<tab>'ｙ'<tab>plt.scatter(df['temperature'], df['ｙ'])	データフレームに<A>という列はないよ。
+"KeyError: ""None of A are in the B""<tab>[Index(['築年数'], dtype='object')] [column...<tab>X = df[['築年数']]"	データフレームに存在しない列名を使っているよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-2-baabe67d012a> 10<tab>	<B>行目の書き方が違うよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'xox'<tab>N,X=map(int,input().split())	うーん。
+TypeError: A is an invalid key<tab>(['week'], ['weather'], ['temperature']...<tab>X = df[['week'],['weather'],['temperature']]  # 価格以外を全て説明変数に	うーん。
+NameError: name A is not defined<tab>'depth'<tab>model = DecisionTreeRegressor(maxdepth=depth)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'身長'<tab>df3.sort_values(by=' 身長', ascending=False)	データフレームに<A>という列はないよ。
+TypeError: unhashable type: A<tab>'list'<tab>len(set(k_l))	うーん。
+TypeError: A not supported between instances of B and C<tab>'>' 'NoneType' 'NoneType'<tab>	<B>と<C>の比較になっちゃているよ。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-219-eeab14b30e07> 36<tab>	<B>行目のインデントがおかしいよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>print(a[int(a[int(a[0])])])	うーん。
+NameError: name A is not defined<tab>'dp'<tab>dp[0] = 0	変数<A>を使う前に <A>=...  のように値を代入しよう。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'to_exce'<tab>df.to_exce|('arashi.xlsx')	to_excel()のスペルミスだよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>x,y=map(int,input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'df3'<tab>df3.drop('weather', axis=1, inplace=True)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-4-7e00785004bd> 2<tab>	<B>行目の書き方が違うよ。
+AttributeError: A object has no property B<tab>'PathCollection' 'coloer'<tab>plt.scatter(y, y_pred, coloer = 'red', alpa = 0.3)	color のスペルミスだよ。
+KeyError: A<tab>'体重'<tab>df4['BMI'] = df['体重']/(df['身長']/100)**2	データフレームに<A>という列はないよ。
+NameError: name A is not defined<tab>'accurancy_score'<tab>accuracy_random_forest = accurancy_score(y_test, y_pred)	accuracy_score のスペルミスだよ。
+NameError: name A is not defined<tab>'y'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'int' 'replace'<tab>s1=n.replace('1','9')	整数は先に文字列に変換してから<B>しよう。
+AttributeError: A object has no attribute B<tab>'map' 'remove'<tab>list.remove(x)	うーん。
+TypeError: unsupported operand type(s) for ^: A and B<tab>'int' 'float'<tab>x=a^2+b^2-2*a*b*e	うーん。
+"KeyError: ""None of A are in the B""<tab>'[Index([('犯罪率',), ('犯罪率',)], dtype='obje...<tab>X = df[[[column],[column]]]"	データフレームに存在しない列名を使っているよ。
+TypeError: unsupported operand type(s) for +: A and B<tab>'map' 'map'<tab>	うーん。
+"KeyError: ""A not found in axis""<tab>['name']<tab>df.drop(columns='name', inplace=True)"	データフレームの列名<A>が間違っているよ。
+OverflowError: cannot convert float infinity to integer<tab><tab>s=int(s*(1+0.01))	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'maxdepth'<tab>model = DecisionTreeRegressor(maxdepth=2)	max_depthのスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-44-bd00b782560c> 35<tab>	<B>行目の書き方が違うよ。
+IndexError: string index out of range<tab><tab>n[1],n[9] = n[9],n[1]	インデックスは文字列長より小さくしよう。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-14-7bd8eed5d8f0> 4<tab>	<B>行目のインデントがおかしいよ。
+"KeyError: ""None of A are in the B""<tab>[Index(['住'], dtype='object')] [columns]<tab>X = df[[col]]"	データフレームに存在しない列名を使っているよ。
+AttributeError: type object A has no attribute B<tab>'int' 'input'<tab>A,B,C=map(int.input().split())	map(<A>, <B>().split()) ←カンマ注意。
+NameError: name A is not defined<tab>'n'<tab>ans += chr(ord('A')+(ord(letter)-ord('A')+n)%26)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>0<tab>print(mount[0])	.iloc[<A>] じゃない？
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-36-cb5fa956e9f8> 2<tab>	<B>行目のインデントがおかしいよ。
+IndexError: list index out of range<tab><tab>print(cost[N-1])	インデックスはリストの大きさより小さくしよう。
+TypeError: unsupported operand type(s) for -: A and B<tab>'list' 'str'<tab>n+=i-str(min(A))	うーん。
+IndexError: string index out of range<tab><tab>i=int(A[f])*(K**int(d))	インデックスは文字列長より小さくしよう。
+NameError: name A is not defined<tab>'math'<tab>math.ceil()	import <A> を実行しよう。
+ValueError: method must be either A, B, C, or a callable, D was supplied<tab>'pearson' 'spearman' 'kendall' '住所'<tab>df.corr('住所')('通学時間')	うーん。
+NameError: name A is not defined<tab>'train'<tab>train['y'].plot(figsize=(14.4))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+IndexError: list index out of range<tab><tab>if cost[m][1] == cost[l][0]:	インデックスはリストの大きさより小さくしよう。
+NameError: name A is not defined<tab>'wakachi'<tab>df['わかち書き'] = df['コメント'].map(lambda x: ' '.join(wakachi(x)))	関数<A> を定義しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>print(A[1[1]])	整数は先に文字列に変換しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-11-0b9474d3c18d> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'value_counts'<tab>df[['アルコール','パリピ']],value_counts()	df[['アルコール','パリピ']].<A>() ←ピリオド注意。
+NameError: name A is not defined<tab>'ptint'<tab>ptint('0')	print のスペルミスだよ。
+TypeError: argument of type A is not iterable<tab>'type'<tab>if 9 in N:	うーん。
+"AttributeError: A object has no attribute B<tab>'DataFrame' 'soccer'<tab>df_soccer_extract[""BMI""] = df.soccer[""体重""] / ( ( df.soccer[""身長""] / 100 ) ** 2 )"	うーん。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>for j in (i+1):"	うーん。
+TypeError: A object is not iterable<tab>'builtin_function_or_method'<tab>N,K=map(str,input().split)	map(int, input().split()) に直そう。
+NameError: name A is not defined<tab>'RANSACRegressorr'<tab>model = RANSACRegressorr()	RANSACRegressor のスペルミスだよ。
+AttributeError: A object has no attribute B<tab>'list' 'sorted'<tab>b.sorted	<B>(b) に直そう。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-3-75aedd8cea49> 2<tab>	<B>行目のインデントがおかしいよ。
+NameError: name A is not defined<tab>'h'<tab>	うーん。
+ValueError: The palette dictionary is missing keys: A<tab>{1, 2, 3, 4, 5}<tab>sns.histplot(x='G3', hue='外出', data=df, binwidth=1, palette={'1':'red', '2':'green', '3':'blue', '4':'yellow', '5':'purple'})	うーん。
+NameError: name A is not defined<tab>'collections'<tab>c=collections.Counter(x)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"KeyError: ""A not found in axis""<tab>['身長_y']<tab>df３.drop('身長_y', axis=1, inplace=True)"	データフレームの列名<A>が間違っているよ。
+KeyboardInterrupt:<tab><tab>if x>=N:	自分で実行を止めた？
+KeyError: A<tab>'[5] not found in axis'<tab>df3.drop(5,axis=0)	データフレームに<A>という列はないよ。
+NameError: name A is not defined<tab>'DiscriptionLinearRegression'<tab>model = DiscriptionLinearRegression()	DecisionTreeRegressor のスペルミスだよ。
+NameError: name A is not defined<tab>'Pipeline'<tab>model =Pipeline([('poly', PolynomialFeatures(degree=5)),('linear', LinearRegression())])	from sklearn.pipeline import  <A> を実行しよう。
+TypeError: not all arguments converted during string formatting<tab><tab>print(N%10)	うーん。
+"KeyError: ""None of A are in the B""<tab>'[Index(['快晴', '快晴', '快晴', '快晴', '快晴', '曇...<tab>df[df['weather']]"	データフレームに存在しない列名を使っているよ。
+TypeError: A object is not callable<tab>'str'<tab>print(str(S(K))+'...')	うーん。
+AttributeError: A object has no attribute B<tab>'PolynomialFeatures' 'predict'<tab>y_pred = model.predict(X_test)	うーん。
+KeyboardInterrupt:<tab><tab>a+=1	自分で実行を止めた？
+TypeError: A object is not subscriptable<tab>'int'<tab>y=N[-1]	整数は先に文字列に変換しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'GCP'<tab>a=a+[list(int(input()))]	map(str, input().split()) に直そう。
+"AttributeError: A object has no attribute B<tab>'Series' 'strftime'<tab>df_2[""datetime""].strftime('%Y%m%d')"	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>distplot 'row'<tab>sns.distplot(df, x='アルコール', row='G3')	うーん。
+SyntaxError: invalid character in identifier (A, line B)<tab><ipython-input-43-4f50f0c1a063> 12<tab>	<B>行目で全角文字を使っていない？
+TypeError: argument of type A is not iterable<tab>'int'<tab>if S  in X:	うーん。
+"KeyboardInterrupt:<tab><tab>n=int(input(""10進数を入力してください ""))"	自分で実行を止めた？
+AttributeError: A object has no attribute B<tab>'NoneType' 'drop'<tab>df3.drop('身長_y', axis=1, inplace=True)  # '身長_y'を消す	データフレームがNoneだよ。inplace=True による結果を代入していない？
+TypeError: unsupported operand type(s) for ^: A and B<tab>'float' 'int'<tab>N+=(N*1.001^i)	うーん。
+NameError: name A is not defined<tab>'S'<tab>N[0] = S	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'int'<tab>return int(x[0])+int(x[1])+int(x[2])+int(x[3])	整数は先に文字列に変換しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-33-9f48798a5a54> 7<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'n2'<tab>	うーん。
+ValueError: Input contains NaN, infinity or a value too large for dtype(A).<tab>'float32'<tab>model.fit(X_train, y_train)	説明変数からNaNや無限大を取り除こう。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'max_depth'<tab>model = TheilSenRegressor(max_depth=8)	<B>はこのモデルには存在しないハイパーパラメータだよ。
+ValueError: shape mismatch: objects cannot be broadcast to a single shape<tab><tab>	うーん。
+TypeError: unsupported operand type(s) for -: A and B<tab>'str' 'int'<tab>print(S[S-0]+S[0])	うーん。
+KeyboardInterrupt:<tab><tab>S=input()	自分で実行を止めた？
+TypeError: A object is not callable<tab>'list'<tab>print(list('a'))	うーん。
+KeyboardInterrupt:<tab><tab>print(format((Y-X)/10),'0f')	自分で実行を止めた？
+AttributeError: A object has no attribute B<tab>'DataFrame' 'colums'<tab>for colum in df.colums[:-1]:	columnsのスペルミスだよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'GCP'<tab>a=a+[list(map(int,input().split()))]	map(str, input().split()) に直そう。
+"KeyError: ""A not in index""<tab>['部屋巣']<tab>X = df[['部屋巣', '低所得率']]  # 説明変数　二つ選ぶ"	データフレームの列名<A>が間違っているよ。
+NameError: name A is not defined<tab>'column'<tab>x = df[[column]]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyboardInterrupt:<tab><tab>a=a+list(map(int,input().split()))	自分で実行を止めた？
+TypeError: unsupported operand type(s) for *: A and B<tab>'function' 'function'<tab>print(d*e)	うーん。
+KeyError: A<tab>'女性'<tab>plt.hist(df['女性'],df['G3'])	データフレームに<A>という列はないよ。
+TypeError: list indices must be integers or slices, not tuple<tab><tab>print(T[0,2,4,6,8])	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'maxdeapth'<tab>model = DecisionTreeRegressor(maxdeapth=3)	max_depthのスペルミスだよ。
+IndexError: list index out of range<tab><tab>print(S[j])	インデックスはリストの大きさより小さくしよう。
+NameError: name A is not defined<tab>'RandomForestRegressor'<tab>model =RandomForestRegressor(),	from sklearn.ensemble import <A> を実行しよう。
+ValueError: could not convert string to float: A<tab>'4 3'<tab>x=float(input())	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-106-9521312f557e> 34<tab>	<B>行目の書き方が違うよ。
+ParserError: Error tokenizing data. C error: Expected A fields in line B, saw C<tab>1 201 2<tab>df = pd.read_csv('bento.csv',header=None, delim_whitespace=True, decimal=',')	ファイルを先にダウンロードしよう。
+ValueError: Number of labels=A does not match number of samples=B<tab>152 354<tab>model.fit(X_train, y_train)	うーん。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>for i in range(1, N+1):"	うーん。
+TypeError: object of type A has no B()<tab>'int' len<tab>if len(x) == 1:	<B>(str(x)) に直そう。
+"TypeError: can only concatenate list (not A) to list<tab>""int""<tab>return chr(a+64)"	うーん。
+NameError: name A is not defined<tab>'c'<tab>	うーん。
+ModuleNotFoundError: No module named A<tab>'janome'<tab>import janome	!pip install <A> を実行しよう。
+"KeyError: ""A not in index""<tab>['weather_num', 'tempreture']<tab>df[['kcal','weather_num','tempreture']]"	データフレームの列名<A>が間違っているよ。
+ValueError: Expected 2D array, got scalar array instead:<tab><tab>model.fit(X[1][2], y)	うーん。
+ImportError: cannot import name A from B C<tab>RandomForestRegresso' 'sklearn.ensemble...<tab>from sklearn.ensemble import RandomForestRegresso	@CheckImportPath(<A>)
+"KeyError: ""A not in index""<tab>['kacal']<tab>X = df[['curry','temperature','kacal']]"	データフレームの列名<A>が間違っているよ。
+ValueError: Classification metrics can't handle a mix of multiclass and continuous targets<tab><tab>accuracy_random_forest = accuracy_score(y_test, y_pred)	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-25-b78e264d9650> 1<tab>	<B>行目の書き方が違うよ。
+AttributeError: A object has no attribute B<tab>'function' 'head'<tab>df4.head()	df4が関数になってしまっているよ。
+ValueError: substring not found<tab><tab>if moji.index(str(int(x[i])+1))!=x[i+1]:	うーん。
+AttributeError: A object has no property B<tab>'PathCollection' 'alph'<tab>plt.scatter(df['部屋数'], df['住宅価格'],alph=0.5)	alpha のスペルミスだよ。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>A,B = map(str,input().split())	問題番号と入力データはあってる？
+KeyboardInterrupt:<tab><tab>while a<10:	自分で実行を止めた？
+IndexError: list index out of range<tab><tab>c=a[i]*b[i]	インデックスはリストの大きさより小さくしよう。
+KeyboardInterrupt:<tab><tab>if i==N:	自分で実行を止めた？
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[9, 207]<tab>model.fit(X, y)	うーん。
+NameError: name A is not defined<tab>'Polynomial_deg5'<tab>model = Polynomial_deg5	<A> を PolynomialFeatures に直そう。
+IndentationError: unindent does not match any outer indentation level (A, line B)<tab><ipython-input-89-745a1e4d1637> 12<tab>	<B>行目のインデントがおかしいよ。
+ParserError: Error tokenizing data. C error: Expected A fields in line B, saw C<tab>2001 6 2<tab>X_train_numa_p = pd.read_csv('https://drive.google.com/drive/folders/14AfV9rPm_1wp-uvpGtX2ogWnMcbBV35W?usp=sharing/train_Numa_print.csv')	ファイルを先にダウンロードしよう。
+TypeError: A() got multiple values for argument B<tab>drop 'axis'<tab>df7.drop('ポジション','生年月日',axis=1, inplace=True)	うーん。
+"KeyError: A<tab>'文字数'<tab>plt.hist(df[""文字数""])"	データフレームに<A>という列はないよ。
+ValueError: too many values to unpack (expected A)<tab>2<tab>S,T=[list(map(str, input().split())) for N in range(N)]	問題番号と入力データはあってる？
+TypeError: A() must have at least two arguments.<tab>map<tab>a,b =map(input().split())	<A>(int, input().split()) に直そう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-19-ea417a9ea495> 4<tab>	<B>行目の書き方が違うよ。
+"FileNotFoundError: A No such file or directory: B<tab>'[Errno 2] '/Users/shion/Desktop/OJT/numa...<tab>X_train_numa_p = pd.read_csv(""/Users/shion/Desktop/OJT/numa-chan/train_Numa_print.csv"")"	<B>というファイルが存在するか確認しよう。
+NameError: name A is not defined<tab>'pandaz'<tab>pandaz.set_option('bento.csv',None)	pandas のスペルミスだよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'CSS'<tab>s,t =map(int,input().split())	map(str, input().split()) に直そう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print(X+1)"	うーん。
+AttributeError: A object has no attribute B<tab>'list' 'split'<tab>k_l.append([i,j].split())	うーん。
+TypeError: A object is not callable<tab>'DataFrame'<tab>df10.head()()	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>a=A[1]+A[2]+A[3]	整数は先に文字列に変換しよう。
+NameError: name A is not defined<tab>'pirnt'<tab>pirnt(C*a)	print のスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-5-cde8be40c64f> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'k'<tab>k[0]=S[1]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'名'<tab>df['名']	データフレームに<A>という列はないよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-46-7d067f190d21> 1<tab>	<B>行目の書き方が違うよ。
+ValueError: could not convert string to float: A<tab>'2013-11-18'<tab>model.fit(X, y)	説明変数から非数値データを取り除こう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '3 4 9 0'<tab>k = int(input())	問題番号と入力データはあってる？
+"KeyboardInterrupt:<tab><tab>l = [input().split("" "") for i in range(x)]"	自分で実行を止めた？
+NameError: name A is not defined<tab>'n_train'<tab>train, val, test = torch.utils.data.random_split(dataset, [n_train, n_val, n_test])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+KeyError: A<tab>'名前'<tab>df4 = pd.merge(dfs, dfb, on='名前', how='outer')	データフレームに<A>という列はないよ。
+TypeError: A() takes exactly one argument (B given)<tab>join 2<tab>print(' '.join(a,b))	うーん。
+TypeError: A object cannot be interpreted as an integer<tab>'str'<tab>print(n.replace('1','9' '9','1'))	うーん。
+NameError: name A is not defined<tab>'gjろいgじおr'<tab>ｇｊろいｇじおｒ	文字列は '<A>' のように' 'で囲もう。
+NameError: name A is not defined<tab>'y_test'<tab>X_val, X_test, y_val, y_test = train_test_split(X_test, y_test, test_size=0.5, random_state=0)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A object is not subscriptable<tab>'float'<tab>print(round(X['1']))	うーん。
+TypeError: A() got multiple values for argument B<tab>concat 'axis'<tab>df_all = pd.concat(df,df_name,axis=1)	うーん。
+TypeError: A object is not subscriptable<tab>'builtin_function_or_method'<tab>print(list.sort[0])	list.sort(0) に直そう。
+NameError: name A is not defined<tab>'f'<tab>f=f^2+2*f+3	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'s'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'set' 'append'<tab>skill.append(A[i])	うーん。
+ValueError: The palette dictionary is missing keys: A<tab>{'女性', '男性'}<tab>sns.histplot(x='G3', hue='性別', data=df, binwidth=1, palette={'1':'red', '2':'green', '3':'blue', '4':'yellow', '5':'purple'})	うーん。
+AttributeError: A object has no attribute B<tab>'dict' 'sort'<tab>mount.sort()	辞書にメソッド<B>はないよ。
+IndexError: string index out of range<tab><tab>S1=S.replace(S[1],S[2]).replace(S[2],S[3])	インデックスは文字列長より小さくしよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-26-e36b4f4e6602> 4<tab>	<B>行目の書き方が違うよ。
+TypeError: A() takes B positional arguments but C was given<tab>num2alpha 0 1<tab>num2alpha(N-96)	うーん。
+NameError: name A is not defined<tab>'accuracy_score'<tab>accuracy_random_forest = accuracy_score(y_test, y_pred)	from sklearn.metrics import <A> を実行しよう。
+IndexError: index A is out of bounds for axis B with size C<tab>12 0 12<tab>X = df[[col[a],col[b]]]	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>print(K[:7]+'...')	整数は先に文字列に変換しよう。
+NameError: name A is not defined<tab>'fillna'<tab>df3['体重'],fillna(df3['体重'],mean())	df3['体重'].<A>(df3['体重'].mean()) ←ピリオド注意。
+NameError: name A is not defined<tab>'sort'<tab>sort(a)	sorted(a) に直そう。
+NameError: name A is not defined<tab>'prit'<tab>prit(a,c)	print のスペルミスだよ。
+NameError: name A is not defined<tab>'train_test_split'<tab>X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=0)	from sklearn.model_selection import <A> を実行しよう。
+"KeyError: ""None of A are in the B""<tab>[Index(['価格'], dtype='object')] [columns...<tab>X = df[['価格']]  # ひとつ選ぶ"	データフレームに存在しない列名を使っているよ。
+TypeError: unsupported operand type(s) for //: A and B<tab>'map' 'int'<tab>	うーん。
+TypeError: A is an invalid key<tab>'(['犯罪率'], ['犯罪率'])'<tab>X=df[[column],[column]]	うーん。
+TypeError: an integer is required (got type list)<tab><tab>return chr(a)	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '1011 10100'<tab>K = int(input())	問題番号と入力データはあってる？
+ValueError: too many values to unpack (expected A)<tab>3<tab>A,B,C=input()	問題番号と入力データはあってる？
+TypeError: A object is not subscriptable<tab>'int'<tab>ans = int(x[0])	整数は先に文字列に変換しよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>aa,bb=map(int,input())	問題番号と入力データはあってる？
+KeyError: A<tab>'weather_num'<tab>df['weather_num']	データフレームに<A>という列はないよ。
+AttributeError: A object has no attribute B<tab>'str' 'isslower'<tab>if s.isslower() and ss.isupper():	islower のスペルミスだよ。
+KeyError: (A, B, C, D)<tab>kcal' 'weather_num' 'week_num' 'tempera...<tab>columns = df['kcal', 'weather_num', 'week_num', 'temperature']	[[<A>, <B>, <C>, <D>]] ←２重括弧だよ。
+TypeError: A() expected a character, but string of length B found<tab>ord 3<tab>base=ord('A+1')	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-28-68d9f3858073> 4<tab>	<B>行目の書き方が違うよ。
+AttributeError: A object has no attribute B<tab>'spacy.tokens.token.Token' 'lemmma_'<tab>print(word.i, word.orth_, word.lemmma_, word.pos_, word.tag_)	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '84 97 66'<tab>X=int(input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'kogiも忘れずに'<tab>kogiも忘れずに	文字列は '<A>' のように' 'で囲もう。
+KeyError: A<tab>'year'<tab>df['yaer'] = df['year'].astype(np.int)	データフレームに<A>という列はないよ。
+TypeError: A() argument must be a string, a bytes-like object or a number, not B<tab>int 'list'<tab>n = map(int(input().split()))	map(<A>, input().split()) に直そう。
+NameError: name A is not defined<tab>'datetime'<tab>type(df_2[datetime])	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'o'<tab>if S[a]==o :	変数<A>を使う前に <A>=...  のように値を代入しよう。
+UnicodeEncodeError: A codec can't encode characters in position BC: ordinal not in range(D)<tab>'ascii' 47 -50 128<tab>df = pd.read_csv('https://raw.githubusercontent.com/massongit/math-program-book/master/9_data/サッカー/Jリーグ選手身長体重.csv')	うーん。
+KeyboardInterrupt:<tab><tab>if w-sum<b[i]:	自分で実行を止めた？
+TypeError: A object is not callable<tab>'DataFrame'<tab>X = df(['kcal','temperature'])	df[['X', 'Y']] ←２重四角括弧だよ。
+NameError: name A is not defined<tab>'pd'<tab>df = pd.read_csv('boston.csv')	import pandas as <A> を実行しよう。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>print((sum(a)+sum(c))/x+y)	うーん。
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'ccolumns'<tab>pd.pivot_table(df,index=""血液型"",ccolumns=""身長"")"	columnsのスペルミスだよ。
+ImportError: cannot import name A from B C<tab>'datetime' 'sklearn.metrics' (/usr/local...<tab>from sklearn.metrics import datetime	@CheckImportPath(<A>)
+"NameError: name A is not defined<tab>'num1'<tab>round(""n"" ,num1)"	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'math'<tab>print(math.floor(N+1)/2)	import <A> を実行しよう。
+"IndexError: only integers, slices (A), ellipsis (B), numpy.newaxis (C) and integer or boolean arrays are valid indices<tab>`:` `...` `None`<tab>X = df[df.columns[""soldout"",""name"",""kcal"",""weather"",""precipitation"",""tempreature""]]"	.columns は要らないよ！消して！
+AttributeError: A object has no property B<tab>'Rectangle' 'c'<tab>plt.barh(y_test,y_pred,c='red',alpha=0.3)	うーん。
+NameError: name A is not defined<tab>'df_train_pr_name'<tab>X_train_pr_name = pd.DataFrame(df_train_pr_name)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+InvalidIndexError: Reindexing only valid with uniquely valued Index objects<tab><tab>pd.concat([df2,df_name], axis =1)	うーん。
+TypeError: A object is not callable<tab>'list'<tab>vec2.append(wa2.count(word(w)))	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-9-71fb52b17287> 6<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'X'<tab>return X	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: too many values to unpack (expected A)<tab>2<tab>a,b=map(int,input())	問題番号と入力データはあってる？
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'str'<tab>print(0+n)	うーん。
+ImportError: cannot import name A from B C<tab>PolynomialFeatures' 'sklearn.gaussian_p...<tab>from sklearn.gaussian_process import PolynomialFeatures	@CheckImportPath(<A>)
+"KeyError: ""A not in index""<tab>['教員']<tab>X = df[['通勤', '教員']]  # 二つ選ぶ"	データフレームの列名<A>が間違っているよ。
+ValueError: No engine for filetype: A<tab>'xlex'<tab>df.to_excel('arashi.xlex')	.xlsx のスペルミスだよ。
+ValueError: Length of values (A) does not match length of index (B)<tab>644 643<tab>df['職業'] =['Jリーガー']*644	df[X] = [Y] * len(df) のようにしよう。
+IndexError: list index out of range<tab><tab>if int(S[j+1]) == 1:	インデックスはリストの大きさより小さくしよう。
+KeyboardInterrupt:<tab><tab>N = '0'+N	自分で実行を止めた？
+"KeyError: ""A not in index""<tab>'['weather_num', 'week_num', 'precipitati...<tab>X = df[['soldout','kcal','payday','temperature', 'weather_num','week_num', 'precipitation_num','event_num','remarks_num','name_num']]"	データフレームの列名<A>が間違っているよ。
+ValueError: The truth value of a Series is ambiguous. Use a.empty, A(), B(), C() or D().<tab>a.bool a.item a.any a.all<tab>df['curry'] =  (not df['name'].str.contains('ハンバーグ')) and df['name'].str.contains('カレー')	うーん。
+TypeError: A object is not callable<tab>'module'<tab>model = enable_hist_gradient_boosting()	うーん。
+ValueError: not enough values to unpack (expected A, got B)<tab>4 1<tab>a,b,c,d = map(int, input().split())	問題番号と入力データはあってる？
+TypeError: A(): data must be a sequence (got DataLoader)<tab>new<tab>print(calculate_r2(test_loader))	うーん。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print(int(float(X+1)))"	うーん。
+AttributeError: A object has no attribute B<tab>'NoneType' 'rename'<tab>df3 = df3.rename(columns={'身長_x': ' 身長'}, inplace=True)	データフレームがNoneだよ。inplace=True による結果を代入していない？
+TypeError: A object is not subscriptable<tab>'int'<tab>if N[-1] == 3:	整数は先に文字列に変換しよう。
+AttributeError: A object has no attribute B<tab>'list' 'find'<tab>	うーん。
+ValueError: too many values to unpack (expected A)<tab>2<tab>a, b= map(int, input().split())	問題番号と入力データはあってる？
+AttributeError: A object has no attribute B<tab>'NoneType' 'drop'<tab>df3.drop(5, axis=0, inplace=True)	データフレームがNoneだよ。inplace=True による結果を代入していない？
+NameError: name A is not defined<tab>'df_uid_mean1_c1'<tab>df_uid_mean1_c1	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A not supported between instances of B and C<tab>'<' 'list' 'int'<tab>while ma<w:	<B>と<C>の比較になっちゃているよ。
+NameError: name A is not defined<tab>'column1'<tab>X = df[[column1], [column]]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'sports'<tab>sports.csv = df.sort_values(by='身長',ascending=True)	変数名に. は使えないよ。
+TypeError: A() missing B required positional argument: C<tab>num2alpha 1 'a'<tab>S=num2alpha()	うーん。
+MisconfigurationException: A expects a return of None. HINT: remove the return statement in B.<tab>`training_epoch_end` `training_epoch_end...<tab>trainer.fit(model)	うーん。
+TypeError: list indices must be integers or slices, not str<tab><tab>for name in df['名前']:	うーん。
+AttributeError: A object has no attribute B<tab>'int' 'columns'<tab>X = df[df.columns[:-1]]	うーん。
+FileNotFoundError: A No such file or directory: B<tab>'[Errno 2] 'my-drive/nuna-chan/train_Numa...<tab>X_train_numa_p = pd.read_csv('my-drive/nuna-chan/train_Numa_print.csv')	<B>というファイルが存在するか確認しよう。
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, A(), B(), C() or D().<tab>a.bool a.item a.any a.all<tab>df4=pd.merge(df, df2, df3, on='名前')	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'atcoder'<tab>S=int(input())	map(str, input().split()) に直そう。
+NameError: name A is not defined<tab>'S'<tab>S[j].append(num)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>ans+=x"	うーん。
+TypeError: unsupported operand type(s) for -: A and B<tab>'int' 'list'<tab>	うーん。
+TypeError: A object is not subscriptable<tab>'int'<tab>A = [int(c) for c in a[::-1]]	うーん。
+NameError: name A is not defined<tab>'add'<tab>add	うーん。
+AttributeError: A object has no attribute B<tab>'numpy.ndarray' 'values'<tab>ax.imshow(mnist.data.values[i].reshape((28, 28)), cmap=plt.cm.gray)	うーん。
+TypeError: A object is not subscriptable<tab>'function'<tab>	うーん。
+TypeError: A object is not subscriptable<tab>'type'<tab>a=list[str(input())]	本当にlist変数？
+ValueError: invalid literal for A() with base B: C<tab>int 10 'ase'<tab>A=list(int(input()))	map(str, input().split()) に直そう。
+TypeError: object of type A has no B()<tab>'int' len<tab>k=len(K)	<B>(str(K)) に直そう。
+TypeError: A object is not subscriptable<tab>'int'<tab>if N[1]== 2 or 4 or 5 or 7 or 9:	整数は先に文字列に変換しよう。
+"FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'town_survey.csv'<tab>df = pd.read_csv(""town_survey.csv"")"	<B>というファイルが存在するか確認しよう。
+ValueError: Expected 2D array, got 1D array instead:<tab><tab>model.predict([(4.00)])	うーん。
+TypeError: A() takes exactly one argument (B given)<tab>append 0<tab>k_l.append()	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-3-b36c146875ad> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'r2_score'<tab>print('R2(訓練):', r2_score(y_train, model.predict(X_train)))	from sklearn.metrics import <A> を実行しよう。
+NameError: name A is not defined<tab>'kogi_login'<tab>kogi_login()	関数<A> を定義しよう。
+TypeError: A() got multiple values for argument B<tab>merge 'how'<tab>df4 = pd.merge(df, df2, df3, on='身長', how='outer')	一度に結合できるデータフレームは２つまでだよ。
+TypeError: object of type A has no B()<tab>'int' len<tab>print(len(i))	<B>(str(i)) に直そう。
+KeyError: (A, B, C, D)<tab>'母学歴' '父学歴' '母職業' '父職業'<tab>sns.pairplot(df['母学歴', '父学歴', '母職業', '父職業'])	[[<A>, <B>, <C>, <D>]] ←２重括弧だよ。
+IndexError: list index out of range<tab><tab>if l[i+1][j+1]=='#':	インデックスはリストの大きさより小さくしよう。
+"ValueError: The truth value of a Series is ambiguous. Use a.empty, A(), B(), C() or D().<tab>a.bool a.item a.any a.all<tab>if df_uid_all1[""e → g""]==962.636364  :"	うーん。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>K,S = map(int,input().split())	問題番号と入力データはあってる？
+TypeError: '(A      B<tab>0 0.00632<tab>X = df[df[column], df[column]]	うーん。
+NameError: name A is not defined<tab>'df_uid_all'<tab>df_uid_all	変数<A>を使う前に <A>=...  のように値を代入しよう。
+NameError: name A is not defined<tab>'DecisionTreeRegressor'<tab>model = DecisionTreeRegressor(max_depth=5)	from sklearn.tree import <A> を実行しよう。
+IndentationError: unexpected indent (A, line B)<tab><ipython-input-7-dfee0075a21b> 8<tab>	<B>行目のインデントがおかしいよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-6-0a36380fb2b8> 2<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'n'<tab>a=S[-n:]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: object of type A has no B()<tab>'int' len<tab>print((4-int(len(N)))*0+N)	<B>(str(N)) に直そう。
+NameError: name A is not defined<tab>'DecisionTreerRegressor'<tab>model = DecisionTreerRegressor()	DecisionTreeRegressor のスペルミスだよ。
+KeyboardInterrupt:<tab><tab>ma=ma+b[i]	自分で実行を止めた？
+IndexError: string index out of range<tab><tab>if S[2]==3:	インデックスは文字列長より小さくしよう。
+"KeyError: ""A not in index""<tab>['']<tab>X = df[['低所得率','','交通']]  # ひとつ選ぶ"	データフレームの列名<A>が間違っているよ。
+NameError: name A is not defined<tab>'values'<tab>df_uid_all.columns/values	うーん。
+AttributeError: A object has no attribute B<tab>'str' 'sprit'<tab>a=list(map(int,input().sprit()))	split のスペルミスだよ。
+"KeyError: A<tab>'文字数'<tab>df.sort_values(by=""文字数"")"	データフレームに<A>という列はないよ。
+AttributeError: A object has no attribute B<tab>'DecisionTreeRegressor' 'tree_'<tab>model.feature_importances_	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>a,b,c=map(int,input())	問題番号と入力データはあってる？
+NameError: name A is not defined<tab>'Yes'<tab>	うーん。
+"ValueError: The truth value of a Series is ambiguous. Use a.empty, A(), B(), C() or D().<tab>a.bool a.item a.any a.all<tab>df = [(df['身長'] >= 170) and (df['血液型'] == ""A"")]"	うーん。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[2, 506]<tab>model.fit(X, y)	うーん。
+AttributeError: A object has no attribute B<tab>'map' 'replace'<tab>	うーん。
+TypeError: A() must have at least two arguments.<tab>map<tab>A,B,C=map(input())	<A>(int, input().split()) に直そう。
+NameError: name A is not defined<tab>'breakz'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'function' 'kansuu'<tab>print.kansuu(t)	print(<B>(t)) に直そう。
+ValueError: Only integers accepted as A values<tab>`n`<tab>X_train_c1_numa_p_05 = X_train_numa_p.sample(len(X_train_c1_any_p)*0.5)	うーん。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'サッカー/Jリーグ選手身長体重'<tab>df4 = pd.read_csv('サッカー/Jリーグ選手身長体重')	<B>というファイルが存在するか確認しよう。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-126-4966d1b13740> 23<tab>	<B>行目の書き方が違うよ。
+NameError: name A is not defined<tab>'x_pred'<tab>plt.scatter(x_pred, y_pred, c='red', alpha=0.3)	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: must be str, not list<tab><tab>print(S.rfind([3]))	うーん。
+TypeError: A object is not iterable<tab>'int'<tab>for h in H:	for i in range(H): に直そう。
+NameError: name A is not defined<tab>'GradientBoostingRegressor'<tab>model=GradientBoostingRegressor(random_state=0)	from sklearn.ensemble import <A> を実行しよう。
+NameError: name A is not defined<tab>'abcde'<tab>	うーん。
+AttributeError: A object has no attribute B<tab>'int' 'append'<tab>	うーん。
+"KeyboardInterrupt:<tab><tab>print(""Easy"")"	自分で実行を止めた？
+ValueError: invalid literal for A() with base B: C<tab>int 2 'A'<tab>a = int('A',K)	うーん。
+TypeError: A() got an unexpected keyword argument B<tab>__init__ 'maxdepth'<tab>model = DecisionTreeRegressor(maxdepth=3)	max_depthのスペルミスだよ。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'A'<tab>print(int(S[i])+int(N))	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'list'<tab>return val - (sum(l))/max(l)	うーん。
+IndexError: string index out of range<tab><tab>if i%2 != 0 and S[i].isupper() and S[i+1].islower():	インデックスは文字列長より小さくしよう。
+TypeError: A is an invalid key<tab>'(['week'], ['weatherr'], ['kcal'])'<tab>X = df[['week'],['weatherr'],['kcal']]	うーん。
+ValueError: invalid literal for A() with base B: C<tab>int 10 'x'<tab>N,X=map(int,input())	うーん。
+KeyboardInterrupt:<tab><tab>a,b,c,d = map(int, input().split())	自分で実行を止めた？
+AttributeError: A object has no attribute B<tab>'dict' 'add'<tab>k.add(set(S) & AREA)	辞書にメソッド<B>はないよ。
+NameError: name A is not defined<tab>'corr'<tab>print(corr(df['y'], df['kcal']))	print(df['y'].<A>(df['kcal'])) に直そう。
+IndexError: list index out of range<tab><tab>if s[h][i]=='.':	インデックスはリストの大きさより小さくしよう。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[100, 30]<tab>r2 = r2_score(y, y_pred)	うーん。
+ValueError: Expected 2D array, got 1D array instead:<tab><tab>model.fit(x, y)	うーん。
+KeyError: (A, B)<tab>'築年' '通勤'<tab>	[[<A>, <B>]] ←２重括弧だよ。
+"KeyError: ""A not in index""<tab>['川辺']<tab>X = df[['川辺', '通勤']]"	データフレームの列名<A>が間違っているよ。
+NameError: name A is not defined<tab>'df'<tab>X = df[df.columns[:-1]]	変数<A>を使う前に <A>=...  のように値を代入しよう。
+IndexError: list index out of range<tab><tab>moji = chr(P[j+97])	インデックスはリストの大きさより小さくしよう。
+TypeError: A object is not subscriptable<tab>'NoneType'<tab>df3['体重'].fillna(df3['体重'].mean())	df3がNone ← df3 = と inplace=True は同時に使わない。
+AttributeError: A object has no attribute B<tab>'str' 'insert'<tab>x=x.insert(0,last)	うーん。
+TypeError: unsupported operand type(s) for ^: A and B<tab>'float' 'int'<tab>N=(N+(N/100)^i)	うーん。
+"KeyError: ""A not found in axis""<tab>['ポジション']<tab>df=df.drop('ポジション', axis =1)"	データフレームの列名<A>が間違っているよ。
+NameError: name A is not defined<tab>'columns_list'<tab>df_uid_all.columns = columns_list	変数<A>を使う前に <A>=...  のように値を代入しよう。
+ValueError: not enough values to unpack (expected A, got B)<tab>2 1<tab>R,C= map(int, input().split())	問題番号と入力データはあってる？
+AttributeError: A object has no attribute B<tab>'NoneType' 'info'<tab>df3.info()	データフレームがNoneだよ。inplace=True による結果を代入していない？
+TypeError: A() must have at least two arguments.<tab>map<tab>S, T =map(input().split())	<A>(int, input().split()) に直そう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '7,acr'<tab>K,S=map(int, input().split())	問題番号と入力データはあってる？
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[152, 354]<tab>print('R2(訓練):', r2_score(y_train, model.predict(X_train)))	うーん。
+"ValueError: Found input variables with inconsistent numbers of samples: A<tab>[500, 152]<tab>print(""MSE: "", mean_squared_error(y, y_pred))"	うーん。
+FileNotFoundError: A No such file or directory: B<tab>[Errno 2] 'bento.csv'<tab>df = pd.read_csv('bento.csv')	<B>というファイルが存在するか確認しよう。
+NameError: name A is not defined<tab>'PLSRegression'<tab>model=PLSRegression(n_components=10)	from sklearn.cross_decomposition import <A> を実行しよう。
+"TypeError: can only concatenate str (not A) to str<tab>""int""<tab>print(i+1)"	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-21-544e4f7ffca4> 2<tab>	<B>行目の書き方が違うよ。
+FileNotFoundError: A No such file or directory: B<tab>'[Errno 2] '/drive/my-drive/nuna-chan/tra...<tab>X_train_numa_p = pd.read_csv('/drive/my-drive/nuna-chan/train_Numa_print.csv')	<B>というファイルが存在するか確認しよう。
+TypeError: A object is not callable<tab>'str'<tab>print((T)(S))	うーん。
+RecursionError: maximum recursion depth exceeded in comparison<tab><tab>if i == 0 :	うーん。
+TypeError: A object is not iterable<tab>'int'<tab>max(x*y)	max = buitlins.max で初期化してみよう。
+ValueError: invalid literal for A() with base B: C<tab>int 10 '1]'<tab>a,b,c,d=map(int,input().split())	問題番号と入力データはあってる？
+ValueError: invalid literal for A() with base B: C<tab>int 10 ' '<tab>a,b=map(int,input())	問題番号と入力データはあってる？
+KeyboardInterrupt:<tab><tab>n,w=map(int,input().split())	自分で実行を止めた？
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-6-fd1f5fee22f7> 6<tab>	<B>行目の書き方が違うよ。
+KeyError: A<tab>'身長'<tab>df3.sort_values(by='身長')	データフレームに<A>という列はないよ。
+TypeError: A object is not iterable<tab>'int'<tab>n = list(n)	<A> = builtins.<A> で初期化してみよう。
+AttributeError: A object has no attribute B<tab>'RandomForestClassifier' 'n_classes_'<tab>y_pred = model.predict(X_test)	うーん。
+KeyError: (A, B)<tab>'kal' 'soldout'<tab>X = df['kal','soldout']	[[<A>, <B>]] ←２重括弧だよ。
+AttributeError: module A has no attribute B<tab>'math' 'floot'<tab>	うーん。
+TypeError: must be real number, not str<tab><tab>model.fit(X_train,y_train)	うーん。
+NameError: name A is not defined<tab>'SD'<tab>S[0],S[2] = S[2],SD[0]	<A> を S に直そう。
+NameError: name A is not defined<tab>'imt'<tab>print(imt(S[i]+N))	int のスペルミスだよ。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-14-6e0c0c010ae1> 4<tab>	<B>行目の書き方が違うよ。
+TypeError: A object is not callable<tab>'list'<tab>if over10(list_A(-i), list_B(-i)) == 1 :	うーん。
+"AttributeError: module A has no attribute B<tab>'pandas' 'DateFrame'<tab>pd.DateFrame(pd.DataFrame({""words"":words}).value_counts())"	DataFrameのスペルミスだよ。
+IndexError: string index out of range<tab><tab>print(S[n]+'...')	インデックスは文字列長より小さくしよう。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-9-d8e2a0d6db2c> 3<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+NameError: name A is not defined<tab>'sort'<tab>a=sort.a	sorted(a) に直そう。
+NameError: name A is not defined<tab>'bento'<tab>bento['y'].plot(figsize=(14.4))	変数<A>を使う前に <A>=...  のように値を代入しよう。
+TypeError: A() can't convert non-string with explicit base<tab>int<tab>A_10 = int(A, K)	<A>()の最初の引数は文字列にしてみよう。
+"KeyError: ""None of A are in the B""<tab>[Index([('weather',)], dtype='object')] ...<tab>X = df_name, df[[['weather']]]"	データフレームに存在しない列名を使っているよ。
+IndexError: list index out of range<tab><tab>sn = h[i]	インデックスはリストの大きさより小さくしよう。
+TypeError: A object is not callable<tab>'module'<tab>model = enable_hist_gradient_boosting() # 木の深さを指定	うーん。
+TypeError: unhashable type: A<tab>'set'<tab>A.add(set(x[2:]))	うーん。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-12-e2ae0af1e6e1> 2<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+"KeyError: ""None of A are in the B""<tab>[Index(['教員'], dtype='object')] [columns...<tab>X = df[['教員']]  # 説明変数"	データフレームに存在しない列名を使っているよ。
+IndexError: string index out of range<tab><tab>if i%2 != 0 and S[i].islower and S[i+1].isupper:	インデックスは文字列長より小さくしよう。
+IndexError: string index out of range<tab><tab>print(S[i])	インデックスは文字列長より小さくしよう。
+TypeError: list indices must be integers or slices, not list<tab><tab>s[i],s[i+1]==s[i+1],s[a]	うーん。
+AttributeError: A object has no attribute B<tab>'DataFrame' 'colums'<tab>for column in df.colums[:-1]:	columnsのスペルミスだよ。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[506, 152]<tab>print('R2', r2_score(y, y_pred))	うーん。
+SyntaxError: unexpected EOF while parsing (A, line B)<tab><ipython-input-7-cdbb2ecaae02> 14<tab>	<B>行目が途中で終わっているよ。括弧を閉じ忘れていない？
+IndentationError: expected an indented block (A, line B)<tab><ipython-input-3-3892c968577e> 8<tab>	<B>行目のインデントがおかしいよ。
+ValueError: Found input variables with inconsistent numbers of samples: A<tab>[500, 152]<tab>print('R2', r2_score(y, y_pred))	うーん。
+TypeError: A object is not callable<tab>'int'<tab>print(y(y(y+t)+y*y))	X * (Y) ← 乗算演算子が必要だよ。
+ValueError: not enough values to unpack (expected A, got B)<tab>4 2<tab>x,y,w,z=map(int,input().split())	問題番号と入力データはあってる？
+ValueError: Data must be A-dimensional<tab>1<tab>calculate_r2(X_test,y_test)	うーん。
+NameError: name A is not defined<tab>'la'<tab>	うーん。
+KeyboardInterrupt:<tab><tab>B-(A-n)*x	自分で実行を止めた？
+TypeError: slice indices must be integers or None or have an __index__ method<tab><tab>print(S[N:S])	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-256-6e1ad223a5fc> 13<tab>	<B>行目の書き方が違うよ。
+TypeError: A object is not subscriptable<tab>'set'<tab>if b[i]==a[j]:	うーん。
+IndexError: string index out of range<tab><tab>n[1],n[9]=n[9],n[1]	インデックスは文字列長より小さくしよう。
+TypeError: list indices must be integers or slices, not str<tab><tab>print(a[a[a[0]]])	うーん。
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'function'<tab>	うーん。
+NameError: name A is not defined<tab>'o'<tab>if S[a]==o:	変数<A>を使う前に <A>=...  のように値を代入しよう。
+IndexError: string index out of range<tab><tab>	インデックスは文字列長より小さくしよう。
+KeyError: A<tab>'通勤時間'<tab>X = df['通勤時間']	データフレームに<A>という列はないよ。
+AttributeError: A object has no attribute B<tab>'str' 'sprit'<tab>A=list(map(int,input().sprit()))	split のスペルミスだよ。
+TypeError: A object is not subscriptable<tab>'type'<tab>if list[1::N]:	本当にlist変数？
+TypeError: unsupported operand type(s) for +: A and B<tab>'int' 'list'<tab>return val - int(sum(l))/int(max(l))	うーん。
+"TypeError: A() got an unexpected keyword argument B<tab>pivot_table 'colums'<tab>pd.pivot_table(df, index=""血液型"",colums='身長')"	columnsのスペルミスだよ。
+TypeError: A() expected a character, but string of length B found<tab>ord 6<tab>ans=ord(s)	うーん。
+ValueError: A is not in list<tab>4<tab>w=w-b.index(aa[i])	うーん。
+TypeError: can't multiply sequence by non-int of type A<tab>'str'<tab>x = ('a'*b)	うーん。
+SyntaxError: invalid syntax (A, line B)<tab><ipython-input-36-b705bbf1ed20> 2<tab>	<B>行目の書き方が違うよ。
