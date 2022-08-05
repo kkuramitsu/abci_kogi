@@ -247,7 +247,7 @@ DEFAULT_SETUP = dict(
     model_path='google/mt5-small',
     model_name_or_path='google/mt5-small',
     tokenizer_name_or_path='google/mt5-small',
-    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
+#    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
     seed=42,
     encoding='utf_8',
     column=0, target_column=1,

@@ -243,9 +243,9 @@ def make_generate(model, tokenizer):
 
 def _main():
     init_dict = dict(
-        model_name_or_path='',
-        tokenizer_name_or_path='',
-        additional_tokens='<nl> <tab> <b> </b>',
+        model_name_or_path='google/mt5-small',
+        tokenizer_name_or_path='kkuramitsu/mt5-pytoken',
+        additional_tokens='',
         seed=42,
         encoding='utf_8',
         column=0, target_column=1,
@@ -269,7 +269,7 @@ def _main():
         save_checkpoint=False,
         progress_bar=False,
         # eval_batch_size=8,
-        max_epochs=50,
+        max_epochs=1,
         limit_batches=-1,
         gradient_accumulation_steps=1,  # 16
         n_gpu=1 if USE_GPU else 0,
