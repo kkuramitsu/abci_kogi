@@ -53,15 +53,15 @@ def Exact_Match(ss,textlist):
         index=line[0]
         pred=line[1]
 
-    try:
-      index_black=black.format_str(index,mode=black.Mode())[:-1]
-      pred_black=black.format_str(pred,mode=black.Mode())[:-1]
+        try:
+            index_black=black.format_str(index,mode=black.Mode())[:-1]
+            pred_black=black.format_str(pred,mode=black.Mode())[:-1]
       
-      if index_black==pred_black:
-        correct+=1
+            if index_black==pred_black:
+                correct+=1
     
-    except:
-        black_NG+=1
+        except:
+            black_NG+=1
     
     #誤答数
     no_correct=len(ss)-correct
@@ -163,7 +163,7 @@ def CONALA_BLEU(ss,textlist):
     textlist.append(f'-conala_bleu_smooth3 : {round(bleu3,6)}')
     textlist.append(f'-conala_bleu_smooth4 : {round(bleu4,6)}')
     textlist.append(f'-conala_bleu_smooth5 : {round(bleu5,6)}')
- 
+
 
 def ROUGE_L(ss,textlist):
     rouge = RougeCalculator()
