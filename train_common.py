@@ -76,9 +76,9 @@ def _loading_dataset(hparams, files=None, transform=transform_nop):
                 with io.open(file, encoding=hparams.encoding) as f:
                     for c, line in enumerate(f.readlines()):
                         data = json.loads(line)
-                        if column in data and target_column in data:
+                        if 'in' in data and 'out' in data:
                             _append_data(
-                                dataset, data[column], data[target_column], transform, c)
+                                dataset, data['in'], data['out'], transform, c)
             else:
                 with io.open(file, encoding=hparams.encoding) as f:
                     for c, line in enumerate(f.readlines()):
@@ -141,10 +141,12 @@ def load_TrainTestDataSet(hparams, transform=transform_nop):
     test_data = _loading_dataset(hparams, test_files, transform)
     return TSVDataset(hparams, train_data), TSVDataset(hparams, test_data)
 
-## Load_TextDataset
+# Load_TextDataset
+
 
 def transform_nop(s):
     return s
+
 
 def load_text_file(file, dataset, transform=transform_nop, hparams=None):
     encoding = hparams.encoding if hparams else 'utf-8'
@@ -154,7 +156,8 @@ def load_text_file(file, dataset, transform=transform_nop, hparams=None):
             line = line.rstrip('\n')
             dataset.append(transform(line))
 
-def load_text(files, transform=transform_nop, hparams = None):
+
+def load_text(files, transform=transform_nop, hparams=None):
     dataset = []
     for file in files:
         load_text_file(file, dataset, transform=transform, hparams=hparams)
@@ -179,7 +182,7 @@ class TextDataset(Dataset):
         if self.hparams is not None:
             return self.transform_encode(pair)
         return pair
-       
+
     def transform_encode(self, pair):
         src, tgt = pair
         inputs = self.hparams.tokenizer.batch_encode_plus(
@@ -207,6 +210,7 @@ class TextDataset(Dataset):
             "target_ids": target_ids.to(dtype=torch.long),
             "target_mask": target_mask.to(dtype=torch.long),
         }
+
 
 def load_TextDataset(files, TDataset=TextDataset, transform=transform_nop, hparams=None):
     dataset = load_text(files)
@@ -247,7 +251,7 @@ DEFAULT_SETUP = dict(
     model_path='google/mt5-small',
     model_name_or_path='google/mt5-small',
     tokenizer_name_or_path='google/mt5-small',
-#    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
+    #    additional_tokens='<nl> <tab> <b> </b> <e0> <e1> <e2> <e3>',
     seed=42,
     encoding='utf_8',
     column=0, target_column=1,

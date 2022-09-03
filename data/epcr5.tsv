@@ -1,3 +1,4 @@
+NameError: name <A> is not defined<tab>'math'<tab>h = math.sqrt(w / 22)	import <A> を実行しよう
 IndexError: string index out of range<tab><tab>if (S[3])==(S[4]) and (S[5])==(S[6]):	インデックスは文字列長より小さくしよう。
 KeyError: (<A>, <B>)<tab>'soldout' 'kcal'<tab>X = df[df['soldout','kcal']]  # 価格以外を全て説明変数に	[[<A>, <B>]] ←２重括弧だよ。
 ValueError: too many values to unpack (expected <A>)<tab>2<tab>n,k=input(int())	問題番号と入力データはあってる？
