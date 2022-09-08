@@ -8,6 +8,7 @@ from nltk.translate.bleu_score import corpus_bleu
 import re
 from sumeval.metrics.rouge import RougeCalculator
 from janome.tokenizer import Tokenizer
+import mojimoji
 import gs
 
 import warnings
@@ -15,10 +16,13 @@ warnings.filterwarnings('ignore')
 
 def read_tsv(filename):
     ss = []
+    index_id, pred_id=2,1
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
         for row in reader:
-          ss.append((row[index_id].replace('<tab> ','<tab>'), row[pred_id].replace('<tab> ','<tab>')))
+          row_index=mojimoji.zen_to_han(row[index_id])
+          row_pred=mojimoji.zen_to_han(row[pred_id])
+          ss.append((row_index,row_pred))
     return ss
 
 
@@ -89,7 +93,7 @@ def BLEU(ss,textlist):
 
 def ROUGE_L(ss,textlist):
 
-  rouge = RougeCalculator()
+  rouge = RougeCalculator(lang='ja')
   sum_ROUGE_score=0
 
   for line in ss:
@@ -107,24 +111,13 @@ def ROUGE_L(ss,textlist):
   textlist.append(f'ROUGE-L：{round(ROUGE_score,5)}')
 
 
-def arg(textlist):
-  try:
-    # textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
-    return int(sys.argv[2]),int(sys.argv[3])
-  except:
-    # textlist.append("index = 2, pred = 1")
-    return 2, 1
-    
-
 def main():
-  global index_id
-  global pred_id
 
   textlist=[]
 
-  index_id, pred_id = arg(textlist)
-
   ss = read_tsv(sys.argv[1])
+  
+  #resultのファイル名記録
   try:
     textlist.append(sys.argv[2])
   except:
