@@ -1,5 +1,4 @@
 import csv
-from operator import index
 import sys
 import black
 import Levenshtein
