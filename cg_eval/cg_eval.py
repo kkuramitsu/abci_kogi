@@ -18,28 +18,46 @@ warnings.filterwarnings('ignore')
 
 def read_tsv(filename,textlist):
     ss = []
-    row_count=0
+    index_id, pred_id = 2, 1
+    index_error_count = 0
+    black_error_count = 0
+
     with open(filename) as f:
         reader = csv.reader(f, delimiter="\t")
-
-        #IndexError専用
-        index_error_list=[]
-
         for row in reader:
-            row_count+=1
             try:
-                ss.append((row[index_id], row[pred_id]))
-        
-            except IndexError:
-                index_error_list.append(row_count)
+                row_index = row[index_id]
+                row_pred = row[pred_id]
 
-    if len(index_error_list)==0:
-        pass
-    else:
-        textlist.append(f'Indexerrorが発生した件数：{len(index_error_list)}')
-        textlist.append(f'Indexerrorが発生した行数：{index_error_list}')
+                #前処理
+                row_index = row_index.replace('<nl>','\n')
+                row_index = row_index.replace('<tab>','\t')
+                row_pred = row_pred.replace('<nl>','\n')
+                row_pred = row_pred.replace('<tab>','\t')
+                
+                #black使用
+                try:
+                    row_index_black=black.format_str(row_index,mode=black.Mode())[:-1]
+                    row_pred_black=black.format_str(row_pred,mode=black.Mode())[:-1]
+                    ss.append((row_index_black,row_pred_black))
+
+                except:
+                    black_error_count += 1
+                    ss.append((row_index,row_pred))
+            
+            except IndexError:
+                index_error_count += 1
+                pass
+    
+    textlist.append(f'全体件数：{len(ss)}')
+
+    if index_error_count != 0:
+        textlist.append(f'IndexErrorの件数：{index_error_count}')
+
+    textlist.append(f'BLACK_NG：{black_error_count}')
 
     return ss
+
 
 
 def Exact_Match(ss,textlist):
@@ -69,8 +87,6 @@ def Exact_Match(ss,textlist):
     #正答率
     correct_answer_rate=correct/len(ss)
 
-    textlist.append(f'全体件数：{len(ss)}')
-    textlist.append(f'BLACK_NG：{black_NG}')
     textlist.append(f'正答数：{correct}')
     textlist.append(f'誤答数：{no_correct}')
     textlist.append(f'正答率：{round(correct_answer_rate,6)}')
@@ -185,29 +201,18 @@ def ROUGE_L(ss,textlist):
     textlist.append(f'ROUGE-L：{round(ROUGE_score,6)}')
 
 
-def arg(textlist):
-    try:
-        #textlist.append(f"index = {sys.argv[2]}, pred = {sys.argv[3]}")
-        return int(sys.argv[2]),int(sys.argv[3])
-    except:
-        # textlist.append("index = 2, pred = 1")
-        return 2, 1
-    
 
 def main():
-    global index_id
-    global pred_id
-    
-    textlist=[]
-    
-    index_id, pred_id = arg(textlist)
-    
-    ss = read_tsv(sys.argv[1],textlist)
 
+    textlist=[]
+
+    #resultのファイル名記録
     try:
         textlist.append(sys.argv[2])
     except:
         textlist.append(sys.argv[1])
+    
+    ss = read_tsv(sys.argv[1],textlist)
 
     Exact_Match(ss,textlist)
     CORPUS_BLEU(ss,textlist)
